@@ -53,7 +53,7 @@ Conventions
 
 In *noveltree*, you can define a narrative structure with “Todo” Parts,
 Chapters, and scenes. See
-`Arcs <https://peter88213.github.io/noveltree/help/arcs>`__.
+`Arcs <https://github.com/peter88213/noveltree/help/arcs>`__.
 *nv_templates* faciliates the reuse of narrative structures.
 
 Markdown file structure
