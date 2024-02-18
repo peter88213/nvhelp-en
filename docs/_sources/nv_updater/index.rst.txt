@@ -4,7 +4,7 @@ nv_updater
 **Online help**
 
 This page refers to the latest `nv_updater
-<https://peter88213.github.io/nv_updater/>`__ release.
+<https://github.com/peter88213/nv_updater/>`__ release.
 You can open it with **Help > Update checker Online help**.
 
 

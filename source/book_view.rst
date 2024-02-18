@@ -184,7 +184,7 @@ Log writing progress
    .. hint::
       For viewing the daily progress log, you may want to 
       install the `nv_progress plugin 
-      <https://peter88213.github.io/nv_progress/>`__.
+      <https://github.com/peter88213/nv_progress/>`__.
 
 Words to write
    Here you can enter a number (without decimal points or separators)

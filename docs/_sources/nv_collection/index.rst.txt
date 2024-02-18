@@ -4,7 +4,7 @@ nv_collection
 **Online help**
 
 This page refers to the latest `nv_collection
-<https://peter88213.github.io/nv_collection/>`__ release.
+<https://github.com/peter88213/nv_collection/>`__ release.
 You can open it with **Help > Collection plugin Online help**.
 
 

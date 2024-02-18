@@ -4,7 +4,7 @@ nv_matrix
 **Online help**
 
 This page refers to the latest `nv_matrix
-<https://peter88213.github.io/nv_matrix/>`__ release.
+<https://github.com/peter88213/nv_matrix/>`__ release.
 You can open it with **Help > Matrix plugin Online help**.
 
 

@@ -4,7 +4,7 @@ nv_aeon2
 **Online help**
 
 This page refers to the latest `nv_aeon2
-<https://peter88213.github.io/nv_aeon2/>`__ release.
+<https://github.com/peter88213/nv_aeon2/>`__ release.
 You can open it with **Help > Aeon 2 plugin Online help**.
 
 

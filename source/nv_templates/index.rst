@@ -4,7 +4,7 @@ nv_templates
 **Online help**
 
 This page refers to the latest `nv_templates
-<https://peter88213.github.io/nv_templates/>`__ release.
+<https://github.com/peter88213/nv_templates/>`__ release.
 You can open it with **Help > Templates plugin Online help**.
 
 

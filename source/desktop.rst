@@ -91,7 +91,7 @@ contents with their titles as headings.
    **Ctrl-C**.
 -  You cannot edit the text. For this, you might want to install an
    editor plugin, such as
-   `nv_editor <https://peter88213.github.io/nv_editor/>`__.
+   `nv_editor <https://github.com/peter88213/nv_editor/>`__.
 -  Section text is color-coded according to the section type (see `Basic
    concepts <basic_concepts.html#part-chapter-section-types>`__).
 -  With the **Show markup** checkbox, XML markup can be shown/hidden.

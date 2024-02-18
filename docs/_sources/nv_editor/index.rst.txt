@@ -4,7 +4,7 @@ nv_editor
 **Online help**
 
 This page refers to the latest `nv_editor
-<https://peter88213.github.io/nv_editor/>`__ release.
+<https://github.com/peter88213/nv_editor/>`__ release.
 You can open it with **Help > Editor plugin Online help**.
 
 

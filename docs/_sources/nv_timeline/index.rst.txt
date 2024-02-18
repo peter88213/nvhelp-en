@@ -4,7 +4,7 @@ nv_timeline
 **Online help**
 
 This page refers to the latest `nv_timeline
-<https://peter88213.github.io/nv_timeline/>`__ release.
+<https://github.com/peter88213/nv_timeline/>`__ release.
 You can open it with **Help > Timeline plugin Online help**.
 
 
