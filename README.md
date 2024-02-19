@@ -1,6 +1,6 @@
 # nvhelp-en
 
-Online help for [noveltree](https://peter88213.github.io/noveltree) and plugins.
+Online help for [noveltree](https://github.com/peter88213/noveltree) and plugins.
 
 ## License
 
