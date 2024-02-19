@@ -112,6 +112,25 @@ Expand or collapse this frame by clicking on the label.
 .. figure:: _images/bookView04.png
    :alt: noveltree screenshot
 
+*noveltree* offers some ready-made fields for sections and characters, 
+for which multi-line text can be stored. If these categories do not fit 
+into your individual story planning concept, you can rename these fields.
+Editing can be completed by pressing the ``Enter`` key.
+
+Section fields
+   The heading replacements for *Goal*, *Conflict*, and *Outcome* are 
+   used when you set the `Action/Reaction frame 
+   <section_view.html#action-reaction>`__ to **Custom**. 
+   You can do this individually for each section.
+
+Character fields
+   If you want other categories than `Bio <character_view.html#bio>`__ 
+   and `Goals <character_view.html#goals>`__ for your characters, you 
+   can enter them here. They will then apply to all characters. 
+    
+   .. note::
+      If you rename the *Bio* frame, it will keep the Birth/death date
+      entries anyway.      
 
 
 Narrative time

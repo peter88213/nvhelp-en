@@ -169,6 +169,7 @@ Date/Time
 ---------
 
 Here you can enter information about the selected section's narrative time.
+Editing can be completed by pressing the ``Enter`` key.
 
 .. hint::
    Dedicated timeline software offers a more convenient way of entering date/time 
@@ -199,7 +200,7 @@ Day
    All entries are optional. You can either enter a date, or a day. 
    
 Clear date/time
-   This removes Date/Time/Day data from the selected section.
+   This will reset *Date*, *Time*, and *Day* simultaneously.
 
 Generate
    This generates date and time from the date/time/duration data of the
@@ -219,7 +220,19 @@ Convert date/day
 Duration
 ~~~~~~~~
 
+Days
+   Any number should be accepted.  
 
+Hours
+   If a number greater than 24 is entered, the number of days 
+   will be automatically increased.
+
+Minutes
+   If a number greater than 60 is entered, the number of hours
+   will be automatically increased.
+
+Clear duration
+   This will reset *Days*, *Hours*, and *Minutes* simultaneously.
 
 "Sticky note"
 -------------
