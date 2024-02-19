@@ -112,10 +112,11 @@ Expand or collapse this frame by clicking on the label.
 .. figure:: _images/bookView04.png
    :alt: noveltree screenshot
 
-*noveltree* offers some ready-made fields for sections and characters, 
-for which multi-line text can be stored. If these categories do not fit 
-into your individual story planning concept, you can rename these fields.
-Editing can be completed by pressing the ``Enter`` key.
+*noveltree* provides some ready-made fields for sections and characters 
+to store information that should be at hand when writing. 
+If the default categories do not fit into your individual story planning 
+concept, you can rename these fields.
+Editing the categories can be completed by pressing the ``Enter`` key.
 
 Section fields
    The heading replacements for *Goal*, *Conflict*, and *Outcome* are 
