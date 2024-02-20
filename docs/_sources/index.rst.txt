@@ -1,10 +1,10 @@
-|noveltree logo| noveltree Online help
+|novelibre logo| novelibre Online help
 ======================================
 
-.. |noveltree logo| image:: _images/nLogo32.png
-   :target: https://github.com/peter88213/noveltree/
+.. |novelibre logo| image:: _images/nLogo32.png
+   :target: https://github.com/peter88213/novelibre/
 
-This page refers to the latest `noveltree <https://github.com/peter88213/noveltree/>`__
+This page refers to the latest `novelibre <https://github.com/peter88213/novelibre/>`__
 release. You can open it with **Help > Online help**.
 
 .. toctree::
@@ -20,10 +20,10 @@ release. You can open it with **Help > Online help**.
 
 |github| `View on GitHub <https://github.com/peter88213/nvhelp-en/>`__
 
-|noveltree| `noveltree home page <https://github.com/peter88213/noveltree/>`__
+|novelibre| `novelibre home page <https://github.com/peter88213/novelibre/>`__
 
-.. |noveltree| image:: _images/nLogo24.png
-   :target: https://github.com/peter88213/noveltree/
+.. |novelibre| image:: _images/nLogo24.png
+   :target: https://github.com/peter88213/novelibre/
 
 .. |github| image:: _images/github.png
    :target: https://github.com/peter88213/

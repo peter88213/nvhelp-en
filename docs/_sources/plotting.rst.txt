@@ -1,4 +1,4 @@
-Plotting with noveltree
+Plotting with novelibre
 =======================
 
 
@@ -24,7 +24,7 @@ you can save the story structure of your project for reuse.
 Defining Arcs
 -------------
 
-*noveltree* provides *arcs* as a powerful and flexible concept for
+*novelibre* provides *arcs* as a powerful and flexible concept for
 plotting.
 
 .. figure:: _images/arcs01.png
@@ -39,7 +39,7 @@ points are arranged that characterize the progression of the story.
 These turning points can be assigned to scenes to indicate the scene’s
 relevance to the plot.
 
--  *noveltree* lets you define any number of arcs.
+-  *novelibre* lets you define any number of arcs.
 -  Any number of scenes can be assigned to each arc.
 -  Any number of arcs can be assigned to each scene.
 -  Each arc can contain any number of turning points.

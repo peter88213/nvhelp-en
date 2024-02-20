@@ -4,7 +4,7 @@ Items menu
 **Item operation**
 
 .. figure:: _images/itemsMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Add
 ---

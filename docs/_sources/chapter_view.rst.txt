@@ -24,7 +24,7 @@ anywhere outside the text input field.
 
 .. note::
    Depending on your `Book settings <book_view.html#auto-numbering>`_, 
-   *noveltree* might overwrite the title the next time the tree is refreshed.
+   *novelibre* might overwrite the title the next time the tree is refreshed.
    Thus, you don't need to edit the capter/part title, if auto numbering is
    activated and the selected chapter or part is not excluded from 
    auto numbering (see below).

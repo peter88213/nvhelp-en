@@ -4,7 +4,7 @@ View menu
 **Control the display**
 
 .. figure:: _images/viewMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Chapter level
 -------------
@@ -149,7 +149,7 @@ Options
 **Project independent program settings**
 
 .. figure:: _images/viewMenu02.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Coloring mode
 ~~~~~~~~~~~~~

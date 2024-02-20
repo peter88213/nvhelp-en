@@ -111,7 +111,7 @@ text fields.
    Example of a user-defined scene category
 
 .. note::
-   The "Goal/Conflict/Outcome" data is only for working with *noveltree*.
+   The "Goal/Conflict/Outcome" data is only for working with *novelibre*.
    It is not meant to be exported into a document.
    However, it all appears in the `section list`_.
 
@@ -246,7 +246,7 @@ with sections containing notes is collapsed, the "N" is displayed
 in the chapter row.
 
 .. note::
-   The "sticky notes" are only for working with *noveltree*.
+   The "sticky notes" are only for working with *novelibre*.
    They are not meant to be exported into a document.
    However, they appear in the `section list`_.
 

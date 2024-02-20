@@ -84,10 +84,10 @@ Expand or collapse this frame by clicking on the label.
    
 This is a list for image and research data links.
 
-Although *noveltree* holds some character/location/item data, it is
+Although *novelibre* holds some character/location/item data, it is
 not the right application for extensive world building. For this,
 you may want to use more powerful software, like `Zim Desktop Wiki
-<https://zim-wiki.org/>`__. In this case, *noveltree* allows you to
+<https://zim-wiki.org/>`__. In this case, *novelibre* allows you to
 create links to the text files that will take you quickly to the right
 places in the wiki.
 
@@ -126,11 +126,11 @@ Open Link
 
    .. hint::
       If you want to open certain linked files with another application than the 
-      standard application, you can provide a *noveltree* "launcher" setting. 
+      standard application, you can provide a *novelibre* "launcher" setting. 
       For this, just create a text file named **launchers.ini** in the 
-      ``.noveltree.config``  directory (where all configuration files are stored). 
+      ``.novelibre.config``  directory (where all configuration files are stored). 
       
-      This example shows a setting that makes *noveltree* open text files
+      This example shows a setting that makes *novelibre* open text files
       with the *Zim Desktop Wiki* application instead of the standard text 
       editor: 
       
@@ -160,7 +160,7 @@ When the "sticky note" of a character contains text, an "N" is
 displayed in the tree view as a reminder.
 
 .. note::
-   The "sticky notes" are only for working with *noveltree*.
+   The "sticky notes" are only for working with *novelibre*.
    They are not meant to be exported into a document.
    However, they appear in the `character list`_.
 

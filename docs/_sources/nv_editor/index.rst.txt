@@ -117,8 +117,8 @@ Apply changes
 -------------
 
 -  You can apply changes to the section with **Ctrl-S**. Then “Modified”
-   status is displayed in *noveltree*.
--  If the project is locked in *noveltree*, you will be asked to unlock
+   status is displayed in *novelibre*.
+-  If the project is locked in *novelibre*, you will be asked to unlock
    it before changes can be applied.
 
 Exit

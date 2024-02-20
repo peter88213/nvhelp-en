@@ -25,10 +25,10 @@ Command reference
 
 |github| `View on GitHub <https://github.com/peter88213/nvhelp-en/>`__
 
-|noveltree| `noveltree home page <https://github.com/peter88213/noveltree/>`__
+|novelibre| `novelibre home page <https://github.com/peter88213/novelibre/>`__
 
-.. |noveltree| image:: _images/nLogo24.png
-   :target: https://github.com/peter88213/noveltree/
+.. |novelibre| image:: _images/nLogo24.png
+   :target: https://github.com/peter88213/novelibre/
 
 .. |github| image:: _images/github.png
    :target: https://github.com/peter88213/

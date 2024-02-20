@@ -4,7 +4,7 @@ File menu
 **File operation**
 
 .. figure:: _images/fileMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 New
 ---
@@ -16,14 +16,14 @@ New
 
 .. note:: 
 	The submenu can be extended by plugins to add more file types
-	from which a *noveltree* project can be created.
+	from which a *novelibre* project can be created.
 
 .. figure:: _images/fileMenu02.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Empty project
    -  This will close the current project and create a blank project.
-   -  A file select dialog asks for the new project’s file name (noveltree
+   -  A file select dialog asks for the new project’s file name (novelibre
       v1.4+). If you cancel the dialog, you can select the file name later
       when saving the project.
 
@@ -115,7 +115,7 @@ Lock
 **Protect the project while edited outsides**
 
 You can lock the project, so that no changes can be made with
-*noveltree* while parts of the project are edited “outsides”, e.g. with
+*novelibre* while parts of the project are edited “outsides”, e.g. with
 OpenOffice. In locked status, the window footer displaying the project
 path is displayed in reversed colors.
 
@@ -124,7 +124,7 @@ path is displayed in reversed colors.
 
 The project lock status is persistent. This is achieved by automatically
 creating a lock file named ``.LOCK.<project name>.novx#``. If you delete
-this file while *noveltree* is not running, the project will be unlocked
+this file while *novelibre* is not running, the project will be unlocked
 upon next start.
 
 
@@ -166,7 +166,7 @@ Copy style sheet
    Depending on your web browser and your operating system, the
    *content type* resp. *MIME type* of *.novx* files must be registered as
    *“text/xml”*. Under Windows, yo can do this by running the
-   ``<home>\.noveltree\add_noveltree.reg`` script.
+   ``<home>\.novelibre\add_novelibre.reg`` script.
 
 
 Discard manuscript
@@ -177,7 +177,7 @@ Discard manuscript
 -  You can add the *.bak* extension to the `current manuscript
    <export_menu#manuscript-for-editing>`__ with
    **File > Discard manuscript**. This may help to avoid confusion about
-   changes made with *noveltree* and OpenOffice/LibreOffice.
+   changes made with *novelibre* and OpenOffice/LibreOffice.
 
 
 Save

@@ -28,7 +28,7 @@ When the "sticky note" of a stage contains text, an "N" is
 displayed in the tree view as a reminder.
 
 .. note::
-   The "sticky notes" are only for working with *noveltree*.
+   The "sticky notes" are only for working with *novelibre*.
    They are not meant to be exported into a document.
 
 

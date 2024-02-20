@@ -4,7 +4,7 @@ Part menu
 **Part operation**
 
 .. figure:: _images/partMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Add
 ---

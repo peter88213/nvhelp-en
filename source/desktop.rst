@@ -2,7 +2,7 @@ Desktop overview
 ================
 
 
-The *noveltree* desktop is divided into three panes:
+The *novelibre* desktop is divided into three panes:
 
 .. figure:: _images/desktop01.png
    :alt: Desktop
@@ -44,7 +44,7 @@ Project tree operation
 
 
 Browsing the tree
-   *noveltree* has a browsing history for the selected tree elements.
+   *novelibre* has a browsing history for the selected tree elements.
    -  |Go back| selects a node back in the tree browsing history.
    -  |Go forward| selects a node forward in the tree browsing history.
 
@@ -111,13 +111,13 @@ element selected in the project tree.
    Detach/Dock Properties** or **Ctrl-Alt-D**.
 -  On closing the detached window, the properties are docked again.
 
-On large screens, you can arrange noveltree and LibreOffice with detached windows.
+On large screens, you can arrange novelibre and LibreOffice with detached windows.
 
 .. figure:: _images/full_desktop.png
-   :alt: LibreOffice and noveltree screen arrangement
+   :alt: LibreOffice and novelibre screen arrangement
    
    Example: Arranging LibreOffice (middle) with detached Navigator (upper left) 
-   and noveltree (lower left) with detached Properties (right) 
+   and novelibre (lower left) with detached Properties (right) 
 
 
 .. |Go back| image:: _images/goBack.png

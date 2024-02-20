@@ -4,7 +4,7 @@ Tools menu
 **Miscellaneous functions**
 
 .. figure:: _images/toolsMenu02.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 .. note:: 
    The *Tools* menu can be extended by plugins to add more
@@ -16,7 +16,7 @@ Plugin manager
 **Display and manage installed plugins**
 
 .. figure:: _images/toolsMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 -  Successfully installed plugins are displayed black on white by
    default.
@@ -35,29 +35,29 @@ How to uninstall a plugin
 
 .. admonition:: About version compatibility
     
-   On the window frame, you see the *noveltree* version, consisting of
+   On the window frame, you see the *novelibre* version, consisting of
    three numbers that are separated by points.
    
    ``<major version number>.<minor version number>.<patch level>``
    
-   In the **noveltree API** column, you see the plugin’s compatibility
+   In the **novelibre API** column, you see the plugin’s compatibility
    information, consisting of two numbers that are separated by points.
    
    ``<major version number>.<minor version number>``
    
    The rule for compatibility
-      -  The plugin’s *noveltree API* major version number must be the same as
-         *noveltree’s* major version number.
-      -  The plugin’s *noveltree API* minor version number must be less than
-         or equal to *noveltree’s* minor version number.
+      -  The plugin’s *novelibre API* major version number must be the same as
+         *novelibre’s* major version number.
+      -  The plugin’s *novelibre API* minor version number must be less than
+         or equal to *novelibre’s* minor version number.
    
    Fix incompatibilities
-      -  If the plugin’s *noveltree API* major version number is greater than
-         *noveltree’s* major version number, *noveltree* needs to be updated.
-      -  If the plugin’s *noveltree API* major version number is less than
-         *noveltree’s* major version number, the plugin needs to be updated.
-      -  If the plugin’s *noveltree API* minor version number is greater than
-         *noveltree’s* minor version number, *noveltree* needs to be updated.
+      -  If the plugin’s *novelibre API* major version number is greater than
+         *novelibre’s* major version number, *novelibre* needs to be updated.
+      -  If the plugin’s *novelibre API* major version number is less than
+         *novelibre’s* major version number, the plugin needs to be updated.
+      -  If the plugin’s *novelibre API* minor version number is greater than
+         *novelibre’s* minor version number, *novelibre* needs to be updated.
 
 
 
@@ -67,7 +67,7 @@ Open installation folder
 
 **Launch the file manager**
 
--  You can launch the file manager with the *noveltree* installation
+-  You can launch the file manager with the *novelibre* installation
    folder with **File > Open installation folder**. This might be
    helpful, if you wish to edit configuration files, or install your own
    plugins.

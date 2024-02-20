@@ -21,7 +21,7 @@ This creates a new project with the narrative structure from a Markdown
 template file.
 
 -  First, a file select dialog asks for the new project’s file name
-   (noveltree v1.4+). If you cancel the dialog, you can select the file
+   (novelibre v1.4+). If you cancel the dialog, you can select the file
    name later when saving the project.
 -  Then a second file select dialog asks for the template file to apply.
 
@@ -51,9 +51,9 @@ manage and edit the templates.
 Conventions
 -----------
 
-In *noveltree*, you can define a narrative structure with “Todo” Parts,
+In *novelibre*, you can define a narrative structure with “Todo” Parts,
 Chapters, and scenes. See
-`Arcs <https://github.com/peter88213/noveltree/help/arcs>`__.
+`Arcs <https://github.com/peter88213/novelibre/help/arcs>`__.
 *nv_templates* faciliates the reuse of narrative structures.
 
 Markdown file structure

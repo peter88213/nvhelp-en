@@ -6,11 +6,11 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'noveltree Online Help'
+project = 'novelibre Online Help'
 copyright = '2024, peter88213'
 author = 'peter88213'
 release = '2.0'
-# The release is related to the noveltree application's major/minor version numbers.
+# The release is related to the novelibre application's major/minor version numbers.
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -35,7 +35,7 @@ highlight_language = 'ini'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-html_title = 'noveltree Online Help'
+html_title = 'novelibre Online Help'
 html_favicon = '_images/nLogo32.ico'
 
 # Add any extra paths that contain custom files (such as robots.txt or

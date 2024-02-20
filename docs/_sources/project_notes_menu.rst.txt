@@ -4,7 +4,7 @@ Project notes menu
 **Project notes operation**
 
 .. figure:: _images/projectnotesMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Add
 ---

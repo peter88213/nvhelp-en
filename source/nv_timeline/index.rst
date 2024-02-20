@@ -15,18 +15,18 @@ Timeline > Information
 ~~~~~~~~~~~~~~~~~~~~~~
 
 -  Show information about an existing Timeline project, if any. Timeline
-   and noveltree file dates are compared.
+   and novelibre file dates are compared.
 
 Timeline > Create or update the timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a timeline exists, update it from noveltree, otherwise createa new
+If a timeline exists, update it from novelibre, otherwise createa new
 timeline.
 
 Timeline > Update the project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Update the noveltree project from the timeline, if existing.
+Update the novelibre project from the timeline, if existing.
 
 Timeline > Edit the timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,7 +37,7 @@ Lock the project.
 File > New > Create from Timeline…
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open a file dialog to select a timeline. If no noveltree project with
+Open a file dialog to select a timeline. If no novelibre project with
 the timeline’s file name exists, create a new one from the timeline.
 
 Custom configuration
@@ -64,7 +64,7 @@ Local project configuration
 
 An optional project configuration file named ``yw-nv-timelinei`` can be
 placed in your project directory, i.e. the folder containing your
-noveltree and Timeline project files. It is only applied to this
+novelibre and Timeline project files. It is only applied to this
 project. Its entries override nv_timeline’s built-in constants as
 well as the global configuration, if any.
 
@@ -93,11 +93,11 @@ This is the configuration explained:
    section_label = Section
 
    # Events with this label become sections in a newly created 
-   # noveltree project. 
+   # novelibre project. 
 
    section_color = 170,240,160
 
-   # Color for events imported as sections from noveltree.
+   # Color for events imported as sections from novelibre.
 
    new_event_spacing = 1
 
@@ -114,10 +114,10 @@ Conventions
 General
 ~~~~~~~
 
--  The noveltree project file and the Timeline file are located in the
+-  The novelibre project file and the Timeline file are located in the
    same directory.
 -  They have the same file name and differ in the file extension.
--  Either a timeline or a noveltree project is generated from the other
+-  Either a timeline or a novelibre project is generated from the other
    file for the first time. After that, the two files can be
    synchronized against each other.
 -  **Please keep in mind:** Synchronizing means overwriting target data
@@ -126,7 +126,7 @@ General
    changes. So if the program asks you for confirmation to overwrite a
    file, better check if it’s actually the target file.
 
-On the noveltree side
+On the novelibre side
 ~~~~~~~~~~~~~~~~~~~~~
 
 -  Only normal sections are synchronized with Timeline, or exported to
@@ -151,36 +151,36 @@ On the Timeline side
    must not be changed manually.
 -  Only events with a label containing the string “Section” (user input)
    or a section ID (auto-generated) are exported as sections to a new
-   noveltree project.
--  When creating a new noveltree project from a timeline the first time,
+   novelibre project.
+-  When creating a new novelibre project from a timeline the first time,
    “Section” labels are replaced with section ID labels.
--  If a new noveltree project is generated again with the same timeline,
+-  If a new novelibre project is generated again with the same timeline,
    the section ID labels may change.
 -  Only events with a label containing a section ID are synchronized
-   with an existing noveltree project.
+   with an existing novelibre project.
 -  Changes to the event start date/time affect the section date/time
    during synchronization.
 -  Changes to the event text affect the section title during
    synchronization.
 -  Changes to the event description affect the section description
    during synchronization.
--  The section structure of an existing noveltree project can not be
+-  The section structure of an existing novelibre project can not be
    changed in Timeline. Adding/removing events, or adding/removing
    section IDs from event labels will *not* add or remove the
    corresponding section during synchronization.
 -  When creating events from sections without date/time information, the
    dates are automatically generated with a one-day difference, starting
-   from the noveltree project’s reference date.
+   from the novelibre project’s reference date.
 
 Known limitations
 ~~~~~~~~~~~~~~~~~
 
 -  Section events that begin before 0001-01-01 in the timeline, will not
-   be synchronized with noveltree, because noveltree can not handle
+   be synchronized with novelibre, because novelibre can not handle
    these dates.
 -  The same applies to the section duration in this case, i.e. the event
-   duration in Timeline and the section duration in noveltree may
+   duration in Timeline and the section duration in novelibre may
    differ.
 -  If a section event ends after 9999-12-31 in the timeline, the section
-   duration is not synchronized with noveltree.
+   duration is not synchronized with novelibre.
 

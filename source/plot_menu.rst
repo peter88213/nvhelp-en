@@ -4,7 +4,7 @@ Plot menu
 **Plot elements operation**
 
 .. figure:: _images/plotMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Add Arc
 -------
@@ -46,7 +46,7 @@ Change Level
 **Change the level of the selected stages**
 
 .. figure:: _images/plotMenu02.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 -  **1st Level** is displayed in bold face.
 -  **2nd Level** is displayed in regular font.

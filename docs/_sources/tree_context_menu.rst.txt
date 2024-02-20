@@ -11,7 +11,7 @@ Book context menu entries
 -------------------------
 
 .. figure:: _images/contextMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Add Section
 ~~~~~~~~~~~
@@ -169,7 +169,7 @@ Characters/Locations/Items context menu entries
 -----------------------------------------------
 
 .. figure:: _images/contextMenu02.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Add
 ~~~
@@ -208,7 +208,7 @@ Arcs context menu entries
 -------------------------
 
 .. figure:: _images/contextMenu03.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Add Arc
 ~~~~~~~

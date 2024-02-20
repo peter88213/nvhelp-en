@@ -4,7 +4,7 @@ Help menu
 **Project notes operation**
 
 .. figure:: _images/helpMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 .. note:: 
    The *Help* menu can be extended by plugins adding links to their
@@ -13,14 +13,14 @@ Help menu
 Online Help
 -----------
 
-This lauches the system web browser with the *noveltree* online help URL.
+This lauches the system web browser with the *novelibre* online help URL.
 
-noveltree home page
+novelibre home page
 -------------------
 
-This lauches the system web browser with the *noveltree* home page.
+This lauches the system web browser with the *novelibre* home page.
 
 .. hint::
    This is a quick way to get to the download link of the most recent 
-   *noveltree* version.
+   *novelibre* version.
 

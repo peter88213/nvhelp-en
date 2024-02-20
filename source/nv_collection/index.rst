@@ -41,7 +41,7 @@ Create a new series
 Add books to the collection
 ---------------------------
 
--  You can add the current noveltree project as a book to the
+-  You can add the current novelibre project as a book to the
    collection. Use **Book > Add current project to the collection**.
 -  If a series is selected, the book is added as a part of this series.
 

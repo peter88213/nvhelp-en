@@ -6,10 +6,10 @@ Book properties
 
 The Book properties view opens in the right pane when you
 select "Book" in the tree, or when you click on the |ico01|
-toolbar icon. It is the initial view after opening a *noveltree* project.
+toolbar icon. It is the initial view after opening a *novelibre* project.
 
 .. figure:: _images/bookView01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 
 Title, description, and author
@@ -45,7 +45,7 @@ Document language
 Expand or collapse this frame by clicking on the label.
 
 .. figure:: _images/bookView02.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 - Language code acc. to ISO 639-1
 - Country code acc. to ISO 3166-2
@@ -75,7 +75,7 @@ Auto numbering
 Expand or collapse this frame by clicking on the label.
 
 .. figure:: _images/bookView03.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Auto number chapters/parts when refreshing the tree
    If this checkbox is ticked, all chapters/parts are automatically numbered
@@ -110,9 +110,9 @@ Renamings
 Expand or collapse this frame by clicking on the label.
 
 .. figure:: _images/bookView04.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
-*noveltree* provides some ready-made fields for sections and characters 
+*novelibre* provides some ready-made fields for sections and characters 
 to store information that should be at hand when writing. 
 If the default categories do not fit into your individual story planning 
 concept, you can rename these fields.
@@ -140,7 +140,7 @@ Narrative time
 Expand or collapse this frame by clicking on the label.
 
 .. figure:: _images/bookView05.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 To get an overview of the course of the narrative time, you can enter
 date/time information `for each section <section_view.html#date-time>`__.
@@ -187,9 +187,9 @@ Writing progress
 Expand or collapse this frame by clicking on the label.
 
 .. figure:: _images/bookView06.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
-With *noveltree*, you can set a word count target and track your
+With *novelibre*, you can set a word count target and track your
 writing progress.
 
 .. note::
@@ -197,7 +197,7 @@ writing progress.
    in the status bar at any time. 
 
 Log writing progress
-   By default, *noveltree* stores a log entry with the word counts
+   By default, *novelibre* stores a log entry with the word counts
    for each day on which you edit the project. You can prevent
    this by unticking the **Log writing progress** checkbox.
 
@@ -247,7 +247,7 @@ file. The recommended image width is 100 to 200 pixels.
    Windows 10 Explorer screenshot
    
 .. figure:: _images/bookView07.jpg
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
-   noveltree screenshot
+   novelibre screenshot
 

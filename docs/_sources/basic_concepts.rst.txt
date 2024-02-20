@@ -43,7 +43,7 @@ Formatting text
 ---------------
 
 It is assumed that very few types of text markup are needed for a novel
-text. When importing from ODT, *noveltree* supports the following
+text. When importing from ODT, *novelibre* supports the following
 formats:
 
 -  *Emphasized* style or italics.
@@ -55,7 +55,7 @@ formats:
 Comments, footnotes, endnotes
 -----------------------------
 
-ODT comments, footnotes, and endnotes are supported by *noveltree*.
+ODT comments, footnotes, and endnotes are supported by *novelibre*.
 
 
 About document language handling
@@ -74,6 +74,6 @@ Document overall
 
 Text passages in sections
    Paragraph-wise or inline text markup for other languages is supported by
-   *noveltree*.
+   *novelibre*.
 
 

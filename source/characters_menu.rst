@@ -4,7 +4,7 @@ Characters menu
 **Character operation**
 
 .. figure:: _images/charactersMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Add
 ---
@@ -27,7 +27,7 @@ Set Status
 **Set the character status**
 
 .. figure:: _images/charactersMenu02.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 This can be *major* or *minor*. Major characters are highlighted in the
 tree view.

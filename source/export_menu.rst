@@ -4,7 +4,7 @@ Export menu
 **File export**
 
 .. figure:: _images/exportMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 Manuscript for editing
 ----------------------
@@ -30,7 +30,7 @@ File name suffix is ``_manuscript_tmp``.
 
    .. note:: 
       Documents with split sections are automatically
-      discarded after the *noveltree* project is updated.
+      discarded after the *novelibre* project is updated.
 
 -  Text markup: Bold and italics are supported. Other highlighting such
    as underline and strikethrough are lost.
@@ -49,7 +49,7 @@ text document (odt) with visible section markers. File name suffix is
    will not be written back.
 -  The document contains section ``[scx]`` markers. **Do not touch lines
    containing the markers** if you want to be able to write the document
-   back to *noveltree* format.
+   back to *novelibre* format.
 -  Chapters and sections can neither be rearranged nor deleted.
 -  When editing the document, you can split sections by inserting
    headings or a section divider:
@@ -64,7 +64,7 @@ text document (odt) with visible section markers. File name suffix is
 
    .. note:: 
       Documents with split sections are automatically
-      discarded after the *noveltree* project is updated.
+      discarded after the *novelibre* project is updated.
 
 -  Text markup: Bold and italics are supported. Other highlighting such
    as underline and strikethrough are lost.
@@ -127,7 +127,7 @@ Characters/locations/items data files
 This will create a set of XML files containing the project’s characters,
 locations, and items with all their properties. These files can be used
 to export the characters, locations, and items to another project (also
-with noveltree).
+with novelibre).
 
 To import XML data files from another project, use the **Import**
 command in the **Characters**, **Locations**, or **Items** menu.
@@ -154,7 +154,7 @@ Plot spreadsheet (export only)
 
 This will generate a new OpenDocument spreadsheet (ods) containing
 sections, arcs, and turning points. File name suffix is ``_plotlist``.
-The spreadsheet is not meant to be written back to *noveltree*.
+The spreadsheet is not meant to be written back to *novelibre*.
 
 -  There are hyperlinks to the sections in the manuscript, and to the
    chapters in the plot description.

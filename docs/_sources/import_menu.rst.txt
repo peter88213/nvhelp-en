@@ -4,14 +4,14 @@ Import menu
 **Update the project from previously exported ODT documents**
 
 .. figure:: _images/importMenu02.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 This will open a pop-up window with a list containing previously
 exported ODT documents that can be re-imported, thus updating the
 current project.
 
 .. figure:: _images/importMenu01.png
-   :alt: noveltree screenshot
+   :alt: novelibre screenshot
 
 -  The document types and dates are shown.
 -  Documents that are newer than the project file are highlighted in
@@ -28,7 +28,7 @@ current project.
    button.
 -  If the **Discard document after import** checkbox is checked, a
    document will be deleted after re-import. This may help to avoid
-   confusion about changes made with *noveltree* and
+   confusion about changes made with *novelibre* and
    OpenOffice/LibreOffice.
 
    .. note::
