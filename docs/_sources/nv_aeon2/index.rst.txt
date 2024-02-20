@@ -1,5 +1,5 @@
 nv_aeon2
-===============
+========
 
 **Online help**
 
@@ -176,7 +176,7 @@ Global configuration
 An optional global configuration file can be placed in the configuration
 directory in your user profile. It is applied to any project. Its
 entries override nv_aeon2’s built-in constants. This is the path:
-``c:\Users\<user name>\.noveltree\config\aeon2nv.ini``
+``c:\Users\<user name>\.novx\config\aeon2nv.ini``
 
 Local project configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -9,7 +9,7 @@
 project = 'noveltree Online Help'
 copyright = '2024, peter88213'
 author = 'peter88213'
-release = '1.8'
+release = '2.0'
 # The release is related to the noveltree application's major/minor version numbers.
 
 # -- General configuration ---------------------------------------------------

@@ -1,5 +1,5 @@
 nv_timeline
-==================
+===========
 
 **Online help**
 
@@ -54,7 +54,7 @@ Global configuration
 An optional global configuration file can be placed in the configuration
 directory in your user profile. It is applied to any project. Its
 entries override nv_timeline’s built-in constants. This is the
-path: ``c:\Users\<user name>\.noveltree\config\timeline.ini``
+path: ``c:\Users\<user name>\.novx\config\timeline.ini``
 
 The setup script installs a sample configuration file containing
 nv_timeline’s default values. You can modify or delete it.
