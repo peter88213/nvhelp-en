@@ -45,6 +45,7 @@ Project tree operation
 
 Browsing the tree
    *novelibre* has a browsing history for the selected tree elements.
+   
    -  |Go back| selects a node back in the tree browsing history.
    -  |Go forward| selects a node forward in the tree browsing history.
 
