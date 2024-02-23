@@ -12,6 +12,7 @@ release. You can open it with **Help > Online help**.
    :caption: Contents
    
    general
+   starting
    writing
    command_reference
    properties
