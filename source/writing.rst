@@ -16,6 +16,13 @@ writing. For this, you save your project  and export your novel
 to LibreOffice either with **Export > Manuscript for editing**,
 or by clicking on the |Export manuscript| toolbar icon.
 
+.. hint::
+   - If you use the menu command, you can have *novelibre* create a
+     manuscript, and ask whether it should be opened with LibreOffice.
+   - If you click on the toolbar icon, LibreOffice will be launched 
+     immediately after export.
+
+
 .. figure:: _images/writing01.png
    :alt: novelibre screenshot
    
@@ -31,7 +38,9 @@ continue working on this document. In this case, answer "Yes".
    novelibre screenshot
 
 If you answer "No", *novelibre* creates a new manuscript document.
-Afterwards, you will now be asked whether you want to open it.
+
+If you started the export using the **Export** menu command, you will now
+be asked whether you want to open it.
 
 .. figure:: _images/writing03.png
    :alt: novelibre screenshot
@@ -39,7 +48,8 @@ Afterwards, you will now be asked whether you want to open it.
    novelibre screenshot
    
 If you answer "yes", LibreOffice will be launched with
-the manuscript document.
+the manuscript document. Otherwise, the document is just
+kept for future use.
 
 *novelibre* now `locks the project <file_menu.html#lock>`__, so that it
 can't be accidentally modified while open in LibreOffice.

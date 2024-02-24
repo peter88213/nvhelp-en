@@ -36,8 +36,14 @@ File name suffix is ``_manuscript_tmp``.
    as underline and strikethrough are lost.
 
 
-Manuscript with visible structure tags for proof reading
---------------------------------------------------------
+Manuscript for third-party word processing
+------------------------------------------
+
+.. hint::
+   This document retains its section information even if it is 
+   converted to other formats and back again. This may work with 
+   popular commercial word processors and even with web-based word 
+   processors such as Google Docs. 
 
 This will write parts, chapters, and sections into a new OpenDocument
 text document (odt) with visible section markers. File name suffix is
@@ -70,8 +76,13 @@ text document (odt) with visible section markers. File name suffix is
    as underline and strikethrough are lost.
 
 
-Manuscript without tags (export only)
+Manuscript for printing (export only)
 -------------------------------------
+
+.. hint::
+   In contrast to the manuscript for editing, this document is not divided 
+   internally into sections, which could facilitate further processing and 
+   reformatting. 
 
 This will write parts, chapters, and sections into a new OpenDocument
 text document (odt).

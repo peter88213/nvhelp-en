@@ -31,7 +31,7 @@ Same as **View > Show Project notes**.
 |Lock/Unlock| Toggle the lock status of the project.
 
 |Export manuscript| Export the manuscript for editing. Same as **Export
-> Manuscript for editing**.
+> Manuscript for editing**, but without confirmation for opening the document.
 
 |Update from manuscript| Discard the current manuscript, if nes chapters
 or sections have been inserted. Same as selecting the manuscript under
