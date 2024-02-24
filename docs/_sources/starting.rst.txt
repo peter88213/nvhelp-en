@@ -1,8 +1,8 @@
 Getting started
 ===============
 
-Preparing LibreOffice
----------------------
+Setting up LibreOffice
+----------------------
 
 Make the sections visible in the manuscript
    An essential part of the workflow is writing with LibreOffice
@@ -22,6 +22,31 @@ Make the sections visible in the manuscript
       LibreOffice Writer screenshot: Make sure the **View > Text Boundaries**
       menu entry is ticked. Writing outsides the visible text boundaries
       has no effect on your *novelibre* project.
+
+Dock the Navigator
+   To quickly find the chapters and sections of your novel, it is best to
+   keep the LibreOffice Navigator in sight. I prefer to dock it to the left
+   of the work area. To do this, first press ``F5`` to open the Navigator.
+   By default, it appears as a pop-up window that can be placed anywhere
+   on the screen. To dock it, double-click in a free gray space while holding
+   down the ``Ctrl`` key, as shown in the following image.
+
+   .. figure:: _images/starting02.png
+      :alt: LibreOffice Writer screenshot
+
+      LibreOffice Writer screenshot: The red X indicates the position for
+      double-clicking.
+
+   .. tip::
+      The Navigator displays a confusing wealth of information. 
+      It is best to reduce this to the headings first. To do this, select 
+      "Headings" at the top of the tree and then click on the "Content Navigation View" 
+      icon. This works if a document containing headings is loaded. 
+   
+      .. figure:: _images/starting03.png
+         :alt: LibreOffice Writer screenshot
+      
+         LibreOffice Writer screenshot: The red O indicates the icon to click on.
 
 
 Customize the look of your manuscript
