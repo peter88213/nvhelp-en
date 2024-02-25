@@ -184,10 +184,17 @@ Adds a new character/location/item.
 Export manuscript filtered by viewpoint
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Exports a manuscript with the sections that have the selected character
+Exports a `manuscript <export_menu.html#manuscript-for-editing>`__
+with the sections that have the selected character as viewpoint.
+
+
+Export synopsis filtered by viewpoint
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Exports the `descriptions of the sections
+<section_menu.html#export-section-descriptions-for-editing>`__
+that have the selected character
 as viewpoint.
-
-
 
 
 Delete
@@ -243,7 +250,15 @@ Adds a new Turning point
 Export manuscript filtered by arc
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Exports a manuscript with the sections that belong to the selected arc.
+Exports a `manuscript <export_menu.html#manuscript-for-editing>`__
+with the sections that belong to the selected arc.
+
+Export synopsis filtered by arc
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Exports the `descriptions of the sections
+<section_menu.html#export-section-descriptions-for-editing>`__
+that belong to the selected arc.
 
 
 Delete
