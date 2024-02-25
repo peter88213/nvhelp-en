@@ -181,6 +181,14 @@ Adds a new character/location/item.
    right pane.
 -  The status of newly created characters is *minor*.
 
+Export manuscript filtered by viewpoint
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Exports a manuscript with the sections that have the selected character
+as viewpoint.
+
+
+
 
 Delete
 ~~~~~~
@@ -231,6 +239,12 @@ Adds a new Turning point
 - Otherwise, no new turning point is generated.
 - The new turning point has an auto-generated title. You can change it in
   the right pane.
+
+Export manuscript filtered by arc
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Exports a manuscript with the sections that belong to the selected arc.
+
 
 Delete
 ~~~~~~
