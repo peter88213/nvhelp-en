@@ -12,7 +12,7 @@ Starting LibreOffice as text editor
    file format are generally not recommended. 
 
 As soon as your novel project has at least one section, you can start
-writing. For this, you save your project  and export your novel
+writing. For this, you save your project and export your novel
 to LibreOffice either with **Export > Manuscript for editing**,
 or by clicking on the |Export manuscript| toolbar icon.
 
@@ -30,7 +30,7 @@ or by clicking on the |Export manuscript| toolbar icon.
 
 If you have done this before and there is still a manuscript document from
 the previous writing session, you will now be asked whether you want to
-continue working on this document. In this case, answer "Yes".
+continue working on this document. If this is the case, answer "Yes".
 
 .. figure:: _images/writing02.png
    :alt: novelibre screenshot
@@ -38,9 +38,10 @@ continue working on this document. In this case, answer "Yes".
    novelibre screenshot
 
 If you answer "No", *novelibre* creates a new manuscript document.
+"Cancel" aborts the export process and lets you return to the main window.
 
 If you started the export using the **Export** menu command, you will now
-be asked whether you want to open it.
+be asked whether you want to open the newly created document.
 
 .. figure:: _images/writing03.png
    :alt: novelibre screenshot
@@ -51,12 +52,13 @@ If you answer "yes", LibreOffice will be launched with
 the manuscript document. Otherwise, the document is just
 kept for future use.
 
-*novelibre* now `locks the project <file_menu.html#lock>`__, so that it
-can't be accidentally modified while open in LibreOffice.
+*novelibre* now `locks the project <file_menu.html#lock>`__, so that
+it can't be accidentally modified with *novelibre* while worked on
+in LibreOffice.
 
 .. note::
    *novelibre* starts your standard application for the *.odt* file
-   format. By default, this setting is made by LibreOffic during 
+   format. By default, this association is made by LibreOffice during 
    installation.
 
 After you change to LibreOffice *Writer*, you see the whole novel in
@@ -70,12 +72,13 @@ the sections.
    :alt: LibreOffice Writer screenshot
    
    LibreOffice Writer screenshot: Note that the text boundaries are 
-   made visible here, which is highly recommended
+   made visible here, which is `highly recommended 
+   <starting.html#setting-up-libreoffice>`__.
    
 .. note::
-   The section headings are invisible in the workspace so that they 
-   do not disrupt the flow of writing, and the impression of an 
-   original manuscript page is retained. 
+   The section titles displayed in the Navigator are invisible 
+   in the workspace so that they do not disrupt the flow of writing, 
+   and the impression of an original manuscript page is retained. 
  
 
 Writing changes back to novelibre
@@ -87,9 +90,9 @@ At the end of the writing session, save the changes, exit LibreOffice
 appear.
 
 .. note::
-   The toolbar icon mentiones above is only for the manuscript. If 
-   you want to apply changes made in other documents, like character
-   sheets, or synopses, use the **Import** menu. 
+   The toolbar icon mentioned above is only for the manuscript. If 
+   you want to apply changes made in other documents like character
+   sheets or synopses, use the `Import menu <import_menu.html>`__. 
 
    .. figure:: _images/writing09.png
       :alt: novelibre screenshot

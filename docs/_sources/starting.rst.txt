@@ -51,18 +51,18 @@ Dock the Navigator
 
 Customize the look of your manuscript
    The manuscript created by *novelibre* has a layout that is similar to the
-   "standard manuscript format," which is widely used to provide an overview
+   "standard manuscript format" which is widely used to provide an overview
    of the total number of pages of a work to be printed.
 
    However, the set font is only available for Windows, and it is not particularly
    attractive. (I, for my part, have installed  the free `Courier Prime font
    <https://quoteunquoteapps.com/courierprime/>`__ on Windows and Linux, which
-   gives me a pleasant typewriter feel.) In addition, hyphenation is turned off,
+   gives me a pleasant typewriter feel) In addition, hyphenation is turned off,
    and the page size is set to A4, which is not the worldwide standard.
 
    That's not for you? No problem. This is what the **document templates** in
    LibreOffice are for. So if you don't like the look of the generated manuscript,
-   simply apply a template that suits your needs and tastes. Of course, you have
+   simply apply a template that suits your needs and tastes. Perhaps you have
    to design your favorite template first, but your knowledge of this technique
    will pay off when it comes to designing print pages for self-publishing.
 

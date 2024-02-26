@@ -26,7 +26,7 @@ Arcs**.
 Same as **View > Show Project notes**.
 
 
-|Save| Save the project. Same as **File > Save** or **Ctrl-S**.
+|Save| Save the project. Same as **File > Save** or ``Ctrl``-``S``.
 
 |Lock/Unlock| Toggle the lock status of the project.
 
@@ -38,21 +38,21 @@ or sections have been inserted. Same as selecting the manuscript under
 **Import**.
 
 
-|Add| Add element. Same as **Ctrl-N**.
+|Add| Add element. Same as ``Ctrl``-``N``.
 
-|Add child| Add child element. Same as **Ctrl-Alt-N**.
+|Add child| Add child element. Same as ``Ctrl``-``Alt``-``N``.
 
 |Add parent| Add element on the parent’s level. Same as
-**Ctrl-Alt-Shift-N**.
+``Ctrl``-``Alt``-``Shift``-``N``.
 
-|Delete| Delete selected elements. Same as **Del**.
+|Delete| Delete selected elements. Same as ``Del``.
 
 
 |Toggle Text viewer| Toggle Text viewer. Same as **View > Toggle Text
-viewer** or **Ctrl-T**.
+viewer** or ``Ctrl``-``T``.
 
 |Toggle Properties| Toggle Properties. Same as **View > Toggle
-Properties** or **Ctrl-Alt-T**.
+Properties** or ``Ctrl``-``Alt``-``T``.
 
 
 .. |Go back| image:: _images/goBack.png

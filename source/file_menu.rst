@@ -70,7 +70,7 @@ Open…
 
 -  If no novel project is specified by dragging and dropping on the
    program icon, the latest project selected is preset. You can change
-   it with **File > Open** or **Ctrl-O**.
+   it with **File > Open** or ``Ctrl``-``O``.
 
 
 Reload
@@ -78,7 +78,7 @@ Reload
 
 **Reload the novel project**
 
--  You can reload the project with **File > Reload** or **Ctrl-R**.
+-  You can reload the project with **File > Reload** or ``Ctrl``-``R``.
 -  If the project has changed on disk since last opened, you will get a
    warning.
 
@@ -89,7 +89,7 @@ Restore backup
 **Restore the latest backup file**
 
 -  You can restore the latest backup file with **File > Restore backup**
-   or **Ctrl-B**.
+   or ``Ctrl``-``B``.
 -  You will get a warning.
 -  After restoring the backup, the backup copy is no longer available.
 -  You can create a backup copy by saving the project.
@@ -119,7 +119,7 @@ You can lock the project, so that no changes can be made with
 OpenOffice. In locked status, the window footer displaying the project
 path is displayed in reversed colors.
 
--  You can lock the project with **File > Lock** or **Ctrl-L**. The
+-  You can lock the project with **File > Lock** or ``Ctrl``-``L``. The
    project is saved when modified.
 
 The project lock status is persistent. This is achieved by automatically
@@ -133,7 +133,7 @@ Unlock
 
 **Make the project editable**
 
--  You can unlock the project with **File > Unlock** or **Ctrl-U**.
+-  You can unlock the project with **File > Unlock** or ``Ctrl``-``U``.
 
 
 Open Project folder
@@ -141,7 +141,7 @@ Open Project folder
 **Launch the file manager**
 
 -  You can launch the file manager with the current project folder with
-   **File > Open Project folder** or **Ctrl-P**. This might be helpful,
+   **File > Open Project folder** or ``Ctrl-P``. This might be helpful,
    if you wish to delete export files, open your project with another
    application, and so on. In case you edit the project “outsides”,
    consider locking it before.
@@ -185,7 +185,7 @@ Save
 
 **Save the project**
 
--  You can save the project with **File > Save** or **Ctrl-S**.
+-  You can save the project with **File > Save** or ``Ctrl``-``S``.
 -  If the project has changed on disk since last opened, you will get a
    warning.
 
@@ -196,7 +196,7 @@ Save as…
 **Save the project with another file name/at another place**
 
 -  You can save the project with another file name/at another place with
-   **File > Save as…** or **Ctrl-Shift-S**. Then a file select dialog
+   **File > Save as…** or ``Ctrl``-``Shift``-``S``. Then a file select dialog
    opens.
 -  Your current project remains as saved the last time. Changes since
    then apply to the new project.
@@ -220,8 +220,8 @@ Quit/Exit
 
 **Exit the program**
 
--  Under Windows you can exit with **File > Exit** or **Alt-F4**.
--  Otherwise you can exit with **File > Quit** or **Ctrl-Q**.
+-  Under Windows you can exit with **File > Exit** or ``Alt``-``F4``.
+-  Otherwise you can exit with **File > Quit** or ``Ctrl``-``Q``.
 -  When exiting the program, you will be asked for saving the project,
    if it has changed.
 

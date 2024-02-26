@@ -12,7 +12,7 @@ Chapter level
 **Hide the sections**
 
 -  You can collapse the tree, so that only parts and chapters are
-   visible, with **View > Chapter level** or **Ctrl-Alt-C**.
+   visible, with **View > Chapter level** or ``Ctrl``-``Alt``-``C``.
 
 
 Expand selected
@@ -109,13 +109,13 @@ Toggle Text viewer
 
 -  You can open or close the `text viewer <desktop.html>`__ window, showing part/chapter/section
    titles and section content, with **View > Toggle Text viewer** or
-   **Ctrl-T**.
+   ``Ctrl``-``T``.
 -  On opening, the windows shows the text, where the tree is selected.
 -  When changing the tree selection, the text moves along.
 -  However, the text can be scrolled independently with the verical
    scrollbar, or the mousewheel.
 -  You can select text with the mouse, and copy it to the clipboard with
-   **Ctrl-C**.
+   ``Ctrl``-``C``.
 -  You cannot edit the text. For this, you might want to install an
    editor plugin, such as
    `nv_editor <https://github.com/peter88213/nv_editor/>`__.
@@ -127,7 +127,7 @@ Toggle Properties
 **Show/hide the selected element’s properties**
 
 -  You can open or close the element properties window with **View >
-   Toggle Properties** or **Ctrl-Alt-T**.
+   Toggle Properties** or ``Ctrl``-``Alt``-``T``.
 -  On opening, the windows shows the editable properties of the selected
    element.
 
@@ -139,7 +139,7 @@ Detach/Dock Properties
 its own window**
 
 -  You can detach or dock the element properties window with **View >
-   Detach/Dock Properties** or **Ctrl-Alt-D**.
+   Detach/Dock Properties** or ``Ctrl``-``Alt``-``D``.
 -  On closing the detached window, the properties are docked again.
 
 
@@ -154,8 +154,7 @@ Options
 Coloring mode
 ~~~~~~~~~~~~~
 
-**Set criteria according to which normal sections are colored in the
-tree**
+**Set criteria according to which normal sections are colored in the tree**
 
 None
    Normal sections are black on white by default.

@@ -1,5 +1,5 @@
 nv_collection
-====================
+=============
 
 **Online help**
 
@@ -66,14 +66,14 @@ Remove books from the collection
 Move series and books
 ---------------------
 
-Drag and drop while pressing the **Alt** key. Be aware, there is no
+Drag and drop while pressing the ``Alt`` key. Be aware, there is no
 “Undo” feature.
 
 
 Remove books
 ------------
 
-Either select item and hit the **Del** key, or use **Book > Remove
+Either select item and hit the ``Del`` key, or use **Book > Remove
 selected book from the collection**.
 
 -  When removing a book from the collection, the project file associated
@@ -83,7 +83,7 @@ selected book from the collection**.
 Delete a series
 ---------------
 
-Either select series and hit the **Del** key, or use **Series > Remove
+Either select series and hit the ``Del`` key, or use **Series > Remove
 selected series but keep the books**.
 
 -  When deleting a collection, the books are kept by default.
@@ -94,7 +94,7 @@ selected series but keep the books**.
 Quit/Exit
 ---------
 
--  Under Windows you can exit with **File > Exit** or **Alt-F4**.
--  Otherwise you can exit with **File > Quit** or **Ctrl-Q**.
+-  Under Windows you can exit with **File > Exit** or ``Alt``-``F4``.
+-  Otherwise you can exit with **File > Quit** or ``Ctrl``-``Q``.
 -  When exiting the collection manager, you will be asked for saving the
    project, if it has changed.

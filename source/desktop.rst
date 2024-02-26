@@ -45,7 +45,7 @@ Project tree operation
 
 Browsing the tree
    *novelibre* has a browsing history for the selected tree elements.
-   
+
    -  |Go back| selects a node back in the tree browsing history.
    -  |Go forward| selects a node forward in the tree browsing history.
 
@@ -57,7 +57,7 @@ Browsing the tree
 Move parts, chapters, and sections
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Drag and drop while pressing the **Alt** key.
+Drag and drop while pressing the ``Alt`` key.
 
 .. caution::
    Be aware, there is no “Undo” feature.
@@ -66,7 +66,7 @@ Drag and drop while pressing the **Alt** key.
 Delete parts, chapters, and sections
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Select item and hit the **Del** key.
+Select item and hit the ``Del`` key.
 
 -  Parts and chapters are deleted.
 -  Sections are marked “unused” and moved to the “Trash” chapter.
@@ -83,13 +83,13 @@ The **Text viewer** in the middle pane shows the part/chapter/section
 contents with their titles as headings.
 
 -  You can open or close the Text viewer with **View > Toggle Text
-   viewer**, or **Ctrl-T**, or clicking on |Toggle Text viewer|.
+   viewer**, or ``Ctrl``-``T``, or clicking on |Toggle Text viewer|.
 -  On opening, the windows shows the text, where the tree is selected.
 -  When changing the tree selection, the text moves along.
 -  However, the text can be scrolled independently with the verical
    scrollbar, or the mousewheel.
 -  You can select text with the mouse, and copy it to the clipboard with
-   **Ctrl-C**.
+   ``Ctrl``-``C``.
 -  You cannot edit the text. For this, you might want to install an
    editor plugin, such as
    `nv_editor <https://github.com/peter88213/nv_editor/>`__.
@@ -105,11 +105,11 @@ The **Properties** in the right pane show properties/metadata of the
 element selected in the project tree.
 
 -  You can open or close the element properties window with **View >
-   Toggle Properties** or **Ctrl-Alt-T**, or clicking on |Toggle Properties|.
+   Toggle Properties** or ``Ctrl``-``Alt``-``T``, or clicking on |Toggle Properties|.
 -  On opening, the windows shows the editable properties of the selected
    element.
 -  You can detach or dock the element properties window with **View >
-   Detach/Dock Properties** or **Ctrl-Alt-D**.
+   Detach/Dock Properties** or ``Ctrl``-``Alt``-``D``.
 -  On closing the detached window, the properties are docked again.
 
 On large screens, you can arrange novelibre and LibreOffice with detached windows.
