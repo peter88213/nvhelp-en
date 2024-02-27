@@ -22,8 +22,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Writing the manuscript" href="writing.html" />
-    <link rel="prev" title="Plotting with novelibre" href="plotting.html" /> 
+    <link rel="next" title="General" href="general.html" />
+    <link rel="prev" title="novelibre Online help" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -47,11 +47,17 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="general.html">General</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Getting started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#setting-up-novelibre">Setting up novelibre</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installing-the-application">Installing the application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#making-novelibre-accessible-on-the-desktop">Making novelibre accessible on the Desktop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#associating-novx-files-with-novelibre">Associating .novx files with novelibre</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#setting-up-libreoffice">Setting up LibreOffice</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="general.html">General</a></li>
 <li class="toctree-l1"><a class="reference internal" href="writing.html">Writing the manuscript</a></li>
 <li class="toctree-l1"><a class="reference internal" href="command_reference.html">Command reference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="properties.html">Properties</a></li>
@@ -83,8 +89,137 @@
              
   <section id="getting-started">
 <h1>Getting started<a class="headerlink" href="#getting-started" title="Link to this heading"></a></h1>
+<section id="setting-up-novelibre">
+<h2>Setting up novelibre<a class="headerlink" href="#setting-up-novelibre" title="Link to this heading"></a></h2>
+<p>If <em>novelibre</em> were a commercial application, all the
+steps described below would be performed automatically
+by a setup program. On Windows, for instance, this would
+then be an <em>.exe</em> or <em>.msi</em> file that must be executed
+with special authorizations and may even require a costly
+certificate in order to be approved for download and
+installation.</p>
+<p>There is also the problem that a separate setup program would
+have to be created and maintained for each operating system.
+For Linux, it would be necessary to provide installation
+packages or images, whereby there are a multitude of different
+standards.</p>
+<p>Because I don’t run a software business, but am just a
+hobbyist and rather want to write novels, I’ve decided to
+go a different route: I provide a Python setup script
+that works the same
+way on all operating systems. The very last setup steps,
+which vary depending on the operating system and may also
+require special authorizations, must be carried out by the
+intrepid users themselves. I do what I can to make these
+steps easier, and provide detailed instructions for Windows
+below. Enjoy!</p>
+<section id="installing-the-application">
+<h3>Installing the application<a class="headerlink" href="#installing-the-application" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Unzip the downloaded zipfile.</p></li>
+<li><p>Move into the unzipped folder and launch <strong>setup.pyw</strong>.
+This installs the application for the local user.</p></li>
+</ol>
+<figure class="align-default">
+<img alt="novelibre screenshot" src="_images/gettingStarted04.png" />
+</figure>
+</section>
+<section id="making-novelibre-accessible-on-the-desktop">
+<h3>Making novelibre accessible on the Desktop<a class="headerlink" href="#making-novelibre-accessible-on-the-desktop" title="Link to this heading"></a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the following chapters, the Windows procedure is described.</p>
+<p>As a <strong>Linux user</strong>, you are expected to know how to set up
+a program launcher on your specific desktop.
+Roughly speaking, it is a matter of calling <em>python3</em>
+with <em>novelibre.py</em> and the specified <em>.novx</em> file as
+parameters. You may have to copy the program icon to the
+image directory
+where the program launcher gets the icons from.
+In doubt, refer to your desktop documentation.
+It’s a good idea to register the <em>novx</em> extension
+in the mimetypes as <strong>text/xml</strong>, so it can be opened
+by your web browser for display, using the
+<a class="reference external" href="file_menu.html#copy-style-sheet">novx.css style sheet</a>.</p>
+</div>
+<ol class="arabic" start="3">
+<li><p>Open the installation folder.</p>
+<figure class="align-default">
+<img alt="novelibre screenshot" src="_images/gettingStarted05.png" />
+</figure>
+</li>
+<li><p>Drag and drop <strong>run.pyw</strong> to the desktop while holding
+down the <code class="docutils literal notranslate"><span class="pre">Alt</span></code> key. This creates a shortcut to launch
+<em>novelibre</em> from the Windows desktop. Now you can also
+drag and drop <em>.novx</em> project files to this shortcut.</p>
+<figure class="align-default">
+<img alt="novelibre screenshot" src="_images/gettingStarted06.png" />
+</figure>
+</li>
+<li><p>Optionally, you can replace the “Python” icon with the
+<em>novelibre</em> logo you may find in the installation’s
+<em>icons</em> subdirectory.</p>
+<p>To do this, right-click on the desktop shortcut and
+open the <strong>Properties</strong> dialog. Select the <strong>Shortcut</strong>
+Tab and click on the <strong>Change icon</strong> button (1). In the
+icon selection dialog, click on the <strong>Browse…</strong> button
+(2). This opens a file selection dialog. Move to
+<code class="docutils literal notranslate"><span class="pre">&lt;home&gt;\.novx\icons</span></code> and double-click on the “N” logo
+(3).</p>
+<figure class="align-default">
+<img alt="novelibre screenshot" src="_images/gettingStarted07.png" />
+</figure>
+</li>
+<li><p>To rename the shortcut to <em>novelibre</em>, right-click on
+the desktop shortcut and open the <strong>Properties</strong>
+dialog. In the first tab, replace “Shortcut to run.pyw”
+with “novelibre”.</p>
+<figure class="align-default">
+<img alt="novelibre screenshot" src="_images/gettingStarted08.png" />
+</figure>
+</li>
+</ol>
+</section>
+<section id="associating-novx-files-with-novelibre">
+<h3>Associating .novx files with novelibre<a class="headerlink" href="#associating-novx-files-with-novelibre" title="Link to this heading"></a></h3>
+<ol class="arabic" start="7">
+<li><p>Optionally, you can associate the <strong>.novx</strong> file extension
+with the <em>novelibre</em> application. Then the project files
+are displayed with the <em>novelibre</em> icon in the Explorer,
+and you can open them with <em>novelibre</em> by double-click.
+Further, you can display <em>.novx</em> files with a web browser,
+using the <a class="reference external" href="file_menu.html#copy-style-sheet">novx.css style sheet</a>.</p>
+<p>Double-click on the <strong>add_novelibre.reg</strong> script. Windows will
+display a warning and ask you for confirmation. If in doubt,
+you can inspect the <em>add_novelibre.reg</em> file with a text editor
+or ask an expert you trust.</p>
+<figure class="align-default">
+<img alt="novelibre screenshot" src="_images/gettingStarted09.png" />
+</figure>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>You can undo this by executing the <strong>remove_novelibre.reg</strong>
+script. This removes all the <em>novelibre</em>-specific entries
+from the Windows registry while keeping the application.</p>
+</div>
+</li>
+</ol>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Starting the program under Windows by double-clicking on the
+<em>.novx</em> file  works under the hood by calling the currently
+installed version of the Python interpreter. If you update
+Python at a later date, you must then re-run the <strong>setup.pyw</strong>
+afterwards, and execute <strong>add_novelibre.reg</strong> again, so that
+Windows can find the new Python version.</p>
+</div>
+</section>
+</section>
 <section id="setting-up-libreoffice">
 <h2>Setting up LibreOffice<a class="headerlink" href="#setting-up-libreoffice" title="Link to this heading"></a></h2>
+<p>I assume that <em>novelibre</em> users are already familiar with LibreOffice or
+OpenOffice. Therefore, I will only give a few brief tips that relate
+specifically to the interaction with <em>novelibre</em>.</p>
 <dl>
 <dt>Make the sections visible in the manuscript</dt><dd><p>An essential part of the workflow is writing with LibreOffice
 <em>Writer</em> (everything also applies to OpenOffice). <em>novelibre</em>
@@ -96,7 +231,7 @@ reading them back.</p>
 only write within the section boundaries. To do this, you might
 want to make the text boundaries visible in the LibreOffice settings.</p>
 <figure class="align-default" id="id1">
-<img alt="LibreOffice Writer screenshot" src="_images/starting01.png" />
+<img alt="LibreOffice Writer screenshot" src="_images/gettingStarted01.png" />
 <figcaption>
 <p><span class="caption-text">LibreOffice Writer screenshot: Make sure the <strong>View &gt; Text Boundaries</strong>
 menu entry is ticked. Writing outsides the visible text boundaries
@@ -111,7 +246,7 @@ By default, it appears as a pop-up window that can be placed anywhere
 on the screen. To dock it, double-click in a free gray space while holding
 down the <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code> key, as shown in the following image.</p>
 <figure class="align-default" id="id2">
-<img alt="LibreOffice Writer screenshot" src="_images/starting02.png" />
+<img alt="LibreOffice Writer screenshot" src="_images/gettingStarted02.png" />
 <figcaption>
 <p><span class="caption-text">LibreOffice Writer screenshot: The red X indicates the position for
 double-clicking.</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
@@ -124,7 +259,7 @@ It is best to reduce this to the headings first. To do this, select
 “Headings” at the top of the tree and then click on the “Content Navigation View”
 icon. This works if a document containing headings is loaded.</p>
 <figure class="align-default" id="id3">
-<img alt="LibreOffice Writer screenshot" src="_images/starting03.png" />
+<img alt="LibreOffice Writer screenshot" src="_images/gettingStarted03.png" />
 <figcaption>
 <p><span class="caption-text">LibreOffice Writer screenshot: The red O indicates the icon to click on.</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
 </figcaption>
@@ -159,8 +294,8 @@ impact on re-importing the document with <em>novelibre</em>.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="plotting.html" class="btn btn-neutral float-left" title="Plotting with novelibre" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="writing.html" class="btn btn-neutral float-right" title="Writing the manuscript" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="novelibre Online help" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="general.html" class="btn btn-neutral float-right" title="General" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

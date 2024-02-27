@@ -45,6 +45,8 @@ Project tree operation
 
 Browsing the tree
    *novelibre* has a browsing history for the selected tree elements.
+   This allows you to go back and forth e.g. between a section and its
+   related characters.
 
    -  |Go back| selects a node back in the tree browsing history.
    -  |Go forward| selects a node forward in the tree browsing history.
@@ -54,8 +56,8 @@ Browsing the tree
       may also work.
 
 
-Move parts, chapters, and sections
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Move tree elements
+^^^^^^^^^^^^^^^^^^
 
 Drag and drop while pressing the ``Alt`` key.
 
@@ -63,10 +65,10 @@ Drag and drop while pressing the ``Alt`` key.
    Be aware, there is no “Undo” feature.
 
 
-Delete parts, chapters, and sections
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Delete tree elements
+^^^^^^^^^^^^^^^^^^^^
 
-Select item and hit the ``Del`` key.
+Select the element to delete and hit the ``Del`` key.
 
 -  Parts and chapters are deleted.
 -  Sections are marked “unused” and moved to the “Trash” chapter.
@@ -104,6 +106,7 @@ Properties
 The **Properties** in the right pane show properties/metadata of the
 element selected in the project tree.
 
+-  The project settings can be made in the *Book* properties view.
 -  You can open or close the element properties window with **View >
    Toggle Properties** or ``Ctrl``-``Alt``-``T``, or clicking on |Toggle Properties|.
 -  On opening, the windows shows the editable properties of the selected

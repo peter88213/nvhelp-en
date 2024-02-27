@@ -11,8 +11,8 @@ release. You can open it with **Help > Online help**.
    :maxdepth: 2
    :caption: Contents
    
+   getting_started
    general
-   starting
    writing
    command_reference
    properties
