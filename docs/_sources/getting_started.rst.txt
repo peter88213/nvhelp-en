@@ -119,7 +119,7 @@ Associating .novx files with novelibre
       from the Windows registry while keeping the application. 
       
       To uninstall the application and all its tools, plugins, 
-      and configuration data, just delete the **<home>\.novx**
+      and configuration data, just delete the ``<home>\.novx``
       folder after executing the **remove_novelibre.reg** script.
 
 .. important::
