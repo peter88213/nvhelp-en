@@ -117,6 +117,10 @@ Associating .novx files with novelibre
       You can undo this by executing the **remove_novelibre.reg**
       script. This removes all the *novelibre*-specific entries 
       from the Windows registry while keeping the application. 
+      
+      To uninstall the application and all its tools, plugins, 
+      and configuration data, just delete the **<home>\.novx**
+      folder after executing the **remove_novelibre.reg** script.
 
 .. important::
    Executing the program under Windows by double-clicking on the 
@@ -130,8 +134,15 @@ Associating .novx files with novelibre
    version and will fail when trying to run *novelibre*. 
    
    Please keep that in mind, even if it's pretty unlikely that 
-   *novelibre* will need a Python update in the near future. 
+   *novelibre* will need a Python update in the near future.
    
+
+Updating the application or a plugin
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Just execute the Steps 1 and 2 as described above. If there
+is any further action required, the setup script will give you
+a message.
 
 
 Setting up LibreOffice
