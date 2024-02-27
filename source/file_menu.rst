@@ -68,9 +68,12 @@ Open…
 
 **Open a novel project**
 
--  If no novel project is specified by dragging and dropping on the
-   program icon, the latest project selected is preset. You can change
-   it with **File > Open** or ``Ctrl``-``O``.
+You can open an existing project file with **File > Open** or
+``Ctrl``-``O``.
+
+.. note::
+   When opening a project, the curent project will be closed. You will 
+   be asked for saving it, if it has changed.
 
 
 Reload
@@ -78,9 +81,14 @@ Reload
 
 **Reload the novel project**
 
--  You can reload the project with **File > Reload** or ``Ctrl``-``R``.
--  If the project has changed on disk since last opened, you will get a
-   warning.
+You can reload the project with **File > Reload** or ``Ctrl``-``R``.
+
+.. tip::
+   This way you can undo changes made in the current session.
+
+.. note::
+   If the project has changed on disk since last opened, you will 
+   get a warning.
 
 
 Restore backup
@@ -88,11 +96,12 @@ Restore backup
 
 **Restore the latest backup file**
 
--  You can restore the latest backup file with **File > Restore backup**
-   or ``Ctrl``-``B``.
--  You will get a warning.
--  After restoring the backup, the backup copy is no longer available.
--  You can create a backup copy by saving the project.
+You can restore the latest backup file with **File > Restore backup**
+or ``Ctrl``-``B``. You will get a warning. After restoring the backup,
+the backup copy is no longer available.
+
+.. hint::
+   You can create a backup copy by saving the project.
 
 
 Refresh tree
@@ -114,18 +123,9 @@ Lock
 
 **Protect the project while edited outsides**
 
-You can lock the project, so that no changes can be made with
-*novelibre* while parts of the project are edited “outsides”, e.g. with
-OpenOffice. In locked status, the window footer displaying the project
-path is displayed in reversed colors.
-
--  You can lock the project with **File > Lock** or ``Ctrl``-``L``. The
-   project is saved when modified.
-
-The project lock status is persistent. This is achieved by automatically
-creating a lock file named ``.LOCK.<project name>.novx#``. If you delete
-this file while *novelibre* is not running, the project will be unlocked
-upon next start.
+You can `lock <basic_concepts.html#project-lock>`__ the project the
+project with **File > Lock** or ``Ctrl``-``L``.
+The project is saved when modified.
 
 
 Unlock
@@ -133,18 +133,18 @@ Unlock
 
 **Make the project editable**
 
--  You can unlock the project with **File > Unlock** or ``Ctrl``-``U``.
+You can unlock the project with **File > Unlock** or ``Ctrl``-``U``.
 
 
 Open Project folder
 -------------------
 **Launch the file manager**
 
--  You can launch the file manager with the current project folder with
-   **File > Open Project folder** or ``Ctrl-P``. This might be helpful,
-   if you wish to delete export files, open your project with another
-   application, and so on. In case you edit the project “outsides”,
-   consider locking it before.
+You can launch the file manager with the current project folder with
+**File > Open Project folder** or ``Ctrl-P``. This might be helpful,
+if you wish to delete export files, open your project with another
+application, and so on. In case you edit the project “outsides”,
+consider locking it before.
 
 
 Copy style sheet
@@ -152,9 +152,9 @@ Copy style sheet
 
 **Provide a css style sheet in the project folder**
 
--  You can copy the style sheet *novx.css* into the current project
-   folder with **File > Copy style sheet**. This allows you to view the
-   *.novx* project file with a web browser.
+You can copy the style sheet *novx.css* into the current project
+folder with **File > Copy style sheet**. This allows you to view the
+*.novx* project file with a web browser.
 
 .. figure:: _images/fileMenu01.jpg
    :alt: Edge browser screenshot
@@ -174,10 +174,10 @@ Discard manuscript
 
 **Discard the current manuscript by renaming it**
 
--  You can add the *.bak* extension to the `current manuscript
-   <export_menu#manuscript-for-editing>`__ with
-   **File > Discard manuscript**. This may help to avoid confusion about
-   changes made with *novelibre* and OpenOffice/LibreOffice.
+You can add the *.bak* extension to the `current manuscript
+<export_menu#manuscript-for-editing>`__ with
+**File > Discard manuscript**. This may help to avoid confusion about
+changes made with *novelibre* and OpenOffice/LibreOffice.
 
 
 Save
@@ -185,9 +185,11 @@ Save
 
 **Save the project**
 
--  You can save the project with **File > Save** or ``Ctrl``-``S``.
--  If the project has changed on disk since last opened, you will get a
-   warning.
+You can save the project with **File > Save** or ``Ctrl``-``S``.
+
+.. note::
+   If the project has changed on disk since last opened, you will 
+   get a warning.
 
 
 Save as…
@@ -195,10 +197,12 @@ Save as…
 
 **Save the project with another file name/at another place**
 
--  You can save the project with another file name/at another place with
-   **File > Save as…** or ``Ctrl``-``Shift``-``S``. Then a file select dialog
-   opens.
--  Your current project remains as saved the last time. Changes since
+You can save the project with another file name/at another place with
+**File > Save as…** or ``Ctrl``-``Shift``-``S``. Then a file select dialog
+opens.
+
+.. note::
+   Your current project remains as saved the last time. Changes since
    then apply to the new project.
 
 
@@ -207,11 +211,13 @@ Close
 
 **Close the novel project**
 
--  You can close the project without exiting the program with **File >
-   Close**.
--  When closing the project, you will be asked for saving the project,
-   if it has changed.
--  If you open another project, the current project is automatically
+You can close the project without exiting the program with **File >
+Close**.
+When closing the project, you will be asked for saving the project,
+if it has changed.
+
+.. note::
+   If you open another project, the current project is automatically
    closed.
 
 
@@ -222,6 +228,8 @@ Quit/Exit
 
 -  Under Windows you can exit with **File > Exit** or ``Alt``-``F4``.
 -  Otherwise you can exit with **File > Quit** or ``Ctrl``-``Q``.
--  When exiting the program, you will be asked for saving the project,
+
+.. note::
+   When exiting the program, you will be asked for saving the project,
    if it has changed.
 

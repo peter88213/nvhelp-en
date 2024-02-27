@@ -56,6 +56,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#formatting-text">Formatting text</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#comments-footnotes-endnotes">Comments, footnotes, endnotes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#about-document-language-handling">About document language handling</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#project-lock">Project lock</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="plotting.html">Plotting with novelibre</a></li>
@@ -154,12 +155,38 @@ checking.</p>
 <dl class="simple">
 <dt>Document overall</dt><dd><p>The project language (Language code acc. to ISO 639-1 and country code
 acc. to ISO 3166-2) can be set in the <strong>Book</strong> settings (right pane)
-under <strong>Document language</strong>.</p>
+under <a class="reference external" href="book_view.html#document-language">Document language</a>.</p>
 </dd>
 <dt>Text passages in sections</dt><dd><p>Paragraph-wise or inline text markup for other languages is supported by
 <em>novelibre</em>.</p>
 </dd>
 </dl>
+</section>
+<section id="project-lock">
+<h2>Project lock<a class="headerlink" href="#project-lock" title="Link to this heading"></a></h2>
+<p>When exporting a document that can be edited outsides <em>novelibre</em>,
+the project is automatically locked in order to prevent confusion.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The project cannot be locked unless changes are saved.</p>
+</div>
+<p>In locked state, the project cannot be modified via the user interface.
+The footer bar is then displayed in reversed colors, the menu entries
+for changing data or exporting other documents are greyed out, and
+the widgets in the <em>Properties</em> view are disabled.</p>
+<p>The project lock state is persistent. This is achieved by automatically
+creating a lock file named <code class="docutils literal notranslate"><span class="pre">.LOCK.&lt;project</span> <span class="pre">name&gt;.novx#</span></code>. If you delete
+this file while <em>novelibre</em> is not running, the project will be unlocked
+upon next start.</p>
+<p>Usually, the project is automatically unlocked after re-importing the
+externally edited document.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>The project lock is nothing more than a strong reminder. You can
+<a class="reference external" href="file_menu.html#unlock">unlock the project</a> at any time at your
+own risk. You also can manually <a class="reference external" href="file_menu.html#lock">lock the project</a>,
+if necessary. The <img alt="Lock/Unlock" src="_images/lock.png" /> toolbar button toggles the locking state.</p>
+</div>
 </section>
 </section>
 

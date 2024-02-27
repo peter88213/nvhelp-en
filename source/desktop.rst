@@ -108,14 +108,16 @@ element selected in the project tree.
 
 -  The project settings can be made in the *Book* properties view.
 -  You can open or close the element properties window with **View >
-   Toggle Properties** or ``Ctrl``-``Alt``-``T``, or clicking on |Toggle Properties|.
+   Toggle Properties** or ``Ctrl``-``Alt``-``T``, or clicking on
+   |Toggle Properties|.
 -  On opening, the windows shows the editable properties of the selected
    element.
 -  You can detach or dock the element properties window with **View >
    Detach/Dock Properties** or ``Ctrl``-``Alt``-``D``.
 -  On closing the detached window, the properties are docked again.
 
-On large screens, you can arrange novelibre and LibreOffice with detached windows.
+On large screens, you can arrange *novelibre* and LibreOffice with detached
+windows.
 
 .. figure:: _images/full_desktop.png
    :alt: LibreOffice and novelibre screen arrangement
@@ -128,4 +130,31 @@ On large screens, you can arrange novelibre and LibreOffice with detached window
 .. |Go forward| image:: _images/goForward.png
 .. |Toggle Text viewer| image:: _images/viewer.png
 .. |Toggle Properties| image:: _images/properties.png
+
+
+Status bar
+----------
+
+The second bar from the bottom is the status bar. It normally displays project
+statistics, such as word count. These are overwritten with program messages
+when necessary.
+
+- Messages on a green background indicate successful actions.
+- Messages on a red background indicate errors or warnings.
+
+.. tip::
+   You can restore the normal view at any time by clicking on the status bar.
+   
+
+Footer bar
+----------
+
+The footer bar at the bottom displays the project file path and the file date.
+
+Change notification
+   If there are unsaved changes, the footer bar is highlighted in goldenrod.
+
+Project lock
+   If the project is locked, the footer bar is displayed in reversed colors.
+
 
