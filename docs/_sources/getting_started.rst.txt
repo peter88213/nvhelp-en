@@ -127,11 +127,12 @@ Associating .novx files with novelibre
    *.novx* file  works under the hood by calling the currently 
    installed version of the Python interpreter. 
    
-   If you update 
-   Python at a later date, you must then re-run the **setup.pyw**
-   script afterwards, and execute **add_novelibre.reg** again. 
+   If you update Python at a later date, you must then re-run 
+   the **setup.pyw** script afterwards, and execute 
+   **add_novelibre.reg** again. 
    Otherwise, Windows will not be able to find the new Python 
-   version and will fail when trying to run *novelibre*. 
+   version and will fail when trying to open *.novx* files on
+   double-clicking. 
    
    Please keep that in mind, even if it's pretty unlikely that 
    *novelibre* will need a Python update in the near future.
