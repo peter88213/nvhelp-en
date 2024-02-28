@@ -153,10 +153,11 @@ recognize its parts, chapters, and sections.
    Formatting that is not `supported with novelibre 
    <basic_concepts.html#formatting-text>`__ is lost.
    The same applies to images. 
-   So if your work depends on a sophisticated layout, consider doing 
-   the special formatting at the end, when preparing the finished novel 
-   for publication.  If this is not possible, *novelibre* might not be 
-   the right tool for you.
+   So if your work depends on a sophisticated layout that is beyond 
+   *novelibre's* capabilities, consider using comments as reminders 
+   as you write. That will help you doing the special formatting at 
+   the end, when you prepare the finished novel for publication. 
+   If this is not enough, *novelibre* may not be  the right tool for you.
       
 When your manuscript is ready, create your new project
 with **File > New > Create from ODT...**.

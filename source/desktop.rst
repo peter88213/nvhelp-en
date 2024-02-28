@@ -102,8 +102,8 @@ contents with their titles as headings.
 Properties
 ----------
 
-The **Properties** in the right pane show properties/metadata of the
-element selected in the project tree.
+The `Properties <properties.html>`__ in the right pane show properties
+and metadata of the element selected in the project tree.
 
 -  The project settings can be made in the *Book* properties view.
 -  You can open or close the element properties window with **View >

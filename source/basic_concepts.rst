@@ -57,8 +57,13 @@ Comments, footnotes, endnotes
 
 *odt* comments, footnotes, and endnotes are supported by *novelibre*.
 
-.. Important::
-   Images are not supported by novelibre.
+.. tip::
+   *novelibre* has no support for images in the text body. 
+   You can instead use comments as placeholders. Replace them with your 
+   images (or any other special formatting beyond the capabilities of 
+   *novelibre*) at the end, when you prepare your `finished novel 
+   <export_menu.html#manuscript-for-printing-export-only>`__ 
+   for publisihing. 
 
 
 About document language handling
