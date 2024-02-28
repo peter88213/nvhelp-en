@@ -73,7 +73,7 @@ the sections.
    
    LibreOffice Writer screenshot: Note that the text boundaries are 
    made visible here, which is `highly recommended 
-   <starting.html#setting-up-libreoffice>`__.
+   <preparations.html#setting-up-writer>`__.
    
 .. note::
    The section titles displayed in the Navigator are invisible 
