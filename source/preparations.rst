@@ -42,20 +42,26 @@ Installing the application
 Making novelibre accessible on the Desktop
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note::
+.. admonition:: Note for Linux users
+
    In the following chapters, the Windows procedure is described. 
    
-   As a **Linux user**, you are expected to know how to set up 
+   As a Linux user, you are expected to know how to set up 
    a program launcher on your specific desktop. 
-   Roughly speaking, it is a matter of calling *python3* 
-   with *novelibre.py* and the specified *.novx* file as 
-   parameters. You may have to copy the program icon to the 
-   image directory
-   where the program launcher gets the icons from. 
+   Roughly speaking, it is a matter of calling **python3** 
+   with **~/.novx/novelibre.py** and an optionally specified 
+   file as parameters. 
+   You might have to copy the *novelibre* icons to a dedicated image 
+   directory where your program launcher gets the icons from. 
+   You also may want to set *novelibre* as standard application for
+   files with the *.novx* extension, and assign them the *novelibre*
+   logo as file icon. 
+   With the XFCE desktop, none of this was too difficult for me.
    In doubt, refer to your desktop documentation. 
+   
    It's a good idea to register the *novx* extension
    in the mimetypes as **text/xml**, so it can be opened
-   by your web browser for display, using the 
+   with your web browser for display, using the 
    `novx.css style sheet <file_menu.html#copy-style-sheet>`__. 
 
 3. Open the installation folder.

@@ -85,7 +85,8 @@ Auto number chapters/parts when refreshing the tree
 
    .. hint::   
       You can optionally exclude individual chapters/parts from auto-numbering 
-      in the `Chapter/part properties <chapter_view.html#do-not-auto-number>`__.
+      in the `Chapter/part properties 
+      <chapter_view.html#do-not-auto-number-this-chapter-part>`__.
 
 Prefix and suffix entries can be completed by pressing the ``Enter`` key.
 
@@ -112,23 +113,23 @@ Expand or collapse this frame by clicking on the label.
 .. figure:: _images/book_view04.png
    :alt: novelibre screenshot
 
-*novelibre* provides some ready-made fields for sections and characters 
-to store information that should be at hand when writing. 
-If the default categories do not fit into your individual story planning 
+*novelibre* provides some ready-made fields for sections and characters
+to store information that should be at hand when writing.
+If the default categories do not fit into your individual story planning
 concept, you can rename these fields.
 Editing the categories can be completed by pressing the ``Enter`` key.
 
 Section fields
-   The heading replacements for *Goal*, *Conflict*, and *Outcome* are 
-   used when you set the `Action/Reaction frame 
-   <section_view.html#action-reaction>`__ to **Custom**. 
+   The heading replacements for *Goal*, *Conflict*, and *Outcome* are
+   used when you set the `Action/Reaction frame
+   <section_view.html#action-reaction>`__ to **Custom**.
    You can do this individually for each section.
 
 Character fields
-   If you want other categories than `Bio <character_view.html#bio>`__ 
-   and `Goals <character_view.html#goals>`__ for your characters, you 
-   can enter them here. They will then apply to all characters. 
-    
+   If you want other categories than `Bio <character_view.html#bio>`__
+   and `Goals <character_view.html#goals>`__ for your characters, you
+   can enter them here. They will then apply to all characters.
+
    .. note::
       If you rename the *Bio* frame, it will keep the Birth/death date
       entries anyway.      

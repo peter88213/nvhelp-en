@@ -43,7 +43,7 @@ Expand or collapse this frame by clicking on the label.
 .. figure:: _images/character_view04.png
    :alt: Screenshot
    
-This is a list for image and research data links.
+This is a list for image and research document links.
 
 Although *novelibre* holds some character/location/item data, it is
 not the right application for extensive world building. For this,

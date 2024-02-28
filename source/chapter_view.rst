@@ -29,10 +29,20 @@ anywhere outside the text input field.
    activated and the selected chapter or part is not excluded from 
    auto numbering (see below).
 
-_`Do not auto-number` this chapter/part
-   If this checkbox is ticked, the selected chapter or part will be excluded
-   from `auto numbering <book_view.html#auto-numbering>`_, and the title
-   you enter manually will persist.
+Unused
+------
+
+With te **Unused** checkbox, you can change the `chapter type
+<basic_concepts.html#part-chapter-section-types>`__.
+
+
+Do not auto-number this chapter/part
+------------------------------------
+
+If this checkbox is ticked, the selected chapter or part will be excluded
+from `auto numbering <book_view.html#auto-numbering>`_, and the title
+you enter manually will persist.
+
 
 Navigation buttons
 ------------------

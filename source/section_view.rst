@@ -17,8 +17,10 @@ The editing of the title can be completed by pressing the ``Enter`` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
+
 Tags
 ----
+
 Tags are a very freely usable tool for labeling sections in the
 tree view. Tags do not have to be defined elsewhere, but simply
 entered in the input field separated by semicolons.
@@ -34,6 +36,20 @@ Viewpoint
 The viewpoint character's short name is displayed in the tree view.
 You can select it from a drop-down list containing all characters
 in the tree view's sort order.
+
+Unused
+------
+
+With te **Unused** checkbox, you can change the `section type
+<basic_concepts.html#part-chapter-section-types>`__.
+
+Append to previous section
+--------------------------
+
+When ticked, there will be no section divider inserted above
+the selected section in exported documents. The section
+just starts a new paragraph.
+
 
 Plot
 ----

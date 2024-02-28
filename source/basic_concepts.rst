@@ -2,6 +2,63 @@ Basic concepts
 ==============
 
 
+The Book hierarchy
+------------------
+
+Parts
+~~~~~
+
+A novel is expected to be divided into chapters and sections. Parts
+are optional; technically they are first level chapters.
+However, in the *novelibre* project tree they are on the same
+level as the chapters, but they produce a heading one level above.
+Thus, parts are mainly for inserting first level headings between the
+chapters, if needed.
+
+.. hint::
+   You can convert chapters into parts and vice versa by simply 
+   `changing the level <tree_context_menu.html#change-level>`__.
+
+.. note::
+   A predecessor of *novelibre* was `novelyst 
+   <https://peter88213.github.io/novelyst/>`__. 
+   There, the parts were on a higher hierarchy level in the project tree 
+   than the chapters, as it corresponds to logical perception. 
+   It was therefore possible to move parts together with their subordinate 
+   chapters, or to mark entire parts as "Unused". In practice, however, 
+   this proved to be cumbersome. I find it easier to move only the part 
+   boundaries and leave the chapter order unchanged when defining parts. 
+
+
+Chapters
+~~~~~~~~
+
+A *novelibre* project must at least have one chapter. In the exported
+documents, regular chapters have a second level heading.
+
+For *novelibre*, the chapters only serve as containers for sections
+to which the actual dramaturgical function is assigned.
+This is why there are only a few `chapter properties <chapter_view.html>`__
+to be set.
+
+
+Sections
+~~~~~~~~
+
+All body text of a novel in *novelibre* belongs to sections. Sections
+can be scenes, descriptions, narrative summaries--it is entirely up to
+you how you divide your text into sections. There is a variety of
+`metadata for sections <section_view.html>`__ for your free use.
+
+In the text body of the exported documents, sections are marked with
+section dividers by default, like so: ``* * *``
+
+However, if you need more fragmented sections when plotting and organizing
+than the reader should see later, you can also `append sections
+<section_view.html#append-to-previous-section>`__ to each
+other as new paragraphs with no section divider inbetween.
+
+
 Part/chapter/section types
 --------------------------
 
@@ -33,9 +90,43 @@ Section completion status
 You can assign a status to each “Normal” type section via context menu
 or Section menu.
 
+-  You can choose a `coloring mode <view_menu.html#coloring-mode>`__
+   to display sections in different colors depending on their
+   completion status.
+-  Optionally, you can declare one of the status to be the current
+   `work phase <book_view.html#writing-progress>`__,
+   and choose a `coloring mode <view_menu.html#coloring-mode>`__
+   that highlights sections that are behind schedule.
 -  Newly created sections are set to “Outline” by default.
 -  Word counts by status appear in the `Book properties
    <book_view.html#writing-pogress>`__.
+
+
+-----------------
+
+
+Characters and story world
+--------------------------
+
+You can define characters, locations, and items, and you can relate
+them to sections to keep track of their place in the story.
+There is also some metadata stored with *novelibre*, mainly as a
+quick reference that might come in handy when writing or editing.
+
+.. note::
+   *novelibre* is not meant as a tool for extensive world building. 
+   For this, there is a plethora of dedicated applications, online
+   and offline wikis, and notetaking software. However, *novelibre* 
+   offers the option of linking images and files with the characters, 
+   locations, and items to facilitate access if your external 
+   application allows this.
+   
+
+.. important::
+   If you want to assign **viewpoint characters** to your sections, 
+   you first have to `create <characters_menu.html#add>`__ 
+   the characters that come into question. 
+
 
 -----------------
 

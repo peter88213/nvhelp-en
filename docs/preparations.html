@@ -131,20 +131,24 @@ This installs the application for the local user.</p></li>
 </section>
 <section id="making-novelibre-accessible-on-the-desktop">
 <h3>Making novelibre accessible on the Desktop<a class="headerlink" href="#making-novelibre-accessible-on-the-desktop" title="Link to this heading"></a></h3>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
+<div class="admonition-note-for-linux-users admonition">
+<p class="admonition-title">Note for Linux users</p>
 <p>In the following chapters, the Windows procedure is described.</p>
-<p>As a <strong>Linux user</strong>, you are expected to know how to set up
+<p>As a Linux user, you are expected to know how to set up
 a program launcher on your specific desktop.
-Roughly speaking, it is a matter of calling <em>python3</em>
-with <em>novelibre.py</em> and the specified <em>.novx</em> file as
-parameters. You may have to copy the program icon to the
-image directory
-where the program launcher gets the icons from.
-In doubt, refer to your desktop documentation.
-It’s a good idea to register the <em>novx</em> extension
+Roughly speaking, it is a matter of calling <strong>python3</strong>
+with <strong>~/.novx/novelibre.py</strong> and an optionally specified
+file as parameters.
+You might have to copy the <em>novelibre</em> icons to a dedicated image
+directory where your program launcher gets the icons from.
+You also may want to set <em>novelibre</em> as standard application for
+files with the <em>.novx</em> extension, and assign them the <em>novelibre</em>
+logo as file icon.
+With the XFCE desktop, none of this was too difficult for me.
+In doubt, refer to your desktop documentation.</p>
+<p>It’s a good idea to register the <em>novx</em> extension
 in the mimetypes as <strong>text/xml</strong>, so it can be opened
-by your web browser for display, using the
+with your web browser for display, using the
 <a class="reference external" href="file_menu.html#copy-style-sheet">novx.css style sheet</a>.</p>
 </div>
 <ol class="arabic" start="3">

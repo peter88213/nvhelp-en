@@ -50,8 +50,15 @@
 <li class="toctree-l1"><a class="reference internal" href="preparations.html">Preparations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="desktop.html">Desktop overview</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Basic concepts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#the-book-hierarchy">The Book hierarchy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#parts">Parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chapters">Chapters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sections">Sections</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#part-chapter-section-types">Part/chapter/section types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#section-completion-status">Section completion status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#characters-and-story-world">Characters and story world</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#formatting-text">Formatting text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comments-footnotes-endnotes">Comments, footnotes, endnotes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#about-document-language-handling">About document language handling</a></li>
@@ -92,6 +99,54 @@
              
   <section id="basic-concepts">
 <h1>Basic concepts<a class="headerlink" href="#basic-concepts" title="Link to this heading"></a></h1>
+<section id="the-book-hierarchy">
+<h2>The Book hierarchy<a class="headerlink" href="#the-book-hierarchy" title="Link to this heading"></a></h2>
+<section id="parts">
+<h3>Parts<a class="headerlink" href="#parts" title="Link to this heading"></a></h3>
+<p>A novel is expected to be divided into chapters and sections. Parts
+are optional; technically they are first level chapters.
+However, in the <em>novelibre</em> project tree they are on the same
+level as the chapters, but they produce a heading one level above.
+Thus, parts are mainly for inserting first level headings between the
+chapters, if needed.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>You can convert chapters into parts and vice versa by simply
+<a class="reference external" href="tree_context_menu.html#change-level">changing the level</a>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A predecessor of <em>novelibre</em> was <a class="reference external" href="https://peter88213.github.io/novelyst/">novelyst</a>.
+There, the parts were on a higher hierarchy level in the project tree
+than the chapters, as it corresponds to logical perception.
+It was therefore possible to move parts together with their subordinate
+chapters, or to mark entire parts as “Unused”. In practice, however,
+this proved to be cumbersome. I find it easier to move only the part
+boundaries and leave the chapter order unchanged when defining parts.</p>
+</div>
+</section>
+<section id="chapters">
+<h3>Chapters<a class="headerlink" href="#chapters" title="Link to this heading"></a></h3>
+<p>A <em>novelibre</em> project must at least have one chapter. In the exported
+documents, regular chapters have a second level heading.</p>
+<p>For <em>novelibre</em>, the chapters only serve as containers for sections
+to which the actual dramaturgical function is assigned.
+This is why there are only a few <a class="reference external" href="chapter_view.html">chapter properties</a>
+to be set.</p>
+</section>
+<section id="sections">
+<h3>Sections<a class="headerlink" href="#sections" title="Link to this heading"></a></h3>
+<p>All body text of a novel in <em>novelibre</em> belongs to sections. Sections
+can be scenes, descriptions, narrative summaries–it is entirely up to
+you how you divide your text into sections. There is a variety of
+<a class="reference external" href="section_view.html">metadata for sections</a> for your free use.</p>
+<p>In the text body of the exported documents, sections are marked with
+section dividers by default, like so: <code class="docutils literal notranslate"><span class="pre">*</span> <span class="pre">*</span> <span class="pre">*</span></code></p>
+<p>However, if you need more fragmented sections when plotting and organizing
+than the reader should see later, you can also <a class="reference external" href="section_view.html#append-to-previous-section">append sections</a> to each
+other as new paragraphs with no section divider inbetween.</p>
+</section>
+</section>
 <section id="part-chapter-section-types">
 <h2>Part/chapter/section types<a class="headerlink" href="#part-chapter-section-types" title="Link to this heading"></a></h2>
 <p>Each part, chapter, and section is of a type that can be changed via
@@ -123,9 +178,39 @@ from word count totals and export.</p>
 <p>You can assign a status to each “Normal” type section via context menu
 or Section menu.</p>
 <ul class="simple">
+<li><p>You can choose a <a class="reference external" href="view_menu.html#coloring-mode">coloring mode</a>
+to display sections in different colors depending on their
+completion status.</p></li>
+<li><p>Optionally, you can declare one of the status to be the current
+<a class="reference external" href="book_view.html#writing-progress">work phase</a>,
+and choose a <a class="reference external" href="view_menu.html#coloring-mode">coloring mode</a>
+that highlights sections that are behind schedule.</p></li>
 <li><p>Newly created sections are set to “Outline” by default.</p></li>
 <li><p>Word counts by status appear in the <a class="reference external" href="book_view.html#writing-pogress">Book properties</a>.</p></li>
 </ul>
+</section>
+<hr class="docutils" />
+<section id="characters-and-story-world">
+<h2>Characters and story world<a class="headerlink" href="#characters-and-story-world" title="Link to this heading"></a></h2>
+<p>You can define characters, locations, and items, and you can relate
+them to sections to keep track of their place in the story.
+There is also some metadata stored with <em>novelibre</em>, mainly as a
+quick reference that might come in handy when writing or editing.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>novelibre</em> is not meant as a tool for extensive world building.
+For this, there is a plethora of dedicated applications, online
+and offline wikis, and notetaking software. However, <em>novelibre</em>
+offers the option of linking images and files with the characters,
+locations, and items to facilitate access if your external
+application allows this.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>If you want to assign <strong>viewpoint characters</strong> to your sections,
+you first have to <a class="reference external" href="characters_menu.html#add">create</a>
+the characters that come into question.</p>
+</div>
 </section>
 <hr class="docutils" />
 <section id="formatting-text">
