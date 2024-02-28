@@ -101,8 +101,8 @@ appear.
       green, because the file is newer than the open project. 
 
 
-Creating new sections
----------------------
+Creating new sections with LibreOffice
+--------------------------------------
 
 If you need a new section while writing, you don't have to switch
 to *novelibre*. Simply start a new line with a special marker
@@ -126,8 +126,8 @@ but no other metadata.
    novelibre screenshot: Notice the selected new section 
 
 
-Creating new chapters
----------------------
+Creating new chapters with LibreOffice
+--------------------------------------
 
 If you need a new chapter while writing, you don't have to switch to
 *novelibre*. Simply start a new line *within the edited section*

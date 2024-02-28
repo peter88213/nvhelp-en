@@ -44,23 +44,7 @@ Create from ODT…
       and descriptions.
 
    .. important::
-   
-   	How to set up a work in progress for import
-   		A work in progress has no third level heading.
-   		
-   		-  *Heading 1* → New chapter title (beginning a new section).
-   		-  *Heading 2* → New chapter title.
-   		-  ``* * *`` → Section divider (not needed for the first section in a
-   		   chapter).
-   		-  All other text is considered section content.
-   	
-   	How to set up an outline for import
-   		An outline has at least one third level heading.
-   		
-   		-  *Heading 1* → New chapter title (beginning a new section).
-   		-  *Heading 2* → New chapter title.
-   		-  *Heading 3* → New section title.
-   		-  All other text is considered to be chapter/section description.
+        
 
 
 Open…
