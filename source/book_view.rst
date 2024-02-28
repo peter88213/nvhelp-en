@@ -21,7 +21,7 @@ The editing of book title and author can be completed by pressing the ``Enter`` 
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
-After exporting the book to an *.odt* document, title and description
+After exporting the book to an *ODT* document, title and description
 appear in the document properties.
 
 .. figure:: _images/book_view08.png
@@ -61,7 +61,7 @@ If not set, the System locale setting will be used as default.
 
 
 .. hint::
-   You can also set or change the document language with LibreOffice, then it will be applied on import. 
+   You can also set or change the document language with *Writer*, then it will be applied on import. 
 
 	.. figure:: _images/book_view11.png
 	   :alt: LibreOffice Writer screenshot

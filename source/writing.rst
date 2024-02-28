@@ -1,25 +1,25 @@
 Writing the manuscript
 ======================
 
-Starting LibreOffice as text editor
------------------------------------
+Starting Writer as text editor
+------------------------------
 
 .. note::
    The following example describes the manuscript editing workflow 
    with LibreOffice. The same applies to OpenOffice.
    
-   Other word processing programs that claim to support the *.odt* 
+   Other word processing programs that claim to support the *ODT* 
    file format are generally not recommended. 
 
 As soon as your novel project has at least one section, you can start
 writing. For this, you save your project and export your novel
-to LibreOffice either with **Export > Manuscript for editing**,
+to the *Writer* word processor either with **Export > Manuscript for editing**,
 or by clicking on the |Export manuscript| toolbar icon.
 
 .. hint::
    - If you use the menu command, you can have *novelibre* create a
-     manuscript, and ask whether it should be opened with LibreOffice.
-   - If you click on the toolbar icon, LibreOffice will be launched 
+     manuscript, and ask whether it should be opened with *Writer*.
+   - If you click on the toolbar icon, *Writer* will be launched 
      immediately after export.
 
 
@@ -48,20 +48,20 @@ be asked whether you want to open the newly created document.
    
    novelibre screenshot
    
-If you answer "yes", LibreOffice will be launched with
+If you answer "yes", *Writer* will be launched with
 the manuscript document. Otherwise, the document is just
 kept for future use.
 
 *novelibre* now `locks the project <basic_concepts.html#project-lock>`__, so that
 it can't be accidentally modified with *novelibre* while worked on
-in LibreOffice.
+in *Writer*.
 
 .. note::
-   *novelibre* starts your standard application for the *.odt* file
-   format. By default, this association is made by LibreOffice during 
-   installation.
+   *novelibre* starts your standard application for files with the *.odt* 
+   extension. Usually, the setting is made by LibreOffice or OpenOffice
+   during installation.
 
-After you change to LibreOffice *Writer*, you see the whole novel in
+After you change to *Writer*, you see the whole novel in
 a layout that is similar to the "standard manuscript format". The
 *Navigator* (open with ``F5``) shows the chapter and section titles
 in the *Headings* area. Double click on a heading to move the cursor
@@ -84,8 +84,8 @@ the sections.
 Writing changes back to novelibre
 ---------------------------------
 
-At the end of the writing session, save the changes, exit LibreOffice
-*Writer*, and return to *novelibre*. Simply click on the
+At the end of the writing session, save the changes, exit the *Writer*
+word processor, and return to *novelibre*. Simply click on the
 |Update from manuscript| toolbar icon, and your latest changes will
 appear.
 
@@ -101,8 +101,8 @@ appear.
       green, because the file is newer than the open project. 
 
 
-Creating new sections with LibreOffice
---------------------------------------
+Creating new sections with Writer
+---------------------------------
 
 If you need a new section while writing, you don't have to switch
 to *novelibre*. Simply start a new line with a special marker
@@ -123,11 +123,11 @@ but no other metadata.
 .. figure:: _images/writing06.png
    :alt: novelibre screenshot
    
-   novelibre screenshot: Notice the selected new section 
+   *novelibre* screenshot: Notice the selected new section 
 
 
-Creating new chapters with LibreOffice
---------------------------------------
+Creating new chapters with Writer
+---------------------------------
 
 If you need a new chapter while writing, you don't have to switch to
 *novelibre*. Simply start a new line *within the edited section*
@@ -138,12 +138,11 @@ with a second-level heading.
    Technically, it always splits sections when creating new chapters 
    or sections from the manuscript.
    
-   You also cannot move chapters within LibreOffice *Writer*. If you 
+   You also cannot move chapters within *Writer*. If you 
    want to rearrange chapters or sections, do it with *novelibre*.  
    
 
-The following example shows how to add a chapter with LibreOffice
-*Writer*:
+The following example shows how to add a chapter with *Writer*:
 
 .. figure:: _images/writing07.png
    :alt: LibreOffice Writer screenshot

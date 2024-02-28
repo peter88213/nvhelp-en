@@ -147,24 +147,24 @@ a message.
 
 -----------------
 
-Setting up LibreOffice
-----------------------
+Setting up Writer
+-----------------
 
-I assume that *novelibre* users are already familiar with LibreOffice or
-OpenOffice. Therefore, I will only give a few brief tips that relate
-specifically to the interaction with *novelibre*.
+I assume that *novelibre* users are already familiar with LibreOffice
+or OpenOffice *Writer*. Therefore, I will only give a few
+brief tips that relate specifically to the interaction with *novelibre*.
 
 Make the sections visible in the manuscript
-   An essential part of the workflow is writing with LibreOffice
-   *Writer* (everything also applies to OpenOffice). *novelibre*
-   creates editable manuscript files that are meant to be temporary.
+   An essential part of the workflow is writing with the *Writer*
+   word processor. For this, *novelibre* creates editable manuscript files
+   in the *Open Document Text* format that are meant to be temporary.
    These documents contain structural information that enables
    *novelibre* to recognize and correctly sort the sections when
    reading them back.
 
    For the whole thing to work, it is extremely important that you
    only write within the section boundaries. To do this, you might
-   want to make the text boundaries visible in the LibreOffice settings.
+   want to make the text boundaries visible in the *Writer* settings.
 
    .. figure:: _images/preparations01.png
       :alt: LibreOffice Writer screenshot
@@ -174,8 +174,8 @@ Make the sections visible in the manuscript
       has no effect on your *novelibre* project.
 
 Dock the Navigator
-   To quickly find the chapters and sections of your novel, it is best to
-   keep the LibreOffice Navigator in sight. I prefer to dock it to the left
+   To quickly find the chapters and sections of your novel in *Writer*, it
+   is best to keep the Navigator in sight. I prefer to dock it to the left
    of the work area. To do this, first press ``F5`` to open the Navigator.
    By default, it appears as a pop-up window that can be placed anywhere
    on the screen. To dock it, double-click in a free gray space while holding
@@ -213,7 +213,7 @@ Customize the look of your manuscript
    which is not the worldwide standard.
 
    That's not for you? No problem. This is what the **document templates** in
-   LibreOffice are for. So if you don't like the look of the generated manuscript,
+   *Writer* are for. So if you don't like the look of the generated manuscript,
    simply apply a template that suits your needs and tastes. Perhaps you have
    to design your favorite template first, but your knowledge of this technique
    will pay off when it comes to designing print pages for self-publishing.

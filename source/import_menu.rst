@@ -17,19 +17,18 @@ current project.
 -  Documents that are newer than the project file are highlighted in
    green.
 -  Documents that cannot be imported because they are open in
-   LibreOffice/OpenOffice are highlighted in red.
+   *Writer* are highlighted in red.
 -  You can update the project from a document either by double-clicking
    on the list entry, or by selecting the document and clicking on the
    **Import** button.
 -  You can delete documents by selecting them and clicking on the
    **Discard** button.
--  After closing a listed document in LibreOffice while the *Exported
+-  After closing a listed document in *Writer* while the *Exported
    documents* window is open, you can click on the **Refresh view**
    button.
 -  If the **Discard document after import** checkbox is checked, a
    document will be deleted after re-import. This may help to avoid
-   confusion about changes made with *novelibre* and
-   OpenOffice/LibreOffice.
+   confusion about changes made with *novelibre* and *Writer*.
 
    .. note::
    	Documents with split sections are always automatically

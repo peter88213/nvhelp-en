@@ -70,13 +70,13 @@ manuscript. Just click on the |Export manuscript| toolbar icon.
 .. figure:: _images/getting_started06.png
    :alt: novelibre screenshot
    
-Done! LibreOffice should now appear with the manuscript open.
+Done! *Writer* should now appear with the manuscript open.
 Just start writing your novel within the text boundary.
 
 .. figure:: _images/getting_started07.png
    :alt: Libreoffice screenshot
    
-We can now continue working with LibreOffice `as described on the next
+We can now continue working with *Writer* `as described on the next
 page <writing.html>`__, creating new sections and chapters as we write.
 
 .. tip::
@@ -97,7 +97,7 @@ Creating a chapter structure
 
 If you prefer to make a plan first before you start writing, *novelibre* is
 the right tool for you.
-Then you don't start LibreOffice with an empty manuscript, but first create
+Then you don't start *Writer* with an empty manuscript, but first create
 a framework of empty chapters for which you enter content information.
 Or you can leave it at one chapter for the time being and create empty sections
 in it, which you can later distribute to chapters.
@@ -135,7 +135,7 @@ Starting with a work in progress
 --------------------------------
 
 Let's assume that you have already written an extensive novel manuscript with
-LibreOffice and now want to continue with *novelibre*.
+*Writer* and now want to continue with *novelibre*.
 In this case you first make sure to set it up in a way, *novelibre* can
 recognize its parts, chapters, and sections.
 
@@ -165,12 +165,12 @@ with **File > New > Create from ODT...**.
 .. figure:: _images/getting_started09.png
    :alt: novelibre screenshot
 
-A file selection dialog opens and asks for the *.odt* document. The new project
+A file selection dialog opens and asks for the *ODT* document. The new project
 will be created in the same directory and named after the manuscript file, but
 with the *.novx* extension.
 
 .. caution::
-   Once your novel is imported into *novelibre*, your initial *.odt* document is no
+   Once your novel is imported into *novelibre*, your initial *ODT* document is no
    longer needed. So if you want to keep it, you best move it elsewhere, so that
    it is not overwritten by an `exported document 
    <export_menu.html#manuscript-for-printing-export-only>`__ later on. 
@@ -179,7 +179,7 @@ with the *.novx* extension.
 Starting with an outline
 ------------------------
 
-Instead of a work in progress, you also can import an outline made with LibreOffice
+Instead of a work in progress, you also can import an outline made with *Writer*
 into *novelibre* to get a novel project with empty, but named and described
 chapters and sections.
 At first glance, an outline looks the same as a work in progress, but it has
@@ -202,12 +202,12 @@ with **File > New > Create from ODT...**.
 .. figure:: _images/getting_started09.png
    :alt: novelibre screenshot
 
-A file selection dialog opens and asks for the *.odt* document. The new project
+A file selection dialog opens and asks for the *ODT* document. The new project
 will be created in the same directory and named after the manuscript file, but
 with the *.novx* extension.
 
 .. caution::
-   Once your novel is imported into *novelibre*, your initial *.odt* document is no
+   Once your novel is imported into *novelibre*, your initial *ODT* document is no
    longer needed. So if you want to keep it, you best move it elsewhere, so that
    it is not overwritten by an `exported document 
    <export_menu.html#manuscript-for-printing-export-only>`__ later on. 

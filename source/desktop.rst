@@ -115,11 +115,11 @@ and metadata of the element selected in the project tree.
    Detach/Dock Properties** or ``Ctrl``-``Alt``-``D``.
 -  On closing the detached window, the properties are docked again.
 
-On large screens, you can arrange *novelibre* and LibreOffice with detached
+On large screens, you can arrange *novelibre* and *Writer* with detached
 windows.
 
 .. figure:: _images/full_desktop.png
-   :alt: LibreOffice and novelibre screen arrangement
+   :alt: Writer and novelibre screen arrangement
    
    Example: Arranging LibreOffice (middle) with detached Navigator (upper left) 
    and novelibre (lower left) with detached Properties (right) 

@@ -17,7 +17,7 @@ File name suffix is ``_manuscript_tmp``.
    sections marked “unused” are not exported.
 -  Section titles are invisible, but appear in the *Navigator*.
 -  Chapters and sections can neither be rearranged nor deleted.
--  With *OpenOffice/LibreOffice Writer*, you can split sections by
+-  With *Writer*, you can split sections by
    inserting headings or a section divider:
 
    -  *Heading 1* → New part title. Optionally, you can add a

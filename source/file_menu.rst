@@ -161,7 +161,7 @@ Discard manuscript
 You can add the *.bak* extension to the `current manuscript
 <export_menu#manuscript-for-editing>`__ with
 **File > Discard manuscript**. This may help to avoid confusion about
-changes made with *novelibre* and OpenOffice/LibreOffice.
+changes made with *novelibre* and *Writer*.
 
 
 Save
