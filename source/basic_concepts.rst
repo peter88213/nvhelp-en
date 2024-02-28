@@ -55,7 +55,10 @@ formats:
 Comments, footnotes, endnotes
 -----------------------------
 
-ODT comments, footnotes, and endnotes are supported by *novelibre*.
+*odt* comments, footnotes, and endnotes are supported by *novelibre*.
+
+.. Important::
+   Images are not supported by novelibre.
 
 
 About document language handling

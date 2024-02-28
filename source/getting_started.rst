@@ -135,51 +135,79 @@ Starting with a work in progress
 --------------------------------
 
 Let's assume that you have already written an extensive novel manuscript with
-LibreOffice and now want to edit it with *novelibre*.
+LibreOffice and now want to continue with *novelibre*.
 In this case you first make sure to set it up in a way, *novelibre* can
 recognize its parts, chapters, and sections.
 
 .. important::
    How to set up a work in progress for import
-      A work in progress has no third level heading.
+      A work in progress must not have any third level heading.
       
-      -  *Heading 1* → New chapter title (beginning a new section).
-      -  *Heading 2* → New chapter title.
+      -  *Heading 1* → Part title.
+      -  *Heading 2* → Chapter title.
       -  ``* * *`` → Section divider (not needed for the first section in a
          chapter).
       -  All other text is considered section content.
+
+.. caution::
+   Formatting that is not `supported with novelibre 
+   <basic_concepts.html#formatting-text>`__ is lost.
+   The same applies to images. 
+   So if your work depends on a sophisticated layout, consider doing 
+   the special formatting at the end, when preparing the finished novel 
+   for publication.  If this is not possible, *novelibre* might not be 
+   the right tool for you.
       
-
-
-
-create your new project
+When your manuscript is ready, create your new project
 with **File > New > Create from ODT...**.
 
 .. figure:: _images/getting_started09.png
    :alt: novelibre screenshot
 
-A file selection dialog opens and asks for the *.odt* document. The new project will
-be created in the same directory and named after the manuscript file, but with the *.novx*
-extension.
+A file selection dialog opens and asks for the *.odt* document. The new project
+will be created in the same directory and named after the manuscript file, but
+with the *.novx* extension.
 
 .. caution::
    Once your novel is imported into *novelibre*, your initial *.odt* document is no
    longer needed. So if you want to keep it, you best move it elsewhere, so that
-   it is not overwritten by a later `exported document 
-   <export_menu.html#manuscript-for-printing-export-only>`__. 
-
-
-
+   it is not overwritten by an `exported document 
+   <export_menu.html#manuscript-for-printing-export-only>`__ later on. 
 
 
 Starting with an outline
 ------------------------
 
+Instead of a work in progress, you also can import an outline made with LibreOffice
+into *novelibre* to get a novel project with empty, but named and described
+chapters and sections.
+At first glance, an outline looks the same as a work in progress, but it has
+third level headings for the sections, indicating their titles. If *novelibre*
+finds third-level headings, it considers all body text to be description.
+In this case, formatting doesn't matter.
+
 .. important::
    How to set up an outline for import
       An outline has at least one third level heading.
       
-      -  *Heading 1* → New chapter title (beginning a new section).
-      -  *Heading 2* → New chapter title.
-      -  *Heading 3* → New section title.
+      -  *Heading 1* → Part title.
+      -  *Heading 2* → Chapter title.
+      -  *Heading 3* → Section title.
       -  All other text is considered to be chapter/section description.
+
+When your manuscript is ready, create your new project
+with **File > New > Create from ODT...**.
+
+.. figure:: _images/getting_started09.png
+   :alt: novelibre screenshot
+
+A file selection dialog opens and asks for the *.odt* document. The new project
+will be created in the same directory and named after the manuscript file, but
+with the *.novx* extension.
+
+.. caution::
+   Once your novel is imported into *novelibre*, your initial *.odt* document is no
+   longer needed. So if you want to keep it, you best move it elsewhere, so that
+   it is not overwritten by an `exported document 
+   <export_menu.html#manuscript-for-printing-export-only>`__ later on. 
+      
