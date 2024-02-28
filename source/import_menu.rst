@@ -3,14 +3,14 @@ Import menu
 
 **Update the project from previously exported ODT documents**
 
-.. figure:: _images/importMenu02.png
+.. figure:: _images/import_menu02.png
    :alt: novelibre screenshot
 
 This will open a pop-up window with a list containing previously
 exported ODT documents that can be re-imported, thus updating the
 current project.
 
-.. figure:: _images/importMenu01.png
+.. figure:: _images/import_menu01.png
    :alt: novelibre screenshot
 
 -  The document types and dates are shown.

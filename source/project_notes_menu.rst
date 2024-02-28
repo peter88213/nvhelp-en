@@ -3,7 +3,7 @@ Project notes menu
 
 **Project notes operation**
 
-.. figure:: _images/projectnotesMenu01.png
+.. figure:: _images/projectnotes_menu01.png
    :alt: novelibre screenshot
 
 Add

@@ -1,5 +1,5 @@
 nv_templates
-===================
+============
 
 **Online help**
 
@@ -68,8 +68,8 @@ First level heading for top level stages, e.g. acts
 The first level heading begins with ``#``, followed by a space and a
 stage title.
 
-Second level heading for minor stages or turning points
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Second level heading for minor stages or plot points
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The second level heading begins with ``##``, followed by a space and a
 stage title.

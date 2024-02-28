@@ -3,7 +3,7 @@ Section menu
 
 **Section operation**
 
-.. figure:: _images/sectionMenu01.png
+.. figure:: _images/section_menu01.png
    :alt: novelibre screenshot
 
 Add
@@ -32,7 +32,7 @@ Set Type
 
 **Set the type of the selected section**
 
-.. figure:: _images/sectionMenu02.png
+.. figure:: _images/section_menu02.png
    :alt: novelibre screenshot
 
 The `section type <basic_concepts.html#part-chapter-section-types>`__
@@ -48,7 +48,7 @@ Set Status
 
 **Set the section completion status**
 
-.. figure:: _images/sectionMenu03.png
+.. figure:: _images/section_menu03.png
    :alt: novelibre screenshot
 
 This can be *Outline*, *Draft*, *1st Edit*, *2nd Edit*, or *Done*.

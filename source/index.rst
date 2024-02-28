@@ -1,5 +1,5 @@
-|novelibre logo| novelibre Online help
-======================================
+|novelibre logo| novelibre User guide
+=====================================
 
 .. |novelibre logo| image:: _images/nLogo32.png
    :target: https://github.com/peter88213/novelibre/
@@ -11,12 +11,16 @@ release. You can open it with **Help > Online help**.
    :maxdepth: 2
    :caption: Contents
    
+   preparations
+   desktop
+   basic_concepts
    getting_started
-   general
    writing
+   plotting
    command_reference
    properties
    plugins
+   tools
 
 -----------------
 

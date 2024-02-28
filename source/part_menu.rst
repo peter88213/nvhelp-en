@@ -3,7 +3,7 @@ Part menu
 
 **Part operation**
 
-.. figure:: _images/partMenu01.png
+.. figure:: _images/part_menu01.png
    :alt: novelibre screenshot
 
 Add

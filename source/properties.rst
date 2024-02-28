@@ -1,5 +1,5 @@
-Properties
-==========
+Properties reference
+====================
 
 .. toctree::
    :maxdepth: 2

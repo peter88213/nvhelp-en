@@ -10,7 +10,7 @@ Greyed-out entries are not available, e.g. due to “project lock”.
 Book context menu entries
 -------------------------
 
-.. figure:: _images/contextMenu01.png
+.. figure:: _images/context_menu01.png
    :alt: novelibre screenshot
 
 Add Section
@@ -127,7 +127,7 @@ with the same viewpoint.
 -  Location lists are merged.
 -  Item lists are merged.
 -  Arc assignments are merged.
--  Turning point associations are moved to the joined section,
+-  Plot point associations are moved to the joined section,
    if any.
 -  Section durations are added.
 
@@ -168,7 +168,7 @@ Hides all tree elements except the main categories.
 Characters/Locations/Items context menu entries
 -----------------------------------------------
 
-.. figure:: _images/contextMenu02.png
+.. figure:: _images/context_menu02.png
    :alt: novelibre screenshot
 
 Add
@@ -222,7 +222,7 @@ Major characters are highlighted in the tree view.
 Arcs context menu entries
 -------------------------
 
-.. figure:: _images/contextMenu03.png
+.. figure:: _images/context_menu03.png
    :alt: novelibre screenshot
 
 Add Arc
@@ -235,16 +235,16 @@ Adds a new story arc
 -  The new arc has an auto-generated title. You can change it in the
    right pane.
 
-Add Turning point
-~~~~~~~~~~~~~~~~~
+Add Plot point
+~~~~~~~~~~~~~~
 
-Adds a new Turning point
+Adds a new Plot point
 
-- If a turning point is selected, the new turning point is placed after
+- If a plot point is selected, the new plot point is placed after
   the selected one.
-- If an arc is selected, the new turning point is placed at the last position.
-- Otherwise, no new turning point is generated.
-- The new turning point has an auto-generated title. You can change it in
+- If an arc is selected, the new plot point is placed at the last position.
+- Otherwise, no new plot point is generated.
+- The new plot point has an auto-generated title. You can change it in
   the right pane.
 
 Export manuscript filtered by arc
@@ -264,11 +264,11 @@ that belong to the selected arc.
 Delete
 ~~~~~~
 
-Deletes the selected arc/turning point.
+Deletes the selected arc/plot point.
 
 .. caution::
    Be aware, there is no “Undo” feature. If you delete an arc, all its
-   turning points will be deleted, too.
+   plot points will be deleted, too.
    
    
 

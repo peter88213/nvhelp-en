@@ -5,7 +5,7 @@ The Section properties view opens in the right pane when you
 select a section in the tree.
 
 
-.. figure:: _images/sectionView01.png
+.. figure:: _images/section_view01.png
    :alt: Screenshot
 
 Title and description
@@ -40,7 +40,7 @@ Plot
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/sectionView04.png
+.. figure:: _images/section_view04.png
    :alt: Screenshot
 
 Arcs
@@ -76,15 +76,15 @@ View the related element
    .. hint::
       You can go back to the initially selected section with |Go Back|. 
 
-Turning points
-~~~~~~~~~~~~~~
+Plot points
+~~~~~~~~~~~
 
-The turning points assigned with the selected section are displayed
+The plot points assigned with the selected section are displayed
 along with their arcs.
 
 .. hint::
-   To change or clear the turning point assignment, go to the
-   `turning point's properties <point_view.html#assigned-section>`__.
+   To change or clear the plot point assignment, go to the
+   `plot point's properties <point_view.html#assigned-section>`__.
 
 
 Action/Reaction
@@ -92,7 +92,7 @@ Action/Reaction
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/sectionView03.png
+.. figure:: _images/section_view03.png
    :alt: Screenshot
 
 There is a popular theory for "selling writers" that suggests novels
@@ -105,7 +105,7 @@ to set up a dramaturgical scene micro-structure, you can set the section
 to **Custom** and get three `freely named <book_view.html#renamings>`_
 text fields.
 
-.. figure:: _images/sectionView06.png
+.. figure:: _images/section_view06.png
    :alt: Screenshot
    
    Example of a user-defined scene category
@@ -120,7 +120,7 @@ Relationships
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/sectionView02.png
+.. figure:: _images/section_view02.png
    :alt: Screenshot
 
 If you want to associate characters, locations, and items with the
@@ -178,7 +178,7 @@ Editing can be completed by pressing the ``Enter`` key.
    <https://github.com/peter88213/nv_timeline/>`__, or the 
    `Aeon Timeline 2 plugin <https://github.com/peter88213/nv_aeon2/>`__.
 
-.. figure:: _images/sectionView05.png
+.. figure:: _images/section_view05.png
    :alt: Screenshot
 
 Start
@@ -221,10 +221,10 @@ Duration
 ~~~~~~~~
 
 Days
-   Any number should be accepted.  
+   Any number should be accepted.
 
 Hours
-   If a number greater than 24 is entered, the number of days 
+   If a number greater than 24 is entered, the number of days
    will be automatically increased.
 
 Minutes

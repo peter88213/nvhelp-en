@@ -1,34 +1,34 @@
-Turning point properties
-========================
+Plot point properties
+=====================
 
-The Turning point properties view opens in the right pane when you 
-select a turning point in the tree.
+The Plot point properties view opens in the right pane when you
+select a plot point in the tree.
 
 
-.. figure:: _images/pointView01.png
+.. figure:: _images/point_view01.png
    :alt: Screenshot
 
 Title and description
 ---------------------
 
-Title and description are displayed in an editable "index card". 
+Title and description are displayed in an editable "index card".
 
-The editing of The editing of the title can be completed by pressing the ``Enter`` key. 
-Changes to the description are applied when the mouse is clicked 
-anywhere outside the text input field. 
+The editing of The editing of the title can be completed by pressing the ``Enter`` key.
+Changes to the description are applied when the mouse is clicked
+anywhere outside the text input field.
 
 
 Assigned section
 ----------------
 
-You can connect the turning point to a section in the book. 
-The label below "Section" displays the section title. 
+You can connect the plot point to a section in the book.
+The label below "Section" displays the section title.
 
 
 Assign section
-   When clicking on the **Assign section** button, the "Pick mode" 
+   When clicking on the **Assign section** button, the "Pick mode"
    is activated, and the cursor changes to a "plus" shape. By clicking
-   on a section, this section will be assigned to the turning point. 
+   on a section, this section will be assigned to the plot point.
 
    .. hint::
       You can exit the "Pick mode" without selecting a section by
@@ -37,22 +37,22 @@ Assign section
 
 
 Clear assignment
-   If a sectin is assigned to the turning point, you can disconnect it
-   by clicking on the **Clear assignment** button. 
+   If a sectin is assigned to the plot point, you can disconnect it
+   by clicking on the **Clear assignment** button.
 
 
 Go to section
    Clicking on the **Go to section** button changes the selection and opens
-   the properties view of the assigned section. 
+   the properties view of the assigned section.
 
 
 "Sticky note"
 -------------
 
-The yellow text area is for notes. Changes are applied 
+The yellow text area is for notes. Changes are applied
 when the mouse is clicked anywhere outside the text input field.
 
-When the "sticky note" of a turning point contains text, an "N" is 
+When the "sticky note" of a plot point contains text, an "N" is
 displayed in the tree view as a reminder.
 
 .. note::
@@ -63,6 +63,6 @@ displayed in the tree view as a reminder.
 Navigation buttons
 ------------------
 
-- **Previous** moves the selection to the previous turning point in the tree.
-- **Next** moves the selection to the next turning point in the tree.
+- **Previous** moves the selection to the previous plot point in the tree.
+- **Next** moves the selection to the next plot point in the tree.
 

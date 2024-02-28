@@ -3,7 +3,7 @@ Export menu
 
 **File export**
 
-.. figure:: _images/exportMenu01.png
+.. figure:: _images/export_menu01.png
    :alt: novelibre screenshot
 
 Manuscript for editing
@@ -154,7 +154,7 @@ The document contains:
 
 -  First and second level stages (titles and descriptions).
 -  Arcs (titles and descriptions).
--  Turning points (titles, descriptions, and links to the associated
+-  Plot points (titles, descriptions, and links to the associated
    section, if any).
 
 
@@ -164,7 +164,7 @@ Plot spreadsheet (export only)
 **Export an ODS document**
 
 This will generate a new OpenDocument spreadsheet (ods) containing
-sections, arcs, and turning points. File name suffix is ``_plotlist``.
+sections, arcs, and plot points. File name suffix is ``_plotlist``.
 The spreadsheet is not meant to be written back to *novelibre*.
 
 -  There are hyperlinks to the sections in the manuscript, and to the
@@ -174,7 +174,7 @@ The spreadsheet is not meant to be written back to *novelibre*.
 Show Plot list
 --------------
 
-Show sections, arcs, and turning points. This will generate a
+Show sections, arcs, and plot points. This will generate a
 list-formatted HTML file, and launch your system’s web browser for
 displaying it.
 

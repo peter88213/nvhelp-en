@@ -15,11 +15,12 @@ phase. This gives you color-coded subheadings in the tree view.
 
    Acts
 
-With the `nv_templates plugin 
+With the `nv_templates plugin
 <https://github.com/peter88213/nv_templates/>`__ you can
 load pre-made story structure models from Markdown template files, and
 you can save the story structure of your project for reuse.
 
+-----------------
 
 Defining Arcs
 -------------
@@ -33,19 +34,20 @@ plotting.
    Arcs
 
 “Arc” can mean a variety of things: Narrative strand, thread, character
-arc, storyline, sequence of cause and effect, sequence of setup and
-payoff, and so on. You can think of an arc as a line on which turning
-points are arranged that characterize the progression of the story.
-These turning points can be assigned to scenes to indicate the scene’s
+arc, storyline, subplot, sequence of cause and effect, sequence
+of setup and payoff, and so on. You can think of an arc as a line on which
+plot points are arranged that characterize the progression of the story.
+These plot points can be assigned to scenes to indicate the scene’s
 relevance to the plot.
 
 -  *novelibre* lets you define any number of arcs.
 -  Any number of scenes can be assigned to each arc.
 -  Any number of arcs can be assigned to each scene.
--  Each arc can contain any number of turning points.
--  Each turning point can be assigned to exactly one scene.
+-  Each arc can contain any number of plot points.
+-  Each plot point can be assigned to exactly one scene.
+-  Any number of plot points can be assigned to each scene.
 
-The association of scenes and turning points is shown in the “Plot”
+The association of scenes and plot points is shown in the “Plot”
 column of the tree view.
 
 You can use arcs to establish named connections between scenes, such as
@@ -53,7 +55,7 @@ You can use arcs to establish named connections between scenes, such as
 the scenes are far away from each other.
 
 .. figure:: _images/causality01.png
-   :alt: Template
+   :alt: Example
 
-   Template
+   Setup/payoff example
 

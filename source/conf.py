@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'novelibre Online Help'
+project = 'novelibre User guide'
 copyright = '2024, peter88213'
 author = 'peter88213'
-release = '2.2'
+release = '2.4'
 # The release is related to the novelibre application's major/minor version numbers.
 
 # -- General configuration ---------------------------------------------------
@@ -35,7 +35,7 @@ highlight_language = 'ini'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-html_title = 'novelibre Online Help'
+# html_title = 'novelibre User guide'
 html_favicon = '_images/nLogo32.ico'
 
 # Add any extra paths that contain custom files (such as robots.txt or
@@ -46,5 +46,5 @@ html_extra_path = ['_custom_files']
 
 # If true, links to the reST sources are added to the pages.
 #
-html_show_sourcelink = False
+html_copy_source = False
 

@@ -10,7 +10,7 @@ You can edit the properties of the selected chapter or part.
    Level** entry in the context menu, the **Part** menu, or the **Chapter** 
    menu.
    
-.. figure:: _images/chapterView01.png
+.. figure:: _images/chapter_view01.png
    :alt: Screenshot
 
 Title and description

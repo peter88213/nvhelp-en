@@ -4,7 +4,7 @@ Arc properties
 The Arc properties view opens in the right pane when you
 select an `arc <plotting.html#defining-arcs>`__ in the tree.
 
-.. figure:: _images/arcView01.png
+.. figure:: _images/arc_view01.png
    :alt: novelibre screenshot
 
 
@@ -24,7 +24,7 @@ Short name
 Be sure to enter a short name to be displayed as a reference in the tree.
 A single character like "A", "B", "C" is recommended.
 
-.. figure:: _images/arcView02.png
+.. figure:: _images/arc_view02.png
    :alt: novelibre screenshot
 
    Example: Arc short names as displayed in the tree

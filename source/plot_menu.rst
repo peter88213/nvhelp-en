@@ -3,7 +3,7 @@ Plot menu
 
 **Plot elements operation**
 
-.. figure:: _images/plotMenu01.png
+.. figure:: _images/plot_menu01.png
    :alt: novelibre screenshot
 
 Add Arc
@@ -18,17 +18,17 @@ You can add a project note to the tree with **Plot > Add arc**.
 -  The new arc has an auto-generated title. You can change it in the
    right pane.
 
-Add Turning point
------------------
+Add Plot point
+--------------
 
-**Add a new Turning point to the selected arc**
+**Add a new Plot point to the selected arc**
 
-You can add a turning point to an arc with **Plot > Add arc**.
+You can add a plot point to an arc with **Plot > Add Plot point**.
 
-- If a turning point is selected, the new turning point is placed after the selected one.
-- If an arc is selected, the new turning point is placed at the last position.
-- Otherwise, no new turning point is generated.
-- The new turning point has an auto-generated title. You can change it in
+- If a plot point is selected, the new plot point is placed after the selected one.
+- If an arc is selected, the new plot point is placed at the last position.
+- Otherwise, no new plot point is generated.
+- The new plot point has an auto-generated title. You can change it in
   the right pane.
 
 Insert Stage
@@ -45,7 +45,7 @@ Change Level
 
 **Change the level of the selected stages**
 
-.. figure:: _images/plotMenu02.png
+.. figure:: _images/plot_menu02.png
    :alt: novelibre screenshot
 
 -  **1st Level** is displayed in bold face.
@@ -61,7 +61,7 @@ Export plot description
 **Export an ODT document**
 
 This will generate a new OpenDocument text document (odt) containing
-stages, arcs, and turning points, each with description.
+stages, arcs, and plot points, each with description.
 File name suffix is ``_plot``.
 
 
@@ -73,14 +73,14 @@ Export plot list (spreadsheet)
 This will generate a new OpenDocument spreadsheet (ods) containing a
 table with a row for each section and a column for each arc.
 Associations between arcs and sections are color-highlighted.
-Turning point titles are displayed.
+Plot point titles are displayed.
 
 The arc titles and the section titles are hyperlinked to the
 respective descriptions in other exported documents, if any.
 
 File name suffix is ``_plotlist``.
 
-.. figure:: _images/plotMenu04.png
+.. figure:: _images/plot_menu04.png
    :alt: LibreOffice screenshot
 
    LibreOffice screenshot. Note the hyperlink from the arc title in the
@@ -101,7 +101,7 @@ This will generate a list-formatted HTML file, and launch your system’s
 web browser for displaying it. The HTML plot list is similar to the
 ODS plot list (see above), but without any hyperlinks.
 
-.. figure:: _images/plotMenu03.jpg
+.. figure:: _images/plot_menu03.jpg
    :alt: Edge browser screenshot
 
    Edge browser screenshot

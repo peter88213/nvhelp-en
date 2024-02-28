@@ -3,7 +3,7 @@ Tools menu
 
 **Miscellaneous functions**
 
-.. figure:: _images/toolsMenu02.png
+.. figure:: _images/tools_menu02.png
    :alt: novelibre screenshot
 
 .. note:: 
@@ -15,7 +15,7 @@ Plugin manager
 
 **Display and manage installed plugins**
 
-.. figure:: _images/toolsMenu01.png
+.. figure:: _images/tools_menu01.png
    :alt: novelibre screenshot
 
 -  Successfully installed plugins are displayed black on white by

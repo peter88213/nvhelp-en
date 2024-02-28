@@ -4,7 +4,7 @@ Chapter menu
 
 **Chapter operation**
 
-.. figure:: _images/chapterMenu01.png
+.. figure:: _images/chapter_menu01.png
    :alt: novelibre screenshot
 
 Add
@@ -25,7 +25,7 @@ Set Type
 
 **Set the type of the selected chapters**
 
-.. figure:: _images/chapterMenu02.png
+.. figure:: _images/chapter_menu02.png
    :alt: novelibre screenshot
 
 The `type <basic_concepts.html#part-chapter-section-types>`__ of
@@ -40,7 +40,7 @@ Change Level
 
 **Change the level of the selected chapters**
 
-.. figure:: _images/chapterMenu03.png
+.. figure:: _images/chapter_menu03.png
    :alt: novelibre screenshot
 
 -  **1st Level** converts the selected parts into chapters.

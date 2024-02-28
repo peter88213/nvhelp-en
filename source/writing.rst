@@ -52,7 +52,7 @@ If you answer "yes", LibreOffice will be launched with
 the manuscript document. Otherwise, the document is just
 kept for future use.
 
-*novelibre* now `locks the project <file_menu.html#lock>`__, so that
+*novelibre* now `locks the project <basic_concepts.html#project-lock>`__, so that
 it can't be accidentally modified with *novelibre* while worked on
 in LibreOffice.
 

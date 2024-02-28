@@ -3,7 +3,7 @@ File menu
 
 **File operation**
 
-.. figure:: _images/fileMenu01.png
+.. figure:: _images/file_menu01.png
    :alt: novelibre screenshot
 
 New
@@ -18,7 +18,7 @@ New
 	The submenu can be extended by plugins to add more file types
 	from which a *novelibre* project can be created.
 
-.. figure:: _images/fileMenu02.png
+.. figure:: _images/file_menu02.png
    :alt: novelibre screenshot
 
 Empty project
@@ -156,7 +156,7 @@ You can copy the style sheet *novx.css* into the current project
 folder with **File > Copy style sheet**. This allows you to view the
 *.novx* project file with a web browser.
 
-.. figure:: _images/fileMenu01.jpg
+.. figure:: _images/file_menu01.jpg
    :alt: Edge browser screenshot
 
    Edge browser screenshot

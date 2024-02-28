@@ -3,7 +3,7 @@ Items menu
 
 **Item operation**
 
-.. figure:: _images/itemsMenu01.png
+.. figure:: _images/items_menu01.png
    :alt: novelibre screenshot
 
 Add

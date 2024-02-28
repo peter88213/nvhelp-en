@@ -8,7 +8,7 @@ select a location or an item in the tree.
 Title and description
 ---------------------
 
-.. figure:: _images/worldView01.png
+.. figure:: _images/world_view01.png
    :alt: Screenshot
 
 Title and description are displayed in an editable "index card".
@@ -40,7 +40,7 @@ Links
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/characterView04.png
+.. figure:: _images/character_view04.png
    :alt: Screenshot
    
 This is a list for image and research data links.

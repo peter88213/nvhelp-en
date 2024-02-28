@@ -3,7 +3,7 @@ Characters menu
 
 **Character operation**
 
-.. figure:: _images/charactersMenu01.png
+.. figure:: _images/characters_menu01.png
    :alt: novelibre screenshot
 
 Add
@@ -26,7 +26,7 @@ Set Status
 
 **Set the character status**
 
-.. figure:: _images/charactersMenu02.png
+.. figure:: _images/characters_menu02.png
    :alt: novelibre screenshot
 
 This can be *major* or *minor*. Major characters are highlighted in the

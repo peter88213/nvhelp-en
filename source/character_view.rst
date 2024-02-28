@@ -5,7 +5,7 @@ The Character properties view opens in the right pane when you
 select a character in the tree.
 
 
-.. figure:: _images/characterView01.png
+.. figure:: _images/character_view01.png
    :alt: Screenshot
 
 Title and description
@@ -47,7 +47,7 @@ Bio
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/characterView02.png
+.. figure:: _images/character_view02.png
    :alt: Screenshot
 
 Birth/death date
@@ -63,7 +63,7 @@ Goals
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/characterView03.png
+.. figure:: _images/character_view03.png
    :alt: Screenshot
 
 Changes to the goals are applied when the mouse is clicked anywhere outside
@@ -79,7 +79,7 @@ Links
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/characterView04.png
+.. figure:: _images/character_view04.png
    :alt: Screenshot
    
 This is a list for image and research data links.

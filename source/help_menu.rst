@@ -3,7 +3,7 @@ Help menu
 
 **Project notes operation**
 
-.. figure:: _images/helpMenu01.png
+.. figure:: _images/help_menu01.png
    :alt: novelibre screenshot
 
 .. note:: 

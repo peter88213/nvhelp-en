@@ -8,7 +8,7 @@ The Book properties view opens in the right pane when you
 select "Book" in the tree, or when you click on the |ico01|
 toolbar icon. It is the initial view after opening a *novelibre* project.
 
-.. figure:: _images/bookView01.png
+.. figure:: _images/book_view01.png
    :alt: novelibre screenshot
 
 
@@ -24,7 +24,7 @@ anywhere outside the text input field.
 After exporting the book to an *.odt* document, title and description
 appear in the document properties.
 
-.. figure:: _images/bookView08.png
+.. figure:: _images/book_view08.png
    :alt: Screenshot
 
    LibreOffice Writer screenshot
@@ -32,7 +32,7 @@ appear in the document properties.
 These properties are visible, for example, when the mouse pointer is over
 the document in the Windows Explorer.
 
-.. figure:: _images/bookView09.png
+.. figure:: _images/book_view09.png
    :alt: Screenshot
    
    Windows 10 Explorer screenshot
@@ -44,7 +44,7 @@ Document language
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/bookView02.png
+.. figure:: _images/book_view02.png
    :alt: novelibre screenshot
 
 - Language code acc. to ISO 639-1
@@ -52,7 +52,7 @@ Expand or collapse this frame by clicking on the label.
 
 This information controls the spelling checker for export documents.
 
-.. figure:: _images/bookView10.png
+.. figure:: _images/book_view10.png
    :alt: LibreOffice Writer screenshot
 
    LibreOffice Writer screenshot
@@ -63,7 +63,7 @@ If not set, the System locale setting will be used as default.
 .. hint::
    You can also set or change the document language with LibreOffice, then it will be applied on import. 
 
-	.. figure:: _images/bookView11.png
+	.. figure:: _images/book_view11.png
 	   :alt: LibreOffice Writer screenshot
 	   
 	   LibreOffice Writer screenshot
@@ -74,7 +74,7 @@ Auto numbering
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/bookView03.png
+.. figure:: _images/book_view03.png
    :alt: novelibre screenshot
 
 Auto number chapters/parts when refreshing the tree
@@ -109,7 +109,7 @@ Renamings
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/bookView04.png
+.. figure:: _images/book_view04.png
    :alt: novelibre screenshot
 
 *novelibre* provides some ready-made fields for sections and characters 
@@ -139,7 +139,7 @@ Narrative time
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/bookView05.png
+.. figure:: _images/book_view05.png
    :alt: novelibre screenshot
 
 To get an overview of the course of the narrative time, you can enter
@@ -186,7 +186,7 @@ Writing progress
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/bookView06.png
+.. figure:: _images/book_view06.png
    :alt: novelibre screenshot
 
 With *novelibre*, you can set a word count target and track your
@@ -241,12 +241,12 @@ A cover thumbnail is displayed with the book properties if you
 provide a PNG image file with the project name along with the *.novx*
 file. The recommended image width is 100 to 200 pixels.
 
-.. figure:: _images/bookView12.png
+.. figure:: _images/book_view12.png
    :alt: Windows 10 Explorer screenshot
    
    Windows 10 Explorer screenshot
    
-.. figure:: _images/bookView07.jpg
+.. figure:: _images/book_view07.jpg
    :alt: novelibre screenshot
 
    novelibre screenshot

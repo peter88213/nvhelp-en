@@ -5,7 +5,7 @@ The Stage properties view opens in the right pane when you
 select a stage in the tree.
 
 
-.. figure:: _images/stageView01.png
+.. figure:: _images/stage_view01.png
    :alt: Screenshot
 
 Title and description

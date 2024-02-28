@@ -37,6 +37,7 @@ or Section menu.
 -  Word counts by status appear in the `Book properties
    <book_view.html#writing-pogress>`__.
 
+-----------------
 
 Formatting text
 ---------------
@@ -75,6 +76,7 @@ Text passages in sections
    Paragraph-wise or inline text markup for other languages is supported by
    *novelibre*.
 
+-----------------
 
 Project lock
 ------------
