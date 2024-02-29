@@ -48,7 +48,7 @@ title.
    :alt: novelibre screenshot
    
 .. hint::
-   If you decide to let *novelibre* `auto-number the chapters 
+   If you decide to have *novelibre* `auto-number the chapters 
    <book_view.html#auto-numbering>`__, you can skip this and keep the
    default chapter title. 
 
@@ -123,7 +123,8 @@ page.
 There you also can learn how to set up multiple strands or character arcs.
 
 .. tip::
-   With the `nv_templates plugin <nv_templates/index.html>`__ you can have 
+   With the `nv_templates plugin
+   <https://github.com/peter88213/nv_templates/>`__ you can have 
    *novelibre* set up your new project with a pre-made structure like the
    "Three Act Model" or "Save The Cat". 
 
