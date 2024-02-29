@@ -45,13 +45,16 @@ to be set.
 Sections
 ~~~~~~~~
 
-All body text of a novel in *novelibre* belongs to sections. Sections
-can be scenes, descriptions, narrative summaries--it is entirely up to
-you how you divide your text into sections. There is a variety of
-`metadata for sections <section_view.html>`__ for your free use.
+All body text of a novel in *novelibre* belongs to sections. 
+Sections can be scenes, pieces of exposition, descriptions, narrative 
+summaries---it is entirely up to you how you divide your text into 
+sections. There is a variety of `metadata for sections 
+<section_view.html>`__ for your free use.
 
-In the text body of the exported documents, sections are marked with
-section dividers by default, like so: ``* * *``
+In the text body of the exported documents, sections are separated by
+section dividers by default, like so: 
+
+``* * *``
 
 However, if you need more fragmented sections when plotting and organizing
 than the reader should see later, you can also `append sections
