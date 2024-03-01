@@ -239,3 +239,19 @@ your manuscript with a single mouse click.
 .. note::
    Loading a template or changing the default font and page size has no 
    impact on re-importing the document with *novelibre*.
+   
+.. tip::
+   If you just want to change the font without applying templates, 
+   you can achieve this by having LibreOffice replace it automatically. 
+   For this, open the **Options** dialog and go to **Fonts**. 
+   Tick the **Apply replacement table** checkbox. 
+   Then enter the fonts of your choice. 
+   
+   *novelibre* uses "Courier New" for text documents, and "Calibri" 
+   for spreadsheets. 
+   
+   .. figure:: _images/preparations10.png
+      :alt: LibreOffice screenshot
+   
+      LibreOffice Options dialog screenshot.
+   
