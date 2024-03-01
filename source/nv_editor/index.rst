@@ -109,9 +109,10 @@ Word count
    menu entry.
 
 .. note::
-   *Live updating the word count is resource intensive and may slow down
+   Live updating the word count is resource intensive and may slow down
    the program when editing big sections. This is why it’s disabled by
-   default.*
+   default.
+
 
 Apply changes
 -------------
@@ -121,9 +122,20 @@ Apply changes
 -  If the project is locked in *novelibre*, you will be asked to unlock
    it before changes can be applied.
 
-Exit
-----
+.. note::
+   Before applying changes, the program checks the editor content for
+   XML validity. Malformed XML will not be accepted. 
 
--  You can exit by clicking on **Exit**, by closing the window, or with
-   ``Ctrl``-``Q``.
--  When exiting the program, you will be asked for applying changes.
+
+Close the editor window
+-----------------------
+
+-  To close the editor window, click on the **Close** button,
+   or just close the window.
+-  Under Windows you can optionally exit with **Section > Exit**
+   or ``Alt``-``F4``.
+-  Otherwise you can optionally exit with **Section > Quit**
+   or ``Ctrl``-``Q``.
+-  When closing the editor window, you will be asked for applying changes.
+
+

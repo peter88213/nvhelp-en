@@ -68,7 +68,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#create-a-section">Create a section</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#word-count">Word count</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#apply-changes">Apply changes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#exit">Exit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#close-the-editor-window">Close the editor window</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
@@ -207,9 +207,9 @@ menu entry.</p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><em>Live updating the word count is resource intensive and may slow down
+<p>Live updating the word count is resource intensive and may slow down
 the program when editing big sections. This is why it’s disabled by
-default.</em></p>
+default.</p>
 </div>
 </section>
 <section id="apply-changes">
@@ -220,13 +220,22 @@ default.</em></p>
 <li><p>If the project is locked in <em>novelibre</em>, you will be asked to unlock
 it before changes can be applied.</p></li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Before applying changes, the program checks the editor content for
+XML validity. Malformed XML will not be accepted.</p>
+</div>
 </section>
-<section id="exit">
-<h2>Exit<a class="headerlink" href="#exit" title="Link to this heading"></a></h2>
+<section id="close-the-editor-window">
+<h2>Close the editor window<a class="headerlink" href="#close-the-editor-window" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>You can exit by clicking on <strong>Exit</strong>, by closing the window, or with
-<code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">Q</span></code>.</p></li>
-<li><p>When exiting the program, you will be asked for applying changes.</p></li>
+<li><p>To close the editor window, click on the <strong>Close</strong> button,
+or just close the window.</p></li>
+<li><p>Under Windows you can optionally exit with <strong>Section &gt; Exit</strong>
+or <code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">F4</span></code>.</p></li>
+<li><p>Otherwise you can optionally exit with <strong>Section &gt; Quit</strong>
+or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">Q</span></code>.</p></li>
+<li><p>When closing the editor window, you will be asked for applying changes.</p></li>
 </ul>
 </section>
 </section>
