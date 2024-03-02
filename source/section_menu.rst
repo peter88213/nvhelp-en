@@ -78,14 +78,16 @@ This will generate a new OpenDocument spreadsheet (ods) listing the
 following:
 
 -  Hyperlink to the section in the manuscript (if any)
--  Section title
--  Section description
--  Tags
--  Section notes
+-  Section title (*)
+-  Section description (*)
+-  Narrative date (*)
+-  Narrative time (*)
+-  Tags (*)
+-  Section notes (*)
 -  A/R
--  Goal
--  Conflict
--  Outcome
+-  Goal (*)
+-  Conflict (*)
+-  Outcome (*)
 -  Sequential section number
 -  Words total
 -  Word count
@@ -93,8 +95,11 @@ following:
 -  Locations
 -  Items
 
-Only “normal” sections get a row in the section list. Sections of the
-“Unused” type are omitted.
+Columns marked with "(*)" can be edited and written back.
+
+.. note::
+   Only “normal” sections appear in the section list. 
+   Sections of the “Unused” type are omitted.
 
 File name suffix is ``_sectionlist_tmp``.
 

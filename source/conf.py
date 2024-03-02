@@ -9,7 +9,7 @@
 project = 'novelibre User guide'
 copyright = '2024, peter88213'
 author = 'peter88213'
-release = '2.4'
+release = '2.5'
 # The release is related to the novelibre application's major/minor version numbers.
 
 # -- General configuration ---------------------------------------------------
