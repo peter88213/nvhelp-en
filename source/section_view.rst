@@ -250,6 +250,12 @@ Minutes
 Clear duration
    This will reset *Days*, *Hours*, and *Minutes* simultaneously.
 
+Generate
+   This generates the duration from the date/time data of the
+   `next section <Navigation buttons_>`_, so the next section
+   follows directly the current one.
+
+
 "Sticky note"
 -------------
 
