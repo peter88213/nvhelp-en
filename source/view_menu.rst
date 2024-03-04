@@ -151,6 +151,7 @@ Options
 .. figure:: _images/view_menu02.png
    :alt: novelibre screenshot
 
+
 Coloring mode
 ~~~~~~~~~~~~~
 
@@ -168,11 +169,12 @@ Work phase
    is behind the work phase defined in the `Book properties
    <book_view.html#writing-pogress>`__.
 
+
 Large toolbar icons
 ~~~~~~~~~~~~~~~~~~~
 
-By default, the icon size is 16x16 pixels. If *Large toolbar icons* is
-checked, 24x24 icons are used after the next program startup.
+By default, the icon size is 16x16 pixels. If the *Large toolbar icons*
+checkbox is ticked, 24x24 icons are used after the next program startup.
 
 .. note::
    This applies not only to the toolbar, but also to all other

@@ -45,14 +45,14 @@ to be set.
 Sections
 ~~~~~~~~
 
-All body text of a novel in *novelibre* belongs to sections. 
-Sections can be scenes, pieces of exposition, descriptions, narrative 
-summaries---it is entirely up to you how you divide your text into 
-sections. There is a variety of `metadata for sections 
+All body text of a novel in *novelibre* belongs to sections.
+Sections can be scenes, pieces of exposition, descriptions, narrative
+summaries---it is entirely up to you how you divide your text into
+sections. There is a variety of `metadata for sections
 <section_view.html>`__ for your free use.
 
 In the text body of the exported documents, sections are separated by
-section dividers by default, like so: 
+section dividers by default, like so:
 
 ``* * *``
 
@@ -184,7 +184,8 @@ Project lock
 ------------
 
 When exporting a document that can be edited outsides *novelibre*,
-the project is automatically locked in order to prevent confusion.
+the project can be automatically locked in order to prevent confusion.
+This behavior depends on the `Export settings <export_menu.html#options>`__.
 
 .. important::
    The project cannot be locked unless changes are saved. 

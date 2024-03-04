@@ -59,3 +59,15 @@ the scenes are far away from each other.
 
    Setup/payoff example
 
+
+Plot grid
+---------
+
+Each arc has its own column in the `plot grid
+<export_menu.html#plot-grid-for-editing>`__ spreadsheet document,
+Where the `arc notes <section_view.html#arcs>`__ are shown.
+
+.. hint::
+   You can also relate an arc to a section by entering text
+   in the corresponding *Arc notes* cell of the plot grid. 
+

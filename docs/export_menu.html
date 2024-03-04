@@ -66,6 +66,7 @@
 <li class="toctree-l2"><a class="reference internal" href="project_notes_menu.html">Project notes menu</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Export menu</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#manuscript-for-editing">Manuscript for editing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-grid-for-editing">Plot grid for editing</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#manuscript-for-third-party-word-processing">Manuscript for third-party word processing</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#manuscript-for-printing-export-only">Manuscript for printing (export only)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#brief-synopsis-export-only">Brief synopsis (export only)</a></li>
@@ -74,6 +75,11 @@
 <li class="toctree-l3"><a class="reference internal" href="#plot-description-export-only">Plot description (export only)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#plot-spreadsheet-export-only">Plot spreadsheet (export only)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#show-plot-list">Show Plot list</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#options">Options</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ask-before-opening-exported-documents">Ask before opening exported documents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#lock-the-project-after-document-export-for-editing">Lock the project after document export for editing</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="import_menu.html">Import menu</a></li>
@@ -148,6 +154,32 @@ discarded after the <em>novelibre</em> project is updated.</p>
 <li><p>Text markup: Bold and italics are supported. Other highlighting such
 as underline and strikethrough are lost.</p></li>
 </ul>
+</section>
+<section id="plot-grid-for-editing">
+<h2>Plot grid for editing<a class="headerlink" href="#plot-grid-for-editing" title="Link to this heading"></a></h2>
+<p>This will generate a new OpenDocument spreadsheet (ods) as described
+in the <a class="reference external" href="plotting.html#plot-grid">Plotting with novelibre</a> chapter,
+listing the following:</p>
+<ul class="simple">
+<li><p>Sequential section number as a hyperlink to the section in the manuscript (if any)</p></li>
+<li><p>Narrative date</p></li>
+<li><p>Narrative time</p></li>
+<li><p>Section title</p></li>
+<li><p>Section description</p></li>
+<li><p>Tags</p></li>
+<li><p>One column per arc with the section’s arc notes</p></li>
+<li><p>A/R</p></li>
+<li><p>Goal</p></li>
+<li><p>Conflict</p></li>
+<li><p>Outcome</p></li>
+<li><p>Section notes</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only “normal” sections appear in the plot grid.
+Sections of the “Unused” type are omitted.</p>
+</div>
+<p>File name suffix is <code class="docutils literal notranslate"><span class="pre">_grid_tmp</span></code>.</p>
 </section>
 <section id="manuscript-for-third-party-word-processing">
 <h2>Manuscript for third-party word processing<a class="headerlink" href="#manuscript-for-third-party-word-processing" title="Link to this heading"></a></h2>
@@ -286,6 +318,33 @@ displaying it.</p>
 <li><p>The Report is a temporary file, auto-deleted on program exit.</p></li>
 <li><p>If needed, you can have your web browser save or print it.</p></li>
 </ul>
+</section>
+<section id="options">
+<h2>Options<a class="headerlink" href="#options" title="Link to this heading"></a></h2>
+<p><strong>Project independent program settings</strong></p>
+<figure class="align-default">
+<img alt="novelibre screenshot" src="_images/export_menu02.png" />
+</figure>
+<section id="ask-before-opening-exported-documents">
+<h3>Ask before opening exported documents<a class="headerlink" href="#ask-before-opening-exported-documents" title="Link to this heading"></a></h3>
+<p>This checkbox controls the behavior on document export.</p>
+<ul class="simple">
+<li><p>If ticked, you will be asked whether you want to
+have <em>novelibre</em> launch <em>Writer</em> or <em>Calc</em> with the newly created
+document opened.</p></li>
+<li><p>If unticked, <em>novelibre</em> will launch <em>Writer</em> or
+<em>Calc</em> with the newly created document opened right away.</p></li>
+</ul>
+</section>
+<section id="lock-the-project-after-document-export-for-editing">
+<h3>Lock the project after document export for editing<a class="headerlink" href="#lock-the-project-after-document-export-for-editing" title="Link to this heading"></a></h3>
+<p>This checkbox controls the behavior on opening documents for editing.</p>
+<ul class="simple">
+<li><p>If ticked, <em>novelibre</em> will <a class="reference external" href="basic_concepts.html#project-lock">lock the project</a> when launching <em>Writer</em> or <em>Calc</em>.</p></li>
+<li><p>If unticked, <em>novelibre</em> won’t lock the project when launching
+<em>Writer</em> or <em>Calc</em>.</p></li>
+</ul>
+</section>
 </section>
 </section>
 

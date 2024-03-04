@@ -36,6 +36,33 @@ File name suffix is ``_manuscript_tmp``.
    as underline and strikethrough are lost.
 
 
+Plot grid for editing
+---------------------
+
+This will generate a new OpenDocument spreadsheet (ods) as described
+in the `Plotting with novelibre <plotting.html#plot-grid>`__ chapter,
+listing the following:
+
+-  Sequential section number as a hyperlink to the section in the manuscript (if any)
+-  Narrative date
+-  Narrative time
+-  Section title
+-  Section description
+-  Tags
+-  One column per arc with the section's arc notes
+-  A/R
+-  Goal
+-  Conflict
+-  Outcome
+-  Section notes
+
+.. note::
+   Only “normal” sections appear in the plot grid. 
+   Sections of the “Unused” type are omitted.
+
+File name suffix is ``_grid_tmp``.
+
+
 Manuscript for third-party word processing
 ------------------------------------------
 
@@ -181,3 +208,35 @@ displaying it.
 -  The Report is a temporary file, auto-deleted on program exit.
 -  If needed, you can have your web browser save or print it.
 
+
+Options
+-------
+
+**Project independent program settings**
+
+.. figure:: _images/export_menu02.png
+   :alt: novelibre screenshot
+   
+Ask before opening exported documents
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This checkbox controls the behavior on document export.
+
+- If ticked, you will be asked whether you want to
+  have *novelibre* launch *Writer* or *Calc* with the newly created
+  document opened.
+
+- If unticked, *novelibre* will launch *Writer* or
+  *Calc* with the newly created document opened right away.
+
+
+Lock the project after document export for editing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This checkbox controls the behavior on opening documents for editing.
+
+- If ticked, *novelibre* will `lock the project
+  <basic_concepts.html#project-lock>`__ when launching *Writer* or *Calc*.
+
+- If unticked, *novelibre* won't lock the project when launching
+  *Writer* or *Calc*.

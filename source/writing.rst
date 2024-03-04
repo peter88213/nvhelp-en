@@ -40,8 +40,9 @@ continue working on this document. If this is the case, answer "Yes".
 If you answer "No", *novelibre* creates a new manuscript document.
 "Cancel" aborts the export process and lets you return to the main window.
 
-If you started the export using the **Export** menu command, you will now
-be asked whether you want to open the newly created document.
+If you started the export using the **Export** menu command, you may
+be asked whether you want to open the newly created document, depending
+of your `Export settings <export_menu.html#options>`__.
 
 .. figure:: _images/writing03.png
    :alt: novelibre screenshot
@@ -52,9 +53,10 @@ If you answer "yes", *Writer* will be launched with
 the manuscript document. Otherwise, the document is just
 kept for future use.
 
-*novelibre* now `locks the project <basic_concepts.html#project-lock>`__, so that
-it can't be accidentally modified with *novelibre* while worked on
-in *Writer*.
+Depending on your `Export settings <export_menu.html#options>`__,
+*novelibre* now may `lock the project <basic_concepts.html#project-lock>`__,
+so that it can't be accidentally modified with *novelibre* while
+worked on in *Writer*.
 
 .. note::
    *novelibre* starts your standard application for files with the *.odt* 

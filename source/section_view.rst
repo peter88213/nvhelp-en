@@ -66,10 +66,14 @@ Here you can assign the selected section to the arcs it belongs to.
 The assigned arcs are displayed in a list in the order they are
 assigned to the section.
 
-.. hint::
+.. tip::
    A more convenient way to manage and keep track of arc assignments is 
    offered by the `nv_matrix plugin 
    <https://github.com/peter88213/nv_matrix/>`__. 
+   
+   You can also relate an arc to a section by entering text
+   in the corresponding *Arc notes* cell of the 
+   `plot grid <plotting.html#plot-grid>`__. 
 
 Add arc assignment
    When clicking on |Add|, the "Pick mode"
@@ -91,6 +95,14 @@ View the related element
 
    .. hint::
       You can go back to the initially selected section with |Go Back|. 
+
+Arc notes
+   You can enter section-related notes for the arc selected
+   in the list of related arcs. These notes appear in the
+   `plot grid <plotting.html#plot-grid>`__ where you also can
+   edit them.
+
+
 
 Plot points
 ~~~~~~~~~~~
