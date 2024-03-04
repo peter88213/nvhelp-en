@@ -41,20 +41,23 @@ Plot grid for editing
 
 This will generate a new OpenDocument spreadsheet (ods) as described
 in the `Plotting with novelibre <plotting.html#plot-grid>`__ chapter,
-listing the following:
+with a row per section, containing the following data:
 
--  Sequential section number as a hyperlink to the section in the manuscript (if any)
--  Narrative date
--  Narrative time
--  Section title
--  Section description
--  Tags
--  One column per arc with the section's arc notes
--  A/R
--  Goal
--  Conflict
--  Outcome
--  Section notes
+- The section ID as a hyperlink to the section in the manuscript (if any)
+- Sequential section number
+- Narrative date
+- Narrative time
+- Day
+- Section title
+- Section description
+- Viewpoint character
+- One column per arc with the section's arc notes
+- Tags
+- A/R
+- Goal
+- Conflict
+- Outcome
+- Section notes
 
 .. note::
    Only “normal” sections appear in the plot grid. 

@@ -33,10 +33,11 @@ plotting.
 
    Arcs
 
-“Arc” can mean a variety of things: Narrative strand, thread, character
-arc, storyline, subplot, sequence of cause and effect, sequence
-of setup and payoff, and so on. You can think of an arc as a line on which
-plot points are arranged that characterize the progression of the story.
+“Arc” can mean a variety of things: Plot line, narrative strand,
+thread, character arc, storyline, subplot, sequence of cause and effect,
+sequence of setup and payoff, and so on.
+You can think of an arc as a line on which plot points are arranged
+that characterize the progression of the story.
 These plot points can be assigned to scenes to indicate the scene’s
 relevance to the plot.
 

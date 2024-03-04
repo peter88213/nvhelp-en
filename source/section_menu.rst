@@ -74,10 +74,10 @@ Section list (export only)
 
 **Export an ODS document**
 
-This will generate a new OpenDocument spreadsheet (ods) listing the
-following:
+This will generate a new OpenDocument spreadsheet (ods)
+with a row per section, containing the following data:
 
--  Hyperlink to the section in the manuscript (if any)
+- The section ID as a hyperlink to the section in the manuscript (if any)
 -  Section title
 -  Section description
 -  Narrative date
