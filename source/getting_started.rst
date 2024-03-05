@@ -129,8 +129,8 @@ There you also can learn how to set up multiple strands or character arcs.
    "Three Act Model" or "Save The Cat". 
 
 
-Starting with a plot grid
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating a plot grid
+~~~~~~~~~~~~~~~~~~~~
 
 If you want to outline your novel using a `plot grid
 <plotting.html#plot-grid>`__, you can do this with
