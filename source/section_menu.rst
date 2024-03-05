@@ -27,6 +27,20 @@ Properties of a new section
    -  No date/time set
 
 
+Add multiple sections
+---------------------
+
+**Add new sections in bulk**
+
+You can add up to 20 sections to the tree with **Section > Add multiple sections**.
+
+- You will be prompted to enter the number of new sections.
+- The number of sections to be added at once is limited to 20.
+- The new sections are placed at the next free position after the selection, if
+  possible.
+- Otherwise, no new section is generated.
+
+
 Set Type
 --------
 

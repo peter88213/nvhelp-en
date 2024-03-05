@@ -45,6 +45,8 @@ Change Level
 
 **Change the level of the selected stages**
 
+You can change the level of the selected stages with **Plot > Change Level**.
+
 .. figure:: _images/plot_menu02.png
    :alt: novelibre screenshot
 
@@ -60,6 +62,8 @@ Export plot description
 
 **Export an ODT document**
 
+You can export a plot description with **Plot > Export plot description**.
+
 This will generate a new OpenDocument text document (odt) containing
 stages, arcs, and plot points, each with description.
 File name suffix is ``_plot``.
@@ -69,6 +73,8 @@ Export plot list (spreadsheet)
 ------------------------------
 
 **Export an ODS document**
+
+You can export a plot list with **Plot > Export plot list (spreadsheet)**.
 
 This will generate a new OpenDocument spreadsheet (ods) containing a
 table with a row for each section and a column for each arc.
@@ -96,6 +102,8 @@ Show plot list
 --------------
 
 **Show an HTML report with plot elements**
+
+You can show a plot list in your web browser with **Plot > Show plot list**.
 
 This will generate a list-formatted HTML file, and launch your system’s
 web browser for displaying it. The HTML plot list is similar to the

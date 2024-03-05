@@ -129,6 +129,31 @@ There you also can learn how to set up multiple strands or character arcs.
    "Three Act Model" or "Save The Cat". 
 
 
+Starting with a plot grid
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you want to outline your novel using a `plot grid
+<plotting.html#plot-grid>`__, you can do this with
+*novelibre*:
+
+1. Create an empty new project as described above.
+2. Add a single chapter.
+3. Select this chapter, then `add multiple sections
+   <section_menu.html#add-multiple-sections>`__.
+4. If you need a number of new sections above the limit,
+   repeat step 3.
+   However, it is recommended to start with a few sections
+   that are easier to distribute to the chapters to be created later.
+   You can extend the plot grid over time.
+5. Create the plot lines you need by `adding arcs
+   <plot_menu.html#add-arc>`__.
+6. `Export a plot grid <export_menu.html#plot-grid-for-editing>`__
+   and fill the table cells.
+7. `Import <import_menu.html>`__ the plot grid.
+8. `Add more chapters <chapter_menu.html#add>`__ and
+   `move the sections <desktop.html#move-tree-elements>`__
+   to them.
+
 -----------------
 
 
