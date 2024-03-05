@@ -51,7 +51,7 @@ with a row per section, containing the following data:
 - Section title
 - Section description
 - Viewpoint character
-- One column per arc with the section's arc notes
+- One column per plot line with the section's plot line notes
 - Tags
 - A/R
 - Goal
@@ -183,7 +183,7 @@ document (odt). File name suffix is ``_plot``.
 The document contains:
 
 -  First and second level stages (titles and descriptions).
--  Arcs (titles and descriptions).
+-  Plot lines (titles and descriptions).
 -  Plot points (titles, descriptions, and links to the associated
    section, if any).
 
@@ -194,7 +194,7 @@ Plot spreadsheet (export only)
 **Export an ODS document**
 
 This will generate a new OpenDocument spreadsheet (ods) containing
-sections, arcs, and plot points. File name suffix is ``_plotlist``.
+sections, plot lines, and plot points. File name suffix is ``_plotlist``.
 The spreadsheet is not meant to be written back to *novelibre*.
 
 -  There are hyperlinks to the sections in the manuscript, and to the
@@ -204,9 +204,9 @@ The spreadsheet is not meant to be written back to *novelibre*.
 Show Plot list
 --------------
 
-Show sections, arcs, and plot points. This will generate a
-list-formatted HTML file, and launch your system’s web browser for
-displaying it.
+Show sections, plot lines, and plot points.
+This will generate a list-formatted HTML file, and launch your
+system’s web browser to display it.
 
 -  The Report is a temporary file, auto-deleted on program exit.
 -  If needed, you can have your web browser save or print it.

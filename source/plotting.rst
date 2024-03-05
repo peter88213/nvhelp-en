@@ -22,36 +22,36 @@ you can save the story structure of your project for reuse.
 
 -----------------
 
-Defining Arcs
--------------
+Defining plot lines
+-------------------
 
-*novelibre* provides *arcs* as a powerful and flexible concept for
+*novelibre* provides *plot lines* as a powerful and flexible concept for
 plotting.
 
-.. figure:: _images/arcs01.png
-   :alt: Arcs
+.. figure:: _images/plotlines01.png
+   :alt: Plot lines
 
-   Arcs
+   Plot lines
 
-“Arc” can mean a variety of things: Plot line, narrative strand,
+“Plot line” can mean a variety of things: narrative strand,
 thread, character arc, storyline, subplot, sequence of cause and effect,
 sequence of setup and payoff, and so on.
-You can think of an arc as a line on which plot points are arranged
+You can think of a plot line as a line on which plot points are arranged
 that characterize the progression of the story.
 These plot points can be assigned to scenes to indicate the scene’s
 relevance to the plot.
 
--  *novelibre* lets you define any number of arcs.
--  Any number of scenes can be assigned to each arc.
--  Any number of arcs can be assigned to each scene.
--  Each arc can contain any number of plot points.
+-  *novelibre* lets you define any number of plot lines.
+-  Any number of scenes can be assigned to each plot line.
+-  Any number of plot lines can be assigned to each scene.
+-  Each plot line can contain any number of plot points.
 -  Each plot point can be assigned to exactly one scene.
 -  Any number of plot points can be assigned to each scene.
 
 The association of scenes and plot points is shown in the “Plot”
 column of the tree view.
 
-You can use arcs to establish named connections between scenes, such as
+You can use plot lines to establish named connections between scenes, such as
 *setup -> payoff*, so you can keep track of this relationship even if
 the scenes are far away from each other.
 
@@ -69,12 +69,12 @@ The *novelibre* `plot grid
 each section, and a set of plot-relevant section metadata in the columns.
 The first visible column contains links to the sections in the
 `manuscript <export_menu.html#manuscript-for-editing>`__.
-Each arc has its own column in the plot grid,
-Where the `arc notes <section_view.html#arcs>`__ are shown.
-The plot grid offers you a convenient way to enter the arc notes by
+Each plot line has its own column in the plot grid,
+Where the `plot line notes <section_view.html#plot-lines>`__ are shown.
+The plot grid offers you a convenient way to enter the plot line notes by
 seeing the big pictures of your plot construction.
 
 .. hint::
-   You can assign a section to an arc by entering text
-   in the corresponding *Arc notes* cell of the plot grid. 
+   You can assign a section to a plot line by entering text
+   in the corresponding *Plot line notes* cell of the plot grid. 
 

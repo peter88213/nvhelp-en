@@ -43,9 +43,6 @@ Create from ODT…
       **outline**, containing the chapter and section structure with titles
       and descriptions.
 
-   .. important::
-        
-
 
 Open…
 -----

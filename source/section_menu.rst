@@ -23,7 +23,7 @@ Properties of a new section
    -  *Normal* type
    -  *Outline* completion status
    -  No viewpoint character assigned
-   -  No arc or tag assigned
+   -  No plot line or tag assigned
    -  No date/time set
 
 

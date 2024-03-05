@@ -35,7 +35,7 @@ Project tree structure
 -  The **Characters/Locations/Items** branches contain descriptions of
    the story world’s elements that can be associated with the book’s
    sections.
--  The **Arcs** branch contains the arcs and Plot points.
+-  The **Plot lines** branch contains the plot lines and plot points.
 -  The **Project notes** branch contains all project notes.
 
 

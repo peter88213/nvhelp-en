@@ -84,13 +84,12 @@ Show Items
    Items**.
 
 
-Show Arcs
----------
+Show Plot lines
+---------------
 
-**Go to the “Arcs” branch and expand it**
+**Go to the “Plot lines” branch and expand it**
 
--  You can select and open the “Arcs” branch with **View > View
-   Research**.
+-  You can select and open the “Plot lines” branch with **View > Show Plot lines**.
 
 
 Show Project notes

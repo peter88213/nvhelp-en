@@ -6,27 +6,27 @@ Plot menu
 .. figure:: _images/plot_menu01.png
    :alt: novelibre screenshot
 
-Add Arc
--------
+Add Plot line
+-------------
 
-**Add a new story arc**
+**Add a new plot line to the story**
 
-You can add a project note to the tree with **Plot > Add arc**.
+You can add a project note to the tree with **Plot > Add plot line**.
 
--  If an arc is selected, the new item is placed after the selected one.
--  Otherwise, the new arc is placed at the last position.
--  The new arc has an auto-generated title. You can change it in the
+-  If a plot line is selected, the new item is placed after the selected one.
+-  Otherwise, the new plot line is placed at the last position.
+-  The new plot line has an auto-generated title. You can change it in the
    right pane.
 
 Add Plot point
 --------------
 
-**Add a new Plot point to the selected arc**
+**Add a new Plot point to the selected plot line**
 
-You can add a plot point to an arc with **Plot > Add Plot point**.
+You can add a plot point to a plot line with **Plot > Add Plot point**.
 
 - If a plot point is selected, the new plot point is placed after the selected one.
-- If an arc is selected, the new plot point is placed at the last position.
+- If a plot line is selected, the new plot point is placed at the last position.
 - Otherwise, no new plot point is generated.
 - The new plot point has an auto-generated title. You can change it in
   the right pane.
@@ -65,7 +65,7 @@ Export plot description
 You can export a plot description with **Plot > Export plot description**.
 
 This will generate a new OpenDocument text document (odt) containing
-stages, arcs, and plot points, each with description.
+stages, plot lines, and plot points, each with description.
 File name suffix is ``_plot``.
 
 
@@ -77,11 +77,11 @@ Export plot list (spreadsheet)
 You can export a plot list with **Plot > Export plot list (spreadsheet)**.
 
 This will generate a new OpenDocument spreadsheet (ods) containing a
-table with a row for each section and a column for each arc.
-Associations between arcs and sections are color-highlighted.
+table with a row for each section and a column for each plot line.
+Associations between plot lines and sections are color-highlighted.
 Plot point titles are displayed.
 
-The arc titles and the section titles are hyperlinked to the
+The plot line titles and the section titles are hyperlinked to the
 respective descriptions in other exported documents, if any.
 
 File name suffix is ``_plotlist``.
@@ -89,8 +89,8 @@ File name suffix is ``_plotlist``.
 .. figure:: _images/plot_menu04.png
    :alt: LibreOffice screenshot
 
-   LibreOffice screenshot. Note the hyperlink from the arc title in the
-   plot list (left) to the arc in the plot description (right). 
+   LibreOffice screenshot. Note the hyperlink from the plot line title in the
+   plot list (left) to the plot line in the plot description (right). 
 
 .. note::
    Hyperlinks in ODS spreadsheets are absolute within the file system, 

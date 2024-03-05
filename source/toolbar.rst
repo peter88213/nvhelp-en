@@ -19,8 +19,8 @@ Book**.
 |Show Items| Go to the “Items” branch and expand it. Same as **View >
 Show Items**.
 
-|Show Arcs| Go to the “Arcs” branch and expand it. Same as **View > Show
-Arcs**.
+|Show Plot lines| Go to the “Plot lines” branch and expand it. Same as **View > Show
+Plot lines**.
 
 |Show Project notes| Go to the “Project notes” branch and expand it.
 Same as **View > Show Project notes**.
@@ -61,7 +61,7 @@ Properties** or ``Ctrl``-``Alt``-``T``.
 .. |Show Characters| image:: _images/viewCharacters.png
 .. |Show Locations| image:: _images/viewLocations.png
 .. |Show Items| image:: _images/viewItems.png
-.. |Show Arcs| image:: _images/viewArcs.png
+.. |Show Plot lines| image:: _images/viewArcs.png
 .. |Show Project notes| image:: _images/viewProjectnotes.png
 .. |Save| image:: _images/save.png
 .. |Lock/Unlock| image:: _images/lock.png

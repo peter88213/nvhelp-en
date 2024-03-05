@@ -27,7 +27,7 @@ Properties of a new section
    -  *Normal* type
    -  *Outline* completion status
    -  No viewpoint character assigned
-   -  No arc or tag assigned
+   -  No plot line or tag assigned
    -  No date/time set
 
 
@@ -126,7 +126,7 @@ with the same viewpoint.
 -  Character lists are merged.
 -  Location lists are merged.
 -  Item lists are merged.
--  Arc assignments are merged.
+-  Plot line assignments are merged.
 -  Plot point associations are moved to the joined section,
    if any.
 -  Section durations are added.
@@ -214,25 +214,25 @@ Major characters are highlighted in the tree view.
 .. note::
    The character status is only for visual distinction. It has no
    influence on the program functions. Nevertheless, you can use it
-   to mark viewpoint characters or characters with their own arcs.
+   to mark viewpoint characters or characters with their own plot lines.
 
 .. hint::
    Select the *Characters* root node to set the status for all characters.
 
-Arcs context menu entries
--------------------------
+Plot lines context menu entries
+-------------------------------
 
 .. figure:: _images/context_menu03.png
    :alt: novelibre screenshot
 
-Add Arc
-~~~~~~~
+Add Plot line
+~~~~~~~~~~~~~
 
-Adds a new story arc
+Adds a new plot line
 
--  If an arc is selected, the new item is placed after the selected one.
--  Otherwise, the new arc is placed at the last position.
--  The new arc has an auto-generated title. You can change it in the
+-  If a plot line is selected, the new item is placed after the selected one.
+-  Otherwise, the new plot line is placed at the last position.
+-  The new plot line has an auto-generated title. You can change it in the
    right pane.
 
 Add Plot point
@@ -242,32 +242,32 @@ Adds a new Plot point
 
 - If a plot point is selected, the new plot point is placed after
   the selected one.
-- If an arc is selected, the new plot point is placed at the last position.
+- If a plot line is selected, the new plot point is placed at the last position.
 - Otherwise, no new plot point is generated.
 - The new plot point has an auto-generated title. You can change it in
   the right pane.
 
-Export manuscript filtered by arc
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Export manuscript filtered by plot line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Exports a `manuscript <export_menu.html#manuscript-for-editing>`__
-with the sections that belong to the selected arc.
+with the sections that belong to the selected plot line.
 
-Export synopsis filtered by arc
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Export synopsis filtered by plot line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Exports the `descriptions of the sections
 <section_menu.html#export-section-descriptions-for-editing>`__
-that belong to the selected arc.
+that belong to the selected plot line.
 
 
 Delete
 ~~~~~~
 
-Deletes the selected arc/plot point.
+Deletes the selected plot line/plot point.
 
 .. caution::
-   Be aware, there is no “Undo” feature. If you delete an arc, all its
+   Be aware, there is no “Undo” feature. If you delete a plot line, all its
    plot points will be deleted, too.
    
    

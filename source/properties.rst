@@ -10,7 +10,7 @@ Properties reference
    section_view
    character_view
    world_view
-   arc_view
+   plotline_view
    point_view
    projectnote_view
 

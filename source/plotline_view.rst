@@ -1,10 +1,10 @@
-Arc properties
-==============
+Plot line properties
+====================
 
-The Arc properties view opens in the right pane when you
-select an `arc <plotting.html#defining-arcs>`__ in the tree.
+The Plot line properties view opens in the right pane when you
+select a `plot line <plotting.html#defining-plot-lines>`__ in the tree.
 
-.. figure:: _images/arc_view01.png
+.. figure:: _images/plotline_view01.png
    :alt: novelibre screenshot
 
 
@@ -24,18 +24,18 @@ Short name
 Be sure to enter a short name to be displayed as a reference in the tree.
 A single character like "A", "B", "C" is recommended.
 
-.. figure:: _images/arc_view02.png
+.. figure:: _images/plotline_view02.png
    :alt: novelibre screenshot
 
-   Example: Arc short names as displayed in the tree
+   Example: Plot line short names as displayed in the tree
    
 Section assignments
 -------------------
 
-The number of sections that belong to the selected arc is shown
+The number of sections that belong to the selected plot line is shown
 below the "Short name" entry. The assignments can be made in the
 `section properties view <section_view.html#plot>`__.
-You can unlink all sections from the selected arc at once by
+You can unlink all sections from the selected plot line at once by
 clicking on the **Clear section assignments** button.
 
 .. hint::
@@ -46,6 +46,6 @@ clicking on the **Clear section assignments** button.
 Navigation buttons
 ------------------
 
-- **Previous** moves the selection to the previous arc in the tree.
-- **Next** moves the selection to the next arc in the tree.
+- **Previous** moves the selection to the previous plot line in the tree.
+- **Next** moves the selection to the next plot line in the tree.
 

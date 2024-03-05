@@ -122,7 +122,7 @@ Update rules for existing novelibre projects
 -  New “Normal” type sections are created from “Narrative” events, if
    missing.
 -  New sections are put into a new chapter named “New sections”.
--  New arcs, characters, locations, and items are added, if assigned to
+-  New plot lines, characters, locations, and items are added, if assigned to
    “Narrative” events.
 -  Arc, character, location, and item relationships are updated, if the
    entity names match.

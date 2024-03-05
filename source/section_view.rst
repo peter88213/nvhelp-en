@@ -59,46 +59,46 @@ Expand or collapse this frame by clicking on the label.
 .. figure:: _images/section_view04.png
    :alt: Screenshot
 
-Arcs
-~~~~
+Plot lines
+~~~~~~~~~~
 
-Here you can assign the selected section to the arcs it belongs to.
-The assigned arcs are displayed in a list in the order they are
+Here you can assign the selected section to the plot lines it belongs to.
+The assigned plot lines are displayed in a list in the order they are
 assigned to the section.
 
 .. tip::
-   A more convenient way to manage and keep track of arc assignments is 
+   A more convenient way to manage and keep track of plot line assignments is 
    offered by the `nv_matrix plugin 
    <https://github.com/peter88213/nv_matrix/>`__. 
    
-   You can also assign a section to an arc by entering text
-   in the corresponding *Arc notes* cell of the 
+   You can also assign a section to a plot line by entering text
+   in the corresponding *Plot line notes* cell of the 
    `plot grid <plotting.html#plot-grid>`__. 
 
-Add arc assignment
+Add plot line assignment
    When clicking on |Add|, the "Pick mode"
    is activated, and the cursor changes to a "plus" shape. By clicking
-   on an arc, it will be related with the section.
+   on a plot line, it will be related with the section.
 
    .. hint::
       You can exit the "Pick mode" without selecting an element by
       clicking on the highlighted status bar, or by pressing the ``Esc``
       key. 
 
-Remove arc assignment
+Remove plot line assignment
    When clicking on |Remove| or pressing the ``Del`` key,
-   the selected arc is removed from the list.
+   the selected plot line is removed from the list.
 
 View the related element
-   When double-clicking on an arc, or clicking on |Goto|,
-   the selected arc is opened and its properties are displayed.
+   When double-clicking on a plot line, or clicking on |Goto|,
+   the selected plot line is opened and its properties are displayed.
 
    .. hint::
       You can go back to the initially selected section with |Go Back|. 
 
-Arc notes
-   You can enter section-related notes for the arc selected
-   in the list of related arcs. These notes appear in the
+Plot line notes
+   You can enter section-related notes for the plot line selected
+   in the list of related plot lines. These notes appear in the
    `plot grid <plotting.html#plot-grid>`__ where you also can
    edit them.
 
@@ -108,7 +108,7 @@ Plot points
 ~~~~~~~~~~~
 
 The plot points assigned with the selected section are displayed
-along with their arcs.
+along with their plot lines.
 
 .. hint::
    To change or clear the plot point assignment, go to the
