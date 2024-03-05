@@ -64,11 +64,17 @@ the scenes are far away from each other.
 Plot grid
 ---------
 
-Each arc has its own column in the `plot grid
-<export_menu.html#plot-grid-for-editing>`__ spreadsheet document,
+The *novelibre* `plot grid
+<export_menu.html#plot-grid-for-editing>`__ is a spreadsheet with a row for
+each section, and a set of plot-relevant section metadata in the columns.
+The first visible column contains links to the sections in the
+`manuscript <export_menu.html#manuscript-for-editing>`__.
+Each arc has its own column in the plot grid,
 Where the `arc notes <section_view.html#arcs>`__ are shown.
+The plot grid offers you a convenient way to enter the arc notes by
+seeing the big pictures of your plot construction.
 
 .. hint::
-   You can also relate an arc to a section by entering text
+   You can assign a section to an arc by entering text
    in the corresponding *Arc notes* cell of the plot grid. 
 

@@ -43,8 +43,8 @@ This will generate a new OpenDocument spreadsheet (ods) as described
 in the `Plotting with novelibre <plotting.html#plot-grid>`__ chapter,
 with a row per section, containing the following data:
 
-- The section ID as a hyperlink to the section in the manuscript (if any)
-- Sequential section number
+- The sequential section number as a hyperlink to the section in the
+  manuscript (if any)
 - Narrative date
 - Narrative time
 - Day

@@ -71,7 +71,7 @@ assigned to the section.
    offered by the `nv_matrix plugin 
    <https://github.com/peter88213/nv_matrix/>`__. 
    
-   You can also relate an arc to a section by entering text
+   You can also assign a section to an arc by entering text
    in the corresponding *Arc notes* cell of the 
    `plot grid <plotting.html#plot-grid>`__. 
 
