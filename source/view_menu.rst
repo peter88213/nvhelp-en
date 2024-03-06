@@ -11,8 +11,8 @@ Chapter level
 
 **Hide the sections**
 
--  You can collapse the tree, so that only parts and chapters are
-   visible, with **View > Chapter level** or ``Ctrl``-``Alt``-``C``.
+with **View > Chapter level** or ``Ctrl``-``Alt``-``C``,
+you can collapse the tree, so that only parts and chapters are visible.
 
 
 Expand selected
@@ -20,8 +20,8 @@ Expand selected
 
 **Show a whole branch**
 
--  You can expand a selected tree element with **View > Expand
-   selected**.
+With **View > Expand selected**,
+you can expand a selected tree element.
 
 
 Collapse selected
@@ -29,7 +29,8 @@ Collapse selected
 
 **Hide child elements**
 
--  You can collapse a selected branch with **View > Collapse selected**.
+With **View > Collapse selected**,
+you can collapse a selected branch.
 
 
 Expand all
@@ -37,7 +38,8 @@ Expand all
 
 **Show the whole tree**
 
--  You can expand the whole tree with **View > Expand all**.
+With **View > Expand all**,
+you can expand the whole tree.
 
 
 Collapse all
@@ -45,8 +47,8 @@ Collapse all
 
 **Hide child elements**
 
--  You can hide all tree elements except the main categories with **View
-   > Collapse all**.
+With **View > Collapse all**,
+you can hide all tree elements except the main categories.
 
 
 Show Book
@@ -54,7 +56,8 @@ Show Book
 
 **Go to the “Book” branch and expand it**
 
--  You can select and open the “Book” branch with **View > View Book**.
+With **View > View Book**,
+you can select and open the “Book” branch.
 
 
 Show Characters
@@ -62,8 +65,8 @@ Show Characters
 
 **Go to the “Characters” branch and expand it**
 
--  You can select and open the “Characters” branch with **View > View
-   Characters**.
+With **View > View Characters**,
+you can select and open the “Characters” branch.
 
 
 Show Locations
@@ -71,8 +74,8 @@ Show Locations
 
 **Go to the “Locations” branch and expand it**
 
--  You can select and open the “Locations” branch with **View > View
-   Locations**.
+With **View > View Locations**,
+you can select and open the “Locations” branch.
 
 
 Show Items
@@ -80,8 +83,8 @@ Show Items
 
 **Go to the “Items” branch and expand it**
 
--  You can select and open the “Items” branch with **View > View
-   Items**.
+With **View > View Items**,
+you can select and open the “Items” branch.
 
 
 Show Plot lines
@@ -89,7 +92,8 @@ Show Plot lines
 
 **Go to the “Plot lines” branch and expand it**
 
--  You can select and open the “Plot lines” branch with **View > Show Plot lines**.
+With **View > Show Plot lines**,
+you can select and open the “Plot lines” branch.
 
 
 Show Project notes
@@ -97,8 +101,8 @@ Show Project notes
 
 **Go to the “Project notes” branch and expand it**
 
--  You can select and open the “Project notes” branch with **View > View
-   Planning**.
+With **View > View Planning**,
+you can select and open the “Project notes” branch.
 
 
 Toggle Text viewer
@@ -106,18 +110,21 @@ Toggle Text viewer
 
 **Show/hide the novel text**
 
--  You can open or close the `text viewer <desktop.html>`__ window, showing part/chapter/section
-   titles and section content, with **View > Toggle Text viewer** or
-   ``Ctrl``-``T``.
--  On opening, the windows shows the text, where the tree is selected.
--  When changing the tree selection, the text moves along.
--  However, the text can be scrolled independently with the verical
-   scrollbar, or the mousewheel.
--  You can select text with the mouse, and copy it to the clipboard with
-   ``Ctrl``-``C``.
--  You cannot edit the text. For this, you might want to install an
-   editor plugin, such as
-   `nv_editor <https://github.com/peter88213/nv_editor/>`__.
+With **View > Toggle Text viewer** or ``Ctrl``-``T``,
+you can open or close the `text viewer <desktop.html>`__ window,
+showing part/chapter/section titles and section content.
+
+.. hint::
+
+   -  On reopening, the windows shows the text, where the tree is selected.
+   -  When changing the tree selection, the text moves along.
+   -  However, the text can be scrolled independently with the verical
+      scrollbar, or the mousewheel.
+   -  You can select text with the mouse, and copy it to the clipboard with
+      ``Ctrl``-``C``.
+   -  You cannot edit the text. For this, you might want to install an
+      editor plugin, such as
+      `nv_editor <https://github.com/peter88213/nv_editor/>`__.
 
 
 Toggle Properties
@@ -125,10 +132,12 @@ Toggle Properties
 
 **Show/hide the selected element’s properties**
 
--  You can open or close the element properties window with **View >
-   Toggle Properties** or ``Ctrl``-``Alt``-``T``.
--  On opening, the windows shows the editable properties of the selected
-   element.
+With **View > Toggle Properties** or ``Ctrl``-``Alt``-``T``,
+you can open or close the element properties window.
+
+.. hint::
+   On reopening, the window shows the properties of the currently 
+   selected element.
 
 
 Detach/Dock Properties
@@ -137,15 +146,20 @@ Detach/Dock Properties
 **Show the selected element’s properties either in the main window or in
 its own window**
 
--  You can detach or dock the element properties window with **View >
-   Detach/Dock Properties** or ``Ctrl``-``Alt``-``D``.
--  On closing the detached window, the properties are docked again.
+With **View > Detach/Dock Properties** or ``Ctrl``-``Alt``-``D``,
+you can detach or dock the element properties window .
+
+.. hint::
+   On closing the detached window, the properties are docked again.
 
 
 Options
 -------
 
 **Project independent program settings**
+
+With **View >  Options**,
+You can open a dialog for settings concerning the display.
 
 .. figure:: _images/view_menu02.png
    :alt: novelibre screenshot

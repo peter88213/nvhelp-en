@@ -11,20 +11,24 @@ Add
 
 **Add a new part**
 
-You can add a part to the tree with **Part > Add**. - The new part is
-placed at the next free position on the chapter level after the
-selection, if possible. - Otherwise, the new part is placed at the last
-position on the chapter level. - The new part has an auto-generated
-title. You can change it in the right pane.
+With **Part > Add**,
+you can add a `part <basic_concepts.html#parts>`__ to the tree.
+
+- The new part is placed at the next free position on the
+  chapter level after the selection, if possible.
+- Otherwise, the new part is placed at the last position
+  on the chapter level.
+- The new part has an auto-generated title.
+  You can change it in the right pane.
 
 
 Export part descriptions for editing
 ------------------------------------
 
-**Export an ODT document**
+**Export an ODT document that can be imported again after editing**
 
-This will generate a new OpenDocument text document (odt) containing a
-**very brief synopsis** with part headings and part descriptions that
-can be edited and written back to project format. File name suffix is
-``_parts_tmp``.
+With **Part > Export part descriptions for editing**,
+you can create a text document that contains
+a **very brief synopsis** with part headings and part descriptions.
+File name suffix is ``_parts_tmp``.
 

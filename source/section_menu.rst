@@ -11,7 +11,8 @@ Add
 
 **Add a new section**
 
-You can add a section to the tree with **Section > Add**.
+With **Section > Add**,
+you can add a `section <basic_concepts.html#sections>`__ to the tree.
 
 - The new section is placed at the next free position after the selection, if
   possible.
@@ -19,7 +20,7 @@ You can add a section to the tree with **Section > Add**.
 - The new section has an auto-generated title. You can change it in
   the right pane.
 
-Properties of a new section
+Properties of a new section:
    -  *Normal* type
    -  *Outline* completion status
    -  No viewpoint character assigned
@@ -32,7 +33,8 @@ Add multiple sections
 
 **Add new sections in bulk**
 
-You can add up to 20 sections to the tree with **Section > Add multiple sections**.
+With **Section > Add multiple sections**,
+you can add up to 20 sections to the tree.
 
 - You will be prompted to enter the number of new sections.
 - The number of sections to be added at once is limited to 20.
@@ -46,15 +48,18 @@ Set Type
 
 **Set the type of the selected section**
 
+With **Section > Set Type**,
+you can set the `type <basic_concepts.html#part-chapter-section-types>`__
+of the selected section to *Normal* or *Unused* .
+
 .. figure:: _images/section_menu02.png
    :alt: novelibre screenshot
 
-The `section type <basic_concepts.html#part-chapter-section-types>`__
-can be *Normal* or *Unused*.
+.. hint::
 
-Type change for multiple sections
-   - Either select multiple sections, or
-   - select a chapter.
+   Type change for multiple sections:
+      - Either select multiple sections, or
+      - select a chapter.
 
 
 Set Status
@@ -65,11 +70,17 @@ Set Status
 .. figure:: _images/section_menu03.png
    :alt: novelibre screenshot
 
-This can be *Outline*, *Draft*, *1st Edit*, *2nd Edit*, or *Done*.
+With **Section > Set Status**,
+you can set the `completion status
+<basic_concepts.html#section-completion-status>`__
+of the selected section to *Outline*, *Draft*, *1st Edit*, *2nd Edit*,
+or *Done*.
 
-Status change for multiple sections
-   -  Either select multiple sections, or
-   -  select a parent node (chapter or Book)
+.. hint::
+
+   Status change for multiple sections:
+      -  Either select multiple sections, or
+      -  select a parent node (chapter or Book)
 
 
 Export section descriptions for editing
@@ -79,8 +90,8 @@ Export section descriptions for editing
 
 This will generate a new OpenDocument text document (odt) containing a
 **full synopsis** with part/chapter headings and section descriptions
-that can be edited and written back to project format. File name suffix
-is ``_sections_tmp``.
+that can be edited and reimported.
+File name suffix is ``_sections_tmp``.
 
 
 Section list (export only)

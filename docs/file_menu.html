@@ -126,10 +126,8 @@
 <section id="new">
 <h2>New<a class="headerlink" href="#new" title="Link to this heading"></a></h2>
 <p><strong>Create a new novel project</strong></p>
-<ul class="simple">
-<li><p>You can create a new project with <strong>File &gt; New</strong>. This will open a
-submenu.</p></li>
-</ul>
+<p>With <strong>File &gt; New</strong>, you can create a new project.
+This will open a submenu.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The submenu can be extended by plugins to add more file types
@@ -141,14 +139,14 @@ from which a <em>novelibre</em> project can be created.</p>
 <dl class="simple">
 <dt>Empty project</dt><dd><ul class="simple">
 <li><p>This will close the current project and create a blank project.</p></li>
-<li><p>A file select dialog asks for the new project’s file name (novelibre
-v1.4+). If you cancel the dialog, you can select the file name later
+<li><p>A file select dialog asks for the new project’s file name.
+If you cancel the dialog, you can select the file name later
 when saving the project.</p></li>
 </ul>
 </dd>
 <dt>Create from ODT…</dt><dd><ul class="simple">
-<li><p>This will close the current project and open a file dialog asking for
-an ODT document to create the new projec from.</p></li>
+<li><p>This will close the current project and open a file dialog asking
+for an ODT document to create the new projec from.</p></li>
 <li><p>The newly created project is saved automatically in the same
 directory as the ODT document, using its file name and the extension
 <em>.novx</em>.</p></li>
@@ -156,10 +154,10 @@ directory as the ODT document, using its file name and the extension
 exists, no new project will be created.</p></li>
 <li><p>If you select a previously exported document belonging to an existing
 project, this project will be updated and loaded.</p></li>
-<li><p>The ODT document can either be a <strong>work in progress</strong> i.e. a regular
-novel manuscript with chapter headings and section contents, or an
-<strong>outline</strong>, containing the chapter and section structure with titles
-and descriptions.</p></li>
+<li><p>The ODT document can either be a <a class="reference external" href="getting_started.html#starting-with-a-work-in-progress">work in progress</a>,
+i.e. a regular novel manuscript with chapter headings and section contents,
+r an <a class="reference external" href="getting_started.html#starting-with-an-outline">outline</a>
+containing the chapter and section structure with titles and descriptions.</p></li>
 </ul>
 </dd>
 </dl>
@@ -167,18 +165,19 @@ and descriptions.</p></li>
 <section id="open">
 <h2>Open…<a class="headerlink" href="#open" title="Link to this heading"></a></h2>
 <p><strong>Open a novel project</strong></p>
-<p>You can open an existing project file with <strong>File &gt; Open</strong> or
-<code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">O</span></code>.</p>
+<p>With <strong>File &gt; Open</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">O</span></code>,
+you can open an existing project file.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>When opening a project, the curent project will be closed. You will
-be asked for saving it, if it has changed.</p>
+<p>When opening a project, the current project will be closed.
+If there are unsaved changes, you will be asked for saving.</p>
 </div>
 </section>
 <section id="reload">
 <h2>Reload<a class="headerlink" href="#reload" title="Link to this heading"></a></h2>
 <p><strong>Reload the novel project</strong></p>
-<p>You can reload the project with <strong>File &gt; Reload</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">R</span></code>.</p>
+<p>With <strong>File &gt; Reload</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">R</span></code>,
+you can reload the project.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>This way you can undo changes made in the current session.</p>
@@ -192,18 +191,20 @@ get a warning.</p>
 <section id="restore-backup">
 <h2>Restore backup<a class="headerlink" href="#restore-backup" title="Link to this heading"></a></h2>
 <p><strong>Restore the latest backup file</strong></p>
-<p>You can restore the latest backup file with <strong>File &gt; Restore backup</strong>
-or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">B</span></code>. You will get a warning. After restoring the backup,
-the backup copy is no longer available.</p>
+<p>With <strong>File &gt; Restore backup</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">B</span></code>,
+you can restore the latest backup file.
+You will get a warning, because changes may be lost.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>You can create a backup copy by saving the project.</p>
+<p>After restoring the backup, a backup copy is no longer available.
+You can create a new backup copy by saving the project.</p>
 </div>
 </section>
 <section id="refresh-tree">
 <h2>Refresh tree<a class="headerlink" href="#refresh-tree" title="Link to this heading"></a></h2>
 <p><strong>Enforce tree refresh after making changes</strong></p>
-<p>You can refresh the tree with <strong>File &gt; Refresh tree</strong> or <strong>F5</strong>.</p>
+<p>With <strong>File &gt; Refresh tree</strong> or <code class="docutils literal notranslate"><span class="pre">F5</span></code>,
+you can refresh the tree.</p>
 <ul class="simple">
 <li><p>“Normal” sections that have been moved to an “Unused” chapter are
 made “Unused”.</p></li>
@@ -215,30 +216,37 @@ settings</a>.</p></li>
 <section id="lock">
 <h2>Lock<a class="headerlink" href="#lock" title="Link to this heading"></a></h2>
 <p><strong>Protect the project while edited outsides</strong></p>
-<p>You can <a class="reference external" href="basic_concepts.html#project-lock">lock</a> the project the
-project with <strong>File &gt; Lock</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">L</span></code>.
-The project is saved when modified.</p>
+<p>With <strong>File &gt; Lock</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">L</span></code>,
+you can <a class="reference external" href="basic_concepts.html#project-lock">lock</a> the project.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>All changes must be saved before locking the project.</p>
+</div>
 </section>
 <section id="unlock">
 <h2>Unlock<a class="headerlink" href="#unlock" title="Link to this heading"></a></h2>
 <p><strong>Make the project editable</strong></p>
-<p>You can unlock the project with <strong>File &gt; Unlock</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">U</span></code>.</p>
+<p>With <strong>File &gt; Unlock</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">U</span></code>,
+you can unlock the project.</p>
 </section>
 <section id="open-project-folder">
 <h2>Open Project folder<a class="headerlink" href="#open-project-folder" title="Link to this heading"></a></h2>
 <p><strong>Launch the file manager</strong></p>
-<p>You can launch the file manager with the current project folder with
-<strong>File &gt; Open Project folder</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl-P</span></code>. This might be helpful,
-if you wish to delete export files, open your project with another
-application, and so on. In case you edit the project “outsides”,
-consider locking it before.</p>
+<p>With <strong>File &gt; Open Project folder</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl-P</span></code>,
+you can launch the file manager with the current project folder .
+This might come in handy, if you wish to delete files,
+open your project with another application, and so on.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>In case you edit the project “outsides”, consider locking it before.</p>
+</div>
 </section>
 <section id="copy-style-sheet">
 <h2>Copy style sheet<a class="headerlink" href="#copy-style-sheet" title="Link to this heading"></a></h2>
 <p><strong>Provide a css style sheet in the project folder</strong></p>
-<p>You can copy the style sheet <em>novx.css</em> into the current project
-folder with <strong>File &gt; Copy style sheet</strong>. This allows you to view the
-<em>.novx</em> project file with a web browser.</p>
+<p>With <strong>File &gt; Copy style sheet</strong>,
+you can copy the style sheet <em>novx.css</em> into the current project folder.
+This allows you to view the <em>.novx</em> project file with a web browser.</p>
 <figure class="align-default" id="id1">
 <img alt="Edge browser screenshot" src="_images/file_menu01.jpg" />
 <figcaption>
@@ -256,14 +264,22 @@ folder with <strong>File &gt; Copy style sheet</strong>. This allows you to view
 <section id="discard-manuscript">
 <h2>Discard manuscript<a class="headerlink" href="#discard-manuscript" title="Link to this heading"></a></h2>
 <p><strong>Discard the current manuscript by renaming it</strong></p>
-<p>You can add the <em>.bak</em> extension to the <a class="reference external" href="export_menu#manuscript-for-editing">current manuscript</a> with
-<strong>File &gt; Discard manuscript</strong>. This may help to avoid confusion about
-changes made with <em>novelibre</em> and <em>Writer</em>.</p>
+<p>With <strong>File &gt; Discard manuscript</strong>,
+you can add the <em>.bak</em> extension to the <a class="reference external" href="export_menu#manuscript-for-editing">current manuscript</a>.
+This may help to avoid confusion about changes made with <em>novelibre</em> and
+<em>Writer</em>.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>You can also discard any previously exported document “for editing”
+via the <a class="reference external" href="import_menu.html">Import dialog</a>.</p>
+</div>
 </section>
 <section id="save">
 <h2>Save<a class="headerlink" href="#save" title="Link to this heading"></a></h2>
 <p><strong>Save the project</strong></p>
-<p>You can save the project with <strong>File &gt; Save</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">S</span></code>.</p>
+<p>With <strong>File &gt; Save</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">S</span></code>,
+you can save the project.
+A backup copy is then automatically created.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>If the project has changed on disk since last opened, you will
@@ -273,9 +289,9 @@ get a warning.</p>
 <section id="save-as">
 <h2>Save as…<a class="headerlink" href="#save-as" title="Link to this heading"></a></h2>
 <p><strong>Save the project with another file name/at another place</strong></p>
-<p>You can save the project with another file name/at another place with
-<strong>File &gt; Save as…</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">Shift</span></code>-<code class="docutils literal notranslate"><span class="pre">S</span></code>. Then a file select dialog
-opens.</p>
+<p>With <strong>File &gt; Save as…</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">Shift</span></code>-<code class="docutils literal notranslate"><span class="pre">S</span></code>,
+you can save the project with another file name/at another place.
+Then a file select dialog opens to specify the new path and file name.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Your current project remains as saved the last time. Changes since
@@ -285,8 +301,8 @@ then apply to the new project.</p>
 <section id="close">
 <h2>Close<a class="headerlink" href="#close" title="Link to this heading"></a></h2>
 <p><strong>Close the novel project</strong></p>
-<p>You can close the project without exiting the program with <strong>File &gt;
-Close</strong>.
+<p>With <strong>File &gt; Close</strong>,
+you can close the project without exiting the program.
 When closing the project, you will be asked for saving the project,
 if it has changed.</p>
 <div class="admonition note">

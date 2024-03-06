@@ -15,6 +15,9 @@ Plugin manager
 
 **Display and manage installed plugins**
 
+With **Tools > Plugin manager**,
+you can open the *Installed plugins* dialog.
+
 .. figure:: _images/tools_menu01.png
    :alt: novelibre screenshot
 
@@ -67,8 +70,8 @@ Open installation folder
 
 **Launch the file manager**
 
--  You can launch the file manager with the *novelibre* installation
-   folder with **File > Open installation folder**. This might be
-   helpful, if you wish to edit configuration files, or install your own
-   plugins.
+With **Tools > Open installation folder**,
+you can launch the file manager with the *novelibre* installation folder.
+This might come in handy if you wish to edit configuration files,
+or install your own plugins.
 

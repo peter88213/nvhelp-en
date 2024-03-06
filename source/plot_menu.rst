@@ -11,41 +11,51 @@ Add Plot line
 
 **Add a new plot line to the story**
 
-You can add a project note to the tree with **Plot > Add plot line**.
+With **Plot > Add plot line**,
+you can add a project note to the tree .
 
--  If a plot line is selected, the new item is placed after the selected one.
--  Otherwise, the new plot line is placed at the last position.
--  The new plot line has an auto-generated title. You can change it in the
-   right pane.
+.. note::
+
+   -  If a plot line is selected, the new item is placed after the selected one.
+   -  Otherwise, the new plot line is placed at the last position.
+   -  The new plot line has an auto-generated title. You can change it in the
+      right pane.
 
 Add Plot point
 --------------
 
 **Add a new Plot point to the selected plot line**
 
-You can add a plot point to a plot line with **Plot > Add Plot point**.
+With **Plot > Add Plot point**,
+you can add a plot point to a plot line.
 
-- If a plot point is selected, the new plot point is placed after the selected one.
-- If a plot line is selected, the new plot point is placed at the last position.
-- Otherwise, no new plot point is generated.
-- The new plot point has an auto-generated title. You can change it in
-  the right pane.
+.. note::
+
+   - If a plot point is selected, the new plot point is placed after the selected one.
+   - If a plot line is selected, the new plot point is placed at the last position.
+   - Otherwise, no new plot point is generated.
+   - The new plot point has an auto-generated title. You can change it in
+     the right pane.
 
 Insert Stage
 ------------
 
 **Insert a stage between the sections**
 
-This inserts a stage after the selected chapter or section.
-By default, the new stage is on the second level. You can
-change the level to first (see below).
+With **Plot > Insert Stage**,
+you can insert a stage after the selected chapter or section.
+
+.. hint::
+   By default, the new stage is on the second level. 
+   You can change the level to first (see below).
 
 Change Level
 ------------
 
 **Change the level of the selected stages**
 
-You can change the level of the selected stages with **Plot > Change Level**.
+With **Plot > Change Level**,
+you can change the level of the selected stages.
 
 .. figure:: _images/plot_menu02.png
    :alt: novelibre screenshot
@@ -62,9 +72,8 @@ Export plot description
 
 **Export an ODT document**
 
-You can export a plot description with **Plot > Export plot description**.
-
-This will generate a new OpenDocument text document (odt) containing
+With **Plot > Export plot description**,
+you can create a text document that contains
 stages, plot lines, and plot points, each with description.
 File name suffix is ``_plot``.
 
@@ -74,17 +83,16 @@ Export plot list (spreadsheet)
 
 **Export an ODS document**
 
-You can export a plot list with **Plot > Export plot list (spreadsheet)**.
-
-This will generate a new OpenDocument spreadsheet (ods) containing a
-table with a row for each section and a column for each plot line.
+With **Plot > Export plot list (spreadsheet)**,
+you can create a spreadsheet with a row for each section
+and a column for each plot line.
 Associations between plot lines and sections are color-highlighted.
 Plot point titles are displayed.
-
-The plot line titles and the section titles are hyperlinked to the
-respective descriptions in other exported documents, if any.
-
 File name suffix is ``_plotlist``.
+
+.. hint::
+   The plot line titles and the section titles are hyperlinked to 
+   the respective descriptions in other exported documents, if any.
 
 .. figure:: _images/plot_menu04.png
    :alt: LibreOffice screenshot
@@ -92,7 +100,7 @@ File name suffix is ``_plotlist``.
    LibreOffice screenshot. Note the hyperlink from the plot line title in the
    plot list (left) to the plot line in the plot description (right). 
 
-.. note::
+.. important::
    Hyperlinks in ODS spreadsheets are absolute within the file system, 
    so they might not work after moving the location of your project file
    to another folder or computer. In this case, you will have to 
@@ -103,18 +111,18 @@ Show plot list
 
 **Show an HTML report with plot elements**
 
-You can show a plot list in your web browser with **Plot > Show plot list**.
-
-This will generate a list-formatted HTML file, and launch your system’s
-web browser for displaying it. The HTML plot list is similar to the
-ODS plot list (see above), but without any hyperlinks.
+With **Plot > Show plot list**,
+You can create a list-formatted HTML file that contains
+a plot list similar to the ODS plot list (see above),
+but without any hyperlinks,
+and launch your system’s web browser for displaying it.
 
 .. figure:: _images/plot_menu03.jpg
    :alt: Edge browser screenshot
 
    Edge browser screenshot
 
-
--  The Report is a temporary file, auto-deleted on program exit.
--  If needed, you can have your web browser save or print it.
+.. note::
+   The report is a temporary file, auto-deleted on program exit.
+   If needed, you can have your web browser save or print it.
 

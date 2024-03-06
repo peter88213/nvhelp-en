@@ -11,12 +11,15 @@ You can open it with **Help > Editor plugin Online help**.
 Launch the section editor
 -------------------------
 
--  Open a section editor window by double-clicking on a section or via
-   the **Section > Edit** menu entry when a section is selected, or by
-   hitting the *Enter* key.
--  If the project is locked, editor windows cannot be opened.
--  If you choose a section already open, the window will be brought to
-   the foreground.
+Open a section editor window by double-clicking on a section,
+or via the **Section > Edit** menu entry when a section is selected,
+or by hitting the ``Enter`` key.
+
+.. note::
+
+   -  If the project is locked, editor windows cannot be opened.
+   -  If you choose a section already open, the window will be brought to
+      the foreground.
 
 Select text
 -----------
@@ -72,8 +75,8 @@ Undo/Redo
 Split a section
 ---------------
 
-Via **File > Split at cursor position** or ``Ctrl``-``Alt``-``S`` you
-can split the section at the cursor position.
+With **File > Split at cursor position** or ``Ctrl``-``Alt``-``S``,
+you can split the section at the cursor position.
 
 -  All the text from the cursor position is cut and pasted into a newly
    created section.
@@ -88,8 +91,8 @@ can split the section at the cursor position.
 Create a section
 ----------------
 
-Via **File > Create section** or ``Ctrl``-``Alt``-``N`` you can create
-a section.
+With **File > Create section** or ``Ctrl``-``Alt``-``N``,
+you can create a section.
 
 -  The new section is placed after the currently edited section.
 -  The new section is of the same type as the currently edited section.
@@ -117,8 +120,10 @@ Word count
 Apply changes
 -------------
 
--  You can apply changes to the section with ``Ctrl``-``S``. Then
-   “Modified” status is displayed in *novelibre*.
+With ``Ctrl``-``S``,
+you can apply changes to the section.
+Then “Modified” status is displayed in *novelibre*.
+
 -  If the project is locked in *novelibre*, you will be asked to unlock
    it before changes can be applied.
 

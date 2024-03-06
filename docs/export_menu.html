@@ -126,8 +126,10 @@
 </figure>
 <section id="manuscript-for-editing">
 <h2>Manuscript for editing<a class="headerlink" href="#manuscript-for-editing" title="Link to this heading"></a></h2>
-<p>This will write parts, chapters, and sections into a new OpenDocument
-text document (odt) split into sections (to be seen in the Navigator).
+<p><strong>Export an ODT document that can be imported again after editing</strong></p>
+<p>With <strong>Export &gt;  Manuscript for editing</strong>,
+you can create a text document that is split into sections
+(to be seen in the Navigator).
 File name suffix is <code class="docutils literal notranslate"><span class="pre">_manuscript_tmp</span></code>.</p>
 <ul>
 <li><p>Only “normal” chapters and sections are exported. Chapters and
@@ -145,8 +147,8 @@ description, separated by <code class="docutils literal notranslate"><span class
 title to the section divider. You can also add a description,
 separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
 <p>Documents with split sections are automatically
 discarded after the <em>novelibre</em> project is updated.</p>
 </div>
@@ -157,8 +159,10 @@ as underline and strikethrough are lost.</p></li>
 </section>
 <section id="plot-grid-for-editing">
 <h2>Plot grid for editing<a class="headerlink" href="#plot-grid-for-editing" title="Link to this heading"></a></h2>
-<p>This will generate a new OpenDocument spreadsheet (ods) as described
-in the <a class="reference external" href="plotting.html#plot-grid">Plotting with novelibre</a> chapter,
+<p><strong>Export an ODS document that can be imported again after editing</strong></p>
+<p>With <strong>Export &gt; Plot grid for editing</strong>,
+you can create a spreadsheet as described in the
+<a class="reference external" href="plotting.html#plot-grid">Plotting with novelibre</a> chapter,
 with a row per section, containing the following data:</p>
 <ul class="simple">
 <li><p>The sequential section number as a hyperlink to the section in the
@@ -183,24 +187,33 @@ manuscript (if any)</p></li>
 Sections of the “Unused” type are omitted.</p>
 </div>
 <p>File name suffix is <code class="docutils literal notranslate"><span class="pre">_grid_tmp</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can reorder, hide or delete columns and rows
+without affecting the reimport.
+Only the first column and the first row, which are hidden by default,
+must not be changed as they contain the structural information
+for the import.</p>
+</div>
 </section>
 <section id="manuscript-for-third-party-word-processing">
 <h2>Manuscript for third-party word processing<a class="headerlink" href="#manuscript-for-third-party-word-processing" title="Link to this heading"></a></h2>
-<div class="admonition hint">
-<p class="admonition-title">Hint</p>
+<p><strong>Export an ODT document that can be imported again after editing</strong></p>
+<p>With <strong>Export &gt;  Manuscript for third-party word processing</strong>,
+you can create a text document with visible section markers.
+File name suffix is <code class="docutils literal notranslate"><span class="pre">_proof_tmp</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>This document retains its section information even if it is
 converted to other formats and back again. This may work with
 popular commercial word processors and even with web-based word
 processors such as Google Docs.</p>
 </div>
-<p>This will write parts, chapters, and sections into a new OpenDocument
-text document (odt) with visible section markers. File name suffix is
-<code class="docutils literal notranslate"><span class="pre">_proof_tmp</span></code>.</p>
 <ul>
 <li><p>Only “normal” chapters and sections are exported. Chapters and
 sections marked “unused” are not exported.</p></li>
 <li><p>The document contains chapter and section headings. However, changes
-will not be written back.</p></li>
+will not be reimported.</p></li>
 <li><p>The document contains section <code class="docutils literal notranslate"><span class="pre">[scx]</span></code> markers. <strong>Do not touch lines
 containing the markers</strong> if you want to be able to write the document
 back to <em>novelibre</em> format.</p></li>
@@ -216,8 +229,8 @@ description, separated by <code class="docutils literal notranslate"><span class
 title to the section divider. You can also add a description,
 separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
 <p>Documents with split sections are automatically
 discarded after the <em>novelibre</em> project is updated.</p>
 </div>
@@ -228,14 +241,16 @@ as underline and strikethrough are lost.</p></li>
 </section>
 <section id="manuscript-for-printing-export-only">
 <h2>Manuscript for printing (export only)<a class="headerlink" href="#manuscript-for-printing-export-only" title="Link to this heading"></a></h2>
+<p><strong>Export an ODT document</strong></p>
+<p>With <strong>Export &gt;  Manuscript for printing (export only)</strong>,
+you can create a text document for further use,
+e.g. when you are finished with <em>novelibre</em>.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <p>In contrast to the manuscript for editing, this document is not divided
 internally into sections, which could facilitate further processing and
 reformatting.</p>
 </div>
-<p>This will write parts, chapters, and sections into a new OpenDocument
-text document (odt).</p>
 <ul class="simple">
 <li><p>The document is placed in the same folder as the project.</p></li>
 <li><p>Document’s <strong>filename</strong>: <code class="docutils literal notranslate"><span class="pre">&lt;project</span> <span class="pre">name&gt;.odt</span></code>.</p></li>
@@ -254,9 +269,11 @@ as underline and strikethrough are lost.</p></li>
 </section>
 <section id="brief-synopsis-export-only">
 <h2>Brief synopsis (export only)<a class="headerlink" href="#brief-synopsis-export-only" title="Link to this heading"></a></h2>
-<p>This will write a brief synopsis with part, chapter, and sections titles
-into a new OpenDocument text document. File name suffix is
-<code class="docutils literal notranslate"><span class="pre">_brf_synopsis</span></code>.</p>
+<p><strong>Export an ODT document</strong></p>
+<p>With <strong>Export &gt;  Brief synopsis (export only)</strong>,
+you can create a text document containing a brief synopsis
+with part, chapter, and sections titles only.
+File name suffix is <code class="docutils literal notranslate"><span class="pre">_brf_synopsis</span></code>.</p>
 <ul class="simple">
 <li><p>Only “normal” chapters and sections are exported. Chapters and
 sections marked “unused” are not exported.</p></li>
@@ -267,9 +284,11 @@ sections marked “unused” are not exported.</p></li>
 </section>
 <section id="cross-references-export-only">
 <h2>Cross references (export only)<a class="headerlink" href="#cross-references-export-only" title="Link to this heading"></a></h2>
-<p>This will generate a new OpenDocument text document (odt) containing
-navigable cross references. File name suffix is <code class="docutils literal notranslate"><span class="pre">_xref</span></code>. The cross
-references are:</p>
+<p><strong>Export an ODT document</strong></p>
+<p>With <strong>Export &gt;  Cross references (export only)</strong>,
+you can create a text document containing navigable cross references.
+File name suffix is <code class="docutils literal notranslate"><span class="pre">_xref</span></code>.</p>
+<p>The cross references are:</p>
 <ul class="simple">
 <li><p>Sections per character,</p></li>
 <li><p>sections per location,</p></li>
@@ -282,18 +301,24 @@ references are:</p>
 </section>
 <section id="characters-locations-items-data-files">
 <h2>Characters/locations/items data files<a class="headerlink" href="#characters-locations-items-data-files" title="Link to this heading"></a></h2>
-<p>This will create a set of XML files containing the project’s characters,
+<p><strong>Export XML files that can be imported into other projects</strong></p>
+<p>With <strong>Export &gt;  Characters/locations/items data files</strong>,
+you can create a set of XML files containing the project’s characters,
 locations, and items with all their properties. These files can be used
-to export the characters, locations, and items to another project (also
-with novelibre).</p>
+to transfer the characters, locations, and items to another project.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
 <p>To import XML data files from another project, use the <strong>Import</strong>
 command in the <strong>Characters</strong>, <strong>Locations</strong>, or <strong>Items</strong> menu.</p>
+</div>
 </section>
 <section id="plot-description-export-only">
 <h2>Plot description (export only)<a class="headerlink" href="#plot-description-export-only" title="Link to this heading"></a></h2>
-<p>This will write the plot-defining elements into a new OpenDocument text
-document (odt). File name suffix is <code class="docutils literal notranslate"><span class="pre">_plot</span></code>.</p>
-<p>The document contains:</p>
+<p><strong>Export an ODT document</strong></p>
+<p>With <strong>Export &gt;  Plot description (export only)</strong>,
+you can create a text document that contains the plot-defining elements.
+File name suffix is <code class="docutils literal notranslate"><span class="pre">_plot</span></code>.</p>
+<p>Contents:</p>
 <ul class="simple">
 <li><p>First and second level stages (titles and descriptions).</p></li>
 <li><p>Plot lines (titles and descriptions).</p></li>
@@ -304,19 +329,23 @@ section, if any).</p></li>
 <section id="plot-spreadsheet-export-only">
 <h2>Plot spreadsheet (export only)<a class="headerlink" href="#plot-spreadsheet-export-only" title="Link to this heading"></a></h2>
 <p><strong>Export an ODS document</strong></p>
-<p>This will generate a new OpenDocument spreadsheet (ods) containing
-sections, plot lines, and plot points. File name suffix is <code class="docutils literal notranslate"><span class="pre">_plotlist</span></code>.
-The spreadsheet is not meant to be written back to <em>novelibre</em>.</p>
-<ul class="simple">
-<li><p>There are hyperlinks to the sections in the manuscript, and to the
-chapters in the plot description.</p></li>
-</ul>
+<p>With <strong>Export &gt;  Plot spreadsheet (export only)</strong>,
+you can create a spreadsheet that contains
+sections, plot lines, and plot points.
+File name suffix is <code class="docutils literal notranslate"><span class="pre">_plotlist</span></code>.</p>
+<p>The spreadsheet is not meant to be reimported.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>There are hyperlinks to the sections in the manuscript, and to the
+chapters in the plot description.</p>
+</div>
 </section>
 <section id="show-plot-list">
 <h2>Show Plot list<a class="headerlink" href="#show-plot-list" title="Link to this heading"></a></h2>
-<p>Show sections, plot lines, and plot points.
-This will generate a list-formatted HTML file, and launch your
-system’s web browser to display it.</p>
+<p>With <strong>Export &gt;  Show Plot list</strong>,
+you can create a list-formatted HTML file that contains
+sections, plot lines, and plot points,
+and launch your system’s web browser for displaying it.</p>
 <ul class="simple">
 <li><p>The Report is a temporary file, auto-deleted on program exit.</p></li>
 <li><p>If needed, you can have your web browser save or print it.</p></li>
@@ -325,6 +354,8 @@ system’s web browser to display it.</p>
 <section id="options">
 <h2>Options<a class="headerlink" href="#options" title="Link to this heading"></a></h2>
 <p><strong>Project independent program settings</strong></p>
+<p>With <strong>Export &gt;  Options</strong>,
+You can open a dialog for settings concerning the document export.</p>
 <figure class="align-default">
 <img alt="novelibre screenshot" src="_images/export_menu02.png" />
 </figure>
