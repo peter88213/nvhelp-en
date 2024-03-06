@@ -200,6 +200,13 @@ with the *.novx* extension.
    it is not overwritten by an `exported document 
    <export_menu.html#manuscript-for-printing-export-only>`__ later on. 
 
+.. tip::
+   After importing an extensive piece of work, you may have a whole lot
+   of sections that need to be named and described. 
+   A `plot grid <plotting.html#plot-grid>`__, might be a great help for
+   doing this. 
+
+
 
 Starting with an outline
 ------------------------
