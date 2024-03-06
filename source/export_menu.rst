@@ -220,12 +220,12 @@ Contents:
    section, if any).
 
 
-Plot spreadsheet (export only)
+Export plot list (spreadsheet)
 ------------------------------
 
 **Export an ODS document**
 
-With **Export >  Plot spreadsheet (export only)**,
+With **Export >  Export plot list (spreadsheet)**,
 you can create a spreadsheet that contains
 sections, plot lines, and plot points.
 File name suffix is ``_plotlist``.
