@@ -28,7 +28,7 @@ Empty project
       when saving the project.
 
 
-Create from ODT…
+Create from ODT...
    -  This will close the current project and open a file dialog asking
       for an ODT document to create the new projec from.
    -  The newly created project is saved automatically in the same
@@ -45,8 +45,8 @@ Create from ODT…
       containing the chapter and section structure with titles and descriptions.
 
 
-Open…
------
+Open...
+-------
 
 **Open a novel project**
 
@@ -189,12 +189,12 @@ A backup copy is then automatically created.
    get a warning.
 
 
-Save as…
---------
+Save as...
+----------
 
 **Save the project with another file name/at another place**
 
-With **File > Save as…** or ``Ctrl``-``Shift``-``S``,
+With **File > Save as...** or ``Ctrl``-``Shift``-``S``,
 you can save the project with another file name/at another place.
 Then a file select dialog opens to specify the new path and file name.
 

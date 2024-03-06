@@ -42,8 +42,8 @@ Aeon Timeline 2 > Edit the timeline
 Open the project’s timeline, if existing, with the Timeline application.
 Lock the project.
 
-File > New > Create from Aeon Timeline 2…
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+File > New > Create from Aeon Timeline 2...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open a file dialog to select a timeline. If no novelibre project with
 the timeline’s file name exists, create a new one from the timeline.
