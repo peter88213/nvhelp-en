@@ -106,12 +106,12 @@ File name suffix is ``_plotlist``.
    to another folder or computer. In this case, you will have to 
    export the spreadsheet anew.  
 
-Show plot list
+Show Plot list
 --------------
 
 **Show an HTML report with plot elements**
 
-With **Plot > Show plot list**,
+With **Plot > Show Plot list**,
 You can create a list-formatted HTML file that contains
 a plot list similar to the ODS plot list (see above),
 but without any hyperlinks,
