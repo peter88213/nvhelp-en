@@ -131,6 +131,20 @@ windows.
 .. |Toggle Properties| image:: _images/properties.png
 
 
+Menu bar
+--------
+
+The bar at the top is the menu bar with the main menu,
+which is documented in the `Command reference <command_reference.html>`__.
+
+
+Toolbar
+-------
+
+The second bar from the top is the toolbar with
+`buttons for frequently used actions <toolbar.html>`__.
+
+
 Status bar
 ----------
 
