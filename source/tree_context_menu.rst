@@ -1,10 +1,11 @@
 Tree view context menu
 ======================
 
-When right-clicking on a tree element in the left pane, a context menu
-opens.
+When right-clicking on a tree element in the left pane, a context
+menu opens that belongs to the type of the selected element.
 
-Greyed-out entries are not available, e.g. due to “project lock”.
+.. hint::
+   Greyed-out entries are not available, e.g. due to “project lock”.
 
 
 Book context menu entries
@@ -271,5 +272,23 @@ Deletes the selected plot line/plot point.
    plot points will be deleted, too.
    
    
+Project notes context menu entries
+----------------------------------
 
-   
+Add Project note
+~~~~~~~~~~~~~~~~
+
+Adds a new Project note
+
+- If a project note is selected, the new project note is placed after
+  the selected one.
+- If a plot line is selected, the new project note is placed at the last position.
+- Otherwise, no new project note is generated.
+- The new project note has an auto-generated title. You can change it in
+  the right pane.
+
+Delete
+~~~~~~
+
+Deletes the selected project note.
+

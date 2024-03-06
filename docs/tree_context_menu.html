@@ -102,6 +102,11 @@
 <li class="toctree-l4"><a class="reference internal" href="#id3">Delete</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#project-notes-context-menu-entries">Project notes context menu entries</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#add-project-note">Add Project note</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Delete</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="toolbar.html">The toolbar</a></li>
@@ -138,9 +143,12 @@
              
   <section id="tree-view-context-menu">
 <h1>Tree view context menu<a class="headerlink" href="#tree-view-context-menu" title="Link to this heading"></a></h1>
-<p>When right-clicking on a tree element in the left pane, a context menu
-opens.</p>
+<p>When right-clicking on a tree element in the left pane, a context
+menu opens that belongs to the type of the selected element.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
 <p>Greyed-out entries are not available, e.g. due to “project lock”.</p>
+</div>
 <section id="book-context-menu-entries">
 <h2>Book context menu entries<a class="headerlink" href="#book-context-menu-entries" title="Link to this heading"></a></h2>
 <figure class="align-default">
@@ -381,6 +389,25 @@ that belong to the selected plot line.</p>
 <p>Be aware, there is no “Undo” feature. If you delete a plot line, all its
 plot points will be deleted, too.</p>
 </div>
+</section>
+</section>
+<section id="project-notes-context-menu-entries">
+<h2>Project notes context menu entries<a class="headerlink" href="#project-notes-context-menu-entries" title="Link to this heading"></a></h2>
+<section id="add-project-note">
+<h3>Add Project note<a class="headerlink" href="#add-project-note" title="Link to this heading"></a></h3>
+<p>Adds a new Project note</p>
+<ul class="simple">
+<li><p>If a project note is selected, the new project note is placed after
+the selected one.</p></li>
+<li><p>If a plot line is selected, the new project note is placed at the last position.</p></li>
+<li><p>Otherwise, no new project note is generated.</p></li>
+<li><p>The new project note has an auto-generated title. You can change it in
+the right pane.</p></li>
+</ul>
+</section>
+<section id="id4">
+<h3>Delete<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>Deletes the selected project note.</p>
 </section>
 </section>
 </section>
