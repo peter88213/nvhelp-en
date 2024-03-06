@@ -282,8 +282,7 @@ Adds a new Project note
 
 - If a project note is selected, the new project note is placed after
   the selected one.
-- If a plot line is selected, the new project note is placed at the last position.
-- Otherwise, no new project note is generated.
+- Otherwise, the new project note is placed at the last position.
 - The new project note has an auto-generated title. You can change it in
   the right pane.
 

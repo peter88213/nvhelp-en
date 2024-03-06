@@ -86,10 +86,11 @@ or *Done*.
 Export section descriptions for editing
 ---------------------------------------
 
-**Export an ODT document**
+**Export an ODT document that can be imported again after editing**
 
-This will generate a new OpenDocument text document (odt) containing a
-**full synopsis** with part/chapter headings and section descriptions
+With **Export section descriptions for editing**,
+you can create a text document with a **full synopsis** containing
+part/chapter headings and section descriptions
 that can be edited and reimported.
 File name suffix is ``_sections_tmp``.
 
@@ -99,8 +100,9 @@ Section list (export only)
 
 **Export an ODS document**
 
-This will generate a new OpenDocument spreadsheet (ods)
-with a row per section, containing the following data:
+With **Section list (export only)**,
+you can create a spreadsheet with a row per section, containing
+the following data:
 
 - The section ID as a hyperlink to the section in the manuscript (if any)
 -  Section title
