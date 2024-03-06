@@ -203,7 +203,7 @@ with the *.novx* extension.
 .. tip::
    After importing an extensive piece of work, you may have a whole lot
    of sections that need to be named and described. 
-   A `plot grid <plotting.html#plot-grid>`__, might be a great help for
+   A `plot grid <plotting.html#plot-grid>`__ might be a great help for
    doing this. 
 
 
