@@ -71,7 +71,7 @@ Show list
 
 **Show an HTML report with items data**
 
-With **Characters > Show list**,
+With **Items > Show list**,
 you can create a list-formatted HTML file that contains
 an item list,
 and launch your system’s web browser for displaying it.

@@ -71,7 +71,7 @@ Show list
 
 **Show an HTML report with locations data**
 
-With **Characters > Show list**,
+With **Locations > Show list**,
 you can create a list-formatted HTML file that contains
 a location list,
 and launch your system’s web browser for displaying it.
