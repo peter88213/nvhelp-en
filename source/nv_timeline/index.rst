@@ -54,7 +54,7 @@ Global configuration
 An optional global configuration file can be placed in the configuration
 directory in your user profile. It is applied to any project. Its
 entries override nv_timeline’s built-in constants. This is the
-path: ``c:\Users\<user name>\.novx\config\timeline.ini``
+path: ``c:\Users\<user name>\.novx\config\nv_timeline.ini``
 
 The setup script installs a sample configuration file containing
 nv_timeline’s default values. You can modify or delete it.
@@ -62,7 +62,7 @@ nv_timeline’s default values. You can modify or delete it.
 Local project configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An optional project configuration file named ``yw-nv-timelinei`` can be
+An optional project configuration file named ``nv_timeline.ini`` can be
 placed in your project directory, i.e. the folder containing your
 novelibre and Timeline project files. It is only applied to this
 project. Its entries override nv_timeline’s built-in constants as
