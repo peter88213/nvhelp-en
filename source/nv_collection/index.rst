@@ -1,7 +1,7 @@
 nv_collection
 =============
 
-**Online help**
+**User guide**
 
 This page refers to the latest `nv_collection
 <https://github.com/peter88213/nv_collection/>`__ release.

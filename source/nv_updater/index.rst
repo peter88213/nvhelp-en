@@ -1,7 +1,7 @@
 nv_updater
 =================
 
-**Online help**
+**User guide**
 
 This page refers to the latest `nv_updater
 <https://github.com/peter88213/nv_updater/>`__ release.
