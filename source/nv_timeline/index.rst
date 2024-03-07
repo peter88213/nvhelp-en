@@ -77,7 +77,7 @@ nv_timeline’s default settings and options. This file is also
 automatically copied to the global configuration folder during
 installation. You best make a copy and edit it.
 
--  The SETTINGS section comprises the program “constants”. If you change
+-  The SETTINGS section comprises the program "constants". If you change
    them, the program might behave differently than described in the
    documentation. So only touch them if you are clear about the
    consequences.
@@ -147,13 +147,13 @@ On the novelibre side
 On the Timeline side
 ~~~~~~~~~~~~~~~~~~~~
 
--  A section ID is a string looking like “sc1”. It is auto-generated and
+-  A section ID is a string looking like "sc1". It is auto-generated and
    must not be changed manually.
--  Only events with a label containing the string “Section” (user input)
+-  Only events with a label containing the string "Section" (user input)
    or a section ID (auto-generated) are exported as sections to a new
    novelibre project.
 -  When creating a new novelibre project from a timeline the first time,
-   “Section” labels are replaced with section ID labels.
+   "Section" labels are replaced with section ID labels.
 -  If a new novelibre project is generated again with the same timeline,
    the section ID labels may change.
 -  Only events with a label containing a section ID are synchronized

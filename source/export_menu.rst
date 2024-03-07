@@ -16,8 +16,8 @@ you can create a text document that is split into sections
 (to be seen in the Navigator).
 File name suffix is ``_manuscript_tmp``.
 
--  Only “normal” chapters and sections are exported. Chapters and
-   sections marked “unused” are not exported.
+-  Only "normal" chapters and sections are exported. Chapters and
+   sections marked "unused" are not exported.
 -  Section titles are invisible, but appear in the *Navigator*.
 -  Chapters and sections can neither be rearranged nor deleted.
 -  With *Writer*, you can split sections by
@@ -66,8 +66,8 @@ with a row per section, containing the following data:
 - Section notes
 
 .. note::
-   Only “normal” sections appear in the plot grid. 
-   Sections of the “Unused” type are omitted.
+   Only "normal" sections appear in the plot grid. 
+   Sections of the "Unused" type are omitted.
 
 File name suffix is ``_grid_tmp``.
 
@@ -94,8 +94,8 @@ File name suffix is ``_proof_tmp``.
    processors such as Google Docs. 
 
 
--  Only “normal” chapters and sections are exported. Chapters and
-   sections marked “unused” are not exported.
+-  Only "normal" chapters and sections are exported. Chapters and
+   sections marked "unused" are not exported.
 -  The document contains chapter and section headings. However, changes
    will not be reimported.
 -  The document contains section ``[scx]`` markers. **Do not touch lines
@@ -138,14 +138,14 @@ e.g. when you are finished with *novelibre*.
 
 -  The document is placed in the same folder as the project.
 -  Document’s **filename**: ``<project name>.odt``.
--  Only “normal” chapters and sections are exported. Chapters and
-   sections marked “unused” are not exported.
+-  Only "normal" chapters and sections are exported. Chapters and
+   sections marked "unused" are not exported.
 -  Part titles appear as first level heading.
 -  Chapter titles appear as second level heading.
 -  Sections are separated by ``* * *``. The first line is not indented.
 -  Starting from the second paragraph, paragraphs begin with indentation
    of the first line.
--  Sections marked “attach to previous section” appear like continuous
+-  Sections marked "attach to previous section" appear like continuous
    paragraphs.
 -  Text markup: Bold and italics are supported. Other highlighting such
    as underline and strikethrough are lost.
@@ -161,8 +161,8 @@ you can create a text document containing a brief synopsis
 with part, chapter, and sections titles only.
 File name suffix is ``_brf_synopsis``.
 
--  Only “normal” chapters and sections are exported. Chapters and
-   sections marked “unused” are not exported.
+-  Only "normal" chapters and sections are exported. Chapters and
+   sections marked "unused" are not exported.
 -  Part titles appear as first level heading.
 -  Chapter titles appear as second level heading.
 -  Section titles appear as plain paragraphs.

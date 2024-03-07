@@ -96,11 +96,11 @@ Refresh tree
 With **File > Refresh tree** or ``F5``,
 you can refresh the tree.
 
--  “Normal” sections that have been moved to an “Unused” chapter are
-   made “Unused”.
+-  "Normal" sections that have been moved to an "Unused" chapter are
+   made "Unused".
 -  Parts and chapters are renumbered according to the `Auto numbering
    settings <book_view.html#auto-numbering>`__.
--  The “Trash” chapter is moved to the end of the book, if necessary.
+-  The "Trash" chapter is moved to the end of the book, if necessary.
 
 
 Lock
@@ -134,7 +134,7 @@ This might come in handy, if you wish to delete files,
 open your project with another application, and so on.
 
 .. hint::
-   In case you edit the project “outsides”, consider locking it before.
+   In case you edit the project "outsides", consider locking it before.
 
 
 Copy style sheet
@@ -155,7 +155,7 @@ This allows you to view the *.novx* project file with a web browser.
 
    Depending on your web browser and your operating system, the
    *content type* resp. *MIME type* of *.novx* files must be registered as
-   *“text/xml”*. Under Windows, yo can do this by running the
+   *"text/xml"*. Under Windows, yo can do this by running the
    ``<home>\.novelibre\add_novelibre.reg`` script.
 
 

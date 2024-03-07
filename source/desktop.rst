@@ -51,7 +51,7 @@ Browsing the tree
    -  |Go forward| selects a node forward in the tree browsing history.
 
    .. hint::
-      On Windows, the “Forward” and “Back” mouse buttons (if any) 
+      On Windows, the "Forward" and "Back" mouse buttons (if any) 
       may also work.
 
 
@@ -61,7 +61,7 @@ Move tree elements
 Drag and drop while pressing the ``Alt`` key.
 
 .. caution::
-   Be aware, there is no “Undo” feature.
+   Be aware, there is no "Undo" feature.
 
 
 Delete tree elements
@@ -70,11 +70,11 @@ Delete tree elements
 Select the element to delete and hit the ``Del`` key.
 
 -  Parts and chapters are deleted.
--  Sections are marked “unused” and moved to the “Trash” chapter.
+-  Sections are marked "unused" and moved to the "Trash" chapter.
 -  Deleting a part has no effect on its subordinate chapters.
--  Deleting a chapter moves its sections to the “Trash” chapter.
--  The “Trash” chapter is created automatically, if needed.
--  When deleting the “Trash” chapter, all its sections are deleted.
+-  Deleting a chapter moves its sections to the "Trash" chapter.
+-  The "Trash" chapter is created automatically, if needed.
+-  When deleting the "Trash" chapter, all its sections are deleted.
 
 
 Text viewer

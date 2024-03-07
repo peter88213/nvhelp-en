@@ -5,7 +5,7 @@ When right-clicking on a tree element in the left pane, a context
 menu opens that belongs to the type of the selected element.
 
 .. hint::
-   Greyed-out entries are not available, e.g. due to “project lock”.
+   Greyed-out entries are not available, e.g. due to "project lock".
 
 
 Book context menu entries
@@ -82,11 +82,11 @@ Delete
 Deletes the selected tree element and its children.
 
 -  Parts and chapters are deleted.
--  Sections are marked “unused” and moved to the “Trash” chapter.
+-  Sections are marked "unused" and moved to the "Trash" chapter.
 -  Deleting a part has no effect on its subordinate chapters.
--  Deleting a chapter moves its sections to the “Trash” chapter.
--  The “Trash” chapter is created automatically, if needed.
--  When deleting the “Trash” chapter, all its sections are deleted.
+-  Deleting a chapter moves its sections to the "Trash" chapter.
+-  The "Trash" chapter is created automatically, if needed.
+-  When deleting the "Trash" chapter, all its sections are deleted.
 
 
 Set Type
@@ -133,7 +133,7 @@ with the same viewpoint.
 -  Section durations are added.
 
 .. caution::
-   Be aware, there is no “Undo” feature.
+   Be aware, there is no "Undo" feature.
 
 Chapter level
 ~~~~~~~~~~~~~
@@ -204,7 +204,7 @@ Delete
 Deletes the selected character/location/item.
 
 .. caution::
-   Be aware, there is no “Undo” feature.
+   Be aware, there is no "Undo" feature.
 
 Set Status
 ~~~~~~~~~~
@@ -268,7 +268,7 @@ Delete
 Deletes the selected plot line/plot point.
 
 .. caution::
-   Be aware, there is no “Undo” feature. If you delete a plot line, all its
+   Be aware, there is no "Undo" feature. If you delete a plot line, all its
    plot points will be deleted, too.
    
    

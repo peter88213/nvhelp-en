@@ -54,55 +54,55 @@ you can hide all tree elements except the main categories.
 Show Book
 ---------
 
-**Go to the “Book” branch and expand it**
+**Go to the "Book" branch and expand it**
 
 With **View > View Book**,
-you can select and open the “Book” branch.
+you can select and open the "Book" branch.
 
 
 Show Characters
 ---------------
 
-**Go to the “Characters” branch and expand it**
+**Go to the "Characters" branch and expand it**
 
 With **View > View Characters**,
-you can select and open the “Characters” branch.
+you can select and open the "Characters" branch.
 
 
 Show Locations
 --------------
 
-**Go to the “Locations” branch and expand it**
+**Go to the "Locations" branch and expand it**
 
 With **View > View Locations**,
-you can select and open the “Locations” branch.
+you can select and open the "Locations" branch.
 
 
 Show Items
 ----------
 
-**Go to the “Items” branch and expand it**
+**Go to the "Items" branch and expand it**
 
 With **View > View Items**,
-you can select and open the “Items” branch.
+you can select and open the "Items" branch.
 
 
 Show Plot lines
 ---------------
 
-**Go to the “Plot lines” branch and expand it**
+**Go to the "Plot lines" branch and expand it**
 
 With **View > Show Plot lines**,
-you can select and open the “Plot lines” branch.
+you can select and open the "Plot lines" branch.
 
 
 Show Project notes
 ------------------
 
-**Go to the “Project notes” branch and expand it**
+**Go to the "Project notes" branch and expand it**
 
 With **View > View Planning**,
-you can select and open the “Project notes” branch.
+you can select and open the "Project notes" branch.
 
 
 Toggle Text viewer

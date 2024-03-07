@@ -11,22 +11,22 @@ The toolbar provides buttons for common actions in the proposed workflow.
 
 -----------------
 
-|Show Book| Go to the “Book” branch and expand it.
+|Show Book| Go to the "Book" branch and expand it.
 Same as **View > Show Book**.
 
-|Show Characters| Go to the “Characters” branch and expand it.
+|Show Characters| Go to the "Characters" branch and expand it.
 Same as **View > Show Characters**.
 
-|Show Locations| Go to the “Locations” branch and expand it.
+|Show Locations| Go to the "Locations" branch and expand it.
 Same as **View > Show Locations**.
 
-|Show Items| Go to the “Items” branch and expand it.
+|Show Items| Go to the "Items" branch and expand it.
 Same as **View > Show Items**.
 
-|Show Plot lines| Go to the “Plot lines” branch and expand it.
+|Show Plot lines| Go to the "Plot lines" branch and expand it.
 Same as **View > Show Plot lines**.
 
-|Show Project notes| Go to the “Project notes” branch and expand it.
+|Show Project notes| Go to the "Project notes" branch and expand it.
 Same as **View > Show Project notes**.
 
 -----------------

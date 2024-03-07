@@ -123,8 +123,8 @@ the following data:
 -  Items
 
 .. note::
-   Only “normal” sections appear in the section list. 
-   Sections of the “Unused” type are omitted.
+   Only "normal" sections appear in the section list. 
+   Sections of the "Unused" type are omitted.
 
 File name suffix is ``_sectionlist``.
 

@@ -72,7 +72,7 @@ Move series and books
 Drag and drop while pressing the ``Alt`` key.
 
 .. caution::
-   Be aware, there is no “Undo” feature.
+   Be aware, there is no "Undo" feature.
 
 
 Remove books

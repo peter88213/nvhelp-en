@@ -70,12 +70,12 @@ context menu or Part/Chapter/Section menu. The type can be *Normal* or
 *Unused*.
 
 Normal
-   -  “Normal” type parts, chapters, and sections are counted. The totals
+   -  "Normal" type parts, chapters, and sections are counted. The totals
       are displayed in the status bar.
-   -  “Normal” type sections are exported to the manuscript and included in
+   -  "Normal" type sections are exported to the manuscript and included in
       the word count.
-   -  “Normal” type parts and chapters can have subelements of each type.
-   -  “Normal” type tree elements are color coded according to the
+   -  "Normal" type parts and chapters can have subelements of each type.
+   -  "Normal" type tree elements are color coded according to the
       `coloring mode settings <view_menu.html#coloring-mode>`__.
 
 Unused
@@ -83,14 +83,14 @@ Unused
    from word count totals and export.
 
    -  The subelements of unused parts and chapters are unused as well.
-   -  If you mark a section “Unused”, its properties are preserved.
+   -  If you mark a section "Unused", its properties are preserved.
    -  Unused tree elements are displayed in gray.
 
 
 Section completion status
 -------------------------
 
-You can assign a status to each “Normal” type section via context menu
+You can assign a status to each "Normal" type section via context menu
 or Section menu.
 
 -  You can choose a `coloring mode <view_menu.html#coloring-mode>`__
@@ -100,7 +100,7 @@ or Section menu.
    `work phase <book_view.html#writing-progress>`__,
    and choose a `coloring mode <view_menu.html#coloring-mode>`__
    that highlights sections that are behind schedule.
--  Newly created sections are set to “Outline” by default.
+-  Newly created sections are set to "Outline" by default.
 -  Word counts by status appear in the `Book properties
    <book_view.html#writing-pogress>`__.
 

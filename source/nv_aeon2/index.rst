@@ -54,7 +54,7 @@ Control conversion
 Prepare your timeline for export
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The included installation script installs a “novelibre” template in the
+The included installation script installs a "novelibre" template in the
 *nv_aeon2* configuration folder. The easiest way is to create new
 timelines based on this template. It provides the entities and event
 properties that are converted to novelibre by default.
@@ -72,7 +72,7 @@ Synchronization in detail
 Known limitations
 ~~~~~~~~~~~~~~~~~
 
--  “Narrative” events that begin before 0001-01-01 in the timeline, will
+-  "Narrative" events that begin before 0001-01-01 in the timeline, will
    not be synchronized with novelibre, because novelibre can not handle
    these dates.
 -  The same applies to the section duration in this case, i.e. the event
@@ -82,26 +82,26 @@ Known limitations
 Conversion rules for newly created novelibre projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The names/column labels refer to timelines based on the “yWriter”
+The names/column labels refer to timelines based on the "yWriter"
 template.
 
 -  If an Aeon event title occurs more than once, the program aborts with
    an error message.
--  Events assigned to the “Narrative” arc are converted to regular
+-  Events assigned to the "Narrative" arc are converted to regular
    sections.
--  New sections are put into a new chapter named “New sections”.
+-  New sections are put into a new chapter named "New sections".
 -  All sections are sorted chronologically.
--  The section status is “Outline”.
+-  The section status is "Outline".
 -  The event title is used as section title (\*).
 -  The start date is used as section date/time, if the start year is 1
    or above.
 -  The section duration is calculated, if the start year is 1 or above.
 -  Event tags are converted to section tags, if any (\*).
--  “Descriptions” are imported as section descriptions, if any (\*).
--  “Notes” are used as section notes, if any (\*).
--  “Participants” are imported as characters, if any (\*).
--  “Locations” are imported, if any (\*).
--  “Items” are imported, if any (\*).
+-  "Descriptions" are imported as section descriptions, if any (\*).
+-  "Notes" are used as section notes, if any (\*).
+-  "Participants" are imported as characters, if any (\*).
+-  "Locations" are imported, if any (\*).
+-  "Items" are imported, if any (\*).
 
 Update rules for existing novelibre projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,7 +111,7 @@ Update rules for existing novelibre projects
    with an error message.
 -  If a novelibre section title occurs more than once, the converter
    aborts with an error message.
--  Sections are marked “unused” if the associated event is deleted in
+-  Sections are marked "unused" if the associated event is deleted in
    Aeon.
 -  Section date, section time, and section duration are updated.
 -  Non-empty section description and section tags are updated.
@@ -119,16 +119,16 @@ Update rules for existing novelibre projects
    notes.
 -  The start date is overwritten, if the start year is 1 or above.
 -  The section duration is overwritten, if the start year is 1 or above.
--  New “Normal” type sections are created from “Narrative” events, if
+-  New "Normal" type sections are created from "Narrative" events, if
    missing.
--  New sections are put into a new chapter named “New sections”.
+-  New sections are put into a new chapter named "New sections".
 -  New plot lines, characters, locations, and items are added, if assigned to
-   “Narrative” events.
+   "Narrative" events.
 -  Arc, character, location, and item relationships are updated, if the
    entity names match.
--  When processing unspecific “day/hour/minute” information, the default
+-  When processing unspecific "day/hour/minute" information, the default
    date from the novelibre project is used. f there is no default date
-   set, “today” is used.
+   set, "today" is used.
 
 Update rules for Aeon Timeline 2 projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -142,15 +142,15 @@ Update rules for Aeon Timeline 2 projects
 -  Updated event span is specified in days/hours/minutes as in
    novelibre.
 -  Non-empty event description and event tags are updated.
--  Event properties “Description” and “Notes” are created, if missing.
--  Events created or updated from “Normal” sections are assigned to the
+-  Event properties "Description" and "Notes" are created, if missing.
+-  Events created or updated from "Normal" sections are assigned to the
    *Narrative* arc.
--  “Narrative” events are removed if the associated section is deleted
+-  "Narrative" events are removed if the associated section is deleted
    in novelibre.
--  Entity types “Arc”, “Character”, “Location”, and “Item” are created,
+-  Entity types "Arc", "Character", "Location", and "Item" are created,
    if missing.
--  A “Narrative” arc is created, if missing.
--  A “Storyline” arc role is created, if missing.
+-  A "Narrative" arc is created, if missing.
+-  A "Storyline" arc role is created, if missing.
 -  New arcs, characters, locations, and items are added, if assigned to
    sections.
 -  Arc, character, location, and item relationships are updated, if the
@@ -159,10 +159,10 @@ Update rules for Aeon Timeline 2 projects
    actual date and are sorted in reading order.
 -  When creating events from sections without any date/time information,
    they get the default date from the novelibre project, and are sorted
-   in reading order. If there is no default date set, “today” is used.
--  When processing unspecific “day/hour/minute” information, the default
+   in reading order. If there is no default date set, "today" is used.
+-  When processing unspecific "day/hour/minute" information, the default
    date from the novelibre project is used. f there is no default date
-   set, “today” is used.
+   set, "today" is used.
 
 Custom configuration
 --------------------

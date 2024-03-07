@@ -18,7 +18,7 @@ you can add a `chapter <basic_concepts.html#chapters>`__ to the tree.
 -  The new chapter is placed at the next free position after the selection, if
    possible.
 -  Otherwise, the new chapter is placed at the end of the
-   “Book” branch.
+   "Book" branch.
 -  The new chapter has an auto-generated title. You can change it in the right pane.
 
 
