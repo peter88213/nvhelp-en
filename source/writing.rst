@@ -112,6 +112,11 @@ to *novelibre*. Simply start a new line with a special marker
 by ``|``, a section description. All other metadata is intended
 to be entered in *novelibre* later.
 
+.. tip::
+   As of *novelibre* version 3.0.2, you can use ``####`` to create
+   an `appended section 
+   <section_view.html#append-to-previous-section>`__. 
+
 The following example shows how to split an existing section:
 
 .. figure:: _images/writing05.png
