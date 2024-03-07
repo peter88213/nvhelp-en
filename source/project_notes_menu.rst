@@ -3,7 +3,7 @@ Project notes menu
 
 **Project notes operation**
 
-.. figure:: _images/projectnotes_menu01.png
+.. figure:: _images/project_notes_menu01.png
    :alt: novelibre screenshot
 
 Add
@@ -12,7 +12,7 @@ Add
 **Add a new project note**
 
 With **Project notes > Add**,
-you can add a `project note <projectnote_view.html>`__
+you can add a `project note <project_note_view.html>`__
 to the tree.
 
 -  If a project note is selected, the new project note is placed

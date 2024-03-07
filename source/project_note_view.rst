@@ -9,7 +9,7 @@ You can edit the title and content of the selected project note.
 Title and content
 -----------------
 
-.. figure:: _images/projectnote_view01.png
+.. figure:: _images/project_note_view01.png
    :alt: Screenshot
 
 Title and content are displayed in an editable "index card".
