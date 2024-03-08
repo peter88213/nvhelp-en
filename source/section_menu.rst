@@ -36,6 +36,9 @@ Add multiple sections
 With **Section > Add multiple sections**,
 you can add up to 20 sections to the tree.
 
+.. figure:: _images/section_menu04.png
+   :alt: novelibre screenshot
+
 - You will be prompted to enter the number of new sections.
 - The number of sections to be added at once is limited to 20.
 - The new sections are placed at the next free position after the selection, if
