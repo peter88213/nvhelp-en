@@ -15,7 +15,7 @@ Command reference
 Aeon Timeline 2 > Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Show information about an existing Aeon Timeline 2 project, if any. 
+-  Show information about an existing Aeon Timeline 2 project, if any.
    Aeon Timeline 2 and novelibre file dates are compared.
 
 Aeon Timeline 2 > Update the timeline
@@ -54,8 +54,8 @@ Control conversion
 Prepare your timeline for export
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The included installation script installs a "novelibre" template in the
-*nv_aeon2* configuration folder. The easiest way is to create new
+After installation, you can copy a "novelibre" template to the
+Aeon2 custom template folder. The easiest way is to create new
 timelines based on this template. It provides the entities and event
 properties that are converted to novelibre by default.
 
