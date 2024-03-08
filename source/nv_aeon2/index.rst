@@ -18,8 +18,8 @@ The plugin adds an **Aeon Timeline 2** entry to the *novelibre* **Tools**
 menu, and an **Aeon 2 plugin Online Help** entry to the **Help** menu.
 
 
-Installing the Aeon Timeline 2 custom themes
---------------------------------------------
+Installing the Aeon Timeline 2 custom template
+----------------------------------------------
 
 After installation, you can copy a "novelibre.xml" template to the
 Aeon2 custom template folder. The easiest way is to create new
@@ -30,6 +30,12 @@ You find the customized template in the ``sample`` subdirectory
 of the unzipped *nv_aeon2* release folder. Just copy it into
 ``AppData\Local\Scribble Code\Aeon Timeline 2\CustomTemplates``.
 
+.. hint::
+   The ``<your user name>\AppData`` folder is hidden, so you
+   might have to go to the *Explorer* settings first to
+   enable *Show hidden files*. Just disable this again after
+   successfully having installed the custom template.
+    
 The next time you start *Aeon Timeline 2*,
 the new template appears in the *Custom Templates* area.
 
