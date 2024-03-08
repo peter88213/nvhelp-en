@@ -8,6 +8,16 @@ This page refers to the latest `nv_collection
 You can open it with **Help > Collection plugin Online help**.
 
 
+Installing the plugin
+---------------------
+
+- Unzip the downloaded zipfile into a new folder.
+- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+
+The plugin adds a **Collection** entry to the *novelibre* **File** menu,
+and a **Collection plugin Online help** entry to the **Help** menu.
+
+
 Start the collection manager
 ----------------------------
 

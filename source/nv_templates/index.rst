@@ -8,6 +8,17 @@ This page refers to the latest `nv_templates
 You can open it with **Help > Templates plugin Online help**.
 
 
+Installing the plugin
+---------------------
+
+- Unzip the downloaded zipfile into a new folder.
+- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+
+The plugin adds a **Story Templates** entry to the *novelibre* **Tools** menu,
+a **Create from Template** entry to the **File > New** submenu,
+and a **Template plugin Online Help** entry to the **Help** menu.
+
+
 Command reference
 -----------------
 

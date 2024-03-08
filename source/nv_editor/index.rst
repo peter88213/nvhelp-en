@@ -8,6 +8,16 @@ This page refers to the latest `nv_editor
 You can open it with **Help > Editor plugin Online help**.
 
 
+Installing the plugin
+---------------------
+
+- Unzip the downloaded zipfile into a new folder.
+- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+
+The plugin adds an **Edit** entry to the *novelibre* **Section** menu,
+and an **Editor plugin Online help** entry to the **Help** menu.
+
+
 Launch the section editor
 -------------------------
 

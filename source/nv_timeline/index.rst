@@ -8,6 +8,17 @@ This page refers to the latest `nv_timeline
 You can open it with **Help > Timeline plugin Online help**.
 
 
+Installing the plugin
+---------------------
+
+- Unzip the downloaded zipfile into a new folder.
+- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+
+The plugin adds a **Timeline** entry to the *novelibre* main menu,
+a **Create from Timeline** to the **File > New** submenu,
+and a **Timeline plugin Online Help** entry to the **Help** menu.
+
+
 Command reference
 -----------------
 
