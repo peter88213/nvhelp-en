@@ -258,9 +258,16 @@ There are two options:
 
 - **$Date** - Specific section date (yyyy-mm-dd)
 - **$Time** - Time section begins: (hh:mm)
+- **$OdsTime** - Time section begins: (PThhHmmMssS)
 - **$Day** - Day section begins
--
-- **$ScDate** - Date or day
+
+- **$ScDate** - Date or day (localized)
+
+- **$DateYear** - Year
+- **$DateMonth** - Month (number)
+- **$DateDay** - Day (number)
+- **$DateWeekday** - Day of the week (name)
+- **$MonthName** - Month (name)
 
 - **$LastsDays** - Amount of time section lasts: days
 - **$LastsHours** - Amount of time section lasts: hours
@@ -273,7 +280,6 @@ There are two options:
 - **$Conflict** - The section conflict, html-formatted
 - **$Outcome** - The section outcome, html-formatted
 - **$Tags** - Comma-separated list of section tags
-- **$Image** - Image filename
 
 - **$Characters** - Comma-separated list of characters assigned to the section
 - **$Viewpoint** - Viewpoint character
