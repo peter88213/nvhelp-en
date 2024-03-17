@@ -4,6 +4,8 @@
 .. |novelibre logo| image:: _images/nLogo32.png
    :target: https://github.com/peter88213/novelibre/
 
+`German <https://peter88213.github.io/nvhelp-de/>`_
+
 This page refers to the latest `novelibre <https://github.com/peter88213/novelibre/>`__
 release. You can open it with **Help > Online help**.
 
