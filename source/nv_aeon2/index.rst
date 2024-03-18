@@ -113,7 +113,7 @@ Known limitations
 Conversion rules for newly created novelibre projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The names/column labels refer to timelines based on the "yWriter"
+The names/column labels refer to timelines based on the "novelibre"
 template.
 
 -  If an Aeon event title occurs more than once, the program aborts with
