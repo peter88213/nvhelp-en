@@ -18,7 +18,7 @@ The project tree in the left pane shows the organization of the project.
 -  The tree elements are color-coded according to the section type (see
    `Basic concepts <basic_concepts.html#part-chapter-section-types>`__).
    *Normal* type sections are highlighted according to the selected coloring
-   mode (see *Optionss* in the `View menu <view_menu.html#coloring-mode>`__).
+   mode (see *Options* in the `View menu <view_menu.html#coloring-mode>`__).
 -  The order of the columns can be changed (see *Options* in
    the `View menu <view_menu.html#columns>`__).
 -  Right-clicking on a tree element opens a `context
@@ -35,8 +35,10 @@ Project tree structure
 -  The **Characters/Locations/Items** branches contain descriptions of
    the story world’s elements that can be associated with the book’s
    sections.
--  The **Plot lines** branch contains the plot lines and plot points.
--  The **Project notes** branch contains all project notes.
+-  The **Plot lines** branch contains the `plot lines and plot points
+   <plotting.html#defining-plot-lines>`__.
+-  The **Project notes** branch contains `project notes
+   <project_note_view.html>`__.
 
 
 Project tree operation
@@ -122,7 +124,7 @@ windows.
 .. figure:: _images/full_desktop.png
    :alt: Writer and novelibre screen arrangement
    
-   Example: Arranging LibreOffice (middle) with detached Navigator (upper left) 
+   Example: Arranging LibreOffice (middle) with detached Navigator (upper left), 
    and novelibre (lower left) with detached Properties (right) 
 
 
