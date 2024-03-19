@@ -83,16 +83,17 @@ Text viewer
 The **Text viewer** in the middle pane shows the part/chapter/section
 contents with their titles as headings.
 
--  You can open or close the Text viewer with **View > Toggle Text
-   viewer**, or ``Ctrl``-``T``, or clicking on |Toggle Text viewer|.
--  On opening, the windows shows the text, where the tree is selected.
+-  You can open or close the middle pane with the Text viewer with
+   **View > Toggle Text viewer**, or ``Ctrl``-``T``, or clicking on
+   |Toggle Text viewer|.
+-  On opening, the text viewer shows the text where the tree is selected.
 -  When changing the tree selection, the text moves along.
--  However, the text can be scrolled independently with the verical
+-  However, the text can be scrolled independently with the vertical
    scrollbar, or the mousewheel.
 -  You can select text with the mouse, and copy it to the clipboard with
    ``Ctrl``-``C``.
--  You cannot edit the text. For this, you might want to install an
-   editor plugin, such as
+-  You cannot edit the text in the viewer.
+   For this, you might want to install an editor plugin, such as
    `nv_editor <https://github.com/peter88213/nv_editor/>`__.
 -  Section text is color-coded according to the section type (see `Basic
    concepts <basic_concepts.html#part-chapter-section-types>`__).
