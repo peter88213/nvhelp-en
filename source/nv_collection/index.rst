@@ -1,6 +1,10 @@
 nv_collection
 =============
 
+|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_collection/>`_
+
+.. |external-link| image:: ../_images/external-link.png
+
 **User guide**
 
 This page refers to the latest `nv_collection

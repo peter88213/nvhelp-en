@@ -1,6 +1,10 @@
 nv_timeline
 ===========
 
+|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_timeline/>`_
+
+.. |external-link| image:: ../_images/external-link.png
+
 **User guide**
 
 This page refers to the latest `nv_timeline

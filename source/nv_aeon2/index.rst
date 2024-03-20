@@ -1,6 +1,10 @@
 nv_aeon2
 ========
 
+|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_aeon2/>`_
+
+.. |external-link| image:: ../_images/external-link.png
+
 **User guide**
 
 This page refers to the latest `nv_aeon2
