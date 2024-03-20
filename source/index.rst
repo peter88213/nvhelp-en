@@ -1,12 +1,15 @@
+|external-link| `German <https://peter88213.github.io/nvhelp-de/>`__
+
+.. |external-link| image:: _images/external-link.png
+
+-----------------
+
+=====================================
 |novelibre logo| novelibre User guide
 =====================================
 
 .. |novelibre logo| image:: _images/nLogo32.png
    :target: https://github.com/peter88213/novelibre/
-
-|external-link| `German <https://peter88213.github.io/nvhelp-de/>`_
-
-.. |external-link| image:: _images/external-link.png
 
 This page refers to the latest `novelibre <https://github.com/peter88213/novelibre/>`__
 release. You can open it with **Help > Online help**.

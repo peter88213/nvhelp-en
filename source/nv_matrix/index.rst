@@ -1,9 +1,12 @@
-nv_matrix
-=========
-
-|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_matrix/>`_
+|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_matrix/>`__
 
 .. |external-link| image:: ../_images/external-link.png
+
+-----------------
+
+=========
+nv_matrix
+=========
 
 **User guide**
 

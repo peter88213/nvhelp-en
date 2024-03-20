@@ -1,9 +1,12 @@
-novx_xtg
-========
-
-|external-link| `German <https://peter88213.github.io/nvhelp-de/novx_xtg>`_
+|external-link| `German <https://peter88213.github.io/nvhelp-de/novx_xtg>`__
 
 .. |external-link| image:: ../_images/external-link.png
+
+-----------------
+
+========
+novx_xtg
+========
 
 **User guide**
 

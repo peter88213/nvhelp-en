@@ -1,9 +1,12 @@
-nv_updater
-==========
-
-|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_updater/>`_
+|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_updater/>`__
 
 .. |external-link| image:: ../_images/external-link.png
+
+-----------------
+
+==========
+nv_updater
+==========
 
 **User guide**
 

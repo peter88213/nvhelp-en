@@ -1,9 +1,12 @@
-scap_novx
-=========
-
-|external-link| `German <https://peter88213.github.io/nvhelp-de/scap_novx/>`_
+|external-link| `German <https://peter88213.github.io/nvhelp-de/scap_novx/>`__
 
 .. |external-link| image:: ../_images/external-link.png
+
+-----------------
+
+=========
+scap_novx
+=========
 
 **User guide**
 

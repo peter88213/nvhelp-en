@@ -1,9 +1,12 @@
-nv_editor
-=========
-
-|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_editor/>`_
+|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_editor/>`__
 
 .. |external-link| image:: ../_images/external-link.png
+
+-----------------
+
+=========
+nv_editor
+=========
 
 **User guide**
 
