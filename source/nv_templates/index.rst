@@ -70,7 +70,7 @@ Conventions
 -----------
 
 In *novelibre*, you can define a narrative structure with stages. See
-`Plot lines <https://github.com/peter88213/novelibre/help/plotting>`__.
+`Plotting with novelibre <../plotting.html>`__.
 *nv_templates* faciliates the reuse of narrative structures.
 
 Markdown file structure
@@ -85,8 +85,8 @@ First level heading for top level stages, e.g. acts
 The first level heading begins with ``#``, followed by a space and a
 stage title.
 
-Second level heading for minor stages or plot points
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Second level heading for minor stages or turning points
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The second level heading begins with ``##``, followed by a space and a
 stage title.
