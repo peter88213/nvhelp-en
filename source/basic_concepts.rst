@@ -188,7 +188,7 @@ the project can be automatically locked in order to prevent confusion.
 This behavior depends on the `Export settings <export_menu.html#options>`__.
 
 .. important::
-   The project cannot be locked unless changes are saved. 
+   The project can only be locked if all changes are saved. 
 
 In locked state, the project cannot be modified via the user interface.
 The footer bar is then displayed in reversed colors, the menu entries
