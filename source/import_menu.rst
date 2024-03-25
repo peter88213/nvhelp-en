@@ -1,14 +1,14 @@
 Import menu
 ===========
 
-**Update the project from previously exported ODT documents**
+**Update the project from a previously exported ODF document**
 
 .. figure:: _images/import_menu02.png
    :alt: novelibre screenshot
 
 With the **Import** main menu entry,
 you can open a pop-up window with a list containing previously
-exported ODT documents that can be re-imported, thus updating the
+exported ODF documents that can be re-imported, thus updating the
 current project.
 
 .. figure:: _images/import_menu01.png

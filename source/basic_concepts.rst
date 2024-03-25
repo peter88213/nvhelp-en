@@ -149,7 +149,7 @@ formats:
 Comments, footnotes, endnotes
 -----------------------------
 
-*odt* comments, footnotes, and endnotes are supported by *novelibre*.
+ODT comments, footnotes, and endnotes are supported by *novelibre*.
 
 .. tip::
    *novelibre* has no support for images in the text body. 
