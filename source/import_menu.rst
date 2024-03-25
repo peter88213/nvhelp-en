@@ -22,16 +22,40 @@ current project.
 -  You can update the project from a document either by double-clicking
    on the list entry, or by selecting the document and clicking on the
    **Import** button.
--  You can delete documents by selecting them and clicking on the
+-  You can discard documents by selecting them and clicking on the
    **Discard** button.
+
+   .. hint::
+      Discard means: Rename by adding the extension *.bak*
+      to the file name.
+   
 -  After closing a listed document in *Writer* while the *Exported
    documents* window is open, you can click on the **Refresh view**
    button.
--  If the **Discard document after import** checkbox is checked, a
-   document will be deleted after re-import. This may help to avoid
-   confusion about changes made with *novelibre* and *Writer*.
 
-   .. note::
-   	Documents with split sections are always automatically
-   	discarded after re-import.
+Discarding documents after updating the project
+-----------------------------------------------
 
+Documents with split sections are always automatically discarded
+after re-import in order to avoid confusion about the changed
+section or chapter structure.
+Concerning re-imported documents that do not require modifying
+the project structure, you have three choices:
+
+Discard documents only when sections are split
+   This is the default behavior.
+   The ODF documents are kept for future use.
+
+Always discard documents after import
+   After updating the *novelibre* project from an re-imported
+   ODF document, this document is automatically discarded.
+
+Import documents even if locked; do not discard
+   This is for fast and frequent project updates while keeping
+   the ODF documents open in *Writer* or *Calc* for editing.
+
+   .. important::
+      If you split sections in your ODT document, you cannot 
+      import it while open in *Writer*. 
+      This is because *novelibre* cannot discard it when locked
+      by *Writer*. 
