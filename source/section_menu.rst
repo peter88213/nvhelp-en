@@ -107,23 +107,27 @@ With **Section list (export only)**,
 you can create a spreadsheet with a row per section, containing
 the following data:
 
-- The section ID as a hyperlink to the section in the manuscript (if any)
--  Section title
--  Section description
--  Narrative date
--  Narrative time
--  Tags
--  Section notes
--  A/R
--  Goal
--  Conflict
--  Outcome
--  Sequential section number
--  Words total
--  Word count
--  Characters
--  Locations
--  Items
+- Section ID (hidden)
+- Section number (link to manuscript)
+- Title
+- Description
+- Viewpoint
+- Date
+- Time
+- Day
+- Duration
+- Tags
+- Section notes
+- A/R
+- Goal
+- Conflict
+- Outcome
+- Status
+- Words total
+- Word count
+- Characters
+- Locations
+- Items
 
 .. note::
    Only "normal" sections appear in the section list. 
