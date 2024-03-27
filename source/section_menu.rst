@@ -91,7 +91,7 @@ Export section descriptions for editing
 
 **Export an ODT document that can be imported again after editing**
 
-With **Export section descriptions for editing**,
+With **Section > Export section descriptions for editing**,
 you can create a text document with a **full synopsis** containing
 part/chapter headings and section descriptions
 that can be edited and reimported.
@@ -103,7 +103,7 @@ Section list (export only)
 
 **Export an ODS document**
 
-With **Section list (export only)**,
+With **Section > Section list (export only)**,
 you can create a spreadsheet with a row per section, containing
 the following data:
 
