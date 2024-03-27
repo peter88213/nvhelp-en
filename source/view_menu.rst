@@ -11,7 +11,7 @@ Chapter level
 
 **Hide the sections**
 
-with **View > Chapter level** or ``Ctrl``-``Alt``-``C``,
+With **View > Chapter level** or ``Ctrl``-``Alt``-``C``,
 you can collapse the tree, so that only parts and chapters are visible.
 
 
