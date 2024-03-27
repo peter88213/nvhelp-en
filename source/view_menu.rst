@@ -179,7 +179,7 @@ Status
 
 Work phase
    Normal sections are highlighted if their completion status
-   is behind the work phase defined in the `Book properties
+   does not match the work phase defined in the `Book properties
    <book_view.html#writing-pogress>`__.
 
 
