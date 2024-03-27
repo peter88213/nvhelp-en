@@ -77,7 +77,7 @@ Export plot grid for editing
 
 **Export an ODS document that can be imported again after editing**
 
-With **Export > Plot grid for editing**,
+With **Plot > Plot grid for editing**,
 you can create a spreadsheet as described in the
 `Plotting with novelibre <plotting.html#plot-grid>`__ chapter,
 with a row per section, containing the following data:
