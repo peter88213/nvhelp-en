@@ -117,14 +117,6 @@ showing part/chapter/section titles and section content.
 .. hint::
 
    -  On reopening, the windows shows the text, where the tree is selected.
-   -  When changing the tree selection, the text moves along.
-   -  However, the text can be scrolled independently with the verical
-      scrollbar, or the mousewheel.
-   -  You can select text with the mouse, and copy it to the clipboard with
-      ``Ctrl``-``C``.
-   -  You cannot edit the text. For this, you might want to install an
-      editor plugin, such as
-      `nv_editor <https://github.com/peter88213/nv_editor/>`__.
 
 
 Toggle Properties
