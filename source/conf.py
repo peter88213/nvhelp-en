@@ -8,8 +8,9 @@
 
 project = 'novelibre User guide'
 copyright = '2024, peter88213'
-author = 'peter88213'
-release = '3.2'
+author = 'Peter Triesberger'
+version = 'version 3.3+'
+release = '3.3.1'
 # The release is related to the novelibre application's major/minor version numbers.
 
 # -- General configuration ---------------------------------------------------
