@@ -66,15 +66,11 @@
 <li class="toctree-l2"><a class="reference internal" href="project_notes_menu.html">Project notes menu</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Export menu</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#manuscript-for-editing">Manuscript for editing</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#plot-grid-for-editing">Plot grid for editing</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#manuscript-for-third-party-word-processing">Manuscript for third-party word processing</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#manuscript-for-printing-export-only">Manuscript for printing (export only)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#brief-synopsis-export-only">Brief synopsis (export only)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cross-references-export-only">Cross references (export only)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#characters-locations-items-data-files">Characters/locations/items data files</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#plot-description-export-only">Plot description (export only)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#export-plot-list-spreadsheet">Export plot list (spreadsheet)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#show-plot-list">Show Plot list</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#options">Options</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#ask-before-opening-exported-documents">Ask before opening exported documents</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#lock-the-project-after-document-export-for-editing">Lock the project after document export for editing</a></li>
@@ -156,45 +152,6 @@ discarded after the <em>novelibre</em> project is updated.</p>
 <li><p>Text markup: Bold and italics are supported. Other highlighting such
 as underline and strikethrough are lost.</p></li>
 </ul>
-</section>
-<section id="plot-grid-for-editing">
-<h2>Plot grid for editing<a class="headerlink" href="#plot-grid-for-editing" title="Link to this heading"></a></h2>
-<p><strong>Export an ODS document that can be imported again after editing</strong></p>
-<p>With <strong>Export &gt; Plot grid for editing</strong>,
-you can create a spreadsheet as described in the
-<a class="reference external" href="plotting.html#plot-grid">Plotting with novelibre</a> chapter,
-with a row per section, containing the following data:</p>
-<ul class="simple">
-<li><p>The sequential section number as a hyperlink to the section in the
-manuscript (if any)</p></li>
-<li><p>Narrative date</p></li>
-<li><p>Narrative time</p></li>
-<li><p>Day</p></li>
-<li><p>Section title</p></li>
-<li><p>Section description</p></li>
-<li><p>Viewpoint character</p></li>
-<li><p>One column per plot line with the section’s plot line notes</p></li>
-<li><p>Tags</p></li>
-<li><p>A/R</p></li>
-<li><p>Goal</p></li>
-<li><p>Conflict</p></li>
-<li><p>Outcome</p></li>
-<li><p>Section notes</p></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Only “normal” sections appear in the plot grid.
-Sections of the “Unused” type are omitted.</p>
-</div>
-<p>File name suffix is <code class="docutils literal notranslate"><span class="pre">_grid_tmp</span></code>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>You can reorder, hide or delete columns and rows
-without affecting the reimport.
-Only the first column and the first row, which are hidden by default,
-must not be changed as they contain the structural information
-for the import.</p>
-</div>
 </section>
 <section id="manuscript-for-third-party-word-processing">
 <h2>Manuscript for third-party word processing<a class="headerlink" href="#manuscript-for-third-party-word-processing" title="Link to this heading"></a></h2>
@@ -311,45 +268,6 @@ to transfer the characters, locations, and items to another project.</p>
 <p>To import XML data files from another project, use the <strong>Import</strong>
 command in the <strong>Characters</strong>, <strong>Locations</strong>, or <strong>Items</strong> menu.</p>
 </div>
-</section>
-<section id="plot-description-export-only">
-<h2>Plot description (export only)<a class="headerlink" href="#plot-description-export-only" title="Link to this heading"></a></h2>
-<p><strong>Export an ODT document</strong></p>
-<p>With <strong>Export &gt;  Plot description (export only)</strong>,
-you can create a text document that contains the plot-defining elements.
-File name suffix is <code class="docutils literal notranslate"><span class="pre">_plot</span></code>.</p>
-<p>Contents:</p>
-<ul class="simple">
-<li><p>First and second level stages (titles and descriptions).</p></li>
-<li><p>Plot lines (titles and descriptions).</p></li>
-<li><p>Plot points (titles, descriptions, and links to the associated
-section, if any).</p></li>
-</ul>
-</section>
-<section id="export-plot-list-spreadsheet">
-<h2>Export plot list (spreadsheet)<a class="headerlink" href="#export-plot-list-spreadsheet" title="Link to this heading"></a></h2>
-<p><strong>Export an ODS document</strong></p>
-<p>With <strong>Export &gt;  Export plot list (spreadsheet)</strong>,
-you can create a spreadsheet that contains
-sections, plot lines, and plot points.
-File name suffix is <code class="docutils literal notranslate"><span class="pre">_plotlist</span></code>.</p>
-<p>The spreadsheet is not meant to be reimported.</p>
-<div class="admonition hint">
-<p class="admonition-title">Hint</p>
-<p>There are hyperlinks to the sections in the manuscript, and to the
-chapters in the plot description.</p>
-</div>
-</section>
-<section id="show-plot-list">
-<h2>Show Plot list<a class="headerlink" href="#show-plot-list" title="Link to this heading"></a></h2>
-<p>With <strong>Export &gt;  Show Plot list</strong>,
-you can create a list-formatted HTML file that contains
-sections, plot lines, and plot points,
-and launch your system’s web browser for displaying it.</p>
-<ul class="simple">
-<li><p>The Report is a temporary file, auto-deleted on program exit.</p></li>
-<li><p>If needed, you can have your web browser save or print it.</p></li>
-</ul>
 </section>
 <section id="options">
 <h2>Options<a class="headerlink" href="#options" title="Link to this heading"></a></h2>

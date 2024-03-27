@@ -65,7 +65,7 @@ Plot grid
 ---------
 
 The *novelibre* `plot grid
-<export_menu.html#plot-grid-for-editing>`__ is a spreadsheet with a row for
+<plot_menu.html#export-plot-grid-for-editing>`__ is a spreadsheet with a row for
 each section, and a set of plot-relevant section metadata in the columns.
 The first visible column contains links to the sections in the
 `manuscript <export_menu.html#manuscript-for-editing>`__.

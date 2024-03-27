@@ -6,6 +6,7 @@ Plot menu
 .. figure:: _images/plot_menu01.png
    :alt: novelibre screenshot
 
+
 Add Plot line
 -------------
 
@@ -20,6 +21,7 @@ you can add a project note to the tree .
    -  Otherwise, the new plot line is placed at the last position.
    -  The new plot line has an auto-generated title. You can change it in the
       right pane.
+
 
 Add Plot point
 --------------
@@ -37,6 +39,7 @@ you can add a plot point to a plot line.
    - The new plot point has an auto-generated title. You can change it in
      the right pane.
 
+
 Insert Stage
 ------------
 
@@ -48,6 +51,7 @@ you can insert a stage after the selected chapter or section.
 .. hint::
    By default, the new stage is on the second level. 
    You can change the level to first (see below).
+
 
 Change Level
 ------------
@@ -66,6 +70,47 @@ you can change the level of the selected stages.
 .. note::
    The stage level is only for visual distinction. It has no
    influence on the program functions. 
+
+
+Export plot grid for editing
+----------------------------
+
+**Export an ODS document that can be imported again after editing**
+
+With **Export > Plot grid for editing**,
+you can create a spreadsheet as described in the
+`Plotting with novelibre <plotting.html#plot-grid>`__ chapter,
+with a row per section, containing the following data:
+
+- The sequential section number as a hyperlink to the section in the
+  manuscript (if any)
+- Narrative date
+- Narrative time
+- Day
+- Section title
+- Section description
+- Viewpoint character
+- One column per plot line with the section's plot line notes
+- Tags
+- A/R
+- Goal
+- Conflict
+- Outcome
+- Section notes
+
+.. note::
+   Only "normal" sections appear in the plot grid. 
+   Sections of the "Unused" type are omitted.
+
+File name suffix is ``_grid_tmp``.
+
+.. note::
+   You can reorder, hide or delete columns and rows 
+   without affecting the reimport. 
+   Only the first column and the first row, which are hidden by default, 
+   must not be changed as they contain the structural information 
+   for the import. 
+
 
 Export plot description
 -----------------------
@@ -105,6 +150,7 @@ File name suffix is ``_plotlist``.
    so they might not work after moving the location of your project file
    to another folder or computer. In this case, you will have to 
    export the spreadsheet anew.  
+
 
 Show Plot list
 --------------

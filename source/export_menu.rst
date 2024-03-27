@@ -39,45 +39,6 @@ File name suffix is ``_manuscript_tmp``.
    as underline and strikethrough are lost.
 
 
-Plot grid for editing
----------------------
-
-**Export an ODS document that can be imported again after editing**
-
-With **Export > Plot grid for editing**,
-you can create a spreadsheet as described in the
-`Plotting with novelibre <plotting.html#plot-grid>`__ chapter,
-with a row per section, containing the following data:
-
-- The sequential section number as a hyperlink to the section in the
-  manuscript (if any)
-- Narrative date
-- Narrative time
-- Day
-- Section title
-- Section description
-- Viewpoint character
-- One column per plot line with the section's plot line notes
-- Tags
-- A/R
-- Goal
-- Conflict
-- Outcome
-- Section notes
-
-.. note::
-   Only "normal" sections appear in the plot grid. 
-   Sections of the "Unused" type are omitted.
-
-File name suffix is ``_grid_tmp``.
-
-.. note::
-   You can reorder, hide or delete columns and rows 
-   without affecting the reimport. 
-   Only the first column and the first row, which are hidden by default, 
-   must not be changed as they contain the structural information 
-   for the import. 
-
 Manuscript for third-party word processing
 ------------------------------------------
 
@@ -201,52 +162,6 @@ to transfer the characters, locations, and items to another project.
 .. hint::
    To import XML data files from another project, use the **Import**
    command in the **Characters**, **Locations**, or **Items** menu.
-
-
-Plot description (export only)
-------------------------------
-
-**Export an ODT document**
-
-With **Export >  Plot description (export only)**,
-you can create a text document that contains the plot-defining elements.
-File name suffix is ``_plot``.
-
-Contents:
-
--  First and second level stages (titles and descriptions).
--  Plot lines (titles and descriptions).
--  Plot points (titles, descriptions, and links to the associated
-   section, if any).
-
-
-Export plot list (spreadsheet)
-------------------------------
-
-**Export an ODS document**
-
-With **Export >  Export plot list (spreadsheet)**,
-you can create a spreadsheet that contains
-sections, plot lines, and plot points.
-File name suffix is ``_plotlist``.
-
-The spreadsheet is not meant to be reimported.
-
-.. hint::
-   There are hyperlinks to the sections in the manuscript, and to the
-   chapters in the plot description.
-
-
-Show Plot list
---------------
-
-With **Export >  Show Plot list**,
-you can create a list-formatted HTML file that contains
-sections, plot lines, and plot points,
-and launch your system’s web browser for displaying it.
-
--  The Report is a temporary file, auto-deleted on program exit.
--  If needed, you can have your web browser save or print it.
 
 
 Options

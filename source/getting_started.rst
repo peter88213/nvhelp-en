@@ -146,7 +146,7 @@ If you want to outline your novel using a `plot grid
    that are easier to distribute to the chapters to be created later.
    You can extend the plot grid over time.
 5. Create the `plot lines <plot_menu.html#add-plot-line>`__ you need.
-6. `Export a plot grid <export_menu.html#plot-grid-for-editing>`__
+6. `Export a plot grid <plot_menu.html#export-plot-grid-for-editing>`__
    and fill the table cells.
 7. `Import <import_menu.html>`__ the plot grid.
 8. `Add more chapters <chapter_menu.html#add>`__ and
