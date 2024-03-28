@@ -90,6 +90,10 @@ Open Link
       standard application, you can provide a *novelibre* "launcher" setting. 
       For this, just create a text file named **launchers.ini** in the 
       ``.novelibre.config``  directory (where all configuration files are stored). 
+      Here you can assign applications to the file extensions. 
+      
+      Zim desktop wiki pages are a special case. 
+      For this, the Zim program is assigned to the `.zim` extension. 
       
       This example shows a setting that makes *novelibre* open text files
       with the *Zim Desktop Wiki* application instead of the standard text 
@@ -98,7 +102,7 @@ Open Link
       ::
      
          [SETTINGS]
-         .txt = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
+         .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
          
       .. figure:: _images/launchers.png
          :alt: Screenshot
