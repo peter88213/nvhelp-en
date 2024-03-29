@@ -160,7 +160,7 @@ Open Link
 The yellow text area is for notes. Changes are applied
 when the mouse is clicked anywhere outside the text input field.
 
-When the "sticky note" of a character contains text, an "N" is
+When the "sticky note" of a character contains text, "N" is
 displayed in the tree view as a reminder.
 
 .. note::

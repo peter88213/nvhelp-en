@@ -131,8 +131,10 @@ Open Link
 The yellow text area is for notes. Changes are applied
 when the mouse is clicked anywhere outside the text input field.
 
-When the "sticky note" of a plot point contains text, an "N" is
-displayed in the tree view as a reminder.
+When the "sticky note" of a plot point contains text, "N" is
+displayed in the tree view as a reminder. If the branch of a
+plot line with plot points containing notes is collapsed,
+the "N" is displayed in the plot line row.
 
 .. note::
    The "sticky notes" are only for working with *novelibre*.
