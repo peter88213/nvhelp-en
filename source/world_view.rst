@@ -40,7 +40,7 @@ Links
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/character_view04.png
+.. figure:: _images/world_view02.png
    :alt: Screenshot
    
 This is a list for image and research document links.
@@ -113,6 +113,21 @@ Open Link
 .. |Goto| image:: _images/goto.png
 .. |Remove| image:: _images/remove.png
 
+
+"Sticky note"
+-------------
+
+The yellow text area is for notes. Changes are applied
+when the mouse is clicked anywhere outside the text input field.
+
+When the "sticky note" of a section contains text, an "N" is
+displayed in the tree view as a reminder. If the branch of a chapter
+with sections containing notes is collapsed, the "N" is displayed
+in the chapter row.
+
+.. note::
+   The "sticky notes" are only for working with *novelibre*.
+   They are not meant to be exported into a document.
 
 
 Navigation buttons

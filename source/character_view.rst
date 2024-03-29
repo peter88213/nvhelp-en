@@ -74,6 +74,7 @@ the text input field.
    If "Goals" is not the right category for you, you can change the label
    in the `book settings <book_view.html#renamings>`__. 
 
+
 Links
 -----
 
@@ -153,7 +154,6 @@ Open Link
 .. |Remove| image:: _images/remove.png
 
 
-
 "Sticky note"
 -------------
 
@@ -169,6 +169,7 @@ displayed in the tree view as a reminder.
    However, they appear in the `character list`_.
 
 .. _character list: characters_menu.html#export-character-list-spreadsheet
+
 
 Navigation buttons
 ------------------
