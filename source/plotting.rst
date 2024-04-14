@@ -74,6 +74,12 @@ Where the `plot line notes <section_view.html#plot-lines>`__ are shown.
 The plot grid offers you a convenient way to enter the plot line notes by
 seeing the big pictures of your plot construction.
 
+.. figure:: _images/plot_grid01.png
+   :alt: Example
+
+   Plot grid example
+
+
 .. hint::
    You can assign a section to a plot line by entering text
    in the corresponding *Plot line notes* cell of the plot grid. 
