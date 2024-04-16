@@ -244,57 +244,67 @@ This is the configuration explained:
 ::
 
    [SETTINGS]
-
+   
    narrative_arc = Narrative
-
+   
    # Name of the user-defined "Narrative" arc.
-
+   
    property_description = Description
-
+   
    # Name of the user-defined section description property.
-
+   
    property_notes = Notes
-
+   
    # Name of the user-defined section notes property.
-
+   
+   property_moonphase = Moon phase
+   # Name of the user-defined moon phase property.
+   
    role_location = Location
-
+   
    # Name of the user-defined role for section locations.
-
+   
    role_item = Item
-
+   
    # Name of the user-defined role for items in a section.
-
+   
    role_character = Participant
-
+   
    # Name of the user-defined role for characters in a section.
-
+   
    type_character = Character
-
+   
    # Name of the user-defined "Character" type
-
+   
    type_location = Location
-
+   
    # Name of the user-defined "Location" type
-
+   
    type_item = Item
-
+   
    # Name of the user-defined "Item" type
-
+   
    color_section = Red
-
+   
    # Color of new section events
-
+   
    color_event = Yellow
-
+   
    # Color of new non-section events
-
+   
+   
+   
    [OPTIONS]
-
+   
    add_moonphase = No
-
+   
    # Yes: Add the moon phase to the event properties.
    # No: Update moon phase, if already defined as event property.
+   
+   lock_on_export = No
+   
+   # Yes: Lock the novelibre project when opening the thimeline.
+   # No: Do not lock the novelibre project when opening the thimeline.
 
 .. note:: 
    Your custom configuration file does not have to contain all the
