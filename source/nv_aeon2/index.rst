@@ -258,6 +258,7 @@ This is the configuration explained:
    # Name of the user-defined section notes property.
    
    property_moonphase = Moon phase
+   
    # Name of the user-defined moon phase property.
    
    role_location = Location
