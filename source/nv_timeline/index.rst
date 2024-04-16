@@ -121,6 +121,15 @@ This is the configuration explained:
 
    # Days between events with automatically generated dates.  
 
+
+   [OPTIONS]
+   
+   lock_on_export = No
+   
+   # Yes: Lock the novelibre project when opening the timeline.
+   # No: Do not lock the novelibre project when opening the timeline.
+
+
 How to reset the configuration to defaults
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
