@@ -94,7 +94,7 @@ stage title.
 Ordinary text
 ^^^^^^^^^^^^^
 
-Any text under a heading is used as a description for the element
+Any text under a heading is used as notes for the element
 generated from the heading.
 
 Example
