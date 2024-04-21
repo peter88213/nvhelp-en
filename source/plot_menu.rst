@@ -98,6 +98,8 @@ with a row per section, containing the following data:
 - Outcome/Decision/(custom)
 - Section notes
 
+The plot line titles are linked to the plot line descriptions (see below).
+
 .. note::
    Only "normal" sections appear in the plot grid. 
    Sections of the "Unused" type are omitted.
@@ -112,15 +114,30 @@ File name suffix is ``_grid_tmp``.
    for the import. 
 
 
-Export plot description
------------------------
+Export story structure description for editing
+----------------------------------------------
 
 **Export an ODT document**
 
-With **Plot > Export plot description**,
+With **Plot > Export story structure description for editing**,
+you can create a text document that contains
+all stages, each with description.
+File name suffix is ``_structure_tmp``.
+
+.. hint::
+   This is also a full synopsis, with the emphasis on the dramaturgical structure.
+
+
+Export plot line descriptions for editing
+-----------------------------------------
+
+**Export an ODT document**
+
+With **Plot > Export plot Export plot line descriptions for editing**,
 you can create a text document that contains
 stages, plot lines, and plot points, each with description.
-File name suffix is ``_plot``.
+The plot points are linked to the manuscript and to the section descriptions.
+File name suffix is ``_plotlines_tmp``.
 
 
 Export plot list (spreadsheet)
