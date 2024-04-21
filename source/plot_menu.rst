@@ -117,7 +117,7 @@ File name suffix is ``_grid_tmp``.
 Export story structure description for editing
 ----------------------------------------------
 
-**Export an ODT document**
+**Export an ODT document that can be imported again after editing**
 
 With **Plot > Export story structure description for editing**,
 you can create a text document that contains
@@ -131,7 +131,7 @@ File name suffix is ``_structure_tmp``.
 Export plot line descriptions for editing
 -----------------------------------------
 
-**Export an ODT document**
+**Export an ODT document that can be imported again after editing**
 
 With **Plot > Export plot Export plot line descriptions for editing**,
 you can create a text document that contains
