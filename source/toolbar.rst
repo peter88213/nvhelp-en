@@ -35,12 +35,12 @@ Same as **View > Show Project notes**.
 
 |Lock/Unlock| Toggle the lock status of the project.
 
+|Update from manuscript| Import the current manuscript.
+Same as selecting the manuscript under **Import**.
+
 |Export manuscript| Export the manuscript for editing.
 Same as **Export > Manuscript for editing**,
 but without confirmation for opening the document.
-
-|Update from manuscript| Import the current manuscript.
-Same as selecting the manuscript under **Import**.
 
 -----------------
 
