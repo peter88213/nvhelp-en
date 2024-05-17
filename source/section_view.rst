@@ -115,8 +115,8 @@ along with their plot lines.
    `plot point's properties <point_view.html#assigned-section>`__.
 
 
-Action/Reaction
----------------
+Scene
+-----
 
 Expand or collapse this frame by clicking on the label.
 
@@ -130,7 +130,7 @@ something like this to ensure suspense, you can do so here.
 
 If this is not for you, but you would like to use a different method
 to set up a dramaturgical scene micro-structure, you can set the section
-to **Custom** and get three `freely named <book_view.html#renamings>`_
+to **Other** and get three `freely named <book_view.html#renamings>`_
 text fields.
 
 .. figure:: _images/section_view06.png

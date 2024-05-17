@@ -121,8 +121,8 @@ Editing the categories can be completed by pressing the ``Enter`` key.
 
 Section fields
    The heading replacements for *Goal*, *Conflict*, and *Outcome* are
-   used when you set the `Action/Reaction frame
-   <section_view.html#action-reaction>`__ to **Custom**.
+   used when you set the `Scene frame
+   <section_view.html#scene>`__ to **Other**.
    You can do this individually for each section.
 
 Character fields
