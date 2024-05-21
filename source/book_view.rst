@@ -119,13 +119,20 @@ If the default categories do not fit into your individual story planning
 concept, you can rename these fields.
 Editing the categories can be completed by pressing the ``Enter`` key.
 
-Section fields
-   The heading replacements for *Goal*, *Conflict*, and *Outcome* are
-   used when you set the `Scene frame
-   <section_view.html#scene>`__ to **Other**.
-   You can do this individually for each section.
+"Not a scene" fields
+   The heading replacements for *Plot progress*, *Characterization*, and 
+   *World bui8lding* are used when you set the `Scene frame
+   <section_view.html#scene>`__ to **Not a scene**.
+   These categories then apply to all sections that don't represent scenes. 
 
-Character fields
+"Other Scene" fields
+   The heading replacements for *Opening*, *Peak emotional monent*, and 
+   *Ending* are used when you set the `Scene frame
+   <section_view.html#scene>`__ to **Other**.
+   These categories then apply to all sections that represent scenes 
+   other than "Action" and "Reaction". 
+
+"Character" fields
    If you want other categories than `Bio <character_view.html#bio>`__
    and `Goals <character_view.html#goals>`__ for your characters, you
    can enter them here. They will then apply to all characters.

@@ -130,18 +130,27 @@ something like this to ensure suspense, you can do so here.
 
 If this is not for you, but you would like to use a different method
 to set up a dramaturgical scene micro-structure, you can set the section
-to **Other** and get three `freely named <book_view.html#renamings>`_
+to **Other**, and get three `freely named <book_view.html#renamings>`_
 text fields.
 
 .. figure:: _images/section_view06.png
    :alt: Screenshot
    
-   Example of a user-defined scene category
+   Example of a non-standard scene category
 
-.. note::
-   The "Goal/Conflict/Outcome" data is only for working with *novelibre*.
-   It is not meant to be exported into a document.
-   However, it all appears in the `section list`_.
+On the other hand, not every section is a scene to which the categories
+mentioned above appliy. Sections can be characterized by mode of discourse 
+(e.g. Narration, Dramatic action, Dialogue, Description, Exposition).
+So if a section is not staged, you can set the section to **Not a scene**,
+and get three `freely named <book_view.html#renamings>`_
+text fields.
+
+.. figure:: _images/section_view07.png
+   :alt: Screenshot
+   
+   Example of a non-staged section category
+
+
 
 Relationships
 -------------
@@ -341,10 +350,6 @@ Open Link
          :alt: Screenshot
          
          Windows 10 Explorer screenshot
-
-.. |Add| image:: _images/add.png
-.. |Goto| image:: _images/goto.png
-.. |Remove| image:: _images/remove.png
 
 
 "Sticky note"
