@@ -156,7 +156,7 @@ This allows you to view the *.novx* project file with a web browser.
    Depending on your web browser and your operating system, the
    *content type* resp. *MIME type* of *.novx* files must be registered as
    *"text/xml"*. Under Windows, yo can do this by running the
-   ``<home>\.novelibre\add_novelibre.reg`` script.
+   ``<home>\.novx\add_novelibre.reg`` script.
 
 
 Discard manuscript

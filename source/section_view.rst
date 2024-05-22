@@ -139,7 +139,7 @@ text fields.
    Example of a non-standard scene category
 
 On the other hand, not every section is a scene to which the categories
-mentioned above appliy. Sections can be characterized by mode of discourse 
+mentioned above appliy. Sections can be characterized by mode of discourse
 (e.g. Narration, Dramatic action, Dialogue, Description, Exposition).
 So if a section is not staged, you can set the section to **Not a scene**,
 and get three `freely named <book_view.html#renamings>`_
@@ -331,7 +331,7 @@ Open Link
       If you want to open certain linked files with another application than the 
       standard application, you can provide a *novelibre* "launcher" setting. 
       For this, just create a text file named **launchers.ini** in the 
-      ``.novelibre.config``  directory (where all configuration files are stored).
+      ``.novx/config``  directory (where all configuration files are stored).
       Here you can assign applications to the file extensions.
       
       Zim desktop wiki pages are a special case. 
