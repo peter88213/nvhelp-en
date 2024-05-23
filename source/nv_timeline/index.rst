@@ -38,13 +38,18 @@ Timeline > Information
 Timeline > Create or update the timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a timeline exists, update it from novelibre, otherwise createa new
+If a timeline exists, update it from novelibre, otherwise create a new
 timeline.
 
 Timeline > Update the project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Update the novelibre project from the timeline, if existing.
+
+.. important::
+   Please make sure to save the timeline before trying to sync with novelibre. 
+   Since nv_timeline reads the .timeline file, unsaved changes may not be recognized. 
+   In case of doubt, close Timeline before syncing with novelibre.
 
 Timeline > Edit the timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
