@@ -18,6 +18,7 @@ Plugins
    nv_templates/index
    nv_timeline/index
    nv_updater/index
+   nv_clipboard/index
 
 -----------------
 
