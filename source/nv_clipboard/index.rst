@@ -28,8 +28,9 @@ and a **Clipboard Online help** entry to the **Help** menu.
 Toolbar buttons provided by the nv_clipboard plugin
 ---------------------------------------------------
 
-|Cut| Move the selected element from the tree to the clipboard.
-Same as ``Ctrl``-``X``.
+..
+   |Cut| Move the selected element from the tree to the clipboard.
+   Same as ``Ctrl``-``X``. 
 
 |Copy| Copy the selected element to the clipboard.
 Same as ``Ctrl``-``C``.
