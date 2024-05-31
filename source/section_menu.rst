@@ -118,7 +118,7 @@ the following data:
 - Duration
 - Tags
 - Section notes
-- A/R
+- Scene
 - Goal
 - Conflict
 - Outcome

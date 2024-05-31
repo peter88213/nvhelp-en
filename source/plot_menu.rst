@@ -92,7 +92,7 @@ with a row per section, containing the following data:
 - Viewpoint character
 - One column per plot line with the section's plot line notes
 - Tags
-- A/R/C
+- Scene
 - Goal/Reaction/(custom)
 - Conflict/Dilemma/(custom)
 - Outcome/Decision/(custom)
