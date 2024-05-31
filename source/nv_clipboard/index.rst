@@ -21,7 +21,7 @@ Installing the plugin
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
 
-The plugin adds three buttons to the *novelibre* `toolbar <../toolbar.html>`__,
+The plugin adds two buttons to the *novelibre* `toolbar <../toolbar.html>`__,
 and a **Clipboard Online help** entry to the **Help** menu.
 
 
@@ -38,7 +38,25 @@ Same as ``Ctrl``-``C``.
 |Paste| Paste the element stored in the clipboard to the tree.
 Same as ``Ctrl``-``V``.
 
+You can copy and paste the following tree elements via the system clipboard:
 
+- Parts and chapters,
+- sections,
+- stages,
+- plot lines,
+- plot points,
+- characters,
+- locations,
+- items,
+- project notes.
+
+.. hint::
+   If multiple elements are selected, only the first one will be copied.
+   However, if the element has "children", these will also be copied and pasted.
+
+.. attention::
+   Relationships are not included when copying to the clipboard.
+   This also applies to the section viewpoint.   
 
 .. |Cut| image:: _images/cut.png
 .. |Copy| image:: _images/copy.png
