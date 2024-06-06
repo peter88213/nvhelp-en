@@ -228,19 +228,23 @@ In this case, formatting doesn't matter.
       -  *Heading 3* → Section title.
       -  All other text is considered to be chapter/section description.
 
-When your manuscript is ready, create your new project
+When your outline is ready, create your new project
 with **File > New > Create from ODT...**.
 
 .. figure:: _images/getting_started09.png
    :alt: novelibre screenshot
 
 A file selection dialog opens and asks for the *ODT* document. The new project
-will be created in the same directory and named after the manuscript file, but
+will be created in the same directory and named after the outline file, but
 with the *.novx* extension.
 
 .. caution::
-   Once your novel is imported into *novelibre*, your initial *ODT* document is no
+   Once your outline is imported into *novelibre*, your initial *ODT* document is no
    longer needed. So if you want to keep it, you best move it elsewhere, so that
    it is not overwritten by an `exported document 
    <export_menu.html#manuscript-for-printing-export-only>`__ later on. 
-      
+ 
+   You can export and import the current outline at any time as “Descriptions” 
+   separated by parts, chapters and sections.
+   
+   
