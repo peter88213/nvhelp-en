@@ -45,7 +45,7 @@ If you answer "Overwrite", *novelibre* creates a new manuscript document.
    than the open project, and suggests a choice by activating the 
    appropriate button. You can accept it by hitting the ``Enter`` key.
    If your choice follows the suggestion, you see a message in green
-   at the bottom bar. Otherwise, the message is displayed in red, 
+   at the status bar. Otherwise, the message is displayed in red, 
    just as a reminder. 
 
 If you started the export using the **Export** menu command, you may
