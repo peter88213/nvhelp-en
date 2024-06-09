@@ -121,8 +121,7 @@ by ``|``, a section description. All other metadata is intended
 to be entered in *novelibre* later.
 
 .. tip::
-   As of *novelibre* version 3.0.2, you can use ``####`` to create
-   an `appended section 
+   You can use ``####`` to create an `appended section 
    <section_view.html#append-to-previous-section>`__. 
 
 The following example shows how to split an existing section:
@@ -145,8 +144,8 @@ Creating new chapters with Writer
 ---------------------------------
 
 If you need a new chapter while writing, you don't have to switch to
-*novelibre*. Simply start a new line *within the edited section*
-with a second-level heading.
+*novelibre*. Simply assign a new line *within the edited section*
+the **Heading 2** style.
 
 .. important::
    *novelibre* only re-imports text within section defining frames. 
