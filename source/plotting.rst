@@ -48,7 +48,7 @@ relevance to the plot.
 -  Each plot point can be assigned to exactly one section.
 -  Any number of plot points can be assigned to each section.
 
-The association of sections and plot points is shown in the "Plot"
+The association of sections and plot points is shown in the "Plot points"
 column of the tree view.
 
 You can use plot lines to establish named connections between sections, such as
