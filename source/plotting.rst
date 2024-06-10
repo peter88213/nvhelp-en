@@ -7,7 +7,7 @@ Applying a story structure model
 
 If you want to divide a story into stages according to a structure model
 (e.g. the *Three Act Model*, or the *Save The Cat* beatsheet), just
-insert the stages between the regular scenes at the beginning of each
+insert the stages between the regular sections at the beginning of each
 phase. This gives you color-coded subheadings in the tree view.
 
 .. figure:: _images/acts01.png
@@ -38,22 +38,22 @@ thread, character arc, storyline, subplot, sequence of cause and effect,
 sequence of setup and payoff, and so on.
 You can think of a plot line as a line on which plot points are arranged
 that characterize the progression of the story.
-These plot points can be assigned to scenes to indicate the scene’s
+These plot points can be assigned to sections to indicate the section’s
 relevance to the plot.
 
 -  *novelibre* lets you define any number of plot lines.
--  Any number of scenes can be assigned to each plot line.
--  Any number of plot lines can be assigned to each scene.
+-  Any number of sections can be assigned to each plot line.
+-  Any number of plot lines can be assigned to each section.
 -  Each plot line can contain any number of plot points.
--  Each plot point can be assigned to exactly one scene.
--  Any number of plot points can be assigned to each scene.
+-  Each plot point can be assigned to exactly one section.
+-  Any number of plot points can be assigned to each section.
 
-The association of scenes and plot points is shown in the "Plot"
+The association of sections and plot points is shown in the "Plot"
 column of the tree view.
 
-You can use plot lines to establish named connections between scenes, such as
+You can use plot lines to establish named connections between sections, such as
 *setup -> payoff*, so you can keep track of this relationship even if
-the scenes are far away from each other.
+the sections are far away from each other.
 
 .. figure:: _images/causality01.png
    :alt: Example
