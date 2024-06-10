@@ -154,7 +154,7 @@ for an ODT document to create the new projec from.</p></li>
 directory as the ODT document, using its file name and the extension
 <em>.novx</em>.</p></li>
 <li><p>If a project with the same file name as the ODT document already
-exists, no new project will be created.</p></li>
+exists in the directory, no new project will be created.</p></li>
 <li><p>If you select a previously exported document belonging to an existing
 project, this project will be updated and loaded.</p></li>
 <li><p>The ODT document can either be a <a class="reference external" href="getting_started.html#starting-with-a-work-in-progress">work in progress</a>,
@@ -180,27 +180,30 @@ If there are unsaved changes, you will be asked for saving.</p>
 <h2>Reload<a class="headerlink" href="#reload" title="Link to this heading"></a></h2>
 <p><strong>Reload the novel project</strong></p>
 <p>With <strong>File &gt; Reload</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">R</span></code>,
-you can reload the project.</p>
+you can overwrite the project in the memory
+with the last saved version.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>This way you can undo changes made in the current session.</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>If the project has changed on disk since last opened, you will
-get a warning.</p>
+<p>If the project has changed on disk since last opened or saved,
+you will get a warning.</p>
 </div>
 </section>
 <section id="restore-backup">
 <h2>Restore backup<a class="headerlink" href="#restore-backup" title="Link to this heading"></a></h2>
 <p><strong>Restore the latest backup file</strong></p>
 <p>With <strong>File &gt; Restore backup</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">B</span></code>,
-you can restore the latest backup file.
+you can overwrite the project in the memory
+with the latest backup file.
 You will get a warning, because changes may be lost.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>After restoring the backup, a backup copy is no longer available.
-You can create a new backup copy by saving the project.</p>
+<p>After restoring the backup, a backup copy is no longer available
+in the project directory.
+A new backup copy is created when saving the project.</p>
 </div>
 </section>
 <section id="refresh-tree">

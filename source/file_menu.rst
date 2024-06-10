@@ -35,7 +35,7 @@ Create from ODT...
       directory as the ODT document, using its file name and the extension
       *.novx*.
    -  If a project with the same file name as the ODT document already
-      exists, no new project will be created.
+      exists in the directory, no new project will be created.
    -  If you select a previously exported document belonging to an existing
       project, this project will be updated and loaded.
    -  The ODT document can either be a `work in progress
@@ -64,14 +64,15 @@ Reload
 **Reload the novel project**
 
 With **File > Reload** or ``Ctrl``-``R``,
-you can reload the project.
+you can overwrite the project in the memory 
+with the last saved version.
 
 .. tip::
    This way you can undo changes made in the current session.
 
 .. note::
-   If the project has changed on disk since last opened, you will 
-   get a warning.
+   If the project has changed on disk since last opened or saved, 
+   you will get a warning.
 
 
 Restore backup
@@ -80,12 +81,14 @@ Restore backup
 **Restore the latest backup file**
 
 With **File > Restore backup** or ``Ctrl``-``B``,
-you can restore the latest backup file.
+you can overwrite the project in the memory 
+with the latest backup file.
 You will get a warning, because changes may be lost.
 
 .. hint::
-   After restoring the backup, a backup copy is no longer available.
-   You can create a new backup copy by saving the project.
+   After restoring the backup, a backup copy is no longer available
+   in the project directory.
+   A new backup copy is created when saving the project.
 
 
 Refresh tree
