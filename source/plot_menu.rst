@@ -13,7 +13,7 @@ Add Plot line
 **Add a new plot line to the story**
 
 With **Plot > Add plot line**,
-you can add a project note to the tree .
+you can add a project note to the tree.
 
 .. note::
 
