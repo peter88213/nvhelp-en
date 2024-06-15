@@ -123,6 +123,9 @@ Expand or collapse this frame by clicking on the label.
 .. figure:: _images/section_view03.png
    :alt: Screenshot
 
+.. figure:: _images/section_view08.png
+   :alt: Screenshot
+
 There is a popular theory for "selling writers" that suggests novels
 are best divided into scenes, alternating between "action scenes" and
 "reaction scenes", or "scenes" and "sequels". If you want to implement
