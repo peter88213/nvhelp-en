@@ -40,7 +40,7 @@ in the tree view's sort order.
 Unused
 ------
 
-With te **Unused** checkbox, you can change the `section type
+With the **Unused** checkbox, you can change the `section type
 <basic_concepts.html#part-chapter-section-types>`__.
 
 Append to previous section
