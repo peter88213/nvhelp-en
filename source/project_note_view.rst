@@ -3,8 +3,6 @@ Project note properties
 
 The Project note properties view opens in the right pane when you
 select a project note in the tree.
-You can edit the title and content of the selected project note.
-
 
 Title and content
 -----------------

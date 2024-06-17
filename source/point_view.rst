@@ -42,9 +42,13 @@ Clear assignment
 
 
 Go to section
-   Clicking on the **Go to section** button changes the selection and opens
-   the properties view of the assigned section.
+   When clicking on the **Go to section** button,
+   the selected section is opened and its properties are displayed.
 
+   .. hint::
+      You can go back to the initially selected plot point with |Go Back|. 
+
+.. |Go back| image:: _images/goBack.png
 
 Links
 -----

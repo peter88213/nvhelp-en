@@ -1,12 +1,12 @@
 Book properties
 ===============
 
-.. |ico01| image:: _images/viewBook.png
-   :alt: Book
+The Book properties view opens in the right pane
+when you select "Book" in the tree,
+or when you click on the |Show Book| toolbar icon.
+It is the initial view after opening a *novelibre* project.
 
-The Book properties view opens in the right pane when you
-select "Book" in the tree, or when you click on the |ico01|
-toolbar icon. It is the initial view after opening a *novelibre* project.
+.. |Show Book| image:: _images/viewBook.png
 
 .. figure:: _images/book_view01.png
    :alt: novelibre screenshot
