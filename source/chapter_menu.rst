@@ -49,8 +49,8 @@ you can turn chapters into parts and vice versa.
 .. figure:: _images/chapter_menu03.png
    :alt: novelibre screenshot
 
--  **1st Level** converts the selected parts into chapters.
--  **2nd Level** converts the selected chapters into parts.
+-  **1st Level** converts the selected chapters into parts.
+-  **2nd Level** converts the selected parts into chapters.
 
 
 Export chapter descriptions for editing
