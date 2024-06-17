@@ -57,7 +57,7 @@ Add Link
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 10 Explorer screenshot
+         Windows Explorer Screenshot
 
 
 Remove Link
@@ -90,7 +90,7 @@ Open Link
       .. figure:: _images/launchers.png
          :alt: Screenshot
          
-         Windows 10 Explorer screenshot
+         Windows Explorer Screenshot
 
 .. |Add| image:: _images/add.png
 .. |Goto| image:: _images/goto.png

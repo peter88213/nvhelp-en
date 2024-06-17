@@ -35,7 +35,7 @@ the document in the Windows Explorer.
 .. figure:: _images/book_view09.png
    :alt: Screenshot
    
-   Windows 10 Explorer screenshot
+   Windows Explorer Screenshot
    
 
 
@@ -281,7 +281,7 @@ Add Link
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 10 Explorer screenshot
+         Windows Explorer Screenshot
 
 
 Remove Link
@@ -314,7 +314,7 @@ Open Link
       .. figure:: _images/launchers.png
          :alt: Screenshot
          
-         Windows 10 Explorer screenshot
+         Windows Explorer Screenshot
 
 .. |Add| image:: _images/add.png
 .. |Goto| image:: _images/goto.png
@@ -329,9 +329,9 @@ provide a PNG image file with the project name along with the *.novx*
 file. The recommended image width is 100 to 200 pixels.
 
 .. figure:: _images/book_view12.png
-   :alt: Windows 10 Explorer screenshot
+   :alt: Windows Explorer Screenshot
    
-   Windows 10 Explorer screenshot
+   Windows Explorer Screenshot
    
 .. figure:: _images/book_view07.jpg
    :alt: novelibre screenshot
