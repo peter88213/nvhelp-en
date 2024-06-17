@@ -92,7 +92,7 @@ Show list
 **Show an HTML report with characters data**
 
 With **Characters > Show list**,
-you can create a list-formatted HTML filethat contains
+you can create a list-formatted HTML file that contains
 a character list,
 and launch your system’s web browser for displaying it.
 
