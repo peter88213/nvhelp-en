@@ -123,8 +123,12 @@ Expand or collapse this frame by clicking on the label.
 .. figure:: _images/section_view03.png
    :alt: Screenshot
 
+   Example of an "action scene"
+
 .. figure:: _images/section_view08.png
    :alt: Screenshot
+
+   Example of a "reaction scene" or "sequel"
 
 There is a popular theory for "selling writers" that suggests novels
 are best divided into scenes, alternating between "action scenes" and

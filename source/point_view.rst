@@ -37,7 +37,7 @@ Assign section
 
 
 Clear assignment
-   If a sectin is assigned to the plot point, you can disconnect it
+   If a section is assigned to the plot point, you can disconnect it
    by clicking on the **Clear assignment** button.
 
 
