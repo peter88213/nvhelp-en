@@ -29,13 +29,11 @@ Add Plot point
 With **Plot > Add Plot point**,
 you can add a plot point to a plot line.
 
-.. note::
-
-   - If a plot point is selected, the new plot point is placed after the selected one.
-   - If a plot line is selected, the new plot point is placed at the last position.
-   - Otherwise, no new plot point is generated.
-   - The new plot point has an auto-generated title. You can change it in
-     the right pane.
+- If a plot point is selected, the new plot point is placed after the selected one.
+- If a plot line is selected, the new plot point is placed at the last position.
+- Otherwise, no new plot point is generated.
+- The new plot point has an auto-generated title. You can change it in
+  the right pane.
 
 
 Insert Stage
