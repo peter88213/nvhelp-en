@@ -52,7 +52,7 @@ The association of sections and plot points is shown in the "Plot points"
 column of the tree view.
 
 You can use plot lines to establish named connections between sections, such as
-*setup -> payoff*, so you can keep track of this relationship even if
+*setup → payoff*, so you can keep track of this relationship even if
 the sections are far away from each other.
 
 .. figure:: _images/causality01.png
