@@ -72,8 +72,8 @@ Change Level
 
 Changes the level of a chapter or a stage.
 
--  **1st Level** converts a selected part into a chapter.
--  **2nd Level** converts a selected chapter into a part.
+-  **1st Level** converts a selected chapter into a part.
+-  **2nd Level** converts a selected part into a chapter.
 
 
 Delete
