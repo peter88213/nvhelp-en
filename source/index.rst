@@ -18,6 +18,7 @@ release. You can open it with **Help > Online help**.
    :maxdepth: 2
    :caption: Contents
    
+   introduction
    preparations
    desktop
    basic_concepts
