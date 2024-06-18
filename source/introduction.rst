@@ -24,7 +24,7 @@ Rearranging sections and chapters, introducing additional storylines,
 maintaining chronological coherence - all this can become a serious challenge
 at the latest during revision.
 
-This is where specialized authoring software comes in.
+This is where specialized writing software comes in.
 It generally offers better tools than office software software to break
 down a novel into small pieces and to provide these pieces with all the
 additional information which would otherwise consist of notebooks, tables,
