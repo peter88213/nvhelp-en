@@ -15,12 +15,10 @@ Add Plot line
 With **Plot > Add plot line**,
 you can add a project note to the tree.
 
-.. note::
-
-   -  If a plot line is selected, the new item is placed after the selected one.
-   -  Otherwise, the new plot line is placed at the last position.
-   -  The new plot line has an auto-generated title. You can change it in the
-      right pane.
+-  If a plot line is selected, the new plot line is placed after the selected one.
+-  Otherwise, the new plot line is placed at the last position.
+-  The new plot line has an auto-generated title. You can change it in the
+   right pane.
 
 
 Add Plot point
