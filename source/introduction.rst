@@ -83,7 +83,7 @@ or OpenOffice and who are missing the additional administration functions
 of specialized writing software.
 
 As a special feature, you can use *novelibre* in combination with
-special timeline software such as the free
+dedicated timeline software such as the free
 `Timeline <http://thetimelineproj.sourceforge.net/>`__
 which opens up completely new possibilities for planning
 of the narrative plot.
