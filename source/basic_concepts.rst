@@ -92,6 +92,8 @@ Section completion status
 
 You can assign a status to each "Normal" type section via context menu
 or Section menu.
+You can choose between Outline*, *Draft*, *1st Edit*, *2nd Edit*,
+and *Done*.
 
 -  You can choose a `coloring mode <view_menu.html#coloring-mode>`__
    to display sections in different colors depending on their
