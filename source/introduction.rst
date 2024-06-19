@@ -25,9 +25,9 @@ maintaining chronological coherence - all this can become a serious challenge
 at the latest during revision.
 
 This is where specialized writing software comes in.
-It generally offers better tools than office software software to break
+It generally offers better tools than office software to break
 down a novel into small pieces and to provide these pieces with all the
-additional information which would otherwise consist of notebooks, tables,
+additional information which would otherwise consist of notebooks, spreadsheets,
 supplementary documents and sticky notes.
 The main purpose of this software is therefore to keep the big picture
 of the story in view, even if the story is constantly being expanded,
