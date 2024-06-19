@@ -21,6 +21,9 @@ Installing the plugin
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
 
+The plugin adds a **Check for updates** entry to the *novelibre* **Tools** menu,
+and an **Update checker Online help** entry to the **Help** menu.
+
 
 Start the update checker
 ------------------------

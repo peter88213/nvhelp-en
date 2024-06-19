@@ -21,8 +21,9 @@ Installing the plugin
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
 
-The plugin adds an **Aeon Timeline 2** entry to the *novelibre* **Tools**
-menu, and an **Aeon 2 plugin Online Help** entry to the **Help** menu.
+The plugin adds an **Aeon Timeline 2** entry to the *novelibre* main menu,
+a **reate from Aeon Timeline 2...** to the **File > New** submenu,
+and an **Aeon 2 plugin Online Help** entry to the **Help** menu.
 
 
 Installing the Aeon Timeline 2 custom template

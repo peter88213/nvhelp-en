@@ -22,7 +22,7 @@ Installing the plugin
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
 
 The plugin adds a **Timeline** entry to the *novelibre* main menu,
-a **Create from Timeline** to the **File > New** submenu,
+a **Create from Timeline...** to the **File > New** submenu,
 and a **Timeline plugin Online Help** entry to the **Help** menu.
 
 

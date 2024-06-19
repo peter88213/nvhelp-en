@@ -22,7 +22,7 @@ Installing the plugin
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
 
 The plugin adds a **Story Templates** entry to the *novelibre* **Tools** menu,
-a **Create from Template** entry to the **File > New** submenu,
+a **Create from Template...** entry to the **File > New** submenu,
 and a **Template plugin Online Help** entry to the **Help** menu.
 
 

@@ -14,15 +14,15 @@ This page refers to the latest `nv_matrix
 <https://github.com/peter88213/nv_matrix/>`__ release.
 You can open it with **Help > Matrix plugin Online help**.
 
-The plugin adds a **Matrix** entry to the *novelibre* main menu,
-and a **Matrix plugin Online help** entry to the **Help** menu.
-
 
 Installing the plugin
 ---------------------
 
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
+
+The plugin adds a **Matrix** entry to the *novelibre* main menu,
+and a **Matrix plugin Online help** entry to the **Help** menu.
 
 
 Start the matrix manager
