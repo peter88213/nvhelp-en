@@ -60,13 +60,6 @@ Format text
 .. role:: html(code)
    :language: html
 
-It is assumed that very few types of text markup are needed for a novel
-text:
-
--  *Emphasized* (usually shown as italics).
--  *Strongly emphasized* (usually shown as capitalized).
--  *Citation* (paragraph visually distinguished from body text).
-
 -  ``Ctrl``-``I`` places "emphasized" markup around the selected text or at the
    cursor, like so:
 
