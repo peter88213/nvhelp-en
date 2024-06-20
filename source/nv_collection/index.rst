@@ -112,7 +112,7 @@ either select the series and hit the ``Del`` key,
 or use **Series > Remove selected series but keep the books**.
 
 .. note::
-   When deleting a collection, the books are kept by default.
+   When deleting a series, the books are kept by default.
 
 To delete the selected series and remove all its books from the
 collection,
