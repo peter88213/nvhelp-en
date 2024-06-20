@@ -15,6 +15,11 @@ This page refers to the latest `nv_templates
 You can open it with **Help > Templates plugin Online help**.
 
 
+With *novelibre*, you can define a narrative structure with stages. See
+`Plotting with novelibre <../plotting.html>`__.
+*nv_templates* faciliates the reuse of narrative structures.
+
+
 Installing the plugin
 ---------------------
 
@@ -32,8 +37,8 @@ Command reference
 File > New
 ~~~~~~~~~~
 
-Create from template
-^^^^^^^^^^^^^^^^^^^^
+Create from template...
+^^^^^^^^^^^^^^^^^^^^^^^
 
 This creates a new project with the narrative structure from a Markdown
 template file.
@@ -69,15 +74,11 @@ manage and edit the templates.
 Conventions
 -----------
 
-In *novelibre*, you can define a narrative structure with stages. See
-`Plotting with novelibre <../plotting.html>`__.
-*nv_templates* faciliates the reuse of narrative structures.
-
 Markdown file structure
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-The *Story Template* Markdown file defines such a structure with
-headings and ordinary text.
+The *Story Template* Markdown file defines a narrative structure with
+the help of headings and ordinary text.
 
 First level heading for top level stages, e.g. acts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
