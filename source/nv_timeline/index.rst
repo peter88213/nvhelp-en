@@ -54,8 +54,8 @@ Update the novelibre project from the timeline, if existing.
 Timeline > Edit the timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the project’s timeline, if existing, with the Timeline application.
-Lock the project.
+Open the project’s timeline, if existing, with the *Timeline* application.
+Depending on the configuration (see below), the project is automatically locked.
 
 File > New > Create from Timeline...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

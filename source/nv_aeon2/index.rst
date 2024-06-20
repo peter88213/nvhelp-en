@@ -78,8 +78,8 @@ by John Conway. In its current form, it’s only valid for the 20th and
 Aeon Timeline 2 > Edit the timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the project’s timeline, if existing, with the Timeline application.
-Lock the project.
+Open the project’s timeline, if existing, with the *Aeon Timeline 2* application.
+Depending on the configuration (see below), the project is automatically locked.
 
 File > New > Create from Aeon Timeline 2...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
