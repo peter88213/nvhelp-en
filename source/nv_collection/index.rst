@@ -14,6 +14,9 @@ This page refers to the latest `nv_collection
 <https://github.com/peter88213/nv_collection/>`__ release.
 You can open it with **Help > Collection plugin Online help**.
 
+If you have several *novelibre* projects,
+you can manage them in a collection, also organized by series.
+A collection gives you quick access to your projects.
 
 Installing the plugin
 ---------------------

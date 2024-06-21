@@ -14,6 +14,8 @@ This page refers to the latest `nv_editor
 <https://github.com/peter88213/nv_editor/>`__ release.
 You can open it with **Help > Editor plugin Online help**.
 
+You can use the section editor to quickly edit and split individual sections.
+The editor provides access to the internal markup, which is similar to HTML.
 
 Installing the plugin
 ---------------------
