@@ -144,23 +144,23 @@ and a <strong>Timeline plugin Online Help</strong> entry to the <strong>Help</st
 <section id="timeline-information">
 <h3>Timeline &gt; Information<a class="headerlink" href="#timeline-information" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Show information about an existing Timeline project, if any. Timeline
-and novelibre file dates are compared.</p></li>
+<li><p>Show information about an existing <em>Timeline</em> project, if any. <em>Timeline</em>
+and <em>novelibre</em> file dates are compared.</p></li>
 </ul>
 </section>
 <section id="timeline-create-or-update-the-timeline">
 <h3>Timeline &gt; Create or update the timeline<a class="headerlink" href="#timeline-create-or-update-the-timeline" title="Link to this heading"></a></h3>
-<p>If a timeline exists, update it from novelibre, otherwise create a new
+<p>If a timeline exists, update it from <em>novelibre</em>, otherwise create a new
 timeline.</p>
 </section>
 <section id="timeline-update-the-project">
 <h3>Timeline &gt; Update the project<a class="headerlink" href="#timeline-update-the-project" title="Link to this heading"></a></h3>
-<p>Update the novelibre project from the timeline, if existing.</p>
+<p>Update the <em>novelibre</em> project from the timeline, if existing.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>Please make sure to save the timeline before trying to sync with novelibre.
-Since nv_timeline reads the .timeline file, unsaved changes may not be recognized.
-In case of doubt, close Timeline before syncing with novelibre.</p>
+<p>Please make sure to save the timeline before trying to sync with <em>novelibre</em>.
+Since <em>nv_timeline</em> reads the .timeline file, unsaved changes may not be recognized.
+In case of doubt, close <em>Timeline</em> before syncing with <em>novelibre</em>.</p>
 </div>
 </section>
 <section id="timeline-edit-the-timeline">
@@ -170,7 +170,7 @@ Depending on the configuration (see below), the project is automatically locked.
 </section>
 <section id="file-new-create-from-timeline">
 <h3>File &gt; New &gt; Create from Timeline…<a class="headerlink" href="#file-new-create-from-timeline" title="Link to this heading"></a></h3>
-<p>Open a file dialog to select a timeline. If no novelibre project with
+<p>Open a file dialog to select a timeline. If no <em>novelibre</em> project with
 the timeline’s file name exists, create a new one from the timeline.</p>
 </section>
 </section>
@@ -178,30 +178,30 @@ the timeline’s file name exists, create a new one from the timeline.</p>
 <h2>Custom configuration<a class="headerlink" href="#custom-configuration" title="Link to this heading"></a></h2>
 <p>You can override the default settings by providing a configuration file.
 Be always aware that faulty entries may cause program errors or
-unreadable Timeline projects. If you change a configuration inbetween,
+unreadable <em>Timeline</em> projects. If you change a configuration inbetween,
 previously synchronized projects might no longer match.</p>
 <section id="global-configuration">
 <h3>Global configuration<a class="headerlink" href="#global-configuration" title="Link to this heading"></a></h3>
 <p>An optional global configuration file can be placed in the configuration
 directory in your user profile. It is applied to any project. Its
-entries override nv_timeline’s built-in constants. This is the
-path: <code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\config\nv_timeline.ini</span></code></p>
+entries override <em>nv_timeline’s</em> built-in constants. This is the
+path under Windows: <code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\config\nv_timeline.ini</span></code></p>
 <p>The setup script installs a sample configuration file containing
-nv_timeline’s default values. You can modify or delete it.</p>
+<em>nv_timeline’s</em> default values. You can modify or delete it.</p>
 </section>
 <section id="local-project-configuration">
 <h3>Local project configuration<a class="headerlink" href="#local-project-configuration" title="Link to this heading"></a></h3>
 <p>An optional project configuration file named <code class="docutils literal notranslate"><span class="pre">nv_timeline.ini</span></code> can be
 placed in your project directory, i.e. the folder containing your
-novelibre and Timeline project files. It is only applied to this
-project. Its entries override nv_timeline’s built-in constants as
+<em>novelibre</em> and <em>Timeline</em> project files. It is only applied to this
+project. Its entries override <em>nv_timeline’s</em> built-in constants as
 well as the global configuration, if any.</p>
 </section>
 <section id="how-to-provide-modify-a-configuration-file">
 <h3>How to provide/modify a configuration file<a class="headerlink" href="#how-to-provide-modify-a-configuration-file" title="Link to this heading"></a></h3>
-<p>The nv_timeline distribution comes with a sample configuration
+<p>The <em>nv_timeline</em> distribution comes with a sample configuration
 file located in the <code class="docutils literal notranslate"><span class="pre">sample</span></code> subfolder. It contains
-nv_timeline’s default settings and options. This file is also
+<em>nv_timeline’s</em> default settings and options. This file is also
 automatically copied to the global configuration folder during
 installation. You best make a copy and edit it.</p>
 <ul class="simple">
@@ -248,14 +248,14 @@ refer to the code line immediately above.</p></li>
 <section id="general">
 <h3>General<a class="headerlink" href="#general" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>The novelibre project file and the Timeline file are located in the
+<li><p>The <em>novelibre</em> project file and the <em>Timeline</em> file are located in the
 same directory.</p></li>
 <li><p>They have the same file name and differ in the file extension.</p></li>
-<li><p>Either a timeline or a novelibre project is generated from the other
+<li><p>Either a timeline or a <em>novelibre</em> project is generated from the other
 file for the first time. After that, the two files can be
 synchronized against each other.</p></li>
 <li><p><strong>Please keep in mind:</strong> Synchronizing means overwriting target data
-with source data. Since nv_timeline works in both directions,
+with source data. Since <em>nv_timeline</em> works in both directions,
 there is always a danger of confusing source and target, thus losing
 changes. So if the program asks you for confirmation to overwrite a
 file, better check if it’s actually the target file.</p></li>
@@ -264,8 +264,8 @@ file, better check if it’s actually the target file.</p></li>
 <section id="on-the-novelibre-side">
 <h3>On the novelibre side<a class="headerlink" href="#on-the-novelibre-side" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Only normal sections are synchronized with Timeline, or exported to
-Timeline. Unused sections will not show up in the timeline.</p></li>
+<li><p>Only normal sections are synchronized with <em>Timeline</em>, or exported to
+<em>Timeline</em>. Unused sections will not show up in the timeline.</p></li>
 <li><p>Sections with an unspecific time stamp (day, hours, minutes) are
 synchronized with the timeline, if a reference date is set.</p></li>
 <li><p>Changes to the section date/time affect the event start date/time
@@ -287,39 +287,39 @@ event during synchronization.</p></li>
 must not be changed manually.</p></li>
 <li><p>Only events with a label containing the string “Section” (user input)
 or a section ID (auto-generated) are exported as sections to a new
-novelibre project.</p></li>
-<li><p>When creating a new novelibre project from a timeline the first time,
+<em>novelibre</em> project.</p></li>
+<li><p>When creating a new <em>novelibre</em> project from a timeline the first time,
 “Section” labels are replaced with section ID labels.</p></li>
-<li><p>If a new novelibre project is generated again with the same timeline,
+<li><p>If a new <em>novelibre</em> project is generated again with the same timeline,
 the section ID labels may change.</p></li>
 <li><p>Only events with a label containing a section ID are synchronized
-with an existing novelibre project.</p></li>
+with an existing <em>novelibre</em> project.</p></li>
 <li><p>Changes to the event start date/time affect the section date/time
 during synchronization.</p></li>
 <li><p>Changes to the event text affect the section title during
 synchronization.</p></li>
 <li><p>Changes to the event description affect the section description
 during synchronization.</p></li>
-<li><p>The section structure of an existing novelibre project can not be
-changed in Timeline. Adding/removing events, or adding/removing
+<li><p>The section structure of an existing <em>novelibre</em> project can not be
+changed in <em>Timeline</em>. Adding/removing events, or adding/removing
 section IDs from event labels will <em>not</em> add or remove the
 corresponding section during synchronization.</p></li>
 <li><p>When creating events from sections without date/time information, the
 dates are automatically generated with a one-day difference, starting
-from the novelibre project’s reference date.</p></li>
+from the <em>novelibre</em> project’s reference date.</p></li>
 </ul>
 </section>
 <section id="known-limitations">
 <h3>Known limitations<a class="headerlink" href="#known-limitations" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>Section events that begin before 0001-01-01 in the timeline, will not
-be synchronized with novelibre, because novelibre can not handle
+be synchronized with <em>novelibre</em>, because <em>novelibre</em> can not handle
 these dates.</p></li>
 <li><p>The same applies to the section duration in this case, i.e. the event
-duration in Timeline and the section duration in novelibre may
+duration in <em>Timeline</em> and the section duration in <em>novelibre</em> may
 differ.</p></li>
 <li><p>If a section event ends after 9999-12-31 in the timeline, the section
-duration is not synchronized with novelibre.</p></li>
+duration is not synchronized with <em>novelibre</em>.</p></li>
 </ul>
 </section>
 </section>

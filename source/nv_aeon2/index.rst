@@ -30,9 +30,9 @@ Installing the Aeon Timeline 2 custom template
 ----------------------------------------------
 
 After installation, you can copy a "novelibre.xml" template to the
-Aeon2 custom template folder. The easiest way is to create new
+*Aeon Timeline 2* custom template folder. The easiest way is to create new
 timelines based on this template. It provides the entities and event
-properties that are converted to novelibre by default.
+properties that are converted to *novelibre* by default.
 
 You find the customized template in the ``sample`` subdirectory
 of the unzipped *nv_aeon2* release folder. Just copy it into
@@ -54,19 +54,19 @@ Command reference
 Aeon Timeline 2 > Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Show information about an existing Aeon Timeline 2 project, if any.
-   Aeon Timeline 2 and novelibre file dates are compared.
+-  Show information about an existing *Aeon Timeline 2* project, if any.
+   *Aeon Timeline 2* and *novelibre* file dates are compared.
 
 Aeon Timeline 2 > Update the timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a timeline exists, update it from novelibre, otherwise createa new
+If a timeline exists, update it from *novelibre*, otherwise createa new
 timeline.
 
 Aeon Timeline 2 > Update the project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Update the novelibre project from the timeline, if existing.
+Update the *novelibre* project from the timeline, if existing.
 
 Aeon Timeline 2 > Add or update moon phase data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -84,7 +84,7 @@ Depending on the configuration (see below), the project is automatically locked.
 File > New > Create from Aeon Timeline 2...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open a file dialog to select a timeline. If no novelibre project with
+Open a file dialog to select a timeline. If no *novelibre* project with
 the timeline’s file name exists, create a new one from the timeline.
 
 Control conversion
@@ -94,9 +94,9 @@ Prepare your timeline for export
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After installation, you can copy a "novelibre" template to the
-Aeon2 custom template folder. The easiest way is to create new
+*Aeon Timeline 2* custom template folder. The easiest way is to create new
 timelines based on this template. It provides the entities and event
-properties that are converted to novelibre by default.
+properties that are converted to *novelibre* by default.
 
 For existing timelines you have two choices:
 
@@ -112,10 +112,10 @@ Known limitations
 ~~~~~~~~~~~~~~~~~
 
 -  "Narrative" events that begin before 0001-01-01 in the timeline, will
-   not be synchronized with novelibre, because novelibre can not handle
+   not be synchronized with *novelibre*, because *novelibre* can not handle
    these dates.
 -  The same applies to the section duration in this case, i.e. the event
-   duration in Timeline and the section duration in novelibre may
+   duration in Timeline and the section duration in *novelibre* may
    differ.
 
 Conversion rules for newly created novelibre projects
@@ -124,7 +124,7 @@ Conversion rules for newly created novelibre projects
 The names/column labels refer to timelines based on the "novelibre"
 template.
 
--  If an Aeon event title occurs more than once, the program aborts with
+-  If an *Aeon* event title occurs more than once, the program aborts with
    an error message.
 -  Events assigned to the "Narrative" arc are converted to regular
    sections.
@@ -146,12 +146,12 @@ Update rules for existing novelibre projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Only sections that have the same title as an event are updated.
--  If an Aeon event title occurs more than once, the converter aborts
+-  If an *Aeon* event title occurs more than once, the converter aborts
    with an error message.
--  If a novelibre section title occurs more than once, the converter
+-  If a *novelibre* section title occurs more than once, the converter
    aborts with an error message.
 -  Sections are marked "unused" if the associated event is deleted in
-   Aeon.
+   *Aeon*.
 -  Section date, section time, and section duration are updated.
 -  Non-empty section description and section tags are updated.
 -  Notes of events with a matching title are appended to the section
@@ -166,26 +166,26 @@ Update rules for existing novelibre projects
 -  Arc, character, location, and item relationships are updated, if the
    entity names match.
 -  When processing unspecific "day/hour/minute" information, the default
-   date from the novelibre project is used. f there is no default date
+   date from the *novelibre* project is used. f there is no default date
    set, "today" is used.
 
 Update rules for Aeon Timeline 2 projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  If an Aeon event title occurs more than once, the converter aborts
+-  If an *Aeon* event title occurs more than once, the converter aborts
    with an error message.
--  If a novelibre section title occurs more than once, the converter
+-  If a *novelibre* section title occurs more than once, the converter
    aborts with an error message.
 -  Event date/time and event span are updated, if the start year is 1 or
    above.
 -  Updated event span is specified in days/hours/minutes as in
-   novelibre.
+   *novelibre*.
 -  Non-empty event description and event tags are updated.
 -  Event properties "Description" and "Notes" are created, if missing.
 -  Events created or updated from "Normal" sections are assigned to the
    *Narrative* arc.
 -  "Narrative" events are removed if the associated section is deleted
-   in novelibre.
+   in *novelibre*.
 -  Entity types "Arc", "Character", "Location", and "Item" are created,
    if missing.
 -  A "Narrative" arc is created, if missing.
@@ -197,10 +197,10 @@ Update rules for Aeon Timeline 2 projects
 -  When creating events from sections without date/time, they get the
    actual date and are sorted in reading order.
 -  When creating events from sections without any date/time information,
-   they get the default date from the novelibre project, and are sorted
+   they get the default date from the *novelibre* project, and are sorted
    in reading order. If there is no default date set, "today" is used.
 -  When processing unspecific "day/hour/minute" information, the default
-   date from the novelibre project is used. f there is no default date
+   date from the *novelibre* project is used. f there is no default date
    set, "today" is used.
 
 Custom configuration
@@ -222,7 +222,7 @@ Local project configuration
 
 An optional project configuration file named ``nv_aeon2.ini`` can be
 placed in your project directory, i.e. the folder containing your
-novelibre and Aeon Timeline project files. It is only applied to this
+*novelibre* and Aeon Timeline project files. It is only applied to this
 project. Its entries override aeon2nv’s built-in constants as well as
 the global configuration, if any.
 
