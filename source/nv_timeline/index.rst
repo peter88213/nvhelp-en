@@ -74,10 +74,12 @@ previously synchronized projects might no longer match.
 Global configuration
 ~~~~~~~~~~~~~~~~~~~~
 
-An optional global configuration file can be placed in the configuration
-directory in your user profile. It is applied to any project. Its
-entries override *nv_timeline’s* built-in constants. This is the
-path under Windows: ``c:\Users\<user name>\.novx\config\nv_timeline.ini``
+An optional global configuration file named ``nv_timeline.ini``
+can be placed in the configuration directory of the installation.
+It is applied to any project.
+Its entries override *nv_timeline’s* built-in constants.
+This is the path under Windows:
+``c:\Users\<user name>\.novx\config\nv_timeline.ini``
 
 The setup script installs a sample configuration file containing
 *nv_timeline’s* default values. You can modify or delete it.
@@ -85,10 +87,11 @@ The setup script installs a sample configuration file containing
 Local project configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An optional project configuration file named ``nv_timeline.ini`` can be
-placed in your project directory, i.e. the folder containing your
-*novelibre* and *Timeline* project files. It is only applied to this
-project. Its entries override *nv_timeline’s* built-in constants as
+An optional project configuration file named ``nv_timeline.ini``
+can be placed in your project directory,
+i.e. the folder containing your *novelibre* and *Timeline* project files.
+It is only applied to this project.
+Its entries override *nv_timeline’s* built-in constants as
 well as the global configuration, if any.
 
 How to provide/modify a configuration file

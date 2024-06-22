@@ -212,8 +212,9 @@ Be always aware that faulty entries may cause program errors.
 Global configuration
 ~~~~~~~~~~~~~~~~~~~~
 
-An optional global configuration file can be placed in the configuration
-directory in your user profile. It is applied to any project. Its
+An optional global configuration file named ``nv_aeon2.ini``
+an be placed in the configuration directory of the installation.
+It is applied to any project. Its
 entries override nv_aeon2’s built-in constants. This is the path:
 ``c:\Users\<user name>\.novx\config\nv_aeon2.ini``
 
@@ -222,7 +223,7 @@ Local project configuration
 
 An optional project configuration file named ``nv_aeon2.ini`` can be
 placed in your project directory, i.e. the folder containing your
-*novelibre* and Aeon Timeline project files. It is only applied to this
+*novelibre* and *Aeon Timeline 2* project files. It is only applied to this
 project. Its entries override aeon2nv’s built-in constants as well as
 the global configuration, if any.
 
