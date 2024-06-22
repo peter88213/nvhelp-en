@@ -172,6 +172,8 @@ On the novelibre side
    synchronized with the timeline, if a reference date is set.
 -  Changes to the section date/time affect the event start date/time
    during synchronization.
+-  Changes to the section duration affect the event end date/time
+   during synchronization.
 -  Changes to the section title affect the event text during
    synchronization.
 -  Changes to the section description affect the event description
@@ -195,6 +197,8 @@ On the Timeline side
    the section ID labels may change.
 -  Only events with a label containing a section ID are synchronized
    with an existing *novelibre* project.
+-  Changes to the event end date/time affect the section duration
+   during synchronization.
 -  Changes to the event start date/time affect the section date/time
    during synchronization.
 -  Changes to the event text affect the section title during
