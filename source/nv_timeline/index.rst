@@ -152,7 +152,9 @@ General
 -  Either a timeline or a *novelibre* project is generated from the other
    file for the first time. After that, the two files can be
    synchronized against each other.
--  **Please keep in mind:** Synchronizing means overwriting target data
+
+.. caution:: 
+   Synchronizing means overwriting target data
    with source data. Since *nv_timeline* works in both directions,
    there is always a danger of confusing source and target, thus losing
    changes. So if the program asks you for confirmation to overwrite a
