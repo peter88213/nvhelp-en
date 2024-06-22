@@ -54,19 +54,21 @@ Command reference
 Aeon Timeline 2 > Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Show information about an existing *Aeon Timeline 2* project, if any.
-   *Aeon Timeline 2* and *novelibre* file dates are compared.
+Show information about an existing *Aeon Timeline 2* project, if any.
+*Aeon Timeline 2* and *novelibre* file dates are compared.
+
 
 Aeon Timeline 2 > Update the timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a timeline exists, update it from *novelibre*, otherwise createa new
-timeline.
+If a timeline exists, update it from *novelibre*.
+
 
 Aeon Timeline 2 > Update the project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Update the *novelibre* project from the timeline, if existing.
+
 
 Aeon Timeline 2 > Add or update moon phase data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -74,6 +76,7 @@ Aeon Timeline 2 > Add or update moon phase data
 The moon phase calculation is based on a ‘do it in your head’ algorithm
 by John Conway. In its current form, it’s only valid for the 20th and
 21st centuries.
+
 
 Aeon Timeline 2 > Edit the timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -86,6 +89,7 @@ File > New > Create from Aeon Timeline 2...
 
 Open a file dialog to select a timeline. If no *novelibre* project with
 the timeline’s file name exists, create a new one from the timeline.
+
 
 Control conversion
 ------------------
@@ -105,6 +109,7 @@ For existing timelines you have two choices:
 -  Option 2: Customize the *nv_aeon2* configuration to fit your
    timeline, see `Custom configuration <#custom-configuration>`__.
 
+
 Synchronization in detail
 -------------------------
 
@@ -117,6 +122,7 @@ Known limitations
 -  The same applies to the section duration in this case, i.e. the event
    duration in Timeline and the section duration in *novelibre* may
    differ.
+
 
 Conversion rules for newly created novelibre projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -141,6 +147,7 @@ template.
 -  "Participants" are imported as characters, if any (\*).
 -  "Locations" are imported, if any (\*).
 -  "Items" are imported, if any (\*).
+
 
 Update rules for existing novelibre projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -168,6 +175,7 @@ Update rules for existing novelibre projects
 -  When processing unspecific "day/hour/minute" information, the default
    date from the *novelibre* project is used. f there is no default date
    set, "today" is used.
+
 
 Update rules for Aeon Timeline 2 projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -202,6 +210,7 @@ Update rules for Aeon Timeline 2 projects
 -  When processing unspecific "day/hour/minute" information, the default
    date from the *novelibre* project is used. f there is no default date
    set, "today" is used.
+
 
 Custom configuration
 --------------------
