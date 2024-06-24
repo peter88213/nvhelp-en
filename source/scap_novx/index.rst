@@ -63,10 +63,12 @@ the same file name as the Scapple source file,
 but with the extension ``.novx``.
 It is placed in the same directory as the source file.
 
-However, **if the *novelibre* project already exists, it would
-not be overwritten**.
-Character/Location/Item XML files are generated instead.
-They can be imported into any *novelibre* project.
+
+.. note::
+   If the *novelibre* project already exists, it would
+   not be overwritten.
+   Character/Location/Item XML files are generated instead.
+   They can be imported into any *novelibre* project.
 
 
 Conversion rules
@@ -121,7 +123,7 @@ via context menu.
 Mark sections
 ~~~~~~~~~~~~~
 
-Either apply the "Scene" style, if any, via context menu,
+Either apply the "Section" style, if any, via context menu,
 or tick "Shadow" in the Inspector to mark the note as section.
 
 .. figure:: _images/mark_section.png
@@ -129,10 +131,6 @@ or tick "Shadow" in the Inspector to mark the note as section.
    
    Screenshot: Set note shadow
    
-To make the section a "Notes" section, either apply the
-"NotesScene" style, or make its border style "Cloud" in
-the Inspector.
-
 
 Mark notes
 ~~~~~~~~~~
