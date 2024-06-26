@@ -161,14 +161,14 @@ or tick the big blue field above the text color swatch in the Inspector.
 Mark major characters
 ~~~~~~~~~~~~~~~~~~~~~
 
-Either apply the "Major character" style, if any, via context menu,
+Either apply the "MajorCharacter" style, if any, via context menu,
 or tick the big red field above the text color swatch in the Inspector.
 
 
 Mark minor characters
 ~~~~~~~~~~~~~~~~~~~~~
 
-Either apply the "Minor character" style, if any, via context menu,
+Either apply the "MinorCharacter" style, if any, via context menu,
 or tick the big purple field above the text color swatch in the Inspector.
 
 
