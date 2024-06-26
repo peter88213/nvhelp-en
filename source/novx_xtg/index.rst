@@ -13,7 +13,8 @@ novx_xtg
 This page refers to the latest `novx_xtg
 <https://github.com/peter88213/novx_xtg/>`__ release.
 
-The novx_xtg Python script runs through all chapters and sections of a novelibre 7 project and fills XTG templates.
+The novx_xtg Python script runs through all chapters and sections of a novelibre
+project and fills XTG templates.
 
 
 Instructions for use
@@ -22,14 +23,17 @@ Instructions for use
 Intended usage
 ~~~~~~~~~~~~~~
 
-The included installation script prompts you to create a shortcut on the desktop. You can launch the program by dragging a novelibre project file and dropping it on the shortcut icon.
+The included installation script prompts you to create a shortcut on the desktop.
+ You can launch the program by dragging a novelibre project file and dropping it
+ on the shortcut icon.
 
 Command line usage
 ~~~~~~~~~~~~~~~~~~
 
 Alternatively, you can
 
-- launch the program on the command line passing the novelibre project file as an argument, or
+- launch the program on the command line passing the novelibre project file
+  as an argument, or
 - launch the program via a batch file.
 
 usage: ``novx_xtg.pyw [--silent] Sourcefile``
@@ -79,10 +83,12 @@ Configuration
 - Place a subfolder named **novx_xtg** in the novelibre project folder.
 It contains the configuration file
   and all template files as listed below to be applied to this project.
-  The best way is to copy the provided sample folder and customize the contained files with a text editor according to your needs.
+  The best way is to copy the provided sample folder and customize
+  the contained files with a text editor according to your needs.
 
 - If there is no configuration data in the project file, data stored
-in `c:\Users\<user name>.novx\novx_xtg\config` is used prior  to the script's default configuration data.
+in `c:\Users\<user name>.novx\novx_xtg\config` is used prior
+to the script's default configuration data.
 
 - If a template file or a configuration entry is missing, *novx_xtg* uses
 the lower priority source as a fallback.
@@ -91,7 +97,7 @@ the lower priority source as a fallback.
 Configuration file
 ~~~~~~~~~~~~~~~~~~
 
-This is an exapmle configuration file containing the default values mentioned above:
+This is an example configuration file containing the default values mentioned above:
 
 ::
 
@@ -160,14 +166,18 @@ This is an exapmle configuration file containing the default values mentioned ab
 Style tags
 ^^^^^^^^^^
 
-- **textbody** - The QX paragraph style applied to all paragraphs in a section, except the first. The first paragraph's style can be set in the section level templates.
+- **textbody** - The QX paragraph style applied to all paragraphs in a section,
+  except the first. The first paragraph's style can be set in the
+  section level templates.
 - **italic** - The opening tag to replace novelibre's *italic* formatting.
 - **italic0** - The closing tag to replace novelibre's *italic* formatting.
 - **bold** - The opening tag to replace novelibre's *bold* formatting.
 - **bold0** - The closing tag to replace novelibre's *bold* formatting.
-- **acronym** - The opening tag to format sequences of uppercase characters (e.g. set a slightly smaller font size).
+- **acronym** - The opening tag to format sequences of uppercase characters
+  (e.g. set a slightly smaller font size).
 - **acronym0** - The closing tag to format sequences of uppercase characters.
-- **figure** - The opening tag to format figures (e.g. switch the font to get "osf" text figures).
+- **figure** - The opening tag to format figures (e.g. switch the font
+  to get "osf" text figures).
 - **figure0** - The closing tag to format figures.
 
 Options
@@ -175,7 +185,8 @@ Options
 
 - **adjust_digits** - Replace regular spaces between digits with thin spaces.
 - **space_points** - Insert a thin space after each point that separates digits.
-- **per_chapter** - Generate one XTG file per chapter. The file names consist of the chapter's number and title. the files are written to the XTG_Chapters subdirectory.
+- **per_chapter** - Generate one XTG file per chapter. The file names consist
+  of the chapter's number and title. the files are written to the XTG_Chapters subdirectory.
 
 You can define styles in ``fileHeader.XTG``, but it is preferable to use the names of styles that already exist in the QX book project instead.
 
@@ -186,13 +197,15 @@ List of templates
 Project level templates
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-- **fileHeader.XTG** - This template must contain at least the version code and encoding indication.
+- **fileHeader.XTG** - This template must contain at least the version code
+  and encoding indication.
 
 Chapter level templates
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 - **partTemplate.XTG** - Chapter header; applied to chapters marked "section beginning".
-- **chapterTemplate.XTG** - Chapter header; applied to all "used" and "normal" chapters unless a "part template" exists.
+- **chapterTemplate.XTG** - Chapter header; applied to all "used" and
+  "normal" chapters unless a "part template" exists.
 
 
 Section level templates
@@ -201,7 +214,8 @@ Section level templates
 - **firstSectionTemplate.XTG** - Applied  to sections at the beginning of the chapter.
 - **sectionTemplate.XTG** - Applied to "used" sections within "normal" chapters.
 - **sectionDivider.XTG** - Section divider placed between sections.
-- **appendedSectionTemplate.XTG** - Applied to sections to be appended to the previous section.
+- **appendedSectionTemplate.XTG** - Applied to sections to be appended
+  to the previous section.
 
 
 Placeholders

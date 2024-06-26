@@ -127,18 +127,24 @@
 <h1>novx_xtg<a class="headerlink" href="#novx-xtg" title="Link to this heading"></a></h1>
 <p><strong>User guide</strong></p>
 <p>This page refers to the latest <a class="reference external" href="https://github.com/peter88213/novx_xtg/">novx_xtg</a> release.</p>
-<p>The novx_xtg Python script runs through all chapters and sections of a novelibre 7 project and fills XTG templates.</p>
+<p>The novx_xtg Python script runs through all chapters and sections of a novelibre
+project and fills XTG templates.</p>
 <section id="instructions-for-use">
 <h2>Instructions for use<a class="headerlink" href="#instructions-for-use" title="Link to this heading"></a></h2>
 <section id="intended-usage">
 <h3>Intended usage<a class="headerlink" href="#intended-usage" title="Link to this heading"></a></h3>
-<p>The included installation script prompts you to create a shortcut on the desktop. You can launch the program by dragging a novelibre project file and dropping it on the shortcut icon.</p>
+<dl class="simple">
+<dt>The included installation script prompts you to create a shortcut on the desktop.</dt><dd><p>You can launch the program by dragging a novelibre project file and dropping it
+on the shortcut icon.</p>
+</dd>
+</dl>
 </section>
 <section id="command-line-usage">
 <h3>Command line usage<a class="headerlink" href="#command-line-usage" title="Link to this heading"></a></h3>
 <p>Alternatively, you can</p>
 <ul class="simple">
-<li><p>launch the program on the command line passing the novelibre project file as an argument, or</p></li>
+<li><p>launch the program on the command line passing the novelibre project file
+as an argument, or</p></li>
 <li><p>launch the program via a batch file.</p></li>
 </ul>
 <p>usage: <code class="docutils literal notranslate"><span class="pre">novx_xtg.pyw</span> <span class="pre">[--silent]</span> <span class="pre">Sourcefile</span></code></p>
@@ -181,20 +187,22 @@ this is best done in advance with a word processor, e.g. via novelibre’s
 </ul>
 <dl class="simple">
 <dt>It contains the configuration file</dt><dd><p>and all template files as listed below to be applied to this project.
-The best way is to copy the provided sample folder and customize the contained files with a text editor according to your needs.</p>
+The best way is to copy the provided sample folder and customize
+the contained files with a text editor according to your needs.</p>
 </dd>
 </dl>
 <ul class="simple">
 <li><p>If there is no configuration data in the project file, data stored</p></li>
 </ul>
-<p>in <cite>c:Users&lt;user name&gt;.novxnovx_xtgconfig</cite> is used prior  to the script’s default configuration data.</p>
+<p>in <cite>c:Users&lt;user name&gt;.novxnovx_xtgconfig</cite> is used prior
+to the script’s default configuration data.</p>
 <ul class="simple">
 <li><p>If a template file or a configuration entry is missing, <em>novx_xtg</em> uses</p></li>
 </ul>
 <p>the lower priority source as a fallback.</p>
 <section id="configuration-file">
 <h3>Configuration file<a class="headerlink" href="#configuration-file" title="Link to this heading"></a></h3>
-<p>This is an exapmle configuration file containing the default values mentioned above:</p>
+<p>This is an example configuration file containing the default values mentioned above:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[STYLES]</span>
 <span class="na">first_paragraph</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">@Text body:</span>
 
@@ -259,14 +267,18 @@ The best way is to copy the provided sample folder and customize the contained f
 <section id="style-tags">
 <h4>Style tags<a class="headerlink" href="#style-tags" title="Link to this heading"></a></h4>
 <ul class="simple">
-<li><p><strong>textbody</strong> - The QX paragraph style applied to all paragraphs in a section, except the first. The first paragraph’s style can be set in the section level templates.</p></li>
+<li><p><strong>textbody</strong> - The QX paragraph style applied to all paragraphs in a section,
+except the first. The first paragraph’s style can be set in the
+section level templates.</p></li>
 <li><p><strong>italic</strong> - The opening tag to replace novelibre’s <em>italic</em> formatting.</p></li>
 <li><p><strong>italic0</strong> - The closing tag to replace novelibre’s <em>italic</em> formatting.</p></li>
 <li><p><strong>bold</strong> - The opening tag to replace novelibre’s <em>bold</em> formatting.</p></li>
 <li><p><strong>bold0</strong> - The closing tag to replace novelibre’s <em>bold</em> formatting.</p></li>
-<li><p><strong>acronym</strong> - The opening tag to format sequences of uppercase characters (e.g. set a slightly smaller font size).</p></li>
+<li><p><strong>acronym</strong> - The opening tag to format sequences of uppercase characters
+(e.g. set a slightly smaller font size).</p></li>
 <li><p><strong>acronym0</strong> - The closing tag to format sequences of uppercase characters.</p></li>
-<li><p><strong>figure</strong> - The opening tag to format figures (e.g. switch the font to get “osf” text figures).</p></li>
+<li><p><strong>figure</strong> - The opening tag to format figures (e.g. switch the font
+to get “osf” text figures).</p></li>
 <li><p><strong>figure0</strong> - The closing tag to format figures.</p></li>
 </ul>
 </section>
@@ -275,7 +287,8 @@ The best way is to copy the provided sample folder and customize the contained f
 <ul class="simple">
 <li><p><strong>adjust_digits</strong> - Replace regular spaces between digits with thin spaces.</p></li>
 <li><p><strong>space_points</strong> - Insert a thin space after each point that separates digits.</p></li>
-<li><p><strong>per_chapter</strong> - Generate one XTG file per chapter. The file names consist of the chapter’s number and title. the files are written to the XTG_Chapters subdirectory.</p></li>
+<li><p><strong>per_chapter</strong> - Generate one XTG file per chapter. The file names consist
+of the chapter’s number and title. the files are written to the XTG_Chapters subdirectory.</p></li>
 </ul>
 <p>You can define styles in <code class="docutils literal notranslate"><span class="pre">fileHeader.XTG</span></code>, but it is preferable to use the names of styles that already exist in the QX book project instead.</p>
 </section>
@@ -286,14 +299,16 @@ The best way is to copy the provided sample folder and customize the contained f
 <section id="project-level-templates">
 <h3>Project level templates<a class="headerlink" href="#project-level-templates" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p><strong>fileHeader.XTG</strong> - This template must contain at least the version code and encoding indication.</p></li>
+<li><p><strong>fileHeader.XTG</strong> - This template must contain at least the version code
+and encoding indication.</p></li>
 </ul>
 </section>
 <section id="chapter-level-templates">
 <h3>Chapter level templates<a class="headerlink" href="#chapter-level-templates" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p><strong>partTemplate.XTG</strong> - Chapter header; applied to chapters marked “section beginning”.</p></li>
-<li><p><strong>chapterTemplate.XTG</strong> - Chapter header; applied to all “used” and “normal” chapters unless a “part template” exists.</p></li>
+<li><p><strong>chapterTemplate.XTG</strong> - Chapter header; applied to all “used” and
+“normal” chapters unless a “part template” exists.</p></li>
 </ul>
 </section>
 <section id="section-level-templates">
@@ -302,7 +317,8 @@ The best way is to copy the provided sample folder and customize the contained f
 <li><p><strong>firstSectionTemplate.XTG</strong> - Applied  to sections at the beginning of the chapter.</p></li>
 <li><p><strong>sectionTemplate.XTG</strong> - Applied to “used” sections within “normal” chapters.</p></li>
 <li><p><strong>sectionDivider.XTG</strong> - Section divider placed between sections.</p></li>
-<li><p><strong>appendedSectionTemplate.XTG</strong> - Applied to sections to be appended to the previous section.</p></li>
+<li><p><strong>appendedSectionTemplate.XTG</strong> - Applied to sections to be appended
+to the previous section.</p></li>
 </ul>
 </section>
 </section>
