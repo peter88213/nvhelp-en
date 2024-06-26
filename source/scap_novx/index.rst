@@ -262,7 +262,7 @@ This is the configuration explained:
 
    export_locations = Yes
 
-   # Yes: create location from Scapple notes.
+   # Yes: create locations from Scapple notes.
 
    export_items = Yes
 
@@ -272,7 +272,7 @@ This is the configuration explained:
 Installation path
 -----------------
 
-The setup script installs *scap_novx.py* in the user profile.
+The setup script installs *scap_novx.py* in a defined place.
 This is the installation path on Windows:
 
 ``c:\Users\<user name>\.novx\scap_novx``
