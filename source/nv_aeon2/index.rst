@@ -105,7 +105,7 @@ properties that are converted to *novelibre* by default.
 For existing timelines you have two choices:
 
 -  Option 1: Add or rename the required entities and event properties in
-   the Timeline settings.
+   the Aeon Timeline 2 settings.
 -  Option 2: Customize the *nv_aeon2* configuration to fit your
    timeline, see `Custom configuration <#custom-configuration>`__.
 
