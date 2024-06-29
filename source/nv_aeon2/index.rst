@@ -272,17 +272,9 @@ This is the configuration explained:
    
    # Name of the user-defined moon phase property.
    
-   role_location = Location
+   type_arc = Arc
    
-   # Name of the user-defined role for section locations.
-   
-   role_item = Item
-   
-   # Name of the user-defined role for items in a section.
-   
-   role_character = Participant
-   
-   # Name of the user-defined role for characters in a section.
+   # Name of the user-defined "Arc" type
    
    type_character = Character
    
@@ -296,6 +288,26 @@ This is the configuration explained:
    
    # Name of the user-defined "Item" type
    
+   role_arc = Arc
+   
+   # Name of the user-defined role for regular arcs.
+   
+   role_plotline = Storyline
+   
+   # Name of the user-defined role for plot line arcs.
+   
+   role_character = Participant
+   
+   # Name of the user-defined role for characters in a section.
+   
+   role_location = Location
+   
+   # Name of the user-defined role for section locations.
+   
+   role_item = Item
+   
+   # Name of the user-defined role for items in a section.
+   
    color_section = Red
    
    # Color of new section events
@@ -303,7 +315,6 @@ This is the configuration explained:
    color_event = Yellow
    
    # Color of new non-section events
-   
    
    
    [OPTIONS]
@@ -317,7 +328,7 @@ This is the configuration explained:
    
    # Yes: Lock the novelibre project when opening the timeline.
    # No: Do not lock the novelibre project when opening the timeline.
-
+   
 .. note:: 
    Your custom configuration file does not have to contain all the
    entries listed above. The changed entries are sufficient.
