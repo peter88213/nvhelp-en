@@ -202,14 +202,12 @@ Update rules for Aeon Timeline 2 projects
    sections.
 -  Arc, character, location, and item relationships are updated, if the
    entity names match.
--  When creating events from sections without date/time, they get the
-   actual date and are sorted in reading order.
 -  When creating events from sections without any date/time information,
    they get the default date from the *novelibre* project, and are sorted
    in reading order. If there is no default date set, "today" is used.
 -  When processing unspecific "day/hour/minute" information, the default
-   date from the *novelibre* project is used. f there is no default date
-   set, "today" is used.
+   date from the *novelibre* project is used for date calculation.
+   If there is no default date set, "today" is used as reference date.
 
 
 Custom configuration
