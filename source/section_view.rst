@@ -242,7 +242,24 @@ Day
 
 .. note::
    All entries are optional. You can either enter a date, or a day. 
-   
+
+Moon phase
+   If the required date information is set, you can call up the corresponding moon phase.
+
+   .. figure:: _images/section_view09.png
+      :alt: Screenshot
+
+   The moon phase information consists of:
+
+   - the phase day (0 to 29, where 0=new moon, 15=full etc.),
+   - the visible shape,
+   - the fraction illuminated.
+
+   .. note::
+      The moon phase calculation is based on a ‘do it in your head’ algorithm
+      by John Conway. In its current form, it’s only valid for the 20th and
+      21st centuries.
+
 Clear date/time
    This will reset *Date*, *Time*, and *Day* simultaneously.
 

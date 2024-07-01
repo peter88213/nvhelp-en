@@ -73,9 +73,16 @@ Update the *novelibre* project from the timeline, if existing.
 Aeon Timeline 2 > Add or update moon phase data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The moon phase calculation is based on a ‘do it in your head’ algorithm
-by John Conway. In its current form, it’s only valid for the 20th and
-21st centuries.
+The "Moon phase" event property consists of:
+
+- the phase day (0 to 29, where 0=new moon, 15=full etc.),
+- the visible shape,
+- the fraction illuminated.
+
+.. note::
+   The moon phase calculation is based on a ‘do it in your head’ algorithm
+   by John Conway. In its current form, it’s only valid for the 20th and
+   21st centuries.
 
 
 Aeon Timeline 2 > Edit the timeline
