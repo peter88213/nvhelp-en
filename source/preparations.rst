@@ -220,14 +220,20 @@ reading them back.
 
 For the whole thing to work, it is extremely important that you
 only write within the section boundaries. To do this, you might
-want to make the text boundaries visible in the *Writer* settings.
+want to make the section boundaries visible in the *Writer* settings.
 
 .. figure:: _images/preparations01.png
-   :alt: LibreOffice Writer screenshot
+   :alt: LibreOffice 7.6 screenshot
 
-   LibreOffice Writer screenshot: Make sure the **View > Text Boundaries**
-   menu entry is ticked. Writing outsides the visible text boundaries
+   LibreOffice 7.6 screenshot: Make sure the **Section boundaries**
+   box in the **Tools > Options > Application Colors** dialog
+   is ticked. Writing outsides the visible section boundaries
    has no effect on your *novelibre* project.
+
+.. hint::
+   With OpenOffice and older versions of LibreOffice 
+   the dialog may be called "Appearance" 
+   instead of "Application Colors". 
 
 
 Docking the Navigator
