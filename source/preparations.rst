@@ -35,48 +35,49 @@ Enjoy!
 Installing the application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Either launch the downloaded **novelibre_vx.x.x.pyzw**
-  file by double-clicking (Windows/Linux desktop),
+Step 1
+   - Either launch the downloaded **novelibre_vx.x.x.pyzw**
+     file by double-clicking (Windows/Linux desktop),
 
-.. figure:: _images/preparations11.png
-   :alt: Example (Windows Explorer)
-   
-   Example (Windows Explorer)
+     .. figure:: _images/preparations11.png
+        :alt: Example (Windows Explorer)
 
-- or execute ```python novelibre_vx.x.x.pyzw``` (Windows),
-  resp. ```python3 novelibre_vx.x.x.pyzw``` (Linux)
-  on the command line.
+        Example (Windows Explorer)
 
-.. figure:: _images/preparations12.png
-   :alt: Example (Windows command line)
-   
-   Example (Windows command line)
-   
-*"x.x.x"* means the version number.
+   - or execute ```python novelibre_vx.x.x.pyzw``` (Windows),
+     resp. ```python3 novelibre_vx.x.x.pyzw``` (Linux)
+     on the command line.
 
-In both cases, a pop-up window should appear indicating
-that the installation was successful.
+     .. figure:: _images/preparations12.png
+        :alt: Example (Windows command line)
 
-.. figure:: _images/preparations13.png
-   :alt: Example (Windows)
-   
-   Example (Windows)
+        Example (Windows command line)
 
-.. important::
-   Many web browsers recognize the download as an executable file 
-   and offer to open it immedately. 
-   This starts the installation.
- 
-   .. figure:: _images/preparations14.png
-      :alt: Beispiel (Chrome browser)
+   *"x.x.x"* means the version number.
+
+   In both cases, a pop-up window should appear indicating
+   that the installation was successful.
+
+   .. figure:: _images/preparations13.png
+      :alt: Example (Windows)
+
+      Example (Windows)
+
+   .. important::
+      Many web browsers recognize the download as an executable file 
+      and offer to open it immedately. 
+      This starts the installation.
+    
+      .. figure:: _images/preparations14.png
+         :alt: Beispiel (Chrome browser)
+         
+         Example (Chrome browser)
       
-      Example (Chrome browser)
-   
-   However, depending on the security settings, the browser may 
-   initially  refuse  to download the executable file. 
-   In this case, your confirmation or an additional action is required. 
-   If this is not possible, you have the option of downloading 
-   the zip file. 
+      However, depending on the security settings, the browser may 
+      initially  refuse  to download the executable file. 
+      In this case, your confirmation or an additional action is required. 
+      If this is not possible, you have the option of downloading 
+      the zip file. 
 
 
 Making novelibre accessible on the Desktop
@@ -104,12 +105,14 @@ Making novelibre accessible on the Desktop
    with your web browser for display, using the 
    `novx.css style sheet <file_menu.html#copy-style-sheet>`__. 
 
-3. Open the installation folder.
+Step 2
+   Open the installation folder.
 
    .. figure:: _images/preparations05.png
       :alt: novelibre screenshot
 
-4. Drag and drop **run.pyw** to the desktop while holding
+Step 3
+   Drag and drop **run.pyw** to the desktop while holding
    down the ``Alt`` key. This creates a shortcut to launch
    *novelibre* from the Windows desktop. Now you can also
    drag and drop *.novx* project files to this shortcut.
@@ -117,7 +120,8 @@ Making novelibre accessible on the Desktop
    .. figure:: _images/preparations06.png
       :alt: novelibre screenshot
 
-5. Optionally, you can replace the "Python" icon with the
+Step 4
+   Optionally, you can replace the "Python" icon with the
    *novelibre* logo you may find in the installation's
    *icons* subdirectory.
 
@@ -132,7 +136,8 @@ Making novelibre accessible on the Desktop
    .. figure:: _images/preparations07.png
       :alt: novelibre screenshot
 
-6. To rename the shortcut to *novelibre*, right-click on
+Step 5
+   To rename the shortcut to *novelibre*, right-click on
    the desktop shortcut and open the **Properties**
    dialog. In the first tab, replace "Shortcut to run.pyw"
    with "novelibre".
@@ -144,7 +149,8 @@ Making novelibre accessible on the Desktop
 Associating .novx files with novelibre
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-7. Optionally, you can associate the **.novx** file extension
+Step 6
+   Optionally, you can associate the **.novx** file extension
    with the *novelibre* application. Then the project files
    are displayed with the *novelibre* icon in the Explorer,
    and you can open them with *novelibre* by double-click.
@@ -186,9 +192,9 @@ Associating .novx files with novelibre
 Updating the application or a plugin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Just execute the Steps 1 and 2 as described above. If there
-is any further action required, the setup script will give you
-a message.
+Just execute the first step as described above.
+If there is any further action required, the setup script will
+give you a message.
 
 -----------------
 
