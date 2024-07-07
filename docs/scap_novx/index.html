@@ -62,6 +62,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../plugins.html">Plugins</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../tools.html">Tools</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">scap_novx</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installing-the-program">Installing the program</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#instructions-for-use">Instructions for use</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#intended-usage">Intended usage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#command-line-usage">Command line usage</a></li>
@@ -126,6 +127,17 @@
 <p>This page refers to the latest <a class="reference external" href="https://github.com/peter88213/scap_novx/">scap_novx</a> release.</p>
 <p>The scap_novx Python script creates a <em>novelibre</em> project
 from a Scapple outline.</p>
+<section id="installing-the-program">
+<h2>Installing the program<a class="headerlink" href="#installing-the-program" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Either launch the downloaded <strong>scap_novx_vx.x.x.pyzw</strong>
+file by double-clicking (Windows/Linux desktop),</p></li>
+<li><p>or execute <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">scap_novx_vx.x.x.pyzw`</span></code> (Windows),
+resp. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">scap_novx_vx.x.x.pyzw`</span></code> (Linux)
+on the command line.</p></li>
+</ul>
+<p><em>“x.x.x”</em> means the version number.</p>
+</section>
 <section id="instructions-for-use">
 <h2>Instructions for use<a class="headerlink" href="#instructions-for-use" title="Link to this heading"></a></h2>
 <section id="intended-usage">
@@ -198,8 +210,11 @@ the viewpoint is random.</p></li>
 <section id="import-styles-optional">
 <h3>Import styles (optional)<a class="headerlink" href="#import-styles-optional" title="Link to this heading"></a></h3>
 <p>The scap_novx distribution comes with a sample Scapple project
-<em>styles.scap</em> including all required styles.
-You can either use this diagram as a template,
+<em>styles.scap</em> including all required styles.</p>
+<p>You find this a sample project in the <em>novelibre</em> installation
+directory under</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\scap_novx\sample\</span></code></p>
+<p>You can either use this diagram as a template,
 or import the styles into your own Scapple diagram.</p>
 <figure class="align-default" id="id1">
 <img alt="Screenshot" src="../_images/import_styles.png" />
@@ -277,8 +292,6 @@ It is applied to any project.
 Its entries override scap_novx’s built-in constants.
 This is the path:
 <code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\scap_novx\scap_novx.ini</span></code></p>
-<p>The setup script installs a sample configuration file containing
-scap_novx’s default values. You can modify or delete it.</p>
 </section>
 <section id="local-project-configuration">
 <h3>Local project configuration<a class="headerlink" href="#local-project-configuration" title="Link to this heading"></a></h3>
@@ -291,11 +304,11 @@ the global configuration, if any.</p>
 </section>
 <section id="how-to-provide-modify-a-configuration-file">
 <h3>How to provide/modify a configuration file<a class="headerlink" href="#how-to-provide-modify-a-configuration-file" title="Link to this heading"></a></h3>
-<p>The scap_novx distribution comes with a sample configuration file
-located in the <code class="docutils literal notranslate"><span class="pre">sample</span></code> subfolder. It contains scap_novx’s default
-settings and options.
-This file is also automatically copied to the global configuration
-folder during installation. You best make a copy and edit it.</p>
+<p>You find the a sample configuration file with the
+<em>scap_novx</em> default values in the <em>novelibre</em> installation
+directory under</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\scap_novx\sample\</span></code></p>
+<p>You best make a copy and edit it.</p>
 <ul class="simple">
 <li><p>The SETTINGS section mainly refers to colors, i.e. The text colors that
 mark the characters/locations/items in Scapple. If you change them,
@@ -305,7 +318,7 @@ of the conversion rules below.</p></li>
 <li><p>Comment lines begin with a <code class="docutils literal notranslate"><span class="pre">#</span></code> number sign. In the example,
 refer to the code line immediately above.</p></li>
 </ul>
-<p>This is the configuration explained:</p>
+<p>This is the configuration file explained:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
 
 <span class="na">location_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0.0 0.0 1.0</span>

@@ -137,9 +137,13 @@ You can open it with <strong>Help &gt; Aeon 2 plugin Online help</strong>.</p>
 <section id="installing-the-plugin">
 <h2>Installing the plugin<a class="headerlink" href="#installing-the-plugin" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Unzip the downloaded zipfile into a new folder.</p></li>
-<li><p>Move into this new folder and launch <strong>setup.pyw</strong>. This installs the plugin.</p></li>
+<li><p>Either launch the downloaded <strong>nv_aeon2_vx.x.x.pyzw</strong>
+file by double-clicking (Windows/Linux desktop),</p></li>
+<li><p>or execute <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">nv_aeon2_vx.x.x.pyzw`</span></code> (Windows),
+resp. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">nv_aeon2_vx.x.x.pyzw`</span></code> (Linux)
+on the command line.</p></li>
 </ul>
+<p><em>“x.x.x”</em> means the version number.</p>
 <p>The plugin adds an <strong>Aeon Timeline 2</strong> entry to the <em>novelibre</em> main menu,
 a <strong>reate from Aeon Timeline 2…</strong> to the <strong>File &gt; New</strong> submenu,
 and an <strong>Aeon 2 plugin Online Help</strong> entry to the <strong>Help</strong> menu.</p>
@@ -150,9 +154,10 @@ and an <strong>Aeon 2 plugin Online Help</strong> entry to the <strong>Help</str
 <em>Aeon Timeline 2</em> custom template folder. The easiest way is to create new
 timelines based on this template. It provides the entities and event
 properties that are converted to <em>novelibre</em> by default.</p>
-<p>You find the customized template in the <code class="docutils literal notranslate"><span class="pre">sample</span></code> subdirectory
-of the unzipped <em>nv_aeon2</em> release folder. Just copy it into
-<code class="docutils literal notranslate"><span class="pre">AppData\Local\Scribble</span> <span class="pre">Code\Aeon</span> <span class="pre">Timeline</span> <span class="pre">2\CustomTemplates</span></code>.</p>
+<p>You find the customized template in the <em>novelibre</em> installation directory under</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\nv_aeon2_sample\</span></code></p>
+<p>Just copy it into</p>
+<p><code class="docutils literal notranslate"><span class="pre">AppData\Local\Scribble</span> <span class="pre">Code\Aeon</span> <span class="pre">Timeline</span> <span class="pre">2\CustomTemplates</span></code>.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">&lt;your</span> <span class="pre">user</span> <span class="pre">name&gt;\AppData</span></code> folder is hidden, so you
@@ -342,18 +347,18 @@ the global configuration, if any.</p>
 </section>
 <section id="how-to-provide-modify-a-configuration-file">
 <h3>How to provide/modify a configuration file<a class="headerlink" href="#how-to-provide-modify-a-configuration-file" title="Link to this heading"></a></h3>
-<p>The nv_aeon2 distribution comes with a sample configuration file
-located in the <code class="docutils literal notranslate"><span class="pre">sample</span></code> subfolder. It contains nv_aeon2’s
-default settings and options. This file is also automatically copied to
-the global configuration folder during installation. You best make a
-copy and edit it.</p>
+<p>You find the a sample configuration file with the
+<em>nv_aeon2</em> default values in the <em>novelibre</em> installation
+directory under</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\nv_aeon2_sample\</span></code></p>
+<p>You best make a copy and edit it.</p>
 <ul class="simple">
 <li><p>The SETTINGS section mainly refers to custom property, role, and type
 names.</p></li>
 <li><p>Comment lines begin with a <code class="docutils literal notranslate"><span class="pre">#</span></code> number sign. In the example, they
 refer to the code line immediately above.</p></li>
 </ul>
-<p>This is the configuration explained:</p>
+<p>This is the configuration file explained:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
 
 <span class="na">narrative_arc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Narrative</span>

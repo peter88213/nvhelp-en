@@ -16,6 +16,17 @@ This page refers to the latest `novx_xtg
 The novx_xtg Python script runs through all chapters and sections of a novelibre
 project and fills XTG templates.
 
+Installing the program
+----------------------
+
+- Either launch the downloaded **novx_xtg_vx.x.x.pyzw**
+  file by double-clicking (Windows/Linux desktop),
+- or execute ```python novx_xtg_vx.x.x.pyzw``` (Windows),
+  resp. ```python3 novx_xtg_vx.x.x.pyzw``` (Linux)
+  on the command line.
+
+*"x.x.x"* means the version number.
+
 
 Instructions for use
 --------------------
@@ -93,11 +104,20 @@ to the script's default configuration data.
 - If a template file or a configuration entry is missing, *novx_xtg* uses
 the lower priority source as a fallback.
 
+.. hint::
+   You find the a sample configuration folder with templates and the
+   *novx_xtg* default values in the *novelibre* installation
+   directory under
+   
+   ``c:\Users\<user name>\.novx\novx_xtg\sample\``
+   
+   You best make a copy and edit it.
+
 
 Configuration file
 ~~~~~~~~~~~~~~~~~~
 
-This is an example configuration file containing the default values mentioned above:
+This is the configuration file explained:
 
 ::
 

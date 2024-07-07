@@ -107,7 +107,7 @@
 <h2>Setting up novelibre<a class="headerlink" href="#setting-up-novelibre" title="Link to this heading"></a></h2>
 <p>If <em>novelibre</em> were a commercial application, all the
 steps described below would be performed automatically
-by a setup program. On Windows, for instance, this would
+by the setup program. On Windows, for instance, this would
 then be an <em>.exe</em> or <em>.msi</em> file that must be executed
 with special authorizations and may even require a costly
 certificate in order to be approved for download and
@@ -119,23 +119,47 @@ packages or images, whereby there are a multitude of different
 standards.</p>
 <p>Because I don’t run a software business, but am just a
 hobbyist and rather want to write novels, I’ve decided to
-go a different route: I provide a Python setup script
-that works the same
-way on all operating systems. The very last setup steps,
-which vary depending on the operating system and may also
-require special authorizations, must be carried out by the
-intrepid users themselves. I do what I can to make these
-steps easier, and provide detailed instructions for Windows
-below. Enjoy!</p>
+go a different route: I provide an executable Python zip archive
+that works the same way on all operating systems
+if Python is installed correctly.
+No Internet connection is required to install and operate <em>novelibre</em>.</p>
+<p>The very last setup steps, which vary depending
+on the operating system and may also require special authorizations,
+must be carried out by the intrepid users themselves.
+I do what I can to make these steps easier, and provide
+detailed instructions for Windows below.
+Enjoy!</p>
 <section id="installing-the-application">
 <h3>Installing the application<a class="headerlink" href="#installing-the-application" title="Link to this heading"></a></h3>
-<ol class="arabic simple">
-<li><p>Unzip the downloaded zipfile.</p></li>
-<li><p>Move into the unzipped folder and launch <strong>setup.pyw</strong>.
-This installs the application for the local user.</p></li>
-</ol>
-<figure class="align-default">
-<img alt="novelibre screenshot" src="_images/preparations04.png" />
+<ul class="simple">
+<li><p>Either launch the downloaded <strong>novelibre_vx.x.x.pyzw</strong>
+file by double-clicking (Windows/Linux desktop),</p></li>
+</ul>
+<figure class="align-default" id="id1">
+<img alt="Example (Windows Explorer)" src="_images/preparations11.png" />
+<figcaption>
+<p><span class="caption-text">Example (Windows Explorer)</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>or execute <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">novelibre_vx.x.x.pyzw`</span></code> (Windows),
+resp. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">novelibre_vx.x.x.pyzw`</span></code> (Linux)
+on the command line.</p></li>
+</ul>
+<figure class="align-default" id="id2">
+<img alt="Example (Windows command line)" src="_images/preparations12.png" />
+<figcaption>
+<p><span class="caption-text">Example (Windows command line)</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p><em>“x.x.x”</em> means the version number.</p>
+<p>In both cases, a pop-up window should appear indicating
+that the installation was successful.</p>
+<figure class="align-default" id="id3">
+<img alt="Example (Windows)" src="_images/preparations13.png" />
+<figcaption>
+<p><span class="caption-text">Example (Windows)</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
 </figure>
 </section>
 <section id="making-novelibre-accessible-on-the-desktop">
@@ -264,12 +288,12 @@ reading them back.</p>
 <p>For the whole thing to work, it is extremely important that you
 only write within the section boundaries. To do this, you might
 want to make the text boundaries visible in the <em>Writer</em> settings.</p>
-<figure class="align-default" id="id1">
+<figure class="align-default" id="id4">
 <img alt="LibreOffice Writer screenshot" src="_images/preparations01.png" />
 <figcaption>
 <p><span class="caption-text">LibreOffice Writer screenshot: Make sure the <strong>View &gt; Text Boundaries</strong>
 menu entry is ticked. Writing outsides the visible text boundaries
-has no effect on your <em>novelibre</em> project.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+has no effect on your <em>novelibre</em> project.</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
@@ -281,11 +305,11 @@ of the work area. To do this, first press <code class="docutils literal notransl
 By default, it appears as a pop-up window that can be placed anywhere
 on the screen. To dock it, double-click in a free gray space while holding
 down the <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code> key, as shown in the following image.</p>
-<figure class="align-default" id="id2">
+<figure class="align-default" id="id5">
 <img alt="LibreOffice Writer screenshot" src="_images/preparations02.png" />
 <figcaption>
 <p><span class="caption-text">LibreOffice Writer screenshot: The red “X” indicates the position for
-double-clicking.</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+double-clicking.</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 <div class="admonition tip">
@@ -294,10 +318,10 @@ double-clicking.</span><a class="headerlink" href="#id2" title="Link to this ima
 It is best to reduce this to the headings first. To do this, select
 “Headings” at the top of the tree and then click on the “Content Navigation View”
 icon. This works if a document containing headings is loaded.</p>
-<figure class="align-default" id="id3">
+<figure class="align-default" id="id6">
 <img alt="LibreOffice Writer screenshot" src="_images/preparations03.png" />
 <figcaption>
-<p><span class="caption-text">LibreOffice Writer screenshot: The red “O” indicates the icon to click on.</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+<p><span class="caption-text">LibreOffice Writer screenshot: The red “O” indicates the icon to click on.</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </div>
@@ -334,10 +358,10 @@ Tick the <strong>Apply replacement table</strong> checkbox.
 Then enter the fonts of your choice.</p>
 <p><em>novelibre</em> uses “Courier New” for text documents, and “Calibri”
 for spreadsheets.</p>
-<figure class="align-default" id="id4">
+<figure class="align-default" id="id7">
 <img alt="LibreOffice screenshot" src="_images/preparations10.png" />
 <figcaption>
-<p><span class="caption-text">LibreOffice Options dialog screenshot.</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+<p><span class="caption-text">LibreOffice Options dialog screenshot.</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </div>

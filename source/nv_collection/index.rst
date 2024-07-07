@@ -21,8 +21,13 @@ A collection gives you quick access to your projects.
 Installing the plugin
 ---------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Either launch the downloaded **nv_collection_vx.x.x.pyzw**
+  file by double-clicking (Windows/Linux desktop),
+- or execute ```python nv_collection_vx.x.x.pyzw``` (Windows),
+  resp. ```python3 nv_collection_vx.x.x.pyzw``` (Linux)
+  on the command line.
+
+*"x.x.x"* means the version number.
 
 The plugin adds a **Collection** entry to the *novelibre* **File** menu,
 and a **Collection plugin Online help** entry to the **Help** menu.

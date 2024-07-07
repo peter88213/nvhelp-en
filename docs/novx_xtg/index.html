@@ -62,6 +62,7 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../tools.html">Tools</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../scap_novx/index.html">scap_novx</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">novx_xtg</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installing-the-program">Installing the program</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#instructions-for-use">Instructions for use</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#intended-usage">Intended usage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#command-line-usage">Command line usage</a></li>
@@ -129,6 +130,17 @@
 <p>This page refers to the latest <a class="reference external" href="https://github.com/peter88213/novx_xtg/">novx_xtg</a> release.</p>
 <p>The novx_xtg Python script runs through all chapters and sections of a novelibre
 project and fills XTG templates.</p>
+<section id="installing-the-program">
+<h2>Installing the program<a class="headerlink" href="#installing-the-program" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Either launch the downloaded <strong>novx_xtg_vx.x.x.pyzw</strong>
+file by double-clicking (Windows/Linux desktop),</p></li>
+<li><p>or execute <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">novx_xtg_vx.x.x.pyzw`</span></code> (Windows),
+resp. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">novx_xtg_vx.x.x.pyzw`</span></code> (Linux)
+on the command line.</p></li>
+</ul>
+<p><em>“x.x.x”</em> means the version number.</p>
+</section>
 <section id="instructions-for-use">
 <h2>Instructions for use<a class="headerlink" href="#instructions-for-use" title="Link to this heading"></a></h2>
 <section id="intended-usage">
@@ -200,9 +212,17 @@ to the script’s default configuration data.</p>
 <li><p>If a template file or a configuration entry is missing, <em>novx_xtg</em> uses</p></li>
 </ul>
 <p>the lower priority source as a fallback.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>You find the a sample configuration folder with templates and the
+<em>novx_xtg</em> default values in the <em>novelibre</em> installation
+directory under</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\novx_xtg\sample\</span></code></p>
+<p>You best make a copy and edit it.</p>
+</div>
 <section id="configuration-file">
 <h3>Configuration file<a class="headerlink" href="#configuration-file" title="Link to this heading"></a></h3>
-<p>This is an example configuration file containing the default values mentioned above:</p>
+<p>This is the configuration file explained:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[STYLES]</span>
 <span class="na">first_paragraph</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">@Text body:</span>
 

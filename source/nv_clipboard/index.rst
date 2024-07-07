@@ -18,8 +18,13 @@ You can open it with **Help > Collection plugin Online help**.
 Installing the plugin
 ---------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Either launch the downloaded **nv_clipboard_vx.x.x.pyzw**
+  file by double-clicking (Windows/Linux desktop),
+- or execute ```python nv_clipboard_vx.x.x.pyzw``` (Windows),
+  resp. ```python3 nv_clipboard_vx.x.x.pyzw``` (Linux)
+  on the command line.
+
+*"x.x.x"* means the version number.
 
 The plugin adds two buttons to the *novelibre* `toolbar <../toolbar.html>`__,
 and a **Clipboard Online help** entry to the **Help** menu.

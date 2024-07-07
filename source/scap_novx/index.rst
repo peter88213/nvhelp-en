@@ -16,6 +16,18 @@ This page refers to the latest `scap_novx
 The scap_novx Python script creates a *novelibre* project
 from a Scapple outline.
 
+Installing the program
+----------------------
+
+- Either launch the downloaded **scap_novx_vx.x.x.pyzw**
+  file by double-clicking (Windows/Linux desktop),
+- or execute ```python scap_novx_vx.x.x.pyzw``` (Windows),
+  resp. ```python3 scap_novx_vx.x.x.pyzw``` (Linux)
+  on the command line.
+
+*"x.x.x"* means the version number.
+
+
 Instructions for use
 --------------------
 
@@ -102,6 +114,12 @@ Import styles (optional)
 
 The scap_novx distribution comes with a sample Scapple project
 *styles.scap* including all required styles.
+
+You find this a sample project in the *novelibre* installation
+directory under
+
+``c:\Users\<user name>\.novx\scap_novx\sample\``
+
 You can either use this diagram as a template,
 or import the styles into your own Scapple diagram.
 
@@ -196,9 +214,6 @@ Its entries override scap_novx's built-in constants.
 This is the path:
 ``c:\Users\<user name>\.novx\scap_novx\scap_novx.ini``
 
-The setup script installs a sample configuration file containing
-scap_novx's default values. You can modify or delete it.
-
 
 Local project configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -214,11 +229,13 @@ the global configuration, if any.
 How to provide/modify a configuration file
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The scap_novx distribution comes with a sample configuration file
-located in the ``sample`` subfolder. It contains scap_novx's default
-settings and options.
-This file is also automatically copied to the global configuration
-folder during installation. You best make a copy and edit it.
+You find the a sample configuration file with the
+*scap_novx* default values in the *novelibre* installation
+directory under
+
+``c:\Users\<user name>\.novx\scap_novx\sample\``
+
+You best make a copy and edit it.
 
 - The SETTINGS section mainly refers to colors, i.e. The text colors that
   mark the characters/locations/items in Scapple. If you change them,
@@ -228,7 +245,7 @@ folder during installation. You best make a copy and edit it.
 - Comment lines begin with a ``#`` number sign. In the example,
   refer to the code line immediately above.
 
-This is the configuration explained:
+This is the configuration file explained:
 
 ::
 

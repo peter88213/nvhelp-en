@@ -132,9 +132,13 @@ You can open it with <strong>Help &gt; Timeline plugin Online help</strong>.</p>
 <section id="installing-the-plugin">
 <h2>Installing the plugin<a class="headerlink" href="#installing-the-plugin" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Unzip the downloaded zipfile into a new folder.</p></li>
-<li><p>Move into this new folder and launch <strong>setup.pyw</strong>. This installs the plugin.</p></li>
+<li><p>Either launch the downloaded <strong>nv_timeline_vx.x.x.pyzw</strong>
+file by double-clicking (Windows/Linux desktop),</p></li>
+<li><p>or execute <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">nv_timeline_vx.x.x.pyzw`</span></code> (Windows),
+resp. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">nv_timeline_vx.x.x.pyzw`</span></code> (Linux)
+on the command line.</p></li>
 </ul>
+<p><em>“x.x.x”</em> means the version number.</p>
 <p>The plugin adds a <strong>Timeline</strong> entry to the <em>novelibre</em> main menu,
 a <strong>Create from Timeline…</strong> to the <strong>File &gt; New</strong> submenu,
 and a <strong>Timeline plugin Online Help</strong> entry to the <strong>Help</strong> menu.</p>
@@ -188,8 +192,6 @@ It is applied to any project.
 Its entries override <em>nv_timeline’s</em> built-in constants.
 This is the path under Windows:
 <code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\config\nv_timeline.ini</span></code></p>
-<p>The setup script installs a sample configuration file containing
-<em>nv_timeline’s</em> default values. You can modify or delete it.</p>
 </section>
 <section id="local-project-configuration">
 <h3>Local project configuration<a class="headerlink" href="#local-project-configuration" title="Link to this heading"></a></h3>
@@ -202,11 +204,11 @@ well as the global configuration, if any.</p>
 </section>
 <section id="how-to-provide-modify-a-configuration-file">
 <h3>How to provide/modify a configuration file<a class="headerlink" href="#how-to-provide-modify-a-configuration-file" title="Link to this heading"></a></h3>
-<p>The <em>nv_timeline</em> distribution comes with a sample configuration
-file located in the <code class="docutils literal notranslate"><span class="pre">sample</span></code> subfolder. It contains
-<em>nv_timeline’s</em> default settings and options. This file is also
-automatically copied to the global configuration folder during
-installation. You best make a copy and edit it.</p>
+<p>You find the a sample configuration file with the
+<em>nv_timeline</em> default values in the <em>novelibre</em> installation
+directory under</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\nv_timeline_sample\</span></code></p>
+<p>You best make a copy and edit it.</p>
 <ul class="simple">
 <li><p>The SETTINGS section comprises the program “constants”. If you change
 them, the program might behave differently than described in the
@@ -215,7 +217,7 @@ consequences.</p></li>
 <li><p>Comment lines begin with a <code class="docutils literal notranslate"><span class="pre">#</span></code> number sign. In the example, they
 refer to the code line immediately above.</p></li>
 </ul>
-<p>This is the configuration explained:</p>
+<p>This is the configuration file explained:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
 
 <span class="na">section_label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Section</span>

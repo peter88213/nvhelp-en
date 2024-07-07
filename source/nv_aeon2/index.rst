@@ -18,8 +18,13 @@ You can open it with **Help > Aeon 2 plugin Online help**.
 Installing the plugin
 ---------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Either launch the downloaded **nv_aeon2_vx.x.x.pyzw**
+  file by double-clicking (Windows/Linux desktop),
+- or execute ```python nv_aeon2_vx.x.x.pyzw``` (Windows),
+  resp. ```python3 nv_aeon2_vx.x.x.pyzw``` (Linux)
+  on the command line.
+
+*"x.x.x"* means the version number.
 
 The plugin adds an **Aeon Timeline 2** entry to the *novelibre* main menu,
 a **reate from Aeon Timeline 2...** to the **File > New** submenu,
@@ -34,8 +39,12 @@ After installation, you can copy a "novelibre.xml" template to the
 timelines based on this template. It provides the entities and event
 properties that are converted to *novelibre* by default.
 
-You find the customized template in the ``sample`` subdirectory
-of the unzipped *nv_aeon2* release folder. Just copy it into
+You find the customized template in the *novelibre* installation directory under
+
+``c:\Users\<user name>\.novx\nv_aeon2_sample\``
+
+Just copy it into
+
 ``AppData\Local\Scribble Code\Aeon Timeline 2\CustomTemplates``.
 
 .. hint::
@@ -46,6 +55,7 @@ of the unzipped *nv_aeon2* release folder. Just copy it into
     
 The next time you start *Aeon Timeline 2*,
 the new template appears in the *Custom Templates* area.
+
 
 
 Command reference
@@ -223,6 +233,7 @@ Custom configuration
 You can override the default settings by providing a configuration file.
 Be always aware that faulty entries may cause program errors.
 
+
 Global configuration
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -231,6 +242,7 @@ an be placed in the configuration directory of the installation.
 It is applied to any project. Its
 entries override nv_aeon2’s built-in constants. This is the path:
 ``c:\Users\<user name>\.novx\config\nv_aeon2.ini``
+
 
 Local project configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -244,18 +256,20 @@ the global configuration, if any.
 How to provide/modify a configuration file
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The nv_aeon2 distribution comes with a sample configuration file
-located in the ``sample`` subfolder. It contains nv_aeon2’s
-default settings and options. This file is also automatically copied to
-the global configuration folder during installation. You best make a
-copy and edit it.
+You find the a sample configuration file with the
+*nv_aeon2* default values in the *novelibre* installation
+directory under
+
+``c:\Users\<user name>\.novx\nv_aeon2_sample\``
+
+You best make a copy and edit it.
 
 -  The SETTINGS section mainly refers to custom property, role, and type
    names.
 -  Comment lines begin with a ``#`` number sign. In the example, they
    refer to the code line immediately above.
 
-This is the configuration explained:
+This is the configuration file explained:
 
 ::
 

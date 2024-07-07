@@ -20,8 +20,13 @@ The editor provides access to the internal markup, which is similar to HTML.
 Installing the plugin
 ---------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Either launch the downloaded **nv_editor_vx.x.x.pyzw**
+  file by double-clicking (Windows/Linux desktop),
+- or execute ```python nv_editor_vx.x.x.pyzw``` (Windows),
+  resp. ```python3 nv_editor_vx.x.x.pyzw``` (Linux)
+  on the command line.
+
+*"x.x.x"* means the version number.
 
 The plugin adds an **Edit** entry to the *novelibre* **Section** menu,
 and an **Editor plugin Online help** entry to the **Help** menu.

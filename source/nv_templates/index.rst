@@ -23,8 +23,13 @@ With *novelibre*, you can define a narrative structure with stages. See
 Installing the plugin
 ---------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Either launch the downloaded **nv_templates_vx.x.x.pyzw**
+  file by double-clicking (Windows/Linux desktop),
+- or execute ```python nv_templates_vx.x.x.pyzw``` (Windows),
+  resp. ```python3 nv_templates_vx.x.x.pyzw``` (Linux)
+  on the command line.
+
+*"x.x.x"* means the version number.
 
 The plugin adds a **Story Templates** entry to the *novelibre* **Tools** menu,
 a **Create from Template...** entry to the **File > New** submenu,

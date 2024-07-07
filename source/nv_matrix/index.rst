@@ -18,8 +18,13 @@ You can open it with **Help > Matrix plugin Online help**.
 Installing the plugin
 ---------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Either launch the downloaded **nv_matrix_vx.x.x.pyzw**
+  file by double-clicking (Windows/Linux desktop),
+- or execute ```python nv_matrix_vx.x.x.pyzw``` (Windows),
+  resp. ```python3 nv_matrix_vx.x.x.pyzw``` (Linux)
+  on the command line.
+
+*"x.x.x"* means the version number.
 
 The plugin adds a **Matrix** entry to the *novelibre* main menu,
 and a **Matrix plugin Online help** entry to the **Help** menu.

@@ -6,7 +6,7 @@ Setting up novelibre
 
 If *novelibre* were a commercial application, all the
 steps described below would be performed automatically
-by a setup program. On Windows, for instance, this would
+by the setup program. On Windows, for instance, this would
 then be an *.exe* or *.msi* file that must be executed
 with special authorizations and may even require a costly
 certificate in order to be approved for download and
@@ -20,24 +20,48 @@ standards.
 
 Because I don't run a software business, but am just a
 hobbyist and rather want to write novels, I've decided to
-go a different route: I provide a Python setup script
-that works the same
-way on all operating systems. The very last setup steps,
-which vary depending on the operating system and may also
-require special authorizations, must be carried out by the
-intrepid users themselves. I do what I can to make these
-steps easier, and provide detailed instructions for Windows
-below. Enjoy!
+go a different route: I provide an executable Python zip archive
+that works the same way on all operating systems
+if Python is installed correctly.
+No Internet connection is required to install and operate *novelibre*.
+
+The very last setup steps, which vary depending
+on the operating system and may also require special authorizations,
+must be carried out by the intrepid users themselves.
+I do what I can to make these steps easier, and provide
+detailed instructions for Windows below.
+Enjoy!
 
 Installing the application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Unzip the downloaded zipfile.
-2. Move into the unzipped folder and launch **setup.pyw**.
-   This installs the application for the local user.
+- Either launch the downloaded **novelibre_vx.x.x.pyzw**
+  file by double-clicking (Windows/Linux desktop),
 
-.. figure:: _images/preparations04.png
-   :alt: novelibre screenshot
+.. figure:: _images/preparations11.png
+   :alt: Example (Windows Explorer)
+   
+   Example (Windows Explorer)
+
+- or execute ```python novelibre_vx.x.x.pyzw``` (Windows),
+  resp. ```python3 novelibre_vx.x.x.pyzw``` (Linux)
+  on the command line.
+
+.. figure:: _images/preparations12.png
+   :alt: Example (Windows command line)
+   
+   Example (Windows command line)
+   
+*"x.x.x"* means the version number.
+
+In both cases, a pop-up window should appear indicating
+that the installation was successful.
+
+.. figure:: _images/preparations13.png
+   :alt: Example (Windows)
+   
+   Example (Windows)
+
 
 Making novelibre accessible on the Desktop
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

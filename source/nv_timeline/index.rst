@@ -18,8 +18,13 @@ You can open it with **Help > Timeline plugin Online help**.
 Installing the plugin
 ---------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Either launch the downloaded **nv_timeline_vx.x.x.pyzw**
+  file by double-clicking (Windows/Linux desktop),
+- or execute ```python nv_timeline_vx.x.x.pyzw``` (Windows),
+  resp. ```python3 nv_timeline_vx.x.x.pyzw``` (Linux)
+  on the command line.
+
+*"x.x.x"* means the version number.
 
 The plugin adds a **Timeline** entry to the *novelibre* main menu,
 a **Create from Timeline...** to the **File > New** submenu,
@@ -81,8 +86,6 @@ Its entries override *nv_timeline’s* built-in constants.
 This is the path under Windows:
 ``c:\Users\<user name>\.novx\config\nv_timeline.ini``
 
-The setup script installs a sample configuration file containing
-*nv_timeline’s* default values. You can modify or delete it.
 
 Local project configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,11 +100,13 @@ well as the global configuration, if any.
 How to provide/modify a configuration file
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The *nv_timeline* distribution comes with a sample configuration
-file located in the ``sample`` subfolder. It contains
-*nv_timeline’s* default settings and options. This file is also
-automatically copied to the global configuration folder during
-installation. You best make a copy and edit it.
+You find the a sample configuration file with the
+*nv_timeline* default values in the *novelibre* installation
+directory under
+
+``c:\Users\<user name>\.novx\nv_timeline_sample\``
+
+You best make a copy and edit it.
 
 -  The SETTINGS section comprises the program "constants". If you change
    them, the program might behave differently than described in the
@@ -110,7 +115,7 @@ installation. You best make a copy and edit it.
 -  Comment lines begin with a ``#`` number sign. In the example, they
    refer to the code line immediately above.
 
-This is the configuration explained:
+This is the configuration file explained:
 
 ::
 
