@@ -104,17 +104,17 @@ Configuration
 -------------
 
 - Place a subfolder named **novx_xtg** in the novelibre project folder.
-It contains the configuration file
+  It contains the configuration file
   and all template files as listed below to be applied to this project.
   The best way is to copy the provided sample folder and customize
   the contained files with a text editor according to your needs.
 
 - If there is no configuration data in the project file, data stored
-in `c:\Users\<user name>.novx\novx_xtg\config` is used prior
-to the script's default configuration data.
+  in `c:\Users\<user name>.novx\novx_xtg\config` is used prior
+  to the script's default configuration data.
 
 - If a template file or a configuration entry is missing, *novx_xtg* uses
-the lower priority source as a fallback.
+  the lower priority source as a fallback.
 
 .. hint::
    You find the a sample configuration folder with templates and the
