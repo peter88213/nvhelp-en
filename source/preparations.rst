@@ -44,9 +44,11 @@ Step 1
 
         Example (Windows Explorer)
 
-   - or execute ```python novelibre_vx.x.x.pyzw``` (Windows),
-     resp. ```python3 novelibre_vx.x.x.pyzw``` (Linux)
-     on the command line.
+   - or execute
+
+     ```python novelibre_vx.x.x.pyzw``` (Windows), resp.
+
+     ```python3 novelibre_vx.x.x.pyzw``` (Linux) on the command line.
 
      .. figure:: _images/preparations12.png
         :alt: Example (Windows command line)
