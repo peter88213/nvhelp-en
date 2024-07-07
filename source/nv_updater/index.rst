@@ -30,6 +30,18 @@ The plugin adds a **Check for updates** entry to the *novelibre* **Tools** menu,
 and an **Update checker Online help** entry to the **Help** menu.
 
 
+.. important::
+   Many web browsers recognize the download as an executable file 
+   and offer to open it immedately. 
+   This starts the installation.
+ 
+   However, depending on the security settings, the browser may 
+   initially  refuse  to download the executable file. 
+   In this case, your confirmation or an additional action is required. 
+   If this is not possible, you have the option of downloading 
+   the zip file. 
+
+
 Start the update checker
 ------------------------
 

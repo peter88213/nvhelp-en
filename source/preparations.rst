@@ -62,6 +62,22 @@ that the installation was successful.
    
    Example (Windows)
 
+.. important::
+   Many web browsers recognize the download as an executable file 
+   and offer to open it immedately. 
+   This starts the installation.
+ 
+   .. figure:: _images/preparations14.png
+      :alt: Beispiel (Chrome browser)
+      
+      Example (Chrome browser)
+   
+   However, depending on the security settings, the browser may 
+   initially  refuse  to download the executable file. 
+   In this case, your confirmation or an additional action is required. 
+   If this is not possible, you have the option of downloading 
+   the zip file. 
+
 
 Making novelibre accessible on the Desktop
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
