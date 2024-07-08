@@ -38,7 +38,7 @@ and a **Collection plugin Online help** entry to the **Help** menu.
    and offer to open it immedately. 
    This starts the installation.
  
-   However, depending on the security settings, the browser may 
+   However, depending on your security settings, your browser may 
    initially  refuse  to download the executable file. 
    In this case, your confirmation or an additional action is required. 
    If this is not possible, you have the option of downloading 

@@ -111,6 +111,13 @@ e.g. when you are finished with *novelibre*.
 -  Text markup: Bold and italics are supported. Other highlighting such
    as underline and strikethrough are lost.
 
+.. tip::
+   If you prefer simple blank lines instead of section separators,
+   you can achieve this using "Find and replace".
+   This is particularly convenient with a macro that comes with the
+   `novelibre-tools <https://github.com/peter88213/novelibre-tools/>`__
+   extension.
+
 
 Brief synopsis (export only)
 ----------------------------

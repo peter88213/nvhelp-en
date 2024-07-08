@@ -75,7 +75,7 @@ Step 1
          
          Example (Chrome browser)
       
-      However, depending on the security settings, the browser may 
+      However, depending on your security settings, your browser may 
       initially  refuse  to download the executable file. 
       In this case, your confirmation or an additional action is required. 
       If this is not possible, you have the option of downloading 
