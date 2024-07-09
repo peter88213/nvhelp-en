@@ -183,7 +183,13 @@ recognize its parts, chapters, and sections.
    as you write. That will help you doing the special formatting at 
    the end, when you prepare the finished novel for publication. 
    If this is not enough, *novelibre* may not be  the right tool for you.
-      
+
+.. tip::
+   The easiest way to create the right section dividers is by using a macro
+   that comes with the
+   `novelibre-tools <https://github.com/peter88213/novelibre-tools/>`__
+   extension.
+
 When your manuscript is ready, create your new project
 with **File > New > Create from ODT...**.
 
