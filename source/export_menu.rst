@@ -112,7 +112,8 @@ e.g. when you are finished with *novelibre*.
    as underline and strikethrough are lost.
 
 .. tip::
-   If you prefer simple blank lines instead of section separators,
+   If you prefer simple blank lines instead of the three-asterisks
+   in your final document,
    you can achieve this using "Find and replace".
    This is particularly convenient with a macro that comes with the
    `novelibre-tools <https://github.com/peter88213/novelibre-tools/>`__

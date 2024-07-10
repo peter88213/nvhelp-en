@@ -307,4 +307,12 @@ your manuscript with a single mouse click.
       :alt: LibreOffice screenshot
    
       LibreOffice Options dialog screenshot.
+
+.. tip::
+   If you prefer simple blank lines instead of the three-asterisks
+   section separators in your final document,
+   you can achieve this using "Find and replace".
+   This is particularly convenient with a macro that comes with the
+   `novelibre-tools <https://github.com/peter88213/novelibre-tools/>`__
+   extension.
    
