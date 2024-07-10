@@ -14,6 +14,16 @@ This page refers to the latest `nv_timeline
 <https://github.com/peter88213/nv_timeline/>`__ release.
 You can open it with **Help > Timeline plugin Online help**.
 
+The plugin adds a **Timeline** entry to the *novelibre* **Tools** menu,
+a **Create from Timeline...** to the **File > New** submenu,
+and a **Timeline plugin Online Help** entry to the **Help** menu.
+The Toolbar gets a |Timeline| button.
+
+.. figure:: _images/screen01.png
+   :alt: novelibre Screenshot
+
+.. |Timeline| image:: _images/tl.png
+
 
 Installing the plugin
 ---------------------
@@ -25,10 +35,6 @@ Installing the plugin
   on the command line.
 
 *"x.x.x"* means the version number.
-
-The plugin adds a **Timeline** entry to the *novelibre* main menu,
-a **Create from Timeline...** to the **File > New** submenu,
-and a **Timeline plugin Online Help** entry to the **Help** menu.
 
 
 .. important::
@@ -46,20 +52,20 @@ and a **Timeline plugin Online Help** entry to the **Help** menu.
 Command reference
 -----------------
 
-Timeline > Information
-~~~~~~~~~~~~~~~~~~~~~~
+Tools > Timeline > Information
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Show information about an existing *Timeline* project, if any. *Timeline*
    and *novelibre* file dates are compared.
 
-Timeline > Create or update the timeline
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tools > Timeline > Create or update the timeline
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If a timeline exists, update it from *novelibre*, otherwise create a new
 timeline.
 
-Timeline > Update the project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tools > Timeline > Update the project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Update the *novelibre* project from the timeline, if existing.
 
@@ -68,8 +74,10 @@ Update the *novelibre* project from the timeline, if existing.
    Since *nv_timeline* reads the .timeline file, unsaved changes may not be recognized. 
    In case of doubt, close *Timeline* before syncing with *novelibre*.
 
-Timeline > Edit the timeline
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tools > Timeline > Open Timeline
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Same as clicking on the |Timeline| button on the toolbar.
 
 Open the project’s timeline, if existing, with the *Timeline* application.
 Depending on the configuration (see below), the project is automatically locked.

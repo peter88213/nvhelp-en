@@ -68,10 +68,10 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">nv_timeline</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#installing-the-plugin">Installing the plugin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#command-reference">Command reference</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#timeline-information">Timeline &gt; Information</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#timeline-create-or-update-the-timeline">Timeline &gt; Create or update the timeline</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#timeline-update-the-project">Timeline &gt; Update the project</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#timeline-edit-the-timeline">Timeline &gt; Edit the timeline</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tools-timeline-information">Tools &gt; Timeline &gt; Information</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tools-timeline-create-or-update-the-timeline">Tools &gt; Timeline &gt; Create or update the timeline</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tools-timeline-update-the-project">Tools &gt; Timeline &gt; Update the project</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tools-timeline-open-timeline">Tools &gt; Timeline &gt; Open Timeline</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#file-new-create-from-timeline">File &gt; New &gt; Create from Timeline…</a></li>
 </ul>
 </li>
@@ -129,6 +129,13 @@
 <p><strong>User guide</strong></p>
 <p>This page refers to the latest <a class="reference external" href="https://github.com/peter88213/nv_timeline/">nv_timeline</a> release.
 You can open it with <strong>Help &gt; Timeline plugin Online help</strong>.</p>
+<p>The plugin adds a <strong>Timeline</strong> entry to the <em>novelibre</em> <strong>Tools</strong> menu,
+a <strong>Create from Timeline…</strong> to the <strong>File &gt; New</strong> submenu,
+and a <strong>Timeline plugin Online Help</strong> entry to the <strong>Help</strong> menu.
+The Toolbar gets a <img alt="Timeline" src="../_images/tl.png" /> button.</p>
+<figure class="align-default">
+<img alt="novelibre Screenshot" src="../_images/screen012.png" />
+</figure>
 <section id="installing-the-plugin">
 <h2>Installing the plugin<a class="headerlink" href="#installing-the-plugin" title="Link to this heading"></a></h2>
 <ul class="simple">
@@ -139,9 +146,6 @@ resp. <code class="docutils literal notranslate"><span class="pre">`python3</spa
 on the command line.</p></li>
 </ul>
 <p><em>“x.x.x”</em> means the version number.</p>
-<p>The plugin adds a <strong>Timeline</strong> entry to the <em>novelibre</em> main menu,
-a <strong>Create from Timeline…</strong> to the <strong>File &gt; New</strong> submenu,
-and a <strong>Timeline plugin Online Help</strong> entry to the <strong>Help</strong> menu.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>Many web browsers recognize the download as an executable file
@@ -156,20 +160,20 @@ the zip file.</p>
 </section>
 <section id="command-reference">
 <h2>Command reference<a class="headerlink" href="#command-reference" title="Link to this heading"></a></h2>
-<section id="timeline-information">
-<h3>Timeline &gt; Information<a class="headerlink" href="#timeline-information" title="Link to this heading"></a></h3>
+<section id="tools-timeline-information">
+<h3>Tools &gt; Timeline &gt; Information<a class="headerlink" href="#tools-timeline-information" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>Show information about an existing <em>Timeline</em> project, if any. <em>Timeline</em>
 and <em>novelibre</em> file dates are compared.</p></li>
 </ul>
 </section>
-<section id="timeline-create-or-update-the-timeline">
-<h3>Timeline &gt; Create or update the timeline<a class="headerlink" href="#timeline-create-or-update-the-timeline" title="Link to this heading"></a></h3>
+<section id="tools-timeline-create-or-update-the-timeline">
+<h3>Tools &gt; Timeline &gt; Create or update the timeline<a class="headerlink" href="#tools-timeline-create-or-update-the-timeline" title="Link to this heading"></a></h3>
 <p>If a timeline exists, update it from <em>novelibre</em>, otherwise create a new
 timeline.</p>
 </section>
-<section id="timeline-update-the-project">
-<h3>Timeline &gt; Update the project<a class="headerlink" href="#timeline-update-the-project" title="Link to this heading"></a></h3>
+<section id="tools-timeline-update-the-project">
+<h3>Tools &gt; Timeline &gt; Update the project<a class="headerlink" href="#tools-timeline-update-the-project" title="Link to this heading"></a></h3>
 <p>Update the <em>novelibre</em> project from the timeline, if existing.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
@@ -178,8 +182,9 @@ Since <em>nv_timeline</em> reads the .timeline file, unsaved changes may not be 
 In case of doubt, close <em>Timeline</em> before syncing with <em>novelibre</em>.</p>
 </div>
 </section>
-<section id="timeline-edit-the-timeline">
-<h3>Timeline &gt; Edit the timeline<a class="headerlink" href="#timeline-edit-the-timeline" title="Link to this heading"></a></h3>
+<section id="tools-timeline-open-timeline">
+<h3>Tools &gt; Timeline &gt; Open Timeline<a class="headerlink" href="#tools-timeline-open-timeline" title="Link to this heading"></a></h3>
+<p>Same as clicking on the <img alt="Timeline" src="../_images/tl.png" /> button on the toolbar.</p>
 <p>Open the project’s timeline, if existing, with the <em>Timeline</em> application.
 Depending on the configuration (see below), the project is automatically locked.</p>
 </section>

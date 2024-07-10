@@ -14,6 +14,16 @@ This page refers to the latest `nv_aeon2
 <https://github.com/peter88213/nv_aeon2/>`__ release.
 You can open it with **Help > Aeon 2 plugin Online help**.
 
+The plugin adds a **Timeline** entry to the *novelibre* **Tools** menu,
+a **Create from Aeon Timeline 2...** to the **File > New** submenu,
+and an **Aeon 2 plugin Online Help** entry to the **Help** menu.
+The Toolbar gets a |Timeline| button.
+
+.. figure:: _images/screen01.png
+   :alt: novelibre Screenshot
+
+.. |Timeline| image:: _images/aeon2.png
+
 
 Installing the plugin
 ---------------------
@@ -25,10 +35,6 @@ Installing the plugin
   on the command line.
 
 *"x.x.x"* means the version number.
-
-The plugin adds an **Aeon Timeline 2** entry to the *novelibre* main menu,
-a **reate from Aeon Timeline 2...** to the **File > New** submenu,
-and an **Aeon 2 plugin Online Help** entry to the **Help** menu.
 
 
 .. important::
@@ -73,27 +79,27 @@ the new template appears in the *Custom Templates* area.
 Command reference
 -----------------
 
-Aeon Timeline 2 > Information
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tools > Aeon Timeline 2 > Information
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Show information about an existing *Aeon Timeline 2* project, if any.
 *Aeon Timeline 2* and *novelibre* file dates are compared.
 
 
-Aeon Timeline 2 > Update the timeline
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tools > Aeon Timeline 2 > Update the timeline
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If a timeline exists, update it from *novelibre*.
 
 
-Aeon Timeline 2 > Update the project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tools > Aeon Timeline 2 > Update the project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Update the *novelibre* project from the timeline, if existing.
 
 
-Aeon Timeline 2 > Add or update moon phase data
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tools > Aeon Timeline 2 > Add or update moon phase data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The "Moon phase" event property consists of:
 
@@ -107,8 +113,10 @@ The "Moon phase" event property consists of:
    21st centuries.
 
 
-Aeon Timeline 2 > Edit the timeline
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tools > Aeon Timeline 2 > Open Aeon Timeline 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Same as clicking on the |Timeline| button on the toolbar.
 
 Open the project’s timeline, if existing, with the *Aeon Timeline 2* application.
 Depending on the configuration (see below), the project is automatically locked.
