@@ -14,10 +14,14 @@ This page refers to the latest `nv_matrix
 <https://github.com/peter88213/nv_matrix/>`__ release.
 You can open it with **Help > Matrix plugin Online help**.
 
-The plugin adds a **Matrix** entry to the *novelibre* **Tools** menu and a
-|Matrix| button to the toolbar.
+The plugin adds a **Matrix** entry to the *novelibre* **Tools** menu,
+ a **Matrix plugin Online help** entry to the **Help** menu,
+ and a |Matrix| button to the toolbar.
 
-|Screenshot|
+.. figure:: _images/screen01.png
+   :alt: novelibre Screenshot
+
+.. |Matrix| image:: _images/matrix.png
 
 
 Installing the plugin
@@ -30,9 +34,6 @@ Installing the plugin
   on the command line.
 
 *"x.x.x"* means the version number.
-
-The plugin adds a **Matrix** entry to the *novelibre* main menu,
-and a **Matrix plugin Online help** entry to the **Help** menu.
 
 
 .. important::
@@ -52,8 +53,6 @@ Start the matrix manager
 - Open the matrix manager either from the main menu: **Tools > Matrix**,
 - or via the |Matrix| button in the toolbar.
 
-.. |Screenshot| image:: _images/screen01.png
-.. |Matrix| image:: _images/matrix.png
 
 Add/remove relationships
 ------------------------
