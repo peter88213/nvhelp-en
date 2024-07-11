@@ -14,6 +14,12 @@ This page refers to the latest `nv_clipboard
 <https://github.com/peter88213/nv_clipboard/>`__ release.
 You can open it with **Help > Collection plugin Online help**.
 
+The plugin adds two buttons to the *novelibre* `toolbar <../toolbar.html>`__,
+and a **Clipboard Online help** entry to the **Help** menu.
+
+.. figure:: _images/screen01.png
+   :alt: novelibre Screenshot
+
 
 Installing the plugin
 ---------------------
@@ -25,9 +31,6 @@ Installing the plugin
   on the command line.
 
 *"x.x.x"* means the version number.
-
-The plugin adds two buttons to the *novelibre* `toolbar <../toolbar.html>`__,
-and a **Clipboard Online help** entry to the **Help** menu.
 
 
 .. important::
