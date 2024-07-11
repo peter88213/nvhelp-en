@@ -22,6 +22,9 @@ The Toolbar gets a |Timeline| button.
 .. figure:: _images/screen01.png
    :alt: novelibre Screenshot
 
+.. figure:: _images/screen02.png
+   :alt: novelibre Screenshot
+
 .. |Timeline| image:: _images/aeon2.png
 
 
