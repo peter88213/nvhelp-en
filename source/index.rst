@@ -29,15 +29,16 @@ release. You can open it with **Help > Online help**.
    properties
    plugins
    tools
+   about
 
 -----------------
 
-|github| `View on GitHub <https://github.com/peter88213/nvhelp-en/>`__
+|github| `View source files on GitHub: https://github.com/peter88213/nvhelp-en/ <https://github.com/peter88213/nvhelp-en/>`__
 
-|novelibre| `novelibre home page <https://github.com/peter88213/novelibre/>`__
+|novelibre| `novelibre home page: https://github.com/peter88213/novelibre/ <https://github.com/peter88213/novelibre/>`__
 
 .. |novelibre| image:: _images/nLogo24.png
    :target: https://github.com/peter88213/novelibre/
 
 .. |github| image:: _images/github.png
-   :target: https://github.com/peter88213/
+   :target: https://github.com/peter88213/nvhelp-en/
