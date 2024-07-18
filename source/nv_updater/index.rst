@@ -73,4 +73,5 @@ If no update is found, a message pops up at the end.
 .. figure:: _images/screen03.png
    :alt: novelibre Screenshot
 
-   
+.. important::
+   To take effect, update installations require a *novelibre* restart. 

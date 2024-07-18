@@ -5,5 +5,9 @@
          <arg value="/c" />
          <arg value="make.bat github" />
       </exec>
+      <exec executable="cmd">
+         <arg value="/c" />
+         <arg value="make_pdf.bat" />
+      </exec>
    </target>
 </project>
