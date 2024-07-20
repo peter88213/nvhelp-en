@@ -304,7 +304,7 @@ There are two options:
 - **$WordsTotal** - Accumulated word count including the current section
 - **$Status** - Section status (Outline, Draft etc.)
 - **$SectionContent** - Section content
-- **$Date** - Specific section date (yyyy-mm-dd)
+- **$Date** - Specific section date (YYYY-MM-DD)
 - **$Time** - Time section begins: (hh:mm)
 - **$OdsTime** - Time section begins: (PThhHmmMssS)
 - **$Day** - Day section begins
