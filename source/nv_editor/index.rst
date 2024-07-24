@@ -137,10 +137,8 @@ Word count
 -  By default, word count is updated manually, either by pressing the
    ``F5`` key, or via the **Word count > Update** menu entry.
 -  The word count can be updated "live", i.e. just while entering text.
-   This is enabled via the **Word count > Enable live update** menu
-   entry.
--  Live update is disabled by the **Word count > Disable live update**
-   menu entry.
+   This is enabled or disabled via the **Word count > Live update** menu
+   checkbox.
 
 .. note::
    Live updating the word count is resource intensive and may slow down

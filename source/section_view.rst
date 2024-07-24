@@ -146,7 +146,7 @@ text fields.
    Example of a non-standard scene category
 
 On the other hand, not every section is a scene to which the categories
-mentioned above appliy. Sections can be characterized by mode of discourse
+mentioned above apply. Sections can be characterized by mode of discourse
 (e.g. Narration, Dramatic action, Dialogue, Description, Exposition).
 So if a section is not staged, you can set the section to **Not a scene**,
 and get three `freely named <book_view.html#renamings>`_
