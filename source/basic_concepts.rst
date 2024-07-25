@@ -159,7 +159,7 @@ ODT comments, footnotes, and endnotes are supported by *novelibre*.
    images (or any other special formatting beyond the capabilities of 
    *novelibre*) at the end, when you prepare your `finished novel 
    <export_menu.html#manuscript-for-printing-export-only>`__ 
-   for publisihing. 
+   for publishing. 
 
 
 About document language handling
