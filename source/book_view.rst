@@ -121,7 +121,7 @@ Editing the categories can be completed by pressing the ``Enter`` key.
 
 "Not a scene" fields
    The heading replacements for *Plot progress*, *Characterization*, and
-   *World bui8lding* are used when you set the `Scene frame
+   *World building* are used when you set the `Scene frame
    <section_view.html#scene>`__ to **Not a scene**.
    These categories then apply to all sections that don't represent scenes.
 
