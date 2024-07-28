@@ -10,6 +10,9 @@ Help menu
    The *Help* menu can be extended by plugins adding links to their
    specific help pages.
 
+.. hint::
+   With ``F1`` you can call up a help page corresponding to the context.
+
 Online Help
 -----------
 

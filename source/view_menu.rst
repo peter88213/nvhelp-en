@@ -186,6 +186,14 @@ checkbox is ticked, 24x24 icons are used after the next program startup.
    icons that decorate the application’s control elements.
 
 
+Display localized dates
+~~~~~~~~~~~~~~~~~~~~~~~
+
+- If ticked, localized dates are displayed.
+- If unticked, dates are displayed like *YYYY-MM-DD*, according to ISO 8601.
+
+
+
 Columns
 ~~~~~~~
 
