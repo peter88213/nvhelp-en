@@ -1,3 +1,9 @@
+|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_tlview/>`_
+
+.. |external-link| image:: ../_images/external-link.png
+
+-----------------
+
 =========
 nv_tlview
 =========
