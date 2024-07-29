@@ -19,6 +19,9 @@ With *novelibre*, you can define a narrative structure with stages. See
 `Plotting with novelibre <../plotting.html>`__.
 *nv_templates* faciliates the reuse of narrative structures.
 
+The plugin adds a **Story Templates** entry to the *novelibre* **Tools** menu,
+a **Create from Template...** entry to the **File > New** submenu,
+and a **Template plugin Online Help** entry to the **Help** menu.
 
 Installing the plugin
 ---------------------
@@ -30,10 +33,6 @@ Installing the plugin
   on the command line.
 
 *"x.x.x"* means the version number.
-
-The plugin adds a **Story Templates** entry to the *novelibre* **Tools** menu,
-a **Create from Template...** entry to the **File > New** submenu,
-and a **Template plugin Online Help** entry to the **Help** menu.
 
 
 .. important::
