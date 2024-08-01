@@ -78,6 +78,24 @@ Selecting a section in the *novelibre* project tree
   This will bring the *novelibre* application window in the foreground.
 
 
+Shifting a section in time
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Hold down the ``Shift`` button and click on the timeline marker,
+  then drag it with the mouse.
+  This will move the section forward or backward in time
+  while keeping the duration.
+
+
+Shifting the section end
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Hold down the ``Alt`` button and click on the timeline marker,
+  then drag it with the mouse.
+  This will increase or decrease the section's duration
+  while keeping the start date/time.
+
+
 Command reference
 -----------------
 
@@ -173,6 +191,7 @@ Buttons in the footer toolbar
 
 |rewindLeft| Go one page back
    Shift the timeline to go about one screen width back in time.
+   Same as the "back" mouse button (Windows).
 
 |arrowLeft| Scroll back
    Shift the timeline to go 1/5 screen width back in time.
@@ -196,6 +215,7 @@ Buttons in the footer toolbar
 
 |rewindRight| Go one page forward
    Shift the timeline to go about one screen width forward in time.
+   Same as the "forward" mouse button (Windows).
 
 |arrowDown| Reduce the time scale
    Reduce the time scale in major steps.
