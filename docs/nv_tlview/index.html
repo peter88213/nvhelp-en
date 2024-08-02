@@ -74,6 +74,8 @@
 <li class="toctree-l4"><a class="reference internal" href="#start-the-timeline-view">Start the Timeline view</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#mouse-wheel-scrolling">Mouse wheel scrolling</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#selecting-a-section-in-the-novelibre-project-tree">Selecting a section in the <em>novelibre</em> project tree</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#shifting-a-section-in-time">Shifting a section in time</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#shifting-the-section-end">Shifting the section end</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#command-reference">Command reference</a><ul>
@@ -180,6 +182,24 @@ the zip file.</p>
 This will bring the <em>novelibre</em> application window in the foreground.</p></li>
 </ul>
 </section>
+<section id="shifting-a-section-in-time">
+<h3>Shifting a section in time<a class="headerlink" href="#shifting-a-section-in-time" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Hold down the <code class="docutils literal notranslate"><span class="pre">Shift</span></code> button and click on the timeline marker,
+then drag it with the mouse.
+This will move the section forward or backward in time
+while keeping the duration.</p></li>
+</ul>
+</section>
+<section id="shifting-the-section-end">
+<h3>Shifting the section end<a class="headerlink" href="#shifting-the-section-end" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Hold down the <code class="docutils literal notranslate"><span class="pre">Alt</span></code> button and click on the timeline marker,
+then drag it with the mouse.
+This will increase or decrease the section’s duration
+while keeping the start date/time.</p></li>
+</ul>
+</section>
 </section>
 <section id="command-reference">
 <h2>Command reference<a class="headerlink" href="#command-reference" title="Link to this heading"></a></h2>
@@ -265,8 +285,9 @@ Same as <code class="docutils literal notranslate"><span class="pre">F1</span></
 </section>
 <section id="buttons-in-the-footer-toolbar">
 <h3>Buttons in the footer toolbar<a class="headerlink" href="#buttons-in-the-footer-toolbar" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt><img alt="rewindLeft" src="../_images/rewindLeft.png" /> Go one page back</dt><dd><p>Shift the timeline to go about one screen width back in time.</p>
+<dl>
+<dt><img alt="rewindLeft" src="../_images/rewindLeft.png" /> Go one page back</dt><dd><p>Shift the timeline to go about one screen width back in time.
+Same as the “back” mouse button (Windows).</p>
 </dd>
 <dt><img alt="arrowLeft" src="../_images/arrowLeft.png" /> Scroll back</dt><dd><p>Shift the timeline to go 1/5 screen width back in time.
 You can move it more precisely with the mouse wheel.</p>
@@ -283,7 +304,8 @@ is positioned near the right edge of the window.</p>
 <dt><img alt="arrowRight" src="../_images/arrowRight.png" /> Scroll forward</dt><dd><p>Shift the timeline to go 1/5 screen width forward in time.
 You can move it more precisely with the mouse wheel.</p>
 </dd>
-<dt><img alt="rewindRight" src="../_images/rewindRight.png" /> Go one page forward</dt><dd><p>Shift the timeline to go about one screen width forward in time.</p>
+<dt><img alt="rewindRight" src="../_images/rewindRight.png" /> Go one page forward</dt><dd><p>Shift the timeline to go about one screen width forward in time.
+Same as the “forward” mouse button (Windows).</p>
 </dd>
 <dt><img alt="arrowDown" src="../_images/arrowDown.png" /> Reduce the time scale</dt><dd><p>Reduce the time scale in major steps.
 Fine scaling is meant to be done with the mouse wheel.</p>
@@ -293,6 +315,16 @@ valid or substituted date/time information fit into the window.</p>
 </dd>
 <dt><img alt="arrowUp" src="../_images/arrowUp.png" /> Increase the time scale</dt><dd><p>Increase the time scale in major steps.
 Fine scaling is meant to be done with the mouse wheel.</p>
+</dd>
+<dt><img alt="undo" src="../_images/undo.png" /> Undo the last change</dt><dd><p>This restores date/time/duration
+before the last mouse operation on a section.
+Same as <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">Z</span></code></p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Interim changes to date/time/duration on the same section
+via the section properties in <em>novelibre</em>
+may get lost.</p>
+</div>
 </dd>
 <dt>Close</dt><dd><p>Close the timeline viewer window.
 Same as <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">Q</span></code> (Linux)

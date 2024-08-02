@@ -229,6 +229,16 @@ Buttons in the footer toolbar
    Increase the time scale in major steps.
    Fine scaling is meant to be done with the mouse wheel.
 
+|undo| Undo the last change
+   This restores date/time/duration
+   before the last mouse operation on a section.
+   Same as ``Ctrl``-``Z``
+
+   .. caution::   
+      Interim changes to date/time/duration on the same section
+      via the section properties in *novelibre*
+      may get lost. 
+      
 Close
    Close the timeline viewer window.
    Same as ``Ctrl``-``Q`` (Linux)
@@ -245,4 +255,5 @@ Close
 .. |arrowDown| image:: _images/arrowDown.png
 .. |fitToWindow| image:: _images/fitToWindow.png
 .. |arrowUp| image:: _images/arrowUp.png
+.. |undo| image:: _images/undo.png
 
