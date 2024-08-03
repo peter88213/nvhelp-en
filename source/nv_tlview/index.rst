@@ -96,6 +96,11 @@ Shifting the section end
   while keeping the start date/time.
 
 
+.. hint::
+   Shifting operations with the mouse can be undone 
+   with ``Ctrl``-``Z`` or |undo|. 
+
+
 Command reference
 -----------------
 
