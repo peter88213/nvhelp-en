@@ -89,7 +89,7 @@ Manuscript for printing (export only)
 
 With **Export >  Manuscript for printing (export only)**,
 you can create a text document for further use,
-e.g. when you are finished with *novelibre*.
+e.g. a final document when you are finished with *novelibre*.
 
 .. hint::
    In contrast to the manuscript for editing, this document is not divided 
@@ -110,6 +110,11 @@ e.g. when you are finished with *novelibre*.
    paragraphs.
 -  Text markup: Bold and italics are supported. Other highlighting such
    as underline and strikethrough are lost.
+-  The first paragraph of each chapter is assigned the paragraph style
+   *Chapter beginning* which is by default like the body text without
+   indentiation. 
+   By modifying this paragraph style you can give a special look 
+   to the beginnings ot the chapters, e.g. with initials.
 
 .. tip::
    If you prefer simple blank lines instead of the three-asterisks
