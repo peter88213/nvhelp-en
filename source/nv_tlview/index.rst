@@ -147,20 +147,6 @@ Use 00:00 for missing times
    - If unticked, sections without time information are not displayed.
 
 
-Convert days to dates
-   - If ticked, sections with unpecific dates are given a specific date for display,
-     if the reference date is set.
-     This does not affect the section properties.
-   - If unticked, sections with unpecific dates are not displayed.
-
-
-Use reference for missing dates
-   - If ticked, the reference date (if any) is used as display date for
-     sections without date or day information.
-     This does not affect the section properties
-   - If unticked, sections without date or day information are not displayed.
-
-
 "Cascading" menu
 ~~~~~~~~~~~~~~~~
 
