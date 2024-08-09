@@ -97,9 +97,10 @@ Shifting the section end
 
 
 .. hint::
-   Shifting operations with the mouse can be undone 
-   with ``Ctrl``-``Z`` or |undo|. 
-
+   - Shifting operations with the mouse can be aborted
+     with the ``Esc`` key before releasing the mouse button.
+   - Shifting operations with the mouse can be undone 
+     with ``Ctrl``-``Z`` or |undo|. 
 
 Command reference
 -----------------
