@@ -62,11 +62,12 @@ Start the Timeline view
 - or via the |Timeline| button in the toolbar.
 
 
-Mouse wheel scrolling
-~~~~~~~~~~~~~~~~~~~~~
+Mouse scrolling
+~~~~~~~~~~~~~~~
 
 - Scroll the timeline horizontally with ``Shift``-``Mousewheel``.
 - Scroll the timeline vertically with the mousewheel.
+- Scroll the timeline in any direction by right-clicking on the canvas and dragging the mouse.
 - Increase or reduce the time scale with ``Ctrl``-``Mousewheel``.
 - Change the distance limits for stacking with ``Shift``-``Ctrl``-``Mousewheel``.
 
