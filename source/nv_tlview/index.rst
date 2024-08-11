@@ -91,7 +91,7 @@ Shifting a section in time
 Shifting the section end
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Hold down the ``Alt`` button and click on the timeline marker,
+- Hold down the ``Ctrl`` and ``Shift`` buttons and click on the timeline marker,
   then drag it with the mouse.
   This will increase or decrease the section's duration
   while keeping the start date/time.
