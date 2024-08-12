@@ -60,7 +60,11 @@ Browsing the tree
 Move tree elements
 ^^^^^^^^^^^^^^^^^^
 
-Drag and drop while pressing the ``Alt`` key.
+Drag and drop while holding down the ``Alt`` key.
+
+.. hint::
+   With some Linux desktops, it may be necessary to 
+   first press the mouse button, then the ``Alt`` key. 
 
 .. caution::
    Be aware, there is no "Undo" feature.

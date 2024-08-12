@@ -92,8 +92,16 @@ Making novelibre accessible on the Desktop
    As a Linux user, you are expected to know how to set up 
    a program launcher on your specific desktop. 
    Roughly speaking, it is a matter of calling **python3** 
-   with **~/.novx/novelibre.py** and an optionally specified 
+   with **~/.novx/run.pyw** and an optionally specified 
    file as parameters. 
+   
+   With the XFCE desktop, for example, my launcher command is:
+   
+   ``python3 /home/peter/.novx/run.pyw %F``
+   
+    .. figure:: _images/preparations15.png
+      :alt: Xubuntu screenshot
+   
    You might have to copy the *novelibre* icons to a dedicated image 
    directory where your program launcher gets the icons from. 
    You also may want to set *novelibre* as standard application for
