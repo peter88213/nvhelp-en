@@ -3,6 +3,8 @@ The toolbar
 
 The toolbar provides buttons for common actions in the proposed workflow.
 
+|screenshot|
+
 -----------------
 
 |Go back| Go back in the browsing history.
@@ -65,6 +67,7 @@ Same as **View > Toggle Text viewer** or ``Ctrl``-``T``.
 Same as **View > Toggle Properties** or ``Ctrl``-``Alt``-``T``.
 
 
+.. |screenshot| image:: _images/toolbar01.png
 .. |Go back| image:: _images/goBack.png
 .. |Go forward| image:: _images/goForward.png
 .. |Show Book| image:: _images/viewBook.png
