@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'novelibre User guide'
-copyright = '2024, peter88213'
+copyright = '2024, Peter Triesberger'
 author = 'Peter Triesberger'
 version = 'Version 4.11+'
 release = '4.11.0'
