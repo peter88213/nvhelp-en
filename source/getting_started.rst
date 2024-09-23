@@ -11,7 +11,7 @@ session will be automatically reopened, if there is one.
 Let's assume that neither is the case, for example when the program
 is called up for the very first time after installation.
 Let's also assume that we have not yet made any preparations, i.e.
-we have neither a work in progress nor an outline of any kind. First
+we have neither a Work-in-progress nor an outline of any kind. First
 of all, we create a new empty project with **File > New > Empty project**.
 
 .. figure:: _images/getting_started01.png
@@ -156,7 +156,7 @@ If you want to outline your novel using a `plot grid
 -----------------
 
 
-Starting with a work in progress
+Starting with a Work-in-progress
 --------------------------------
 
 Let's assume that you have already written an extensive novel manuscript with
@@ -165,14 +165,22 @@ In this case you first make sure to set it up in a way, *novelibre* can
 recognize its parts, chapters, and sections.
 
 .. important::
-   How to set up a work in progress for import
-      A work in progress must not have any third level heading.
+   How to set up a Work-in-progress for import
+      A Work-in-progress must not have any third level heading.
       
       -  *Heading 1* → Part title.
       -  *Heading 2* → Chapter title.
       -  ``* * *`` → Section divider (not needed for the first section in a
          chapter).
       -  All other text is considered section content.
+
+    .. figure:: _images/getting_started10.png
+       :alt: Libreoffice Writer screenshot
+       
+       
+       Work-in-progress example: Note the blanks between the asterisks of
+       the section divider. It is not necessary to center the section dividers.
+
 
 .. caution::
    Formatting that is not `supported with novelibre 
@@ -217,10 +225,10 @@ with the *.novx* extension.
 Starting with an outline
 ------------------------
 
-Instead of a work in progress, you also can import an outline made with *Writer*
+Instead of a Work-in-progress, you also can import an outline made with *Writer*
 into *novelibre* to get a novel project with empty, but named and described
 chapters and sections.
-At first glance, an outline looks the same as a work in progress, but it has
+At first glance, an outline looks the same as a Work-in-progress, but it has
 third level headings for the sections, indicating their titles. If *novelibre*
 finds third-level headings, it considers all body text to be description.
 In this case, formatting doesn't matter.
@@ -233,6 +241,14 @@ In this case, formatting doesn't matter.
       -  *Heading 2* → Chapter title.
       -  *Heading 3* → Section title.
       -  All other text is considered to be chapter/section description.
+
+    .. figure:: _images/getting_started11.png
+       :alt: Libreoffice Writer screenshot
+       
+       
+       Outline example: The body text just below the chapter heading is the chapter
+       description; the body text just below the section heading is the section description. 
+       However, the descriptions are optional.
 
 When your outline is ready, create your new project
 with **File > New > Create from ODT...**.

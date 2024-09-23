@@ -38,7 +38,7 @@ Create from ODT...
       exists in the directory, no new project will be created.
    -  If you select a previously exported document belonging to an existing
       project, this project will be updated and loaded.
-   -  The ODT document can either be a `work in progress
+   -  The ODT document can either be a `Work-in-progress
       <getting_started.html#starting-with-a-work-in-progress>`__,
       i.e. a regular novel manuscript with chapter headings and section contents,
       r an `outline <getting_started.html#starting-with-an-outline>`__
