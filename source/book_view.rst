@@ -99,7 +99,7 @@ Use Roman chapter numbers
    If this checkbox is ticked, Roman numbers, like "I", "II", "III", "IV" ...
    are used instead.
 
-Reset chapter numbers when starting a new part
+Restart chapter numbering at part beginning
    By default, the chapters are numbered consistently across the parts.
    If this checkbox is ticked, the chapter numbering starts again with "1"
    in each part.
