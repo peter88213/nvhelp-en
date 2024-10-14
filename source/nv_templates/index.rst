@@ -67,15 +67,15 @@ template file.
 Tools > Story Templates
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Load
-^^^^
+Load...
+^^^^^^^
 
 This loads the narrative structure from a Markdown template file.
 
 -  A file select dialog asks for the template file to apply.
 
-Save
-^^^^
+Save...
+^^^^^^^
 
 This saves the narrative structure to a Markdown template file.
 

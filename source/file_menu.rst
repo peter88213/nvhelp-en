@@ -41,7 +41,7 @@ Create from ODT...
    -  The ODT document can either be a `Work-in-progress
       <getting_started.html#starting-with-a-work-in-progress>`__,
       i.e. a regular novel manuscript with chapter headings and section contents,
-      r an `outline <getting_started.html#starting-with-an-outline>`__
+      or an `outline <getting_started.html#starting-with-an-outline>`__
       containing the chapter and section structure with titles and descriptions.
 
 
@@ -64,7 +64,7 @@ Reload
 **Reload the novel project**
 
 With **File > Reload** or ``Ctrl``-``R``,
-you can overwrite the project in the memory 
+you can overwrite the project in the memory
 with the last saved version.
 
 .. tip::
@@ -81,7 +81,7 @@ Restore backup
 **Restore the latest backup file**
 
 With **File > Restore backup** or ``Ctrl``-``B``,
-you can overwrite the project in the memory 
+you can overwrite the project in the memory
 with the latest backup file.
 You will get a warning, because changes may be lost.
 
