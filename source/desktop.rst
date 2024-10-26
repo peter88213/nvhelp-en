@@ -160,7 +160,8 @@ statistics, such as word count. These are overwritten with program messages
 when necessary.
 
 - Messages on a green background indicate successful actions.
-- Messages on a red background indicate errors or warnings.
+- Messages on a yellow background indicate notifications or warnings.
+- Messages on a red background indicate errors.
 
 .. tip::
    You can restore the normal view at any time by clicking on the status bar.
