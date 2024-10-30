@@ -1,3 +1,9 @@
+|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_statistics/>`__
+
+.. |external-link| image:: ../_images/external-link.png
+
+-----------------
+
 =============
 nv_statistics
 =============
