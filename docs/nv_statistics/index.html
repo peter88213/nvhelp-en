@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nv_clipboard &mdash; novelibre User guide 4.14.1 documentation</title>
+  <title>nv_statistics &mdash; novelibre User guide 4.14.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
 
@@ -23,8 +23,8 @@
     <link rel="author" title="About these documents" href="../about.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="nv_collection" href="../nv_collection/index.html" />
-    <link rel="prev" title="nv_aeon2" href="../nv_aeon2/index.html" /> 
+    <link rel="next" title="nv_templates" href="../nv_templates/index.html" />
+    <link rel="prev" title="nv_progress" href="../nv_progress/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -62,16 +62,19 @@
 <li class="toctree-l1"><a class="reference internal" href="../properties.html">Properties reference</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../plugins.html">Plugins</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../nv_aeon2/index.html">nv_aeon2</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_clipboard</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#installing-the-plugin">Installing the plugin</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#toolbar-buttons-provided-by-the-nv-clipboard-plugin">Toolbar buttons provided by the nv_clipboard plugin</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_clipboard/index.html">nv_clipboard</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_collection/index.html">nv_collection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_editor/index.html">nv_editor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_progress/index.html">nv_progress</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../nv_statistics/index.html">nv_statistics</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_statistics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installing-the-plugin">Installing the plugin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#launch-the-program">Launch the program</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#charts">Charts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#change-the-scale">Change the scale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exit">Exit</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_themes/index.html">nv_themes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_timeline/index.html">nv_timeline</a></li>
@@ -98,7 +101,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../plugins.html">Plugins</a></li>
-      <li class="breadcrumb-item active">nv_clipboard</li>
+      <li class="breadcrumb-item active">nv_statistics</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -107,25 +110,19 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-de/nv_clipboard/">German</a></p>
-<hr class="docutils" />
-<section id="nv-clipboard">
-<h1>nv_clipboard<a class="headerlink" href="#nv-clipboard" title="Link to this heading"></a></h1>
+  <section id="nv-statistics">
+<h1>nv_statistics<a class="headerlink" href="#nv-statistics" title="Link to this heading"></a></h1>
 <p><strong>User guide</strong></p>
-<p>This page refers to the latest <a class="reference external" href="https://github.com/peter88213/nv_clipboard/">nv_clipboard</a> release.
-You can open it with <strong>Help &gt; Collection plugin Online help</strong>.</p>
-<p>The plugin adds two buttons to the <em>novelibre</em> <a class="reference external" href="../toolbar.html">toolbar</a>,
-and a <strong>Clipboard Online help</strong> entry to the <strong>Help</strong> menu.</p>
-<figure class="align-default">
-<img alt="novelibre Screenshot" src="../_images/screen011.png" />
-</figure>
+<p>This page refers to the latest <a class="reference external" href="https://github.com/peter88213/nv_statistics/">nv_statistics</a> release.
+You can open it with <strong>Help &gt; Project statistics Online help</strong>.</p>
+<p>The plugin adds a <strong>Project statistics view</strong> entry to the <em>novelibre</em> <strong>Tools</strong> menu.</p>
 <section id="installing-the-plugin">
 <h2>Installing the plugin<a class="headerlink" href="#installing-the-plugin" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Either launch the downloaded <strong>nv_clipboard_vx.x.x.pyzw</strong>
+<li><p>Either launch the downloaded <strong>nv_statistics_vx.x.x.pyzw</strong>
 file by double-clicking (Windows/Linux desktop),</p></li>
-<li><p>or execute <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">nv_clipboard_vx.x.x.pyzw`</span></code> (Windows),
-resp. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">nv_clipboard_vx.x.x.pyzw`</span></code> (Linux)
+<li><p>or execute <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">nv_statistics_vx.x.x.pyzw`</span></code> (Windows),
+resp. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">nv_statistics_vx.x.x.pyzw`</span></code> (Linux)
 on the command line.</p></li>
 </ul>
 <p><em>“x.x.x”</em> means the version number.</p>
@@ -141,34 +138,30 @@ If this is not possible, you have the option of downloading
 the zip file.</p>
 </div>
 </section>
-<section id="toolbar-buttons-provided-by-the-nv-clipboard-plugin">
-<h2>Toolbar buttons provided by the nv_clipboard plugin<a class="headerlink" href="#toolbar-buttons-provided-by-the-nv-clipboard-plugin" title="Link to this heading"></a></h2>
-<p><img alt="Copy" src="../_images/copy.png" /> Copy the selected element to the clipboard.
-Same as <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">C</span></code>.</p>
-<p><img alt="Paste" src="../_images/paste.png" /> Paste the element stored in the clipboard to the tree.
-Same as <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">V</span></code>.</p>
-<p>You can copy and paste the following tree elements via the system clipboard:</p>
+<section id="launch-the-program">
+<h2>Launch the program<a class="headerlink" href="#launch-the-program" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Parts and chapters,</p></li>
-<li><p>sections,</p></li>
-<li><p>stages,</p></li>
-<li><p>plot lines,</p></li>
-<li><p>plot points,</p></li>
-<li><p>characters,</p></li>
-<li><p>locations,</p></li>
-<li><p>items,</p></li>
-<li><p>project notes.</p></li>
+<li><p>Open the project statistics viewer from the main menu: <strong>Tools &gt; Project statistics view</strong>.</p></li>
 </ul>
-<div class="admonition hint">
-<p class="admonition-title">Hint</p>
-<p>If multiple elements are selected, only the first one will be copied.
-However, if the element has “children”, these will also be copied and pasted.</p>
-</div>
-<div class="admonition attention">
-<p class="admonition-title">Attention</p>
-<p>Relationships are not included when copying to the clipboard.
-This also applies to the section viewpoint.</p>
-</div>
+</section>
+<section id="charts">
+<h2>Charts<a class="headerlink" href="#charts" title="Link to this heading"></a></h2>
+<p>The bars in the chart show the number of words in relation to the total number of words
+in all the used sections.</p>
+<p>By double-clicking on a label or a bar you can select the related element in the
+<em>novelibre</em> tree view.</p>
+</section>
+<section id="change-the-scale">
+<h2>Change the scale<a class="headerlink" href="#change-the-scale" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>You can enlarge the percentage bars by stretching the window.</p></li>
+</ul>
+</section>
+<section id="exit">
+<h2>Exit<a class="headerlink" href="#exit" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Close the window.</p></li>
+</ul>
 </section>
 </section>
 
@@ -176,8 +169,8 @@ This also applies to the section viewpoint.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../nv_aeon2/index.html" class="btn btn-neutral float-left" title="nv_aeon2" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../nv_collection/index.html" class="btn btn-neutral float-right" title="nv_collection" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../nv_progress/index.html" class="btn btn-neutral float-left" title="nv_progress" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../nv_templates/index.html" class="btn btn-neutral float-right" title="nv_templates" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
