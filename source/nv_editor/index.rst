@@ -17,33 +17,6 @@ You can open it with **Help > Editor plugin Online help**.
 You can use the section editor to quickly edit and split individual sections.
 The editor provides access to the internal markup, which is similar to HTML.
 
-Installing the plugin
----------------------
-
-- Either launch the downloaded **nv_editor_vx.x.x.pyzw**
-  file by double-clicking (Windows/Linux desktop),
-- or execute ```python nv_editor_vx.x.x.pyzw``` (Windows),
-  resp. ```python3 nv_editor_vx.x.x.pyzw``` (Linux)
-  on the command line.
-
-*"x.x.x"* means the version number.
-
-The plugin adds an **Edit** entry to the *novelibre* **Section** menu,
-and an **Editor plugin Online help** entry to the **Help** menu.
-
-
-.. important::
-   Many web browsers recognize the download as an executable file 
-   and offer to open it immedately. 
-   This starts the installation.
- 
-   However, depending on your security settings, your browser may 
-   initially  refuse  to download the executable file. 
-   In this case, your confirmation or an additional action is required. 
-   If this is not possible, you have the option of downloading 
-   the zip file. 
-
-
 Launch the section editor
 -------------------------
 

@@ -16,30 +16,6 @@ This page refers to the latest `scap_novx
 The scap_novx Python script creates a *novelibre* project
 from a Scapple outline.
 
-Installing the program
-----------------------
-
-- Either launch the downloaded **scap_novx_vx.x.x.pyzw**
-  file by double-clicking (Windows/Linux desktop),
-- or execute ```python scap_novx_vx.x.x.pyzw``` (Windows),
-  resp. ```python3 scap_novx_vx.x.x.pyzw``` (Linux)
-  on the command line.
-
-*"x.x.x"* means the version number.
-
-
-.. important::
-   Many web browsers recognize the download as an executable file 
-   and offer to open it immedately. 
-   This starts the installation.
- 
-   However, depending on your security settings, your browser may 
-   initially  refuse  to download the executable file. 
-   In this case, your confirmation or an additional action is required. 
-   If this is not possible, you have the option of downloading 
-   the zip file. 
-
-
 Instructions for use
 --------------------
 

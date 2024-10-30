@@ -16,30 +16,6 @@ This page refers to the latest `novx_xtg
 The novx_xtg Python script runs through all chapters and sections of a novelibre
 project and fills XTG templates.
 
-Installing the program
-----------------------
-
-- Either launch the downloaded **novx_xtg_vx.x.x.pyzw**
-  file by double-clicking (Windows/Linux desktop),
-- or execute ```python novx_xtg_vx.x.x.pyzw``` (Windows),
-  resp. ```python3 novx_xtg_vx.x.x.pyzw``` (Linux)
-  on the command line.
-
-*"x.x.x"* means the version number.
-
-
-.. important::
-   Many web browsers recognize the download as an executable file 
-   and offer to open it immedately. 
-   This starts the installation.
- 
-   However, depending on your security settings, your browser may 
-   initially  refuse  to download the executable file. 
-   In this case, your confirmation or an additional action is required. 
-   If this is not possible, you have the option of downloading 
-   the zip file. 
-
-
 Instructions for use
 --------------------
 

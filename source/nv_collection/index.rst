@@ -18,33 +18,6 @@ If you have several *novelibre* projects,
 you can manage them as books in a collection, also organized by series.
 A collection gives you quick access to your projects.
 
-Installing the plugin
----------------------
-
-- Either launch the downloaded **nv_collection_vx.x.x.pyzw**
-  file by double-clicking (Windows/Linux desktop),
-- or execute ```python nv_collection_vx.x.x.pyzw``` (Windows),
-  resp. ```python3 nv_collection_vx.x.x.pyzw``` (Linux)
-  on the command line.
-
-*"x.x.x"* means the version number.
-
-The plugin adds a **Collection** entry to the *novelibre* **File** menu,
-and a **Collection plugin Online help** entry to the **Help** menu.
-
-
-.. important::
-   Many web browsers recognize the download as an executable file 
-   and offer to open it immedately. 
-   This starts the installation.
- 
-   However, depending on your security settings, your browser may 
-   initially  refuse  to download the executable file. 
-   In this case, your confirmation or an additional action is required. 
-   If this is not possible, you have the option of downloading 
-   the zip file. 
-
-
 Start the collection manager
 ----------------------------
 

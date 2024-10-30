@@ -27,30 +27,6 @@ The Toolbar gets a |Timeline| button.
    :alt: novelibre Screenshot
 
 
-Installing the plugin
----------------------
-
-- Either launch the downloaded **nv_tlview_vx.x.x.pyzw**
-  file by double-clicking (Windows/Linux desktop),
-- or execute ```python nv_tlview_vx.x.x.pyzw``` (Windows),
-  resp. ```python3 nv_tlview_vx.x.x.pyzw``` (Linux)
-  on the command line.
-
-*"x.x.x"* means the version number.
-
-
-.. important::
-   Many web browsers recognize the download as an executable file 
-   and offer to open it immedately. 
-   This starts the installation.
- 
-   However, depending on your security settings, your browser may 
-   initially  refuse  to download the executable file. 
-   In this case, your confirmation or an additional action is required. 
-   If this is not possible, you have the option of downloading 
-   the zip file. 
-
-
 Operation
 ---------
 
