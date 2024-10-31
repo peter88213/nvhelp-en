@@ -21,12 +21,7 @@ Launch the program
 ------------------
 
 - Open the progress log viewer from the main menu: **Tools > Daily progress log**.
-
-
-Update today's word count
--------------------------
-
-- If the *nv_progress* window is already open, you can update the actual word count with **Tools > Daily progress log**.
+- While the *nv_progress* window is open, the actual word count is automatically updated.
 
 
 Exit
