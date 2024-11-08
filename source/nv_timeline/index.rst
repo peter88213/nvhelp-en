@@ -73,6 +73,9 @@ the timeline’s file name exists, create a new one from the timeline.
    .. figure:: _images/event01.png
       :alt: Timeline Screenshot
 
+   The idea behind this is that only selected events should be included 
+   as sections in the *novelibre* project. 
+   There may also be background events, for example, that should not be synchronized.
 
 
 Custom configuration
