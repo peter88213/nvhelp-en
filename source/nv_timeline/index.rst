@@ -67,6 +67,10 @@ File > New > Create from Timeline...
 Open a file dialog to select a timeline. If no *novelibre* project with
 the timeline’s file name exists, create a new one from the timeline.
 
+.. hint::
+   To become sections in *novelibre*, *Timeline* Events need a "Section" label.
+
+
 Custom configuration
 --------------------
 
