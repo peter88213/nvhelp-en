@@ -69,6 +69,10 @@ the timeline’s file name exists, create a new one from the timeline.
 
 .. hint::
    To become sections in *novelibre*, *Timeline* Events need a "Section" label.
+   
+   .. figure:: _images/event01.png
+      :alt: Timeline Screenshot
+
 
 
 Custom configuration
