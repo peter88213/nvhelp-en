@@ -23,6 +23,12 @@ The plugin adds a **Story Templates** entry to the *novelibre* **Tools** menu,
 a **Create from Template...** entry to the **File > New** submenu,
 and a **Template plugin Online Help** entry to the **Help** menu.
 
+.. important::
+   The plugin comes with sample templates which are automatically
+   copied into the *templates* folder of the *novelibre* installation. 
+   Existing files are overwritten. So if you customize your templates, 
+   better rename them.  
+
 Command reference
 -----------------
 
