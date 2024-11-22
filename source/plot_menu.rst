@@ -68,6 +68,21 @@ you can change the level of the selected stages.
    influence on the program functions. 
 
 
+Import plot lines
+-----------------
+
+**Import plot lines with plot points from another project**
+
+With **Characters > Import plot lines**,
+you can import a selection of plot lines from another project.
+First you select an XML file containing the plot lines.
+Then you select the plot lines you want to add to the current project.
+
+.. hint::
+   To create an XML plot lines file for the current project, 
+   use **Export > XML data files**.
+
+
 Export plot grid for editing
 ----------------------------
 

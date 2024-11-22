@@ -112,8 +112,8 @@ e.g. a final document when you are finished with *novelibre*.
    as underline and strikethrough are lost.
 -  The first paragraph of each chapter is assigned the paragraph style
    *Chapter beginning* which is by default like the body text without
-   indentiation. 
-   By modifying this paragraph style you can give a special look 
+   indentiation.
+   By modifying this paragraph style you can give a special look
    to the beginnings ot the chapters, e.g. with initials.
 
 .. tip::
@@ -162,19 +162,20 @@ The cross references are:
 -  items per tag.
 
 
-Characters/locations/items data files
--------------------------------------
+XML data files
+--------------
 
 **Export XML files that can be imported into other projects**
 
-With **Export >  Characters/locations/items data files**,
+With **Export >  XML data files**,
 you can create a set of XML files containing the project’s characters,
-locations, and items with all their properties. These files can be used
-to transfer the characters, locations, and items to another project.
+locations, items, and plot lines with all their properties.
+These files can be used to transfer the characters, locations, items,
+and plot lines with plot points to another projects.
 
 .. hint::
    To import XML data files from another project, use the **Import**
-   command in the **Characters**, **Locations**, or **Items** menu.
+   command in the **Characters**, **Locations**, **Items**, or **Plot** menu.
 
 
 Options

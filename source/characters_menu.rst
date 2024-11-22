@@ -53,7 +53,7 @@ Then you select the characters you want to add to the current project.
 
 .. hint::
    To create an XML character data file for the current project, 
-   use **Export > Characters/locations/items data files**.
+   use **Export > XML data files**.
 
 
 Export character descriptions for editing
