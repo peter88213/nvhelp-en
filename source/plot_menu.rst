@@ -73,7 +73,7 @@ Import plot lines
 
 **Import plot lines with plot points from another project**
 
-With **Characters > Import plot lines**,
+With **Plot > Import plot lines**,
 you can import a selection of plot lines from another project.
 First you select an XML file containing the plot lines.
 Then you select the plot lines you want to add to the current project.
