@@ -82,12 +82,12 @@ File name suffix is ``_proof_tmp``.
    as underline and strikethrough are lost.
 
 
-Manuscript for printing (export only)
--------------------------------------
+Final manuscript document (export only)
+---------------------------------------
 
 **Export an ODT document**
 
-With **Export >  Manuscript for printing (export only)**,
+With **Export >  Final manuscript document (export only)**,
 you can create a text document for further use,
 e.g. a final document when you are finished with *novelibre*.
 
