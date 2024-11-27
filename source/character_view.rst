@@ -42,6 +42,17 @@ Editing can be completed by pressing the ``Enter`` key.
    If you want to use a tag more than once, make sure you use 
    the same spelling in the different places. 
 
+Major character
+---------------
+
+With the **Major character** checkbox you can change the character status.
+
+.. note::
+   The character status is only for visual distinction. It has no
+   influence on the program functions. Nevertheless, you can use it
+   to mark viewpoint characters or characters with their own plot lines.
+
+
 Bio
 ---
 
