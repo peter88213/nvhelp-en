@@ -3,9 +3,6 @@ Tools menu
 
 **Miscellaneous functions**
 
-.. figure:: _images/tools_menu02.png
-   :alt: novelibre screenshot
-
 .. note:: 
    The *Tools* menu can be extended by plugins to add more
    features.

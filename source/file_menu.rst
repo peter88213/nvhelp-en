@@ -3,9 +3,6 @@ File menu
 
 **File operation**
 
-.. figure:: _images/file_menu01.png
-   :alt: novelibre screenshot
-
 New
 ---
 
@@ -17,9 +14,6 @@ This will open a submenu.
 .. note:: 
 	The submenu can be extended by plugins to add more file types
 	from which a *novelibre* project can be created.
-
-.. figure:: _images/file_menu02.png
-   :alt: novelibre screenshot
 
 Empty project
    -  This will close the current project and create a blank project.

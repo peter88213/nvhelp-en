@@ -3,9 +3,6 @@ Characters menu
 
 **Character operation**
 
-.. figure:: _images/characters_menu01.png
-   :alt: novelibre screenshot
-
 Add
 ---
 
@@ -31,9 +28,6 @@ Set Status
 With **Characters > Set Status**,
 you can make the selected character *major* or *minor*.
 Major characters are highlighted in the tree view.
-
-.. figure:: _images/characters_menu02.png
-   :alt: novelibre screenshot
 
 .. note::
    The character status is only for visual distinction. It has no

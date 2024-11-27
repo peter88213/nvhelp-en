@@ -3,9 +3,6 @@ Plot menu
 
 **Plot elements operation**
 
-.. figure:: _images/plot_menu01.png
-   :alt: novelibre screenshot
-
 
 Add Plot line
 -------------
@@ -56,9 +53,6 @@ Change Level
 
 With **Plot > Change Level**,
 you can change the level of the selected stages.
-
-.. figure:: _images/plot_menu02.png
-   :alt: novelibre screenshot
 
 -  **1st Level** is displayed in bold face.
 -  **2nd Level** is displayed in regular font.

@@ -3,9 +3,6 @@ Section menu
 
 **Section operation**
 
-.. figure:: _images/section_menu01.png
-   :alt: novelibre screenshot
-
 Add
 ---
 
@@ -36,9 +33,6 @@ Add multiple sections
 With **Section > Add multiple sections**,
 you can add up to 20 sections to the tree.
 
-.. figure:: _images/section_menu04.png
-   :alt: novelibre screenshot
-
 - You will be prompted to enter the number of new sections.
 - The number of sections to be added at once is limited to 20.
 - The new sections are placed at the next free position after the selection, if
@@ -55,9 +49,6 @@ With **Section > Set Type**,
 you can set the `type <basic_concepts.html#part-chapter-section-types>`__
 of the selected section to *Normal* or *Unused* .
 
-.. figure:: _images/section_menu02.png
-   :alt: novelibre screenshot
-
 .. hint::
 
    Type change for multiple sections:
@@ -69,9 +60,6 @@ Set Status
 ----------
 
 **Set the section completion status**
-
-.. figure:: _images/section_menu03.png
-   :alt: novelibre screenshot
 
 With **Section > Set Status**,
 you can set the `completion status

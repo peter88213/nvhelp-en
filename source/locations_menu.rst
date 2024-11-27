@@ -3,9 +3,6 @@ Locations menu
 
 **Location operation**
 
-.. figure:: _images/locations_menu01.png
-   :alt: novelibre screenshot
-
 Add
 ---
 

@@ -3,9 +3,6 @@ View menu
 
 **Control the display**
 
-.. figure:: _images/view_menu01.png
-   :alt: novelibre screenshot
-
 Chapter level
 -------------
 

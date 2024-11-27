@@ -3,9 +3,6 @@ Export menu
 
 **File export**
 
-.. figure:: _images/export_menu01.png
-   :alt: novelibre screenshot
-
 Manuscript for editing
 ----------------------
 
@@ -185,9 +182,6 @@ Options
 
 With **Export >  Options**,
 You can open a dialog for settings concerning the document export.
-
-.. figure:: _images/export_menu02.png
-   :alt: novelibre screenshot
 
 
 Ask before opening exported documents

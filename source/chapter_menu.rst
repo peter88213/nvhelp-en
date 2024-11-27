@@ -1,11 +1,7 @@
 Chapter menu
 ============
 
-
 **Chapter operation**
-
-.. figure:: _images/chapter_menu01.png
-   :alt: novelibre screenshot
 
 Add
 ---
@@ -31,9 +27,6 @@ With **Chapter > Set Type**,
 you can set the `type <basic_concepts.html#part-chapter-section-types>`__
 of the selected chapter to *Normal* or *Unused* .
 
-.. figure:: _images/chapter_menu02.png
-   :alt: novelibre screenshot
-
 .. note::
    Setting the type of a chapter to *Unused* will also make its sections *Unused*.
 
@@ -45,9 +38,6 @@ Change Level
 
 With **Chapter > Change Level**,
 you can turn chapters into parts and vice versa.
-
-.. figure:: _images/chapter_menu03.png
-   :alt: novelibre screenshot
 
 -  **1st Level** converts the selected chapters into parts.
 -  **2nd Level** converts the selected parts into chapters.

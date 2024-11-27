@@ -3,9 +3,6 @@ Help menu
 
 **Quick access to the help pages for novelibre and its plugins**
 
-.. figure:: _images/help_menu01.png
-   :alt: novelibre screenshot
-
 .. note:: 
    The *Help* menu can be extended by plugins adding links to their
    specific help pages.

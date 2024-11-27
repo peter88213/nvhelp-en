@@ -11,9 +11,6 @@ menu opens that belongs to the type of the selected element.
 Book context menu entries
 -------------------------
 
-.. figure:: _images/context_menu01.png
-   :alt: novelibre screenshot
-
 Add Section
 ~~~~~~~~~~~
 
@@ -169,9 +166,6 @@ Hides all tree elements except the main categories.
 Characters/Locations/Items context menu entries
 -----------------------------------------------
 
-.. figure:: _images/context_menu02.png
-   :alt: novelibre screenshot
-
 Add
 ~~~
 
@@ -222,9 +216,6 @@ Major characters are highlighted in the tree view.
 
 Plot lines context menu entries
 -------------------------------
-
-.. figure:: _images/context_menu03.png
-   :alt: novelibre screenshot
 
 Add Plot line
 ~~~~~~~~~~~~~
