@@ -146,7 +146,7 @@ This allows you to view the *.novx* project file with a web browser.
 .. figure:: _images/file_menu01.jpg
    :alt: Edge browser screenshot
 
-   Edge browser screenshot
+   Edge browser screenshot: *novelibre* project, displayed using the style sheet.
 
 .. hint::
 

@@ -188,7 +188,7 @@ and launch your system’s web browser for displaying it.
 .. figure:: _images/plot_menu03.jpg
    :alt: Edge browser screenshot
 
-   Edge browser screenshot
+   Edge browser screenshot: Display of the HTML plot list.
 
 .. note::
    The report is a temporary file, auto-deleted on program exit.
