@@ -24,9 +24,9 @@ and a **Clipboard Online help** entry to the **Help** menu.
 Toolbar buttons provided by the nv_clipboard plugin
 ---------------------------------------------------
 
-..
-   |Cut| Move the selected element from the tree to the clipboard.
-   Same as ``Ctrl``-``X``. 
+
+|Cut| Move the selected element from the tree to the clipboard.
+Same as ``Ctrl``-``X``.
 
 |Copy| Copy the selected element to the clipboard.
 Same as ``Ctrl``-``C``.
@@ -52,7 +52,7 @@ You can copy and paste the following tree elements via the system clipboard:
 
 .. attention::
    Relationships are not included when copying to the clipboard.
-   This also applies to the section viewpoint.   
+   This also applies to the section viewpoint and for plot lines/plot points.   
 
 .. |Cut| image:: _images/cut.png
 .. |Copy| image:: _images/copy.png
