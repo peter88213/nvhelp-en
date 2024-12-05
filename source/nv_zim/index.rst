@@ -18,9 +18,30 @@ You can open it with **Help > Zim connection Online help**.
 *Zim Desktop Wiki*.
 This is mainly intended for world building documentation.
 
-The plugin adds an **Open project wiki** entry to the *novelibre* **Tools** menu,
+The plugin adds an **Zim Desktop Wiki** entry to the *novelibre* **Tools** menu,
 and a **Zim connection Online help** entry to the **Help** menu.
 The property views of characters, locations, items, and book
 get a **Wiki page** button.
 
+General
+-------
 
+
+Zim Desktop Wiki menu
+---------------------
+
+
+Open project wiki
+~~~~~~~~~~~~~~~~~
+
+
+Create project wiki
+~~~~~~~~~~~~~~~~~~~
+
+
+
+Book/Characters/Locations/Items properties
+------------------------------------------
+
+"Wiki page" button
+~~~~~~~~~~~~~~~~~~
