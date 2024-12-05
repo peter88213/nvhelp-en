@@ -23,4 +23,5 @@ Plugins
    nv_timeline/index
    nv_tlview/index
    nv_updater/index
+   nv_zim/index
 

@@ -126,7 +126,12 @@ quick reference that might come in handy when writing or editing.
    locations, and items to facilitate access if your external 
    application allows this.
    
-
+   The `nv_zim plugin 
+   <https://github.com/peter88213/nv_zim/>`__ 
+   connects the writing project with a **Zim Desktop Wiki**.
+   This allows the elements of the narrative world 
+   to be linked to corresponding wiki pages.
+   
 .. important::
    If you want to assign **viewpoint characters** to your sections, 
    you first have to `create <characters_menu.html#add>`__ 

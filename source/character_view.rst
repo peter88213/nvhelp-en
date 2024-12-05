@@ -42,6 +42,12 @@ Editing can be completed by pressing the ``Enter`` key.
    If you want to use a tag more than once, make sure you use 
    the same spelling in the different places. 
 
+.. hint::
+   The `nv_zim plugin 
+   <https://github.com/peter88213/nv_zim/>`__ 
+   can adopt keywords when creating a new wiki page for the character. 
+   This provides a powerful navigation aid.
+
 Major Character
 ---------------
 
