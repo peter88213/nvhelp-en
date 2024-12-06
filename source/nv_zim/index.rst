@@ -22,6 +22,10 @@ The plugin adds an **Zim Desktop Wiki** entry to the *novelibre* **Tools** menu,
 and a **Zim connection Online help** entry to the **Help** menu.
 The property views of characters, locations, items, and book
 get a **Wiki page** button.
+The Toolbar gets a |Zim| button.
+
+.. |Zim| image:: _images/zim.png
+
 
 General
 -------
@@ -31,12 +35,15 @@ Zim Desktop Wiki menu
 ---------------------
 
 
-Open project wiki
-~~~~~~~~~~~~~~~~~
+Tools > Zim Desktop Wiki > Open project wiki
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Same as clicking on the |Zim| button on the toolbar.
 
 
-Create project wiki
-~~~~~~~~~~~~~~~~~~~
+
+Tools > Zim Desktop Wiki > Create project wiki
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
