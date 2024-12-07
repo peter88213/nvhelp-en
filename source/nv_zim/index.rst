@@ -47,6 +47,19 @@ Tools > Zim Desktop Wiki > Create project wiki
 
 
 
+Tools > Zim Desktop Wiki > Remove wiki links
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Selected pages
+   This will remove the Zim wiki links of the selected elements.
+
+
+All
+   This will remove all Zim wiki links
+
+
 Book/Characters/Locations/Items properties
 ------------------------------------------
 
