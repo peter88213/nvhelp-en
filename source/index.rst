@@ -26,6 +26,7 @@ release. You can open it with **Help > Online help**.
    writing
    plotting
    metadata
+   series
    command_reference
    properties
    plugins
