@@ -1,4 +1,4 @@
-|external-link| `German <https://peter88213.github.io/nvhelp-de/novx_xtg>`__
+|external-link| `Deutsch <https://peter88213.github.io/nvhelp-de/novx_xtg>`__
 
 .. |external-link| image:: ../_images/external-link.png
 

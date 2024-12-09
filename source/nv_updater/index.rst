@@ -1,4 +1,4 @@
-|external-link| `German <https://peter88213.github.io/nvhelp-de/nv_updater/>`__
+|external-link| `Deutsch <https://peter88213.github.io/nvhelp-de/nv_updater/>`__
 
 .. |external-link| image:: ../_images/external-link.png
 

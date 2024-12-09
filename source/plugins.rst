@@ -1,10 +1,3 @@
-|external-link| `German <https://peter88213.github.io/nvhelp-de/plugins.html>`__
-
-.. |external-link| image:: _images/external-link.png
-
------------------
-
-=======
 Plugins
 =======
 
