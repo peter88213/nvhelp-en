@@ -29,6 +29,7 @@ release. You can open it with **Help > Online help**.
    properties
    plugins
    tools
+   abandon_novelibre
    about
 
 -----------------

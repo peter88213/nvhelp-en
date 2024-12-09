@@ -111,12 +111,18 @@ The plot line titles are linked to the plot line descriptions (see below).
 
 File name suffix is ``_grid_tmp``.
 
+- Clicking on a section number with ``Ctrl`` pressed, you can jump to the
+  corresponding section in the manuscript.
+- Clicking on a plot line title in the headline with ``Ctrl`` pressed, you can
+  jump to the corresponding plot line description, if any (see below).
+
 .. note::
    You can reorder, hide or delete columns and rows 
    without affecting the reimport. 
    Only the first column and the first row, which are hidden by default, 
    must not be changed as they contain the structural information 
    for the import. 
+
 
 
 Export story structure description for editing

@@ -1,8 +1,28 @@
 Getting started
 ===============
 
-Starting from zero
-------------------
+The following are different ways of starting with *novelibre*.
+If you are starting a new novel project "from scratch",
+you can create it with *novelibre* and build it up step by step from there.
+If you have already started a work and the manuscript is available
+as a *Writer* document, you can import it after appropriate preparation,
+and *novelibre* will automatically create the chapter and section structure.
+You can also have *novelibre* import an outline with the summaries
+of planned chapters or sections.
+
+.. hint:: 
+   All of this is also available in the same or similar form in other 
+   writing programs.
+   Alternatively, you can also create your novel outline as a timeline using 
+   programs such as `Timeline <https://sourceforge.net/projects/thetimelineproj/>`__  
+   or *Aeon Timeline 2*, or as a mind map 
+   with `Scapple <https://www.literatureandlatte.com/scapple/overview>`__.
+   Using the corresponding `plugins <plugins.html>`__ or `tools <tools.html>`__,
+   you get a *novelibre* project to work on. 
+   
+   
+Starting from scratch
+---------------------
 
 If you start *novelibre* by dragging a *.novx* file onto the icon,
 that project will be opened. Otherwise, the project from the last
