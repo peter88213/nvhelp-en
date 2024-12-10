@@ -167,8 +167,7 @@ XML data files
 With **Export >  XML data files**,
 you can create a set of XML files containing the project’s characters,
 locations, items, and plot lines with all their properties.
-These files can be used to transfer the characters, locations, items,
-and plot lines with plot points to another projects.
+These files can be used to transfer the elements to another projects.
 
 .. hint::
    To import XML data files from another project, use the **Import**
