@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Working on a book series with novelibre &mdash; novelibre User guide 4.15.3 documentation</title>
+  <title>Managing multiple books &mdash; novelibre User guide 4.15.3 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
 
@@ -59,7 +59,12 @@
 <li class="toctree-l1"><a class="reference internal" href="writing.html">Writing the manuscript</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plotting.html">Plotting with novelibre</a></li>
 <li class="toctree-l1"><a class="reference internal" href="metadata.html">Keeping the metadata in sight</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Working on a book series with novelibre</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Managing multiple books</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#organizing-book-series">Organizing book series</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#splitting-books">Splitting books</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#joining-contents-of-different-books">Joining contents of different books</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="command_reference.html">Command reference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="properties.html">Properties reference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugins</a></li>
@@ -82,7 +87,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Working on a book series with novelibre</li>
+      <li class="breadcrumb-item active">Managing multiple books</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -91,8 +96,43 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="working-on-a-book-series-with-novelibre">
-<h1>Working on a book series with novelibre<a class="headerlink" href="#working-on-a-book-series-with-novelibre" title="Link to this heading"></a></h1>
+  <section id="managing-multiple-books">
+<h1>Managing multiple books<a class="headerlink" href="#managing-multiple-books" title="Link to this heading"></a></h1>
+<p>If the book projects accumulate over time, the
+<a class="reference external" href="https://github.com/peter88213/nv_collection/">nv_collection</a>
+plugin may be a useful aid.
+This allows you to create collections of books, which you can then
+conveniently open with <em>novelibre</em>.
+With <em>nv_collection</em> you can also group the books into series.</p>
+<section id="organizing-book-series">
+<h2>Organizing book series<a class="headerlink" href="#organizing-book-series" title="Link to this heading"></a></h2>
+<p>With a book series, multiple books are sharing their characters and story world.
+There also can be overarching plot lines.
+If you want to transfer characters, locations, items, or
+plot lines of a book project into another one, <em>novelibre</em>
+supports this via the
+<a class="reference external" href="export_menu.html#xml-data-files">XML export</a>.</p>
+<p>In case you maintain a “series bible” with
+<a class="reference external" href="https://zim-wiki.org/">Zim Desktop Wiki</a>,
+you can connect it as a “project wiki” with multiple <em>novelibre</em> projects
+via the <a class="reference external" href="https://github.com/peter88213/nv_zim/">nv_zim</a> plugin.</p>
+</section>
+<section id="splitting-books">
+<h2>Splitting books<a class="headerlink" href="#splitting-books" title="Link to this heading"></a></h2>
+<p>If you want to split a large book into two or more books,
+you can use <em>novelibre</em> to
+<a class="reference external" href="chapter_menu.html#move-selected-chapters-to-new-project">move</a>
+the relevant chapters to a new project.
+All characters, locations, items and plot lines that are related to the moved
+sections are copied to the new project, and the relationships are retained.</p>
+</section>
+<section id="joining-contents-of-different-books">
+<h2>Joining contents of different books<a class="headerlink" href="#joining-contents-of-different-books" title="Link to this heading"></a></h2>
+<p>Using the <a class="reference external" href="https://github.com/peter88213/nv_clipboard/">nv_clipboard</a>
+plugin you can move chapters, sections, and other tree elements
+to other <em>novelibre</em> projects via the clipboard.
+However, relationships are lost.</p>
+</section>
 </section>
 
 

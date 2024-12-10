@@ -3,7 +3,7 @@ Abandoning novelibre
 
 You have put a lot of time and effort into a novel project with *novelibre*,
 but have come to the conclusion that *novelibre* is not right for you after all?
-No problem, the effort was not in vain.
+Don't worry, the effort was not in vain.
 You can export just about anything in the form of *Writer* text documents
 and *Calc* spreadsheets.
 So if you prefer to continue working in the classic way with OpenOffice or LibreOffice,

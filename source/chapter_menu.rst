@@ -43,6 +43,18 @@ you can turn chapters into parts and vice versa.
 -  **2nd Level** converts the selected parts into chapters.
 
 
+Move selected chapters to new project
+-------------------------------------
+
+**Split one book in two**
+
+With **Chapter > Move selected chapters to new project** you can create a new project
+containing the moved chapters/sections and all related elements and plot lines/plot points.
+The selected chapters are removed from the current project and pasted into an
+auto-generated project whose file path you define with a file selection dialog.
+All relationships of the moved sections are retained.
+
+
 Export chapter descriptions for editing
 ---------------------------------------
 
