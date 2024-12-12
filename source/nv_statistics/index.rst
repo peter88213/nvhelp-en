@@ -28,7 +28,7 @@ Charts
 The bars in the chart show the number of words in relation to the total number of words
 in all the used sections.
 
-By double-clicking on a label or a bar you can select the related element in the
+By double-clicking on a label you can select the related element in the
 *novelibre* tree view.
 
 Change the scale
