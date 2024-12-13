@@ -73,6 +73,18 @@ Changes the level of a chapter or a stage.
 -  **2nd Level** converts a selected part into a chapter.
 
 
+Export this chapter
+~~~~~~~~~~~~~~~~~~~
+
+Exports a `manuscript <export_menu.html#manuscript-for-editing>`__
+containing only the selected chapter.
+If a manuscript already exists, confirmation is required before exporting.
+
+.. caution::
+   The exported document has the same file name as the complete manuscript.
+   If you overwrite it before reimporting, changes to other chapters may be lost.
+
+
 Delete
 ~~~~~~
 
@@ -181,6 +193,11 @@ Export manuscript filtered by viewpoint
 
 Exports a `manuscript <export_menu.html#manuscript-for-editing>`__
 with the sections that have the selected character as viewpoint.
+If a manuscript already exists, confirmation is required before exporting.
+
+.. caution::
+   The exported document has the same file name as the complete manuscript.
+   If you overwrite it before reimporting, changes to other sections may be lost.
 
 
 Export synopsis filtered by viewpoint
@@ -190,6 +207,11 @@ Exports the `descriptions of the sections
 <section_menu.html#export-section-descriptions-for-editing>`__
 that have the selected character
 as viewpoint.
+If a synopsis already exists, confirmation is required before exporting.
+
+.. caution::
+   The exported document has the same file name as the complete synopsis.
+   If you overwrite it before reimporting, changes to other section descriptions may be lost.
 
 
 Delete
@@ -244,6 +266,12 @@ Export manuscript filtered by plot line
 
 Exports a `manuscript <export_menu.html#manuscript-for-editing>`__
 with the sections that belong to the selected plot line.
+If a manuscript already exists, confirmation is required before exporting.
+
+.. caution::
+   The exported document has the same file name as the complete manuscript.
+   If you overwrite it before reimporting, changes to other sections may be lost.
+
 
 Export synopsis filtered by plot line
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -251,6 +279,11 @@ Export synopsis filtered by plot line
 Exports the `descriptions of the sections
 <section_menu.html#export-section-descriptions-for-editing>`__
 that belong to the selected plot line.
+If a synopsis already exists, confirmation is required before exporting.
+
+.. caution::
+   The exported document has the same file name as the complete synopsis.
+   If you overwrite it before reimporting, changes to other section descriptions may be lost.
 
 
 Delete

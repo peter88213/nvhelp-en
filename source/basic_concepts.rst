@@ -207,7 +207,7 @@ creating a lock file named ``.LOCK.<project name>.novx#``. If you delete
 this file while *novelibre* is not running, the project will be unlocked
 upon next start.
 
-Usually, the project is automatically unlocked after re-importing the
+Usually, the project is automatically unlocked after reimporting the
 externally edited document.
 
 .. hint::

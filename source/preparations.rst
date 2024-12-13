@@ -299,7 +299,7 @@ your manuscript with a single mouse click.
 
 .. note::
    Loading a template or changing the default font and page size has no 
-   impact on re-importing the document with *novelibre*.
+   impact on reimporting the document with *novelibre*.
    
 .. tip::
    If you just want to change the font without applying templates, 

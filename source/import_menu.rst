@@ -5,7 +5,7 @@ Import menu
 
 With the **Import** main menu entry,
 you can open a pop-up window with a list containing previously
-exported ODF documents that can be re-imported, thus updating the
+exported ODF documents that can be reimported, thus updating the
 current project.
 
 .. figure:: _images/import_menu01.png
@@ -34,9 +34,9 @@ Discarding documents after updating the project
 -----------------------------------------------
 
 Documents with split sections are always automatically discarded
-after re-import in order to avoid confusion about the changed
+after reimport in order to avoid confusion about the changed
 section or chapter structure.
-Concerning re-imported documents that do not require modifying
+Concerning reimported documents that do not require modifying
 the project structure, you have three choices:
 
 Discard documents only when sections are split
@@ -44,7 +44,7 @@ Discard documents only when sections are split
    The ODF documents are kept for future use.
 
 Always discard documents after import
-   After updating the *novelibre* project from an re-imported
+   After updating the *novelibre* project from an reimported
    ODF document, this document is automatically discarded.
 
 Import documents even if locked; do not discard

@@ -148,7 +148,7 @@ If you need a new chapter while writing, you don't have to switch to
 the **Heading 2** style.
 
 .. important::
-   *novelibre* only re-imports text within section defining frames. 
+   *novelibre* only reimports text within section defining frames. 
    Technically, it always splits sections when creating new chapters 
    or sections from the manuscript.
    
