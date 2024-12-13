@@ -77,7 +77,7 @@ Shifting the section end
    - Shifting operations with the mouse can be aborted
      with the ``Esc`` key before releasing the mouse button.
    - Shifting operations with the mouse can be undone 
-     with ``Ctrl``-``Z`` or |undo|. 
+     with |undo|. 
 
 Command reference
 -----------------
@@ -152,7 +152,6 @@ Standard
 
 Online help
    Open this help page in a web browser.
-   Same as ``F1``.
 
 
 Buttons in the footer toolbar
@@ -201,7 +200,6 @@ Buttons in the footer toolbar
 |undo| Undo the last change
    This restores date/time/duration
    before the last mouse operation on a section.
-   Same as ``Ctrl``-``Z``
 
    .. caution::   
       Interim changes to date/time/duration on the same section
