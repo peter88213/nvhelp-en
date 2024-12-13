@@ -26,6 +26,7 @@ release. You can open it with **Help > Online help**.
    writing
    plotting
    metadata
+   wordcount
    series
    command_reference
    properties
