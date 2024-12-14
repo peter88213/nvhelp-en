@@ -8,9 +8,11 @@ at your disposal when writing, from the current day of the week and
 the phase of the moon to the ages of the characters involved.
 
 You can assign a date, a time, and a duration to each section.
-The date may be specific or unspecific, where unspecific means the
+The date may be unspecific or specific, where unspecific means the
 number of days since the start of the story.
 According to this count, the story begins on day zero.
+With *novelibre*, the Gregorian calendar applies to the specific date.
+You can only enter positive dates with years between 0001 and 9999.
 
 Date and time specifications are optional; you can assign each section
 either a specific date, an unspecific date or no date at all.
