@@ -27,6 +27,7 @@ release. You can open it with **Help > Online help**.
    plotting
    metadata
    wordcount
+   story_time
    series
    command_reference
    properties
