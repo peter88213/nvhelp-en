@@ -11,8 +11,16 @@ You can assign a date, a time, and a duration to each section.
 The date may be unspecific or specific, where unspecific means the
 number of days since the start of the story.
 According to this count, the story begins on day zero.
-With *novelibre*, the Gregorian calendar applies to the specific date.
+For the specific date, *novelibre* uses the Gregorian calendar.
 You can only enter positive dates with years between 0001 and 9999.
+
+The names of weekdays and months are given to *novelibre* by the operating system,
+so the system language is used.
+By default, dates are are output as is usual in the system language.
+If you do not like this, you can change a
+`Setting <view_menu.html#display-localized-dates>`__
+to display the date in ISO format, just as you enter it.
+
 
 Date and time specifications are optional; you can assign each section
 either a specific date, an unspecific date or no date at all.
