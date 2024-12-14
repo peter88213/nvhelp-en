@@ -25,7 +25,7 @@ to display the date in ISO format, just as you enter it.
 Date and time specifications are optional; you can assign each section
 either a specific date, an unspecific date or no date at all.
 *novelibre* can convert specific dates into unspecific ones and vice versa,
-if you enter a reference date in the
+if you enter a reference date for the day zero in the
 `book properties <book_view.html#narrative-time>`__.
 Even if you don't need specific dates for your story, specifying
 a reference date might be helpful.
@@ -37,10 +37,10 @@ at least for the 20th and 21st centuries.
 
 By default, you type date, time, and duration in the corresponding
 entry fields of the `Section properties <section_view.html#date-time>`__.
-If the predeceding section already has a date and time,
+If the previous section already has a date and time,
 you can have *novelibre* generate a start date and time witht the click of a button,
 so that the action of the section immediately follows the action
-of the preceding section.
+of the prvious section.
 If the subsequent section has a date and time, you can have *novelibre* automatically
 generate a duration so that the subsequent section follows on seamlessly from
 the current one.
