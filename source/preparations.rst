@@ -7,7 +7,7 @@ Setting up novelibre
 The actual installation of *novelibre* is simple and straightforward.
 The installation program automatically creates an installation directory,
 copies everything necessary into it, and generates a start file named
-*run.pyw* adapted for the respective computer, which must be called
+**run.pyw** adapted for the respective computer, which must be called
 in order to execute *novelibre*.
 
 The necessary manual work consists of linking this start file to the
