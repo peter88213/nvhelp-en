@@ -4,33 +4,21 @@ Preparations
 Setting up novelibre
 --------------------
 
-If *novelibre* were a commercial application, all the
-steps described below would be performed automatically
-by the setup program. On Windows, for instance, this would
-then be an *.exe* or *.msi* file that must be executed
-with special authorizations and may even require a costly
-certificate in order to be approved for download and
-installation.
+The actual installation of *novelibre* is simple and straightforward.
+The installation program automatically creates an installation directory,
+copies everything necessary into it, and generates a start file named
+*run.pyw* adapted for the respective computer, which must be called
+in order to execute *novelibre*.
 
-There is also the problem that a separate setup program would
-have to be created and maintained for each operating system.
-For Linux, it would be necessary to provide installation
-packages or images, whereby there are a multitude of different
-standards.
+The necessary manual work consists of linking this start file to the
+desktop and, if desired, assigning a program icon to the link.
+I will also show you how to set it up under Windows so that the *novelibre*
+project files have their own program icon and that the program application
+is started when you double-click on them.
 
-Because I don't run a software business, but am just a
-hobbyist and rather want to write novels, I've decided to
-go a different route: I provide an executable Python zip archive
-that works the same way on all operating systems
-if Python is installed correctly.
-No Internet connection is required to install and operate *novelibre*.
+Unfortunately, I cannot automate this with my simple means without causing
+problems with the security mechanisms of the operating system.
 
-The very last setup steps, which vary depending
-on the operating system and may also require special authorizations,
-must be carried out by the intrepid users themselves.
-I do what I can to make these steps easier, and provide
-detailed instructions for Windows below.
-Enjoy!
 
 Installing the application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
