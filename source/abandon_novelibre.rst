@@ -6,6 +6,11 @@ but have come to the conclusion that *novelibre* is not right for you after all?
 Don't worry, the effort was not in vain.
 You can export just about anything in the form of *Writer* text documents
 and *Calc* spreadsheets.
+
+
+How to continue using your projects without novelibre
+-----------------------------------------------------
+
 So if you prefer to continue working in the classic way with OpenOffice or LibreOffice,
 simply create a
 `final manuscript document <export_menu.html#final-manuscript-document-export-only>`__
@@ -32,6 +37,25 @@ For experts, there is also the option of creating completely different file form
 from the *.novx* files using *XSLT* transformation.
 Examples for this can be found in the
 `novelibre repository <https://github.com/peter88213/novelibre/tree/main/xslt>`__.
+
+
+How to uninstall novelibre
+--------------------------
+
+1. Open the installation folder (the subdirectory ``.novx`` in your user directory).
+
+   .. tipp::
+      This is particularly easy to do from *novelibre* with
+      **Tools > Open installation folder**.
+ 
+2. If you have set *novelibre* under Windows as the default application for *.novx* files,
+   undo this by executing  ``remove_novelibre.reg`` (double-click and confirm).
+
+3. Go up one level to your user directory and delete the installation folder.
+   This will remove *novelibre* along with the plugins and utilities from your computer.
+
+4. Remove the *novelibre* shortcut from the desktop.
+
 
 .. note:: 
    As developer, I am naturally interested in your experiences with *novelibre*.
