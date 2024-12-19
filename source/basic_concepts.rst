@@ -2,6 +2,24 @@ Basic concepts
 ==============
 
 
+Summary
+   - With *novelibre* you can organize your novel on three hierarchical levels.
+   - If you shorten your novel, you can exclude individual chapters and sections
+     without deleting them immediately.
+     You can also write sections with alternative text so that you can decide
+     later what you want to include in the final version.
+     To do this, change the *type*.
+   - Part of organizing your writing project is keeping track of the
+     qualitative progress of your work.
+     With *novelibre* you can break this down to the section level
+     using the *section completion status* and section notes.
+   - *novelibre* offers a limited number of options for highlighting text.
+   - Comments, footnotes and endnotes that you insert with *Writer* are not lost.
+   - Language assignments for the spell checker in *Writer* are not lost.
+   - So that you don't get confused, *novelibre* can lock the project against
+     changes as long as you are working with OpenOffice or LibreOffice.
+
+
 The Book hierarchy
 ------------------
 
@@ -106,7 +124,12 @@ and *Done*.
 -  Word counts by status appear in the `Book properties
    <book_view.html#writing-pogress>`__.
 
+.. hint::
+   The `"sticky" section notes <section_view.html#sticky-note>`__
+   are intended for more detailed information 
+   on what still needs to be done for a section.
 
+   
 -----------------
 
 

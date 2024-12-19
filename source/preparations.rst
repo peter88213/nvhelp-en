@@ -1,6 +1,11 @@
 Preparations
 ============
 
+In the following I will describe how to install *novelibre*.
+I also give some tips on setting up LibreOffice and OpenOffice
+to optimize the interaction with *novelibre*.
+
+
 Setting up novelibre
 --------------------
 

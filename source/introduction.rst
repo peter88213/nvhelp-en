@@ -1,6 +1,10 @@
 Introduction
 ============
 
+This chapter is about the role of computer software for novelists,
+and how *novelibre* fits in.
+
+
 Office software vs. writing software
 ------------------------------------
 
@@ -99,4 +103,3 @@ of the *novelibre* features.
 However you may have found your way here, I wish you much joy and success
 in writing your novel with *novelibre*!
 
-Peter
