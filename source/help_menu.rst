@@ -16,6 +16,14 @@ Online Help
 With **Help > Online Help**,
 you can launch your system web browser with the *novelibre* online help URL.
 
+
+About novelibre
+---------------
+
+With **Help > About novelibre**
+you can view a legal notice window.
+
+
 novelibre home page
 -------------------
 
