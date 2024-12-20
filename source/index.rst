@@ -32,7 +32,7 @@ release. You can open it with **Help > Online help**.
    command_reference
    properties
    plugins
-   tools
+   utilities
    abandon_novelibre
    about
 
