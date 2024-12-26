@@ -286,6 +286,23 @@ If a synopsis already exists, confirmation is required before exporting.
    If you overwrite it before reimporting, changes to other section descriptions may be lost.
 
 
+Change sections to Unused
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Set all sections that are assigned to the selected plot line to
+`Unused <basic_concepts.html#part-chapter-section-types>`__.
+This excludes the entire plot line from the manuscript.
+
+
+Change sections to Normal
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Set all sections that are assigned to the selected plot line to
+`Normal <basic_concepts.html#part-chapter-section-types>`__.
+This allows a plot line that has been excluded to be reintegrated into
+the manuscript.
+
+
 Delete
 ~~~~~~
 
