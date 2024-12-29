@@ -1,3 +1,10 @@
+|external-link| `Deutsch <https://peter88213.github.io/nvhelp-de/introduction.html>`__
+
+.. |external-link| image:: _images/external-link.png
+
+-----------------
+
+============
 Introduction
 ============
 

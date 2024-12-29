@@ -44,7 +44,7 @@ How to uninstall novelibre
 
 1. Open the installation folder (the subdirectory ``.novx`` in your user directory).
 
-   .. tipp::
+   .. tip::
       This is particularly easy to do from *novelibre* with
       **Tools > Open installation folder**.
  
