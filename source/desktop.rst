@@ -83,6 +83,28 @@ Select the element to delete and hit the ``Del`` key.
 -  When deleting the "Trash" chapter, all its sections are deleted.
 
 
+Copy/paste tree elements
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can copy and paste the following tree elements via the system clipboard:
+
+- Parts and chapters,
+- sections,
+- stages,
+- plot lines,
+- plot points,
+- characters,
+- locations,
+- items,
+- project notes.
+
+Elements can be transferred to and from the clipboard one by one.
+The element's properties and "children" are copied, except relationships.
+
+Via the clipboard, you can transfer these elements between different *novelibre*
+projects, or within a project.
+
+
 Text viewer
 -----------
 

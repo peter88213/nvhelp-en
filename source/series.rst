@@ -39,8 +39,7 @@ sections are copied to the new project, and the relationships are retained.
 Joining contents of different books
 -----------------------------------
 
-Using the `nv_clipboard <https://github.com/peter88213/nv_clipboard/>`__
-plugin you can move chapters, sections, and other tree elements
-to other *novelibre* projects via the clipboard.
+You also can move chapters, sections, and other tree elements to other
+*novelibre* projects via the clipboard.
 However, relationships are lost.
 
