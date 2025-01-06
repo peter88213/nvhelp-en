@@ -60,6 +60,39 @@ Same as ``Del``.
 
 -----------------
 
+
+|Cut| Move the selected element from the tree to the clipboard.
+Same as ``Ctrl``-``X``.
+
+|Copy| Copy the selected element to the clipboard.
+Same as ``Ctrl``-``C``.
+
+|Paste| Paste the element stored in the clipboard to the tree.
+Same as ``Ctrl``-``V``.
+
+You can copy and paste the following tree elements via the system clipboard:
+
+- Parts and chapters,
+- sections,
+- stages,
+- plot lines,
+- plot points,
+- characters,
+- locations,
+- items,
+- project notes.
+
+.. hint::
+   If multiple elements are selected, only the first one will be copied.
+   However, if the element has "children", these will also be copied and pasted.
+
+.. attention::
+   Relationships are not included when copying to the clipboard.
+   This also applies to the section viewpoint and for plot lines/plot points.   
+
+
+-----------------
+
 |Toggle Text viewer| Toggle Text viewer.
 Same as **View > Toggle Text viewer** or ``Ctrl``-``T``.
 
@@ -86,3 +119,6 @@ Same as **View > Toggle Properties** or ``Ctrl``-``Alt``-``T``.
 .. |Delete| image:: _images/remove.png
 .. |Toggle Text viewer| image:: _images/viewer.png
 .. |Toggle Properties| image:: _images/properties.png
+.. |Cut| image:: _images/cut.png
+.. |Copy| image:: _images/copy.png
+.. |Paste| image:: _images/paste.png
