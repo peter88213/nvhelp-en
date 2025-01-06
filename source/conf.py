@@ -7,10 +7,10 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'novelibre User guide'
-copyright = '2024, Peter Triesberger'
+copyright = '2025, Peter Triesberger'
 author = 'Peter Triesberger'
-version = 'Version 5.2+'
-release = '5.2.0'
+version = 'Version 5.4+'
+release = '5.4.0'
 # The release is related to the novelibre application's major/minor version numbers.
 
 # -- General configuration ---------------------------------------------------

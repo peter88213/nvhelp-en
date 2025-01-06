@@ -44,7 +44,10 @@ of the new project.
    It is advantageous to create a separate folder for the project, as 
    all exported documents are also stored here. This also includes 
    auxiliary files such as timelines or project-related configuration 
-   files for tools and plugins. 
+   files for tools and plugins.
+   
+.. important::
+   Please make sure that your new project is not in the installation directory.
 
 It is not mandatory, but we should then enter a title and the author's
 name. Perhaps also a description of our idea. To get started right away,
