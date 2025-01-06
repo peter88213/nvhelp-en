@@ -39,12 +39,16 @@ of all, we create a new empty project with **File > New > Empty project**.
    
 A file selection dialog opens and asks for the file name and location
 of the new project.
+Unlike OpenOffice/LibreOffice, the file selection dialog is not preset
+to a defined document directory. If you enter a file name for
+your project, make sure you also select the correct project directory.
 
 .. tip::
-   It is advantageous to create a separate folder for the project, as 
+   It is advisable to create a separate folder for the project, as 
    all exported documents are also stored here. This also includes 
    auxiliary files such as timelines or project-related configuration 
    files for tools and plugins.
+   
    
 .. important::
    Please make sure that your new project is not in the installation directory.
@@ -187,6 +191,10 @@ Let's assume that you have already written an extensive novel manuscript with
 In this case you first make sure to set it up in a way, *novelibre* can
 recognize its parts, chapters, and sections.
 
+.. tip::
+   It is advisable to create a separate folder for the project and move your 
+   manuscript there before importing it with *novelibre*. 
+
 .. important::
    How to set up a Work-in-progress for import
       A Work-in-progress must not have any third level heading.
@@ -255,6 +263,10 @@ At first glance, an outline looks the same as a Work-in-progress, but it has
 third level headings for the sections, indicating their titles. If *novelibre*
 finds third-level headings, it considers all body text to be description.
 In this case, formatting doesn't matter.
+
+.. tip::
+   It is advisable to create a separate folder for the project and move your 
+   outline there before importing it with *novelibre*. 
 
 .. important::
    How to set up an outline for import
