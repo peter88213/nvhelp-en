@@ -14,13 +14,17 @@ This page refers to the latest `nv_statistics
 <https://github.com/peter88213/nv_statistics/>`__ release.
 You can open it with **Help > Project statistics Online help**.
 
-The plugin adds a **Project statistics view** entry to the *novelibre* **Tools** menu.
+The plugin adds a **Project statistics view** entry to the *novelibre* **Tools** menu,
+and a **Project statistics Online help** entry to the **Help** menu.
+The Toolbar gets a |Statistics| button.
 
+.. |Statistics| image:: _images/statistics.png
 
 Launch the program
 ------------------
 
-- Open the project statistics viewer from the main menu: **Tools > Project statistics view**.
+- Open the project statistics viewer from the main menu: **Tools > Project statistics view**,
+- or via the |Statistics| button in the toolbar.
 
 Charts
 ------
