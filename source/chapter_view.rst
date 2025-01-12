@@ -143,9 +143,9 @@ Navigation buttons
 ------------------
 
 Chapter view
-	- **Previous** moves the selection to the previous chapter in the tree.
-	- **Next** moves the selection to the next chapter in the tree.
+	- **Previous** lets you navigate to the previous chapter in the tree.
+	- **Next** lets you navigate to the next chapter in the tree.
 
 Part view
-	- **Previous** moves the selection to the previous part in the tree.
-	- **Next** moves the selection to the next part in the tree.
+	- **Previous** lets you navigate to the previous part in the tree.
+	- **Next** lets you navigate to the next part in the tree.

@@ -191,5 +191,5 @@ displayed in the tree view as a reminder.
 Navigation buttons
 ------------------
 
-- **Previous** moves the selection to the previous character in the tree.
-- **Next** moves the selection to the next character in the tree.
+- **Previous** lets you navigate to the previous character in the tree.
+- **Next** lets you navigate to the next character in the tree.

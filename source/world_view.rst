@@ -142,11 +142,11 @@ Navigation buttons
 Location view
 ~~~~~~~~~~~~~
 
-- **Previous** moves the selection to the previous location in the tree.
-- **Next** moves the selection to the next location in the tree.
+- **Previous** lets you navigate to the previous location in the tree.
+- **Next** lets you navigate to the next location in the tree.
 
 Item view
 ~~~~~~~~~
 
-- **Previous** moves the selection to the previous item in the tree.
-- **Next** moves the selection to the next item in the tree.
+- **Previous** lets you navigate to the previous item in the tree.
+- **Next** lets you navigate to the next item in the tree.

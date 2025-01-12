@@ -16,7 +16,7 @@ You can only enter positive dates with years between 0001 and 9999.
 
 The names of weekdays and months are given to *novelibre* by the operating system,
 so the system language is used.
-By default, dates are are output as is usual in the system language.
+By default, dates are output as is usual in the system language.
 If you do not like this, you can change a
 `Setting <view_menu.html#display-localized-dates>`__
 to display the date in ISO format, just as you enter it.
@@ -40,7 +40,7 @@ entry fields of the `Section properties <section_view.html#date-time>`__.
 If the previous section already has a date and time,
 you can have *novelibre* generate a start date and time witht the click of a button,
 so that the action of the section immediately follows the action
-of the prvious section.
+of the previous section.
 If the subsequent section has a date and time, you can have *novelibre* automatically
 generate a duration so that the subsequent section follows on seamlessly from
 the current one.

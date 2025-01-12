@@ -148,6 +148,6 @@ the "N" is displayed in the plot line row.
 Navigation buttons
 ------------------
 
-- **Previous** moves the selection to the previous plot point in the tree.
-- **Next** moves the selection to the next plot point in the tree.
+- **Previous** lets you navigate to the previous plot point in the tree.
+- **Next** lets you navigate to the next plot point in the tree.
 

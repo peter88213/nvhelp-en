@@ -116,5 +116,5 @@ in the chapter row.
 Navigation buttons
 ------------------
 
-- **Previous** moves the selection to the previous stage on the same level in the tree.
-- **Next** moves the selection to the next stage on the same level in the tree.
+- **Previous** lets you navigate to the previous stage on the same level in the tree.
+- **Next** lets you navigate to the next stage on the same level in the tree.

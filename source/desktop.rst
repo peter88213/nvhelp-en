@@ -49,12 +49,20 @@ Browsing the tree
    This allows you to go back and forth e.g. between a section and its
    related characters.
 
-   -  |Go back| selects a node back in the tree browsing history.
-   -  |Go forward| selects a node forward in the tree browsing history.
+   -  |Go back| or ``Alt``-``Left``: Go forward in history.
+   -  |Go forward| or ``Alt``-``Right``: Go back in history.
 
    .. hint::
       On Windows, the "Forward" and "Back" mouse buttons (if any) 
       may also work.
+
+Skipping other kinds of nodes
+   With the ``Alt`` key hold down, you can navigate directly to the
+   next or previous tree element on the same level (e.g. section or
+   chapter or character).
+
+   *  ``Alt``-``Up``: Go to the previous node of the same kind.
+   *  ``Alt``-``Down``: Go to the next node of the same kind.
 
 
 Move tree elements

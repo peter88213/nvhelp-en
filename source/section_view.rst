@@ -397,5 +397,5 @@ in the chapter row.
 Navigation buttons
 ------------------
 
-- **Previous** moves the selection to the previous section in the tree.
-- **Next** moves the selection to the next section in the tree.
+- **Previous** lets you navigate to the previous section in the tree.
+- **Next** lets you navigate to the next section in the tree.
