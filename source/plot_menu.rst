@@ -92,6 +92,7 @@ with a row per section, containing the following data:
 - Narrative date
 - Narrative time
 - Day
+- Duration (<days>d <hours>h <minutes>min)
 - Section title
 - Section description
 - Viewpoint character
