@@ -148,7 +148,7 @@ Options
 **Project independent program settings**
 
 With **View >  Options**,
-You can open a dialog for settings concerning the display.
+you can open a dialog for settings concerning the display.
 
 .. figure:: _images/view_menu02.png
    :alt: novelibre screenshot

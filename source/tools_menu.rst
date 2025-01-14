@@ -7,6 +7,65 @@ Tools menu
    The *Tools* menu can be extended by plugins to add more
    features.
 
+
+Backup options
+--------------
+
+**Project independent program settings**
+
+With **Tools >  Backup options**,
+you can open a dialog for settings concerning the backup.
+
+.. figure:: _images/tools_menu02.png
+   :alt: novelibre Screenshot
+
+
+The path to the backup directory is displayed at the top
+of the window, if one is set.
+
+
+Change backup directory
+~~~~~~~~~~~~~~~~~~~~~~~
+
+This opens a directory selection dialog with which you can
+select the backup directory.
+
+.. tip::
+   To take precautions against hard disk failure, 
+   you can also specify an external drive or a USB stick.    
+
+
+Open backup directory
+~~~~~~~~~~~~~~~~~~~~~
+
+This opens the backup directory with the file manager.
+This is for quick access if you want to restore a project file.
+
+
+Create backup copies
+~~~~~~~~~~~~~~~~~~~~
+
+If this field is checked, *novelibre* creates a copy of the
+project file in the set backup directory each time it is saves.
+To prevent this backup copy from being opened by mistake,
+the file name extension is given the suffix ``#``.
+
+.. hint::
+   This allows you to temporarily switch off the backup, 
+   whereby the backup directory remains set.
+
+
+Open installation folder
+------------------------
+
+**Launch the file manager**
+
+With **Tools > Open installation folder**,
+you can launch the file manager with the *novelibre* installation folder.
+This might come in handy if you wish to edit configuration files,
+or install your own plugins.
+
+
 Plugin manager
 --------------
 
@@ -59,16 +118,4 @@ How to uninstall a plugin
       -  If the plugin’s *novelibre API* minor version number is greater than
          *novelibre’s* minor version number, *novelibre* needs to be updated.
 
-
-
-
-Open installation folder
-------------------------
-
-**Launch the file manager**
-
-With **Tools > Open installation folder**,
-you can launch the file manager with the *novelibre* installation folder.
-This might come in handy if you wish to edit configuration files,
-or install your own plugins.
 
