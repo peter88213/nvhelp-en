@@ -34,7 +34,7 @@ Let's also assume that we have not yet made any preparations, i.e.
 we have neither a Work-in-progress nor an outline of any kind. First
 of all, we create a new empty project with **File > New > Empty project**.
 
-.. figure:: _images/getting_started01.png
+.. image:: _images/getting_started01.png
    :alt: novelibre screenshot
    
 A file selection dialog opens and asks for the file name and location
@@ -57,21 +57,21 @@ It is not mandatory, but we should then enter a title and the author's
 name. Perhaps also a description of our idea. To get started right away,
 we will postpone the remaining project settings until later.
 
-.. figure:: _images/getting_started02.png
+.. image:: _images/getting_started02.png
    :alt: novelibre screenshot
    
 We need at least one section in order to get space to begin writing.
 And this must belong to a chapter. So we now create the first
 chapter with **Chapter > Add**.
 
-.. figure:: _images/getting_started03.png
+.. image:: _images/getting_started03.png
    :alt: novelibre screenshot
    
 After the chapter is created, *novelibre* sets the focus on the chapter
 title entry at the top of the right pane. Let's overwrite the default
 title.
 
-.. figure:: _images/getting_started04.png
+.. image:: _images/getting_started04.png
    :alt: novelibre screenshot
    
 .. hint::
@@ -82,7 +82,7 @@ title.
 There are several ways to add a section now. In this example, we
 right-click on the chapter, and select **Add section**.
 
-.. figure:: _images/getting_started05.png
+.. image:: _images/getting_started05.png
    :alt: novelibre screenshot
 
 
@@ -94,13 +94,13 @@ manuscript. Just click on the |Export manuscript| toolbar icon.
 
 .. |Export manuscript| image:: _images/manuscript.png
 
-.. figure:: _images/getting_started06.png
+.. image:: _images/getting_started06.png
    :alt: novelibre screenshot
    
 Done! *Writer* should now appear with the manuscript open.
 Just start writing your novel within the text boundary.
 
-.. figure:: _images/getting_started07.png
+.. image:: _images/getting_started07.png
    :alt: Libreoffice screenshot
    
 We can now continue working with *Writer* `as described on the next
@@ -142,7 +142,7 @@ describe stages like acts or steps in order to later insert the sections as
 scenes.
 For this, you first create at least one chapter. Then create your stages.
 
-.. figure:: _images/getting_started08.png
+.. image:: _images/getting_started08.png
    :alt: novelibre screenshot
 
 The system is described on the `Plotting with novelibre <plotting.html>`__
@@ -205,13 +205,15 @@ recognize its parts, chapters, and sections.
          chapter).
       -  All other text is considered section content.
 
-    .. figure:: _images/getting_started10.png
+
+    The following picture shows a work-in-progress example. 
+    Note the blanks between the asterisks of the section divider. 
+    It is not necessary to center the section dividers.
+
+    .. image:: _images/getting_started10.png
        :alt: Libreoffice Writer screenshot
        
        
-       Work-in-progress example: Note the blanks between the asterisks of
-       the section divider. It is not necessary to center the section dividers.
-
 
 .. caution::
    Formatting that is not `supported with novelibre 
@@ -232,7 +234,7 @@ recognize its parts, chapters, and sections.
 When your manuscript is ready, create your new project
 with **File > New > Create from ODT...**.
 
-.. figure:: _images/getting_started09.png
+.. image:: _images/getting_started09.png
    :alt: novelibre screenshot
 
 A file selection dialog opens and asks for the *ODT* document. The new project
@@ -277,18 +279,19 @@ In this case, formatting doesn't matter.
       -  *Heading 3* → Section title.
       -  All other text is considered to be chapter/section description.
 
-    .. figure:: _images/getting_started11.png
+    The following picture shows an outline example. 
+    The body text just below the chapter heading is the chapter description; 
+    the body text just below the section heading is the section description. 
+    However, the descriptions are optional.
+
+    .. image:: _images/getting_started11.png
        :alt: Libreoffice Writer screenshot
        
        
-       Outline example: The body text just below the chapter heading is the chapter
-       description; the body text just below the section heading is the section description. 
-       However, the descriptions are optional.
-
 When your outline is ready, create your new project
 with **File > New > Create from ODT...**.
 
-.. figure:: _images/getting_started09.png
+.. image:: _images/getting_started09.png
    :alt: novelibre screenshot
 
 A file selection dialog opens and asks for the *ODT* document. The new project

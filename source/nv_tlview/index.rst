@@ -23,7 +23,7 @@ The Toolbar gets a |Timeline| button.
 
 .. |Timeline| image:: _images/tlview.png
 
-.. figure:: _images/screen01.png
+.. image:: _images/screen01.png
    :alt: novelibre Screenshot
 
 

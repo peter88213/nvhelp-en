@@ -143,10 +143,11 @@ With **File > Copy style sheet**,
 you can copy the style sheet *novx.css* into the current project folder.
 This allows you to view the *.novx* project file with a web browser.
 
-.. figure:: _images/file_menu01.jpg
-   :alt: Edge browser screenshot
+The following picture shows an Edge browser screenshot:
+*novelibre* project, displayed using the style sheet.
 
-   Edge browser screenshot: *novelibre* project, displayed using the style sheet.
+.. image:: _images/file_menu01.jpg
+   :alt: Edge browser screenshot
 
 .. hint::
 

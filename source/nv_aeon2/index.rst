@@ -19,10 +19,10 @@ a **Create from Aeon Timeline 2...** to the **File > New** submenu,
 and an **Aeon 2 plugin Online Help** entry to the **Help** menu.
 The Toolbar gets a |Timeline| button.
 
-.. figure:: _images/screen01.png
+.. image:: _images/screen01.png
    :alt: novelibre Screenshot
 
-.. figure:: _images/screen02.png
+.. image:: _images/screen02.png
    :alt: novelibre Screenshot
 
 .. |Timeline| image:: _images/aeon2.png

@@ -17,7 +17,7 @@ You can open it with **Help > Update checker Online help**.
 The plugin adds a **Check for updates** entry to the *novelibre* **Tools** menu,
 and an **Update checker Online help** entry to the **Help** menu.
 
-.. figure:: _images/screen01.png
+.. image:: _images/screen01.png
    :alt: novelibre Screenshot
 
 
@@ -29,7 +29,7 @@ Open the update checker from the main menu: **Tools > Check for updates**.
 
 If an update is found, a message pops up.
 
-.. figure:: _images/screen02.png
+.. image:: _images/screen02.png
    :alt: novelibre Screenshot
 
 You can choose:
@@ -46,7 +46,7 @@ You can choose:
 
 If no update is found, a message pops up at the end.
 
-.. figure:: _images/screen03.png
+.. image:: _images/screen03.png
    :alt: novelibre Screenshot
 
 .. important::

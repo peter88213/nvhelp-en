@@ -23,20 +23,16 @@ or by clicking on the |Export manuscript| toolbar icon.
      immediately after export.
 
 
-.. figure:: _images/writing01.png
+.. image:: _images/writing01.png
    :alt: novelibre screenshot
    
-   novelibre screenshot
-
 If you have done this before and there is still a manuscript document from
 the previous writing session, you will now be asked whether you want to
 continue working on this document. If this is the case, answer "Open existing".
 
-.. figure:: _images/writing02.png
+.. image:: _images/writing02.png
    :alt: novelibre screenshot
    
-   novelibre screenshot
-
 If you answer "Overwrite", *novelibre* creates a new manuscript document.
 "Cancel" aborts the export process and lets you return to the main window.
 
@@ -52,11 +48,9 @@ If you started the export using the **Export** menu command, you may
 be asked whether you want to open the newly created document, depending
 of your `Export settings <export_menu.html#options>`__.
 
-.. figure:: _images/writing03.png
+.. image:: _images/writing03.png
    :alt: novelibre screenshot
-   
-   novelibre screenshot
-   
+    
 If you answer "yes", *Writer* will be launched with
 the manuscript document. Otherwise, the document is just
 kept for future use.
@@ -78,12 +72,12 @@ in the *Headings* area. Double click on a heading to move the cursor
 to that location. You can now write within the frames that define
 the sections.
 
-.. figure:: _images/writing04.png
+The following picture shows a LibreOffice Writer screenshot.
+Note that the text boundaries are made visible here,
+which is `highly recommended <preparations.html#setting-up-writer>`__.
+
+.. image:: _images/writing04.png
    :alt: LibreOffice Writer screenshot
-   
-   LibreOffice Writer screenshot: Note that the text boundaries are 
-   made visible here, which is `highly recommended 
-   <preparations.html#setting-up-writer>`__.
    
 .. note::
    The section titles displayed in the Navigator are invisible 
@@ -104,12 +98,6 @@ appear.
    you want to apply changes made in other documents like character
    sheets or synopses, use the `Import menu <import_menu.html>`__. 
 
-   .. figure:: _images/writing09.png
-      :alt: novelibre screenshot
-      
-      novelibre screenshot: The manuscript entry is highlighted in 
-      green, because the file is newer than the open project. 
-
 
 Creating new sections with Writer
 ---------------------------------
@@ -126,19 +114,20 @@ to be entered in *novelibre* later.
 
 The following example shows how to split an existing section:
 
-.. figure:: _images/writing05.png
+The following picture shows a LibreOffice Writer screenshot.
+Notice the highlighted section marker
+
+.. image:: _images/writing05.png
    :alt: LibreOffice Writer screenshot
    
-   LibreOffice Writer screenshot: Notice the highlighted section marker
-
 Back in *novelibre*, you see the new section. It has got a title,
 but no other metadata.
 
-.. figure:: _images/writing06.png
+
+.. image:: _images/writing06.png
    :alt: novelibre screenshot
    
-   *novelibre* screenshot: Notice the selected new section 
-
+Notice the selected new section in the screenshot.
 
 Creating new chapters with Writer
 ---------------------------------
@@ -158,21 +147,19 @@ the **Heading 2** style.
 
 The following example shows how to add a chapter with *Writer*:
 
-.. figure:: _images/writing07.png
+.. image:: _images/writing07.png
    :alt: LibreOffice Writer screenshot
    
-   LibreOffice Writer screenshot: It doesn't matter what the new
-   chapter is titled
+It doesn't matter what the new chapter is titled.
 
 Back in *novelibre*, you see a new chapter and a new section. Since
 the chapters are auto-numbered in this example project, the new
 chapter title already fits, while the new section's title should
 be adjusted manually.
 
-.. figure:: _images/writing08.png
+.. image:: _images/writing08.png
    :alt: novelibre screenshot: Notice the selected new chapter
    
-   novelibre screenshot
 
 .. |Export manuscript| image:: _images/manuscript.png
 .. |Update from manuscript| image:: _images/updateFromManuscript.png

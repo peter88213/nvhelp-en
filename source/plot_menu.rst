@@ -168,11 +168,12 @@ File name suffix is ``_plotlist``.
    The plot line titles and the section titles are hyperlinked to 
    the respective descriptions in other exported documents, if any.
 
-.. figure:: _images/plot_menu04.png
-   :alt: LibreOffice screenshot
+The following picture shows a LibreOffice screenshot.
+Note the hyperlink from the plot line title in the
+plot list (left) to the plot line in the plot description (right).
 
-   LibreOffice screenshot. Note the hyperlink from the plot line title in the
-   plot list (left) to the plot line in the plot description (right). 
+.. image:: _images/plot_menu04.png
+   :alt: LibreOffice screenshot
 
 .. important::
    Hyperlinks in ODS spreadsheets are absolute within the file system, 
@@ -192,10 +193,8 @@ a plot list similar to the ODS plot list (see above),
 but without any hyperlinks,
 and launch your system’s web browser for displaying it.
 
-.. figure:: _images/plot_menu03.jpg
+.. image:: _images/plot_menu03.jpg
    :alt: Edge browser screenshot
-
-   Edge browser screenshot: Display of the HTML plot list.
 
 .. note::
    The report is a temporary file, auto-deleted on program exit.

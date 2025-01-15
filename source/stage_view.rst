@@ -5,7 +5,7 @@ The Stage properties view opens in the right pane when you
 select a stage in the tree.
 
 
-.. figure:: _images/stage_view01.png
+.. image:: _images/stage_view01.png
    :alt: Screenshot
 
 Title and description
@@ -23,7 +23,7 @@ Links
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/world_view02.png
+.. image:: _images/world_view02.png
    :alt: Screenshot
    
 This is a list for image and research document links.
@@ -54,12 +54,9 @@ Add Link
       By default, the dialog shows image files. For other file types, 
       change the selector in the lower right corner. 
       
-      .. figure:: _images/filePicker01.png
+      .. image:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
-
-
 Remove Link
    When clicking on |Remove| or pressing the ``Del`` key,
    the selected link is removed from the list.
@@ -87,10 +84,8 @@ Open Link
          [SETTINGS]
          .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
          
-      .. figure:: _images/launchers.png
+      .. image:: _images/launchers.png
          :alt: Screenshot
-         
-         Windows Explorer Screenshot
 
 .. |Add| image:: _images/add.png
 .. |Goto| image:: _images/goto.png

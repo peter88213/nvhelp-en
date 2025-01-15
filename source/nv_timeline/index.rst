@@ -19,10 +19,10 @@ a **Create from Timeline...** to the **File > New** submenu,
 and a **Timeline plugin Online Help** entry to the **Help** menu.
 The Toolbar gets a |Timeline| button.
 
-.. figure:: _images/screen01.png
+.. image:: _images/screen01.png
    :alt: novelibre Screenshot
 
-.. figure:: _images/screen02.png
+.. image:: _images/screen02.png
    :alt: novelibre Screenshot
 
 .. |Timeline| image:: _images/tl.png
@@ -70,7 +70,7 @@ the timeline’s file name exists, create a new one from the timeline.
 .. hint::
    To become sections in *novelibre*, *Timeline* Events need a "Section" label.
    
-   .. figure:: _images/event01.png
+   .. image:: _images/event01.png
       :alt: Timeline Screenshot
 
    The idea behind this is that only selected events should be included 

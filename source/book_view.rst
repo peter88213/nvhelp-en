@@ -8,7 +8,7 @@ It is the initial view after opening a *novelibre* project.
 
 .. |Show Book| image:: _images/viewBook.png
 
-.. figure:: _images/book_view01.png
+.. image:: _images/book_view01.png
    :alt: novelibre screenshot
 
 
@@ -24,19 +24,15 @@ anywhere outside the text input field.
 After exporting the book to an *ODT* document, title and description
 appear in the document properties.
 
-.. figure:: _images/book_view08.png
+.. image:: _images/book_view08.png
    :alt: Screenshot
-
-   LibreOffice Writer screenshot
 
 These properties are visible, for example, when the mouse pointer is over
 the document in the Windows Explorer.
 
-.. figure:: _images/book_view09.png
+.. image:: _images/book_view09.png
    :alt: Screenshot
-   
-   Windows Explorer Screenshot
-   
+      
 
 
 Document language
@@ -44,7 +40,7 @@ Document language
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/book_view02.png
+.. image:: _images/book_view02.png
    :alt: novelibre screenshot
 
 - Language code acc. to ISO 639-1
@@ -52,10 +48,8 @@ Expand or collapse this frame by clicking on the label.
 
 This information controls the spelling checker for export documents.
 
-.. figure:: _images/book_view10.png
+.. image:: _images/book_view10.png
    :alt: LibreOffice Writer screenshot
-
-   LibreOffice Writer screenshot
 
 If not set, the System locale setting will be used as default.
 
@@ -63,18 +57,16 @@ If not set, the System locale setting will be used as default.
 .. hint::
    You can also set or change the document language with *Writer*, then it will be applied on import. 
 
-	.. figure:: _images/book_view11.png
+	.. image:: _images/book_view11.png
 	   :alt: LibreOffice Writer screenshot
 	   
-	   LibreOffice Writer screenshot
-
 
 Auto numbering
 --------------
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/book_view03.png
+.. image:: _images/book_view03.png
    :alt: novelibre screenshot
 
 Auto number chapters/parts when refreshing the tree
@@ -110,7 +102,7 @@ Renamings
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/book_view04.png
+.. image:: _images/book_view04.png
    :alt: novelibre screenshot
 
 *novelibre* provides some ready-made fields for sections and characters
@@ -147,7 +139,7 @@ Narrative time
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/book_view05.png
+.. image:: _images/book_view05.png
    :alt: novelibre screenshot
 
 To get an overview of the course of the narrative time, you can enter
@@ -194,7 +186,7 @@ Writing progress
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/book_view06.png
+.. image:: _images/book_view06.png
    :alt: novelibre screenshot
 
 With *novelibre*, you can set a word count target and track your
@@ -247,7 +239,7 @@ Links
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/world_view02.png
+.. image:: _images/world_view02.png
    :alt: Screenshot
    
 This is a list for image and research document links.
@@ -278,11 +270,9 @@ Add Link
       By default, the dialog shows image files. For other file types, 
       change the selector in the lower right corner. 
       
-      .. figure:: _images/filePicker01.png
+      .. image:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
-
 
 Remove Link
    When clicking on |Remove| or pressing the ``Del`` key,
@@ -311,10 +301,9 @@ Open Link
          [SETTINGS]
          .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
          
-      .. figure:: _images/launchers.png
+      .. image:: _images/launchers.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
 
 .. |Add| image:: _images/add.png
 .. |Goto| image:: _images/goto.png
@@ -328,13 +317,11 @@ A cover thumbnail is displayed with the book properties if you
 provide a PNG image file with the project name along with the *.novx*
 file. The recommended image width is 100 to 200 pixels.
 
-.. figure:: _images/book_view12.png
+.. image:: _images/book_view12.png
    :alt: Windows Explorer Screenshot
    
-   Windows Explorer Screenshot
    
-.. figure:: _images/book_view07.jpg
+.. image:: _images/book_view07.jpg
    :alt: novelibre screenshot
 
-   novelibre screenshot
 

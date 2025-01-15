@@ -16,7 +16,7 @@ Backup options
 With **Tools >  Backup options**,
 you can open a dialog for settings concerning the backup.
 
-.. figure:: _images/tools_menu02.png
+.. image:: _images/tools_menu02.png
    :alt: novelibre Screenshot
 
 
@@ -74,7 +74,7 @@ Plugin manager
 With **Tools > Plugin manager**,
 you can open the *Installed plugins* dialog.
 
-.. figure:: _images/tools_menu01.png
+.. image:: _images/tools_menu01.png
    :alt: novelibre screenshot
 
 -  Successfully installed plugins are displayed black on white by

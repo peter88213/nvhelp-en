@@ -4,10 +4,8 @@ Desktop overview
 
 The *novelibre* desktop is divided into three panes:
 
-.. figure:: _images/desktop01.png
+.. image:: _images/desktop01.png
    :alt: Desktop
-
-   Desktop
 
 
 Project tree
@@ -155,12 +153,13 @@ and metadata of the element selected in the project tree.
 On large screens, you can arrange *novelibre* and *Writer* with detached
 windows.
 
-.. figure:: _images/full_desktop.png
+The following picture shows an example:
+Arranging LibreOffice (middle) with detached Navigator (upper left),
+and novelibre (lower left) with detached Properties (right)
+
+.. image:: _images/full_desktop.png
    :alt: Writer and novelibre screen arrangement
    
-   Example: Arranging LibreOffice (middle) with detached Navigator (upper left), 
-   and novelibre (lower left) with detached Properties (right) 
-
 
 .. |Go back| image:: _images/goBack.png
 .. |Go forward| image:: _images/goForward.png

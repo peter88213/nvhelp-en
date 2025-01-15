@@ -8,7 +8,7 @@ you can open a pop-up window with a list containing previously
 exported ODF documents that can be reimported, thus updating the
 current project.
 
-.. figure:: _images/import_menu01.png
+.. image:: _images/import_menu01.png
    :alt: novelibre screenshot
 
 -  The document types and dates are shown.

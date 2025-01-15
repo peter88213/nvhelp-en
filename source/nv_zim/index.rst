@@ -204,7 +204,7 @@ All
 Book/Characters/Locations/Items properties
 ------------------------------------------
 
-.. figure:: _images/wiki_button01.png
+.. image:: _images/wiki_button01.png
    :alt: novelibre Screenshot
 
 

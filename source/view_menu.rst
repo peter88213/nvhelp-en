@@ -150,7 +150,7 @@ Options
 With **View >  Options**,
 you can open a dialog for settings concerning the display.
 
-.. figure:: _images/view_menu02.png
+.. image:: _images/view_menu02.png
    :alt: novelibre screenshot
 
 

@@ -18,7 +18,7 @@ The plugin adds a **Matrix** entry to the *novelibre* **Tools** menu,
 and a **Matrix plugin Online help** entry to the **Help** menu.
 The Toolbar gets a |Matrix| button.
 
-.. figure:: _images/screen01.png
+.. image:: _images/screen01.png
    :alt: novelibre Screenshot
 
 .. |Matrix| image:: _images/matrix.png

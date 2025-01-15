@@ -5,7 +5,7 @@ The Section properties view opens in the right pane when you
 select a section in the tree.
 
 
-.. figure:: _images/section_view01.png
+.. image:: _images/section_view01.png
    :alt: Screenshot
 
 Title and description
@@ -56,7 +56,7 @@ Plot
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/section_view04.png
+.. image:: _images/section_view04.png
    :alt: Screenshot
 
 Plot lines
@@ -120,15 +120,15 @@ Scene
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/section_view03.png
+Here is an example of an "action scene":
+
+.. image:: _images/section_view03.png
    :alt: Screenshot
 
-   Example of an "action scene"
+Here is an example of a "reaction scene" or "sequel":
 
-.. figure:: _images/section_view08.png
+.. image:: _images/section_view08.png
    :alt: Screenshot
-
-   Example of a "reaction scene" or "sequel"
 
 There is a popular theory for "selling writers" that suggests novels
 are best divided into scenes, alternating between "action scenes" and
@@ -140,11 +140,11 @@ to set up a dramaturgical scene micro-structure, you can set the section
 to **Other**, and get three `freely named <book_view.html#renamings>`_
 text fields.
 
-.. figure:: _images/section_view06.png
+Here is an example of a non-standard scene category:
+
+.. image:: _images/section_view06.png
    :alt: Screenshot
    
-   Example of a non-standard scene category
-
 On the other hand, not every section is a scene to which the categories
 mentioned above apply. Sections can be characterized by mode of discourse
 (e.g. Narration, Dramatic action, Dialogue, Description, Exposition).
@@ -152,19 +152,18 @@ So if a section is not staged, you can set the section to **Not a scene**,
 and get three `freely named <book_view.html#renamings>`_
 text fields.
 
-.. figure:: _images/section_view07.png
+Here is an example of a non-staged section category:
+
+.. image:: _images/section_view07.png
    :alt: Screenshot
    
-   Example of a non-staged section category
-
-
 
 Relationships
 -------------
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/section_view02.png
+.. image:: _images/section_view02.png
    :alt: Screenshot
 
 If you want to associate characters, locations, and items with the
@@ -222,7 +221,7 @@ Editing can be completed by pressing the ``Enter`` key.
    <https://github.com/peter88213/nv_timeline/>`__, or the 
    `Aeon Timeline 2 plugin <https://github.com/peter88213/nv_aeon2/>`__.
 
-.. figure:: _images/section_view05.png
+.. image:: _images/section_view05.png
    :alt: Screenshot
 
 Start
@@ -246,7 +245,7 @@ Day
 Moon phase
    If the required date information is set, you can call up the corresponding moon phase.
 
-   .. figure:: _images/section_view09.png
+   .. image:: _images/section_view09.png
       :alt: Screenshot
 
    The moon phase information consists of:
@@ -306,7 +305,7 @@ Links
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/world_view02.png
+.. image:: _images/world_view02.png
    :alt: Screenshot
    
 This is a list for image and research document links.
@@ -337,11 +336,9 @@ Add Link
       By default, the dialog shows image files. For other file types, 
       change the selector in the lower right corner. 
       
-      .. figure:: _images/filePicker01.png
+      .. image:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
-
 
 Remove Link
    When clicking on |Remove| or pressing the ``Del`` key,
@@ -370,11 +367,9 @@ Open Link
          [SETTINGS]
          .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
          
-      .. figure:: _images/launchers.png
+      .. image:: _images/launchers.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
-
 
 "Sticky note"
 -------------

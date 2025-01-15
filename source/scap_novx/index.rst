@@ -111,20 +111,16 @@ directory under
 You can either use this diagram as a template,
 or import the styles into your own Scapple diagram.
 
-.. figure:: _images/import_styles.png
+.. image:: _images/import_styles.png
    :alt: Screenshot
-
-   Screenshot: Import styles dialog
    
 In the file picker dialog, select ``<unzipped scap_novx release
 folder>\sample\styles.scap``. Then you can apply the styles
 via context menu.
 
-.. figure:: _images/apply_styles.png
+.. image:: _images/apply_styles.png
    :alt: Screenshot
    
-   Screenshot: Apply style menu
-
    
 Mark sections
 ~~~~~~~~~~~~~
@@ -132,11 +128,9 @@ Mark sections
 Either apply the "Section" style, if any, via context menu,
 or tick "Shadow" in the Inspector to mark the note as section.
 
-.. figure:: _images/mark_section.png
+.. image:: _images/mark_section.png
    :alt: Screenshot
-   
-   Screenshot: Set note shadow
-   
+      
 
 Mark notes
 ~~~~~~~~~~
@@ -158,11 +152,9 @@ Mark locations
 Either apply the "Location" style, if any, via context menu,
 or tick the big blue field above the text color swatch in the Inspector.
 
-.. figure:: _images/mark_location.png
+.. image:: _images/mark_location.png
    :alt: Screenshot
    
-   Screenshot: Set text color
-
    
 Mark major characters
 ~~~~~~~~~~~~~~~~~~~~~

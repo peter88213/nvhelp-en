@@ -32,10 +32,8 @@ Step 1
    - Either launch the downloaded **novelibre_vx.x.x.pyzw**
      file by double-clicking (Windows/Linux desktop),
 
-     .. figure:: _images/preparations11.png
+     .. image:: _images/preparations11.png
         :alt: Example (Windows Explorer)
-
-        Example (Windows Explorer)
 
    - or execute
 
@@ -43,31 +41,25 @@ Step 1
 
      ```python3 novelibre_vx.x.x.pyzw``` (Linux) on the command line.
 
-     .. figure:: _images/preparations12.png
+     .. image:: _images/preparations12.png
         :alt: Example (Windows command line)
-
-        Example (Windows command line)
 
    *"x.x.x"* means the version number.
 
    In both cases, a pop-up window should appear indicating
    that the installation was successful.
 
-   .. figure:: _images/preparations13.png
+   .. image:: _images/preparations13.png
       :alt: Example (Windows)
-
-      Example (Windows)
 
    .. important::
       Many web browsers recognize the download as an executable file 
       and offer to open it immedately. 
       This starts the installation.
     
-      .. figure:: _images/preparations14.png
+      .. image:: _images/preparations14.png
          :alt: Beispiel (Chrome browser)
-         
-         Example (Chrome browser)
-      
+               
       However, depending on your security settings, your browser may 
       initially  refuse  to download the executable file. 
       In this case, your confirmation or an additional action is required. 
@@ -92,7 +84,7 @@ Making novelibre accessible on the Desktop
    
    ``python3 /home/peter/.novx/run.pyw %F``
    
-    .. figure:: _images/preparations15.png
+    .. image:: _images/preparations15.png
       :alt: Xubuntu screenshot
    
    You might have to copy the *novelibre* icons to a dedicated image 
@@ -111,7 +103,7 @@ Making novelibre accessible on the Desktop
 Step 2
    Open the installation folder.
 
-   .. figure:: _images/preparations05.png
+   .. image:: _images/preparations05.png
       :alt: novelibre screenshot
 
 Step 3
@@ -120,7 +112,7 @@ Step 3
    *novelibre* from the Windows desktop. Now you can also
    drag and drop *.novx* project files to this shortcut.
 
-   .. figure:: _images/preparations06.png
+   .. image:: _images/preparations06.png
       :alt: novelibre screenshot
 
 Step 4
@@ -136,7 +128,7 @@ Step 4
    ``<home>\.novx\icons`` and double-click on the "N" logo
    (3).
 
-   .. figure:: _images/preparations07.png
+   .. image:: _images/preparations07.png
       :alt: novelibre screenshot
 
 Step 5
@@ -145,7 +137,7 @@ Step 5
    dialog. In the first tab, replace "Shortcut to run.pyw"
    with "novelibre".
 
-   .. figure:: _images/preparations08.png
+   .. image:: _images/preparations08.png
       :alt: novelibre screenshot
 
 
@@ -165,7 +157,7 @@ Step 6
    you can inspect the *add_novelibre.reg* file with a text editor
    or ask an expert you trust.
 
-   .. figure:: _images/preparations09.png
+   .. image:: _images/preparations09.png
       :alt: novelibre screenshot
 
    .. hint::
@@ -223,13 +215,13 @@ For the whole thing to work, it is extremely important that you
 only write within the section boundaries. To do this, you might
 want to make the section boundaries visible in the *Writer* settings.
 
-.. figure:: _images/preparations01.png
-   :alt: LibreOffice 7.6 screenshot
+The following picture shows a LibreOffice 7.6 screenshot.
+Make sure the **Section boundaries** box in the
+**Tools > Options > Application Colors** dialog is ticked.
+Writing outsides the visible section boundaries has no effect on your *novelibre* project.
 
-   LibreOffice 7.6 screenshot: Make sure the **Section boundaries**
-   box in the **Tools > Options > Application Colors** dialog
-   is ticked. Writing outsides the visible section boundaries
-   has no effect on your *novelibre* project.
+.. image:: _images/preparations01.png
+   :alt: LibreOffice 7.6 screenshot
 
 .. hint::
    With OpenOffice and older versions of LibreOffice 
@@ -247,11 +239,11 @@ By default, it appears as a pop-up window that can be placed anywhere
 on the screen. To dock it, double-click in a free gray space while holding
 down the ``Ctrl`` key, as shown in the following image.
 
-.. figure:: _images/preparations02.png
-   :alt: LibreOffice Writer screenshot
+The following picture shows a LibreOffice Writer screenshot.
+The red "X" indicates the position for double-clicking.
 
-   LibreOffice Writer screenshot: The red "X" indicates the position for
-   double-clicking.
+.. image:: _images/preparations02.png
+   :alt: LibreOffice Writer screenshot
 
 .. tip::
    The Navigator displays a confusing wealth of information. 
@@ -259,11 +251,12 @@ down the ``Ctrl`` key, as shown in the following image.
    "Headings" at the top of the tree and then click on the "Content Navigation View" 
    icon. This works if a document containing headings is loaded. 
 
-   .. figure:: _images/preparations03.png
+   The following picture shows a LibreOffice Writer screenshot. 
+   The red "O" indicates the icon to click on.
+
+   .. image:: _images/preparations03.png
       :alt: LibreOffice Writer screenshot
    
-      LibreOffice Writer screenshot: The red "O" indicates the icon to click on.
-
 
 Customizing the look of your manuscript
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -304,11 +297,9 @@ your manuscript with a single mouse click.
    *novelibre* uses "Courier New" for text documents, and "Calibri" 
    for spreadsheets. 
    
-   .. figure:: _images/preparations10.png
+   .. image:: _images/preparations10.png
       :alt: LibreOffice screenshot
    
-      LibreOffice Options dialog screenshot.
-
 .. tip::
    If you prefer simple blank lines instead of the three-asterisks
    section separators in your final document,

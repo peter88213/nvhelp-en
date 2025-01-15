@@ -10,10 +10,8 @@ If you want to divide a story into stages according to a structure model
 insert the stages between the regular sections at the beginning of each
 phase. This gives you color-coded subheadings in the tree view.
 
-.. figure:: _images/acts01.png
+.. image:: _images/acts01.png
    :alt: Acts
-
-   Acts
 
 With the `nv_templates plugin
 <https://github.com/peter88213/nv_templates/>`__ you can
@@ -28,10 +26,8 @@ Defining plot lines
 *novelibre* provides *plot lines* as a powerful and flexible concept for
 plotting.
 
-.. figure:: _images/plotlines01.png
+.. image:: _images/plotlines01.png
    :alt: Plot lines
-
-   Plot lines
 
 "Plot line" can mean a variety of things: narrative strand,
 thread, character arc, storyline, subplot, sequence of cause and effect,
@@ -55,10 +51,8 @@ You can use plot lines to establish named connections between sections, such as
 *setup → payoff*, so you can keep track of this relationship even if
 the sections are far away from each other.
 
-.. figure:: _images/causality01.png
+.. image:: _images/causality01.png
    :alt: Example
-
-   Setup/payoff example
 
 
 Plot grid
@@ -74,10 +68,8 @@ Where the `plot line notes <section_view.html#plot-lines>`__ are shown.
 The plot grid offers you a convenient way to enter the plot line notes by
 seeing the big pictures of your plot construction.
 
-.. figure:: _images/plot_grid01.png
+.. image:: _images/plot_grid01.png
    :alt: Example
-
-   Plot grid example
 
 
 .. hint::

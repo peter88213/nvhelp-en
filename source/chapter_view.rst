@@ -10,7 +10,7 @@ You can edit the properties of the selected chapter or part.
    Level** entry in the context menu, the **Part** menu, or the **Chapter** 
    menu.
    
-.. figure:: _images/chapter_view01.png
+.. image:: _images/chapter_view01.png
    :alt: Screenshot
 
 Title and description
@@ -49,7 +49,7 @@ Links
 
 Expand or collapse this frame by clicking on the label.
 
-.. figure:: _images/world_view02.png
+.. image:: _images/world_view02.png
    :alt: Screenshot
    
 This is a list for image and research document links.
@@ -80,11 +80,9 @@ Add Link
       By default, the dialog shows image files. For other file types, 
       change the selector in the lower right corner. 
       
-      .. figure:: _images/filePicker01.png
+      .. image:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
-
 
 Remove Link
    When clicking on |Remove| or pressing the ``Del`` key,
@@ -113,10 +111,9 @@ Open Link
          [SETTINGS]
          .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
          
-      .. figure:: _images/launchers.png
+      .. image:: _images/launchers.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
 
 .. |Add| image:: _images/add.png
 .. |Goto| image:: _images/goto.png
