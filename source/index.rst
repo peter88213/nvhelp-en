@@ -26,6 +26,7 @@ release. You can open it with **Help > Online help**.
    writing
    plotting
    metadata
+   taking_notes
    wordcount
    story_time
    series
@@ -33,6 +34,7 @@ release. You can open it with **Help > Online help**.
    properties
    plugins
    utilities
+   program_errors
    abandon_novelibre
    about
 

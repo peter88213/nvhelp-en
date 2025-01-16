@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Plotting with novelibre &mdash; novelibre User guide 5.9.2 documentation</title>
+  <title>Program errors &mdash; novelibre User guide 5.9.2 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -21,8 +21,8 @@
     <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Keeping the metadata in sight" href="metadata.html" />
-    <link rel="prev" title="Writing the manuscript" href="writing.html" /> 
+    <link rel="next" title="Abandoning novelibre" href="abandon_novelibre.html" />
+    <link rel="prev" title="novx_xtg" href="novx_xtg/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -52,12 +52,7 @@
 <li class="toctree-l1"><a class="reference internal" href="basic_concepts.html">Basic concepts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="writing.html">Writing the manuscript</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Plotting with novelibre</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#applying-a-story-structure-model">Applying a story structure model</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#defining-plot-lines">Defining plot lines</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#plot-grid">Plot grid</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="plotting.html">Plotting with novelibre</a></li>
 <li class="toctree-l1"><a class="reference internal" href="metadata.html">Keeping the metadata in sight</a></li>
 <li class="toctree-l1"><a class="reference internal" href="taking_notes.html">Taking notes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="wordcount.html">Word count and writing progress</a></li>
@@ -67,7 +62,17 @@
 <li class="toctree-l1"><a class="reference internal" href="properties.html">Properties reference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugins</a></li>
 <li class="toctree-l1"><a class="reference internal" href="utilities.html">Utilities</a></li>
-<li class="toctree-l1"><a class="reference internal" href="program_errors.html">Program errors</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Program errors</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-to-do-in-case-of-error">What to do in case of error?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#save-your-data">1. Save your data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#update-the-application-and-all-plugins">2. Update the application and all plugins</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#uninstall-plugins">3. Uninstall plugins</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#return-to-an-old-version">4. Return to an old version</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#report-the-bug">5. Report the bug</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="abandon_novelibre.html">Abandoning novelibre</a></li>
 <li class="toctree-l1"><a class="reference internal" href="about.html">About this user guide</a></li>
 </ul>
@@ -86,7 +91,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Plotting with novelibre</li>
+      <li class="breadcrumb-item active">Program errors</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -95,63 +100,63 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="plotting-with-novelibre">
-<h1>Plotting with novelibre<a class="headerlink" href="#plotting-with-novelibre" title="Link to this heading"></a></h1>
-<section id="applying-a-story-structure-model">
-<h2>Applying a story structure model<a class="headerlink" href="#applying-a-story-structure-model" title="Link to this heading"></a></h2>
-<p>If you want to divide a story into stages according to a structure model
-(e.g. the <em>Three Act Model</em>, or the <em>Save The Cat</em> beatsheet), just
-insert the stages between the regular sections at the beginning of each
-phase. This gives you color-coded subheadings in the tree view.</p>
-<img alt="Acts" src="_images/acts01.png" />
-<p>With the <a class="reference external" href="https://github.com/peter88213/nv_templates/">nv_templates plugin</a> you can
-load pre-made story structure models from Markdown template files, and
-you can save the story structure of your project for reuse.</p>
+  <section id="program-errors">
+<h1>Program errors<a class="headerlink" href="#program-errors" title="Link to this heading"></a></h1>
+<p><em>novelibre</em> has proven to be very stable in daily use.
+There are no mysterious crashes and no third-party program packages are used,
+as they occasionally cause problems with other application programs.</p>
+<p>Nevertheless, there is no guarantee that it is free of bugs.
+<em>novelibre</em> has an open program architecture to enable extensive functional
+extensions through plugins.
+Unfortunately, this also means that a bug in one plugin can affect the entire program.</p>
+<section id="what-to-do-in-case-of-error">
+<h2>What to do in case of error?<a class="headerlink" href="#what-to-do-in-case-of-error" title="Link to this heading"></a></h2>
+<section id="save-your-data">
+<h3>1. Save your data<a class="headerlink" href="#save-your-data" title="Link to this heading"></a></h3>
+<p>If a program error occurs that does not lead to a hard termination, a warning window
+should open recommending that the program session be terminated.
+In this case, you can try to save changes.</p>
 </section>
-<hr class="docutils" />
-<section id="defining-plot-lines">
-<h2>Defining plot lines<a class="headerlink" href="#defining-plot-lines" title="Link to this heading"></a></h2>
-<p><em>novelibre</em> provides <em>plot lines</em> as a powerful and flexible concept for
-plotting.</p>
-<img alt="Plot lines" src="_images/plotlines01.png" />
-<p>“Plot line” can mean a variety of things: narrative strand,
-thread, character arc, storyline, subplot, sequence of cause and effect,
-sequence of setup and payoff, and so on.
-You can think of a plot line as a line on which plot points are arranged
-that characterize the progression of the story.
-These plot points can be assigned to sections to indicate the section’s
-relevance to the plot.</p>
-<ul class="simple">
-<li><p><em>novelibre</em> lets you define any number of plot lines.</p></li>
-<li><p>Any number of sections can be assigned to each plot line.</p></li>
-<li><p>Any number of plot lines can be assigned to each section.</p></li>
-<li><p>Each plot line can contain any number of plot points.</p></li>
-<li><p>Each plot point can be assigned to exactly one section.</p></li>
-<li><p>Any number of plot points can be assigned to each section.</p></li>
-</ul>
-<p>The association of sections and plot points is shown in the “Plot points”
-column of the tree view.</p>
-<p>You can use plot lines to establish named connections between sections, such as
-<em>setup → payoff</em>, so you can keep track of this relationship even if
-the sections are far away from each other.</p>
-<img alt="Example" src="_images/causality01.png" />
+<section id="update-the-application-and-all-plugins">
+<h3>2. Update the application and all plugins<a class="headerlink" href="#update-the-application-and-all-plugins" title="Link to this heading"></a></h3>
+<p>Please make sure you have the latest version of
+<em>novelibre</em> and all its plugins.
+If you have an outdated version of the program, the error you are experiencing
+might already have been fixed.</p>
 </section>
-<section id="plot-grid">
-<h2>Plot grid<a class="headerlink" href="#plot-grid" title="Link to this heading"></a></h2>
-<p>The <em>novelibre</em> <a class="reference external" href="plot_menu.html#export-plot-grid-for-editing">plot grid</a> is a spreadsheet with a row for
-each section, and a set of plot-relevant section metadata in the columns.
-The first visible column contains links to the sections in the
-<a class="reference external" href="export_menu.html#manuscript-for-editing">manuscript</a>.
-Each plot line has its own column in the plot grid,
-Where the <a class="reference external" href="section_view.html#plot-lines">plot line notes</a> are shown.
-The plot grid offers you a convenient way to enter the plot line notes by
-seeing the big pictures of your plot construction.</p>
-<img alt="Example" src="_images/plot_grid01.png" />
+<section id="uninstall-plugins">
+<h3>3. Uninstall plugins<a class="headerlink" href="#uninstall-plugins" title="Link to this heading"></a></h3>
+<p>If <em>novelibre</em> can be started, open the
+<a class="reference external" href="tools_menu.html#plugin-manager">plugin manager</a>,
+delete all plugins one after the other, and restart <em>novelibre</em>.
+If the error can no longer be reproduced, you can
+continue working without plugins for the time being.</p>
+</section>
+<section id="return-to-an-old-version">
+<h3>4. Return to an old version<a class="headerlink" href="#return-to-an-old-version" title="Link to this heading"></a></h3>
+<p>If none of this helps, but you have been working with <em>novelibre</em> for a long time
+without any problems, the problem may have been introduced with a faulty update.
+If you still have the previous program version in your <em>Download</em> folder,
+reinstall it (and the old plugins if any).</p>
+</section>
+<section id="report-the-bug">
+<h3>5. Report the bug<a class="headerlink" href="#report-the-bug" title="Link to this heading"></a></h3>
+<p>In the installation directory of <em>novelibre</em> there should be a text file named
+<cite>error.log</cite>, which lists the lines of code that led to the error.
+The content of this file can help the developer to fix the problem.</p>
+<p>So if you want to contribute to the improvement of <em>novelibre</em>, you can submit a bug report
+<a class="reference external" href="https://github.com/peter88213/novelibre/issues">on the corresponding GitHub page</a>.
+However, you need a user account to do this, which is free of charge.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>You can assign a section to a plot line by entering text
-in the corresponding <em>Plot line notes</em> cell of the plot grid.</p>
+<p>Take a look at the issues to see whether your error has already been reported.
+If this is the case, you can add a comment to this issue.</p>
+<p>If you know your way around a little, you can also take a look at the closed
+issues and reopen one if necessary.</p>
+<p>If you are reporting a new bug, please fill out the <em>Bug report</em> form.
+Please indicate which plugins you have installed.</p>
 </div>
+</section>
 </section>
 </section>
 
@@ -159,8 +164,8 @@ in the corresponding <em>Plot line notes</em> cell of the plot grid.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="writing.html" class="btn btn-neutral float-left" title="Writing the manuscript" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="metadata.html" class="btn btn-neutral float-right" title="Keeping the metadata in sight" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="novx_xtg/index.html" class="btn btn-neutral float-left" title="novx_xtg" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="abandon_novelibre.html" class="btn btn-neutral float-right" title="Abandoning novelibre" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
