@@ -176,13 +176,6 @@ when the mouse is clicked anywhere outside the text input field.
 When the "sticky note" of a character contains text, "N" is
 displayed in the tree view as a reminder.
 
-.. note::
-   The "sticky notes" are only for working with *novelibre*.
-   They are not meant to be exported into a document.
-   However, they appear in the `character list`_.
-
-.. _character list: characters_menu.html#export-character-list-spreadsheet
-
 
 Navigation buttons
 ------------------

@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Program errors &mdash; novelibre User guide 5.9.2 documentation</title>
+  <title>Program errors &mdash; novelibre User guide 5.10.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=fcdf11de"></script>
+      <script src="_static/documentation_options.js?v=37a77667"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
@@ -63,14 +63,7 @@
 <li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugins</a></li>
 <li class="toctree-l1"><a class="reference internal" href="utilities.html">Utilities</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Program errors</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#what-to-do-in-case-of-error">What to do in case of error?</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#save-your-data">1. Save your data</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#update-the-application-and-all-plugins">2. Update the application and all plugins</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#uninstall-plugins">3. Uninstall plugins</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#return-to-an-old-version">4. Return to an old version</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#report-the-bug">5. Report the bug</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#what-to-do-in-case-of-error">What to do in case of error?</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="abandon_novelibre.html">Abandoning novelibre</a></li>
@@ -111,41 +104,38 @@ extensions through plugins.
 Unfortunately, this also means that a bug in one plugin can affect the entire program.</p>
 <section id="what-to-do-in-case-of-error">
 <h2>What to do in case of error?<a class="headerlink" href="#what-to-do-in-case-of-error" title="Link to this heading"></a></h2>
-<section id="save-your-data">
-<h3>1. Save your data<a class="headerlink" href="#save-your-data" title="Link to this heading"></a></h3>
+<ol class="arabic">
+<li><p>Save your data</p>
 <p>If a program error occurs that does not lead to a hard termination, a warning window
 should open recommending that the program session be terminated.
 In this case, you can try to save changes.</p>
-</section>
-<section id="update-the-application-and-all-plugins">
-<h3>2. Update the application and all plugins<a class="headerlink" href="#update-the-application-and-all-plugins" title="Link to this heading"></a></h3>
+</li>
+<li><p>Update the application and all plugins</p>
 <p>Please make sure you have the latest version of
 <em>novelibre</em> and all its plugins.
 If you have an outdated version of the program, the error you are experiencing
 might already have been fixed.</p>
-</section>
-<section id="uninstall-plugins">
-<h3>3. Uninstall plugins<a class="headerlink" href="#uninstall-plugins" title="Link to this heading"></a></h3>
+</li>
+<li><p>Uninstall plugins</p>
 <p>If <em>novelibre</em> can be started, open the
 <a class="reference external" href="tools_menu.html#plugin-manager">plugin manager</a>,
 delete all plugins one after the other, and restart <em>novelibre</em>.
 If the error can no longer be reproduced, you can
 continue working without plugins for the time being.</p>
-</section>
-<section id="return-to-an-old-version">
-<h3>4. Return to an old version<a class="headerlink" href="#return-to-an-old-version" title="Link to this heading"></a></h3>
+</li>
+<li><p>Return to an old version</p>
 <p>If none of this helps, but you have been working with <em>novelibre</em> for a long time
 without any problems, the problem may have been introduced with a faulty update.
 If you still have the previous program version in your <em>Download</em> folder,
 reinstall it (and the old plugins if any).</p>
-</section>
-<section id="report-the-bug">
-<h3>5. Report the bug<a class="headerlink" href="#report-the-bug" title="Link to this heading"></a></h3>
+</li>
+<li><p>Report the bug</p>
 <p>In the installation directory of <em>novelibre</em> there should be a text file named
 <cite>error.log</cite>, which lists the lines of code that led to the error.
 The content of this file can help the developer to fix the problem.</p>
-<p>So if you want to contribute to the improvement of <em>novelibre</em>, you can submit a bug report
-<a class="reference external" href="https://github.com/peter88213/novelibre/issues">on the corresponding GitHub page</a>.
+<p>So if you want to contribute to the improvement of <em>novelibre</em>, you can go to the
+home page of <em>novelibre</em> or a plugin which may look suspicious,
+and submit a bug report in the <em>Issues</em> section.
 However, you need a user account to do this, which is free of charge.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
@@ -156,7 +146,8 @@ issues and reopen one if necessary.</p>
 <p>If you are reporting a new bug, please fill out the <em>Bug report</em> form.
 Please indicate which plugins you have installed.</p>
 </div>
-</section>
+</li>
+</ol>
 </section>
 </section>
 

@@ -103,10 +103,6 @@ displayed in the tree view as a reminder. If the branch of a chapter
 with stages containing notes is collapsed, the "N" is displayed
 in the chapter row.
 
-.. note::
-   The "sticky notes" are only for working with *novelibre*.
-   They are not meant to be exported into a document.
-
 
 Navigation buttons
 ------------------

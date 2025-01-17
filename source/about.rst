@@ -5,7 +5,7 @@ About this user guide
 License information
 -------------------
 
-Copyright (c) 2024 by Peter Triesberger.
+Copyright (c) 2025 by Peter Triesberger.
 
 This material may be distributed only subject to the terms and conditions
 set forth in the Open Publication License, v1.0 or later (the latest version

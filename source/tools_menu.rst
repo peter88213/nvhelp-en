@@ -7,6 +7,7 @@ Tools menu
    The *Tools* menu can be extended by plugins to add more
    features.
 
+-----------------
 
 Backup options
 --------------
@@ -54,6 +55,7 @@ the file name extension is given the suffix ``#``.
    This allows you to temporarily switch off the backup, 
    whereby the backup directory remains set.
 
+-----------------
 
 Open installation folder
 ------------------------
@@ -65,6 +67,7 @@ you can launch the file manager with the *novelibre* installation folder.
 This might come in handy if you wish to edit configuration files,
 or install your own plugins.
 
+-----------------
 
 Plugin manager
 --------------
@@ -118,4 +121,18 @@ How to uninstall a plugin
       -  If the plugin’s *novelibre API* minor version number is greater than
          *novelibre’s* minor version number, *novelibre* needs to be updated.
 
+-----------------
 
+Show notes
+----------
+
+**Show an HTML report with all the "sticky notes"**
+
+With **Tools > Show notes**,
+you can create a list-formatted HTML file that contains all "sticky notes"
+along with the titles of the tree elements they are associated with,
+and launch your system’s web browser for displaying it.
+
+.. note::
+   The report is a temporary file, auto-deleted on program exit.
+   If needed, you can have your web browser save or print it.

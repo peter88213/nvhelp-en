@@ -29,6 +29,9 @@ you work with the elements of the project tree.
 Most of them have a yellow text input field for notes among their properties.
 If such a field contains text, an "N" appears in the project tree.
 
+Via the *Tools* menu, the "sticky notes" can be displayed in list form in the web browser.
+You have a limited export option via the download function of the web browser.
+
 
 Project notes
 -------------
@@ -37,7 +40,8 @@ For flashes of inspiration, general research results and miscellaneous,
 *novelibre* offers its own category of project notes.
 A project note is listed in the project tree and consists of an
 index card with title and content, as well as an optional collection of links.
-Project notes can also be displayed in list form in the web browser.
+
+The project notes can also be displayed in list form in the web browser.
 You have a limited export option via the download function of the web browser.
 
 
