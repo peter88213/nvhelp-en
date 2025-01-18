@@ -75,11 +75,13 @@ Restore backup
 **Restore the latest backup file**
 
 With **File > Restore backup** or ``Ctrl``-``B``,
-you can overwrite the project in the memory
-with the latest backup file.
+you can load the penultimate version of the project file.
+This will overwrite the last saved project file.
 You will get a warning, because changes may be lost.
 
-.. hint::
+.. note::
+   "Backup file" means the file with the ``.bak`` extension in the project directory. 
+
    After restoring the backup, a backup copy is no longer available
    in the project directory.
    A new backup copy is created when saving the project.
