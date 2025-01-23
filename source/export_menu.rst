@@ -34,6 +34,8 @@ File name suffix is ``_manuscript_tmp``.
 
 -  Text markup: Bold and italics are supported. Other highlighting such
    as underline and strikethrough are lost.
+-  Change tracking: All changes are accepted on import.
+   Change tracking data is lost.
 
 
 Manuscript for third-party word processing
@@ -77,6 +79,8 @@ File name suffix is ``_proof_tmp``.
 
 -  Text markup: Bold and italics are supported. Other highlighting such
    as underline and strikethrough are lost.
+-  Change tracking: All changes are accepted on import.
+   Change tracking data is lost.
 
 
 Final manuscript document (export only)
