@@ -99,7 +99,8 @@ dedicated timeline software such as the free
 which opens up completely new possibilities for planning
 of the narrative plot.
 
-As a computer program, *novelibre* has to save its data somehow.
+As a computer program, *novelibre* has to
+`save <saving_data.html>`__ its data somehow.
 To do this, it uses an open and well-documented file format,
 so that nobody has to worry that his novel will at some point
 "be stuck in the program and no longer wants to come out".

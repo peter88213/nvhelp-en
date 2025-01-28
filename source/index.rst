@@ -22,12 +22,14 @@ release. You can open it with **Help > Online help**.
    preparations
    desktop
    basic_concepts
+   saving_data
    getting_started
    writing
    plotting
    metadata
    taking_notes
    wordcount
+   going_outside
    story_time
    series
    command_reference
