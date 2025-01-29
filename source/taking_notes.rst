@@ -16,7 +16,6 @@ While writing the manuscript, you can insert comments into the
 running text with *Writer*, which then appear as small colored text boxes
 in the right margin if set accordingly.
 This is very practical for placeholders or markers, for example.
-*novelibre* takes over such comments when importing manuscripts.
 *novelibre* adopts such comments during manuscript import,
 and the text viewer displays them in color.
 
