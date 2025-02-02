@@ -36,25 +36,23 @@ General
 
 To launch the `Zim Desktop Wiki <https://zim-wiki.org/>`__
 application, *nv_zim* must know the location of its installation.
-At program startup, it checks the *launchers.ini* file in the
-*novelibre* configuration directory.
-Here is an example with a Windows entry:
+If you have installed Zim in the default directory, there is nothing to do here.
 
-::
-
-   [SETTINGS]
-   .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe
-
-If this file doesn't exist, or the path doesn't fit,
-the program searches the default installation paths for the 32-bit
-and the 64-bit versions under Windows.
-If this fails, it opens a file selection dialog, asking for the location.
-So under Windows, the users may have nothing to do.
-
-Linux users might want to find out where the Zim installation is located
-on their system, and either enter this path into a self-made
-**~/.novx/launchers.ini** file, or select it with the file picker dialog
-when asked.
+.. note::
+   At program startup, *nv_zim* checks the *launchers.ini* file in the
+   *novelibre* configuration directory.
+   Here is an example with a Windows entry:
+   
+   ::
+   
+      [SETTINGS]
+      .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe
+   
+   If this file doesn't exist, or the path doesn't fit,
+   the program searches the default installation paths for the 32-bit
+   and the 64-bit versions under Windows, as well as ``/usr/bin/zim`` under Linux.
+   If this fails, it opens a file selection dialog, asking for the location.
+   The proper location is then automatically entered in the *launchers.ini* file.
 
 
 Zim notebooks as project wikis

@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nv_zim &mdash; novelibre User guide 5.10.4 documentation</title>
+  <title>nv_zim &mdash; novelibre User guide 5.10.5 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=7fe93136"></script>
+      <script src="../_static/documentation_options.js?v=1b26e172"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
@@ -150,7 +150,10 @@ The Toolbar gets a <img alt="Zim" src="../_images/zim.png" /> button.</p>
 <h2>General<a class="headerlink" href="#general" title="Link to this heading"></a></h2>
 <p>To launch the <a class="reference external" href="https://zim-wiki.org/">Zim Desktop Wiki</a>
 application, <em>nv_zim</em> must know the location of its installation.
-At program startup, it checks the <em>launchers.ini</em> file in the
+If you have installed Zim in the default directory, there is nothing to do here.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>At program startup, <em>nv_zim</em> checks the <em>launchers.ini</em> file in the
 <em>novelibre</em> configuration directory.
 Here is an example with a Windows entry:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
@@ -159,13 +162,10 @@ Here is an example with a Windows entry:</p>
 </div>
 <p>If this file doesn’t exist, or the path doesn’t fit,
 the program searches the default installation paths for the 32-bit
-and the 64-bit versions under Windows.
+and the 64-bit versions under Windows, as well as <code class="docutils literal notranslate"><span class="pre">/usr/bin/zim</span></code> under Linux.
 If this fails, it opens a file selection dialog, asking for the location.
-So under Windows, the users may have nothing to do.</p>
-<p>Linux users might want to find out where the Zim installation is located
-on their system, and either enter this path into a self-made
-<strong>~/.novx/launchers.ini</strong> file, or select it with the file picker dialog
-when asked.</p>
+The proper location is then automatically entered in the <em>launchers.ini</em> file.</p>
+</div>
 </section>
 <section id="zim-notebooks-as-project-wikis">
 <h2>Zim notebooks as project wikis<a class="headerlink" href="#zim-notebooks-as-project-wikis" title="Link to this heading"></a></h2>
