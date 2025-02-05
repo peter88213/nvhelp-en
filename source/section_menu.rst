@@ -130,3 +130,22 @@ changes with *novelibre*
 (in contrast to the `plot grid <plot_menu.html#export-plot-grid-for-editing>`__).
 The section list is more intended for extracting the metadata of the
 writing project, for example, in the case of abandoning *novelibre*.
+
+
+Show Time table
+---------------
+
+**Show an HTML report with a time table**
+
+With **Section > Show Time table**,
+you can create a list-formatted HTML file that contains
+a time table,
+and launch your system’s web browser for displaying it.
+
+In the timetable, the dated "normal" sections are listed in chronological order.
+In addition to date/time and duration, the columns include the section title,
+description, locations and characters as well as plot lines with plot notes.
+
+.. note::
+   The report is a temporary file, auto-deleted on program exit.
+   If needed, you can have your web browser save or print it.

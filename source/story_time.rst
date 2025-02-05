@@ -58,6 +58,8 @@ If you do not want to use a timeline software, the
 `nv_tlview plugin <https://github.com/peter88213/nv_tlview/>`__
 provides a graphical timeline display for the sections with date and time.
 
+You can also display dated sections in a
+`time table <section_menu.html#show-time-table>`__.
 
 
 
