@@ -142,7 +142,7 @@ you can create a list-formatted HTML file that contains
 a time table,
 and launch your system’s web browser for displaying it.
 
-In the timetable, the dated "normal" sections are listed in chronological order.
+In the time table, the dated "normal" sections are listed in chronological order.
 In addition to date/time and duration, the columns include the section title,
 description, locations and characters as well as plot lines with plot notes.
 
