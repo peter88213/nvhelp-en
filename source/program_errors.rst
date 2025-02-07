@@ -27,22 +27,9 @@ What to do in case of error?
    If you have an outdated version of the program, the error you are experiencing
    might already have been fixed.
 
-3. Uninstall plugins
+3. Report the bug
 
-   If *novelibre* can be started, open the
-   `plugin manager <tools_menu.html#plugin-manager>`__,
-   delete all plugins one after the other, and restart *novelibre*.
-   If the error can no longer be reproduced, you can
-   continue working without plugins for the time being.
-
-4. Return to an old version
-
-   If none of this helps, but you have been working with *novelibre* for a long time
-   without any problems, the problem may have been introduced with a faulty update.
-   If you still have the previous program version in your *Download* folder,
-   reinstall it (and the old plugins if any).
-
-5. Report the bug
+   If the error persists, you might experience a bug that is yet unknown.
 
    In the installation directory of *novelibre* there should be a text file named
    `error.log`, which lists the lines of code that led to the error.
@@ -63,14 +50,29 @@ What to do in case of error?
       If you are reporting a new bug, please fill out the *Bug report* form.
       Please indicate which plugins you have installed. 
    
-   
-      
-   
-   
-   
+4. Uninstall plugins
+
+   If *novelibre* can be started, open the
+   `plugin manager <tools_menu.html#plugin-manager>`__,
+   delete all plugins one after the other, and restart *novelibre*.
+   If the error can no longer be reproduced, you can
+   continue working without plugins for the time being.
+
+5. Return to an old version
+
+   If this doesn't help, but you have been working with *novelibre* for a long time
+   without any problems, the problem may have been introduced with a faulty update.
+   If you still have the previous program version in your *Download* folder,
+   reinstall it (and the old plugins if any).
 
 
-    
+
+
+
+
+
+
+
 
 
 
