@@ -245,7 +245,7 @@ with the *.novx* extension.
    Once your novel is imported into *novelibre*, your initial *ODT* document is no
    longer needed. So if you want to keep it, you best move it elsewhere, so that
    it is not overwritten by an `exported document 
-   <export_menu.html#manuscript-for-printing-export-only>`__ later on. 
+   <export_menu.html#final-manuscript-document-export-only>`__ later on. 
 
 .. tip::
    After importing an extensive piece of work, you may have a whole lot
@@ -302,7 +302,7 @@ with the *.novx* extension.
    Once your outline is imported into *novelibre*, your initial *ODT* document is no
    longer needed. So if you want to keep it, you best move it elsewhere, so that
    it is not overwritten by an `exported document 
-   <export_menu.html#manuscript-for-printing-export-only>`__ later on. 
+   <export_menu.html#final-manuscript-document-export-only>`__ later on. 
  
    You can export and import the current outline at any time as “Descriptions” 
    separated by parts, chapters and sections.

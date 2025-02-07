@@ -186,7 +186,7 @@ ODT comments, footnotes, and endnotes are supported by *novelibre*.
    You can instead use comments as placeholders. Replace them with your 
    images (or any other special formatting beyond the capabilities of 
    *novelibre*) at the end, when you prepare your `finished novel 
-   <export_menu.html#manuscript-for-printing-export-only>`__ 
+   <export_menu.html#final-manuscript-document-export-only>`__ 
    for publishing. 
 
 
