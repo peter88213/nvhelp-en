@@ -281,7 +281,7 @@ will pay off when it comes to designing print pages for self-publishing.
 
 So if you have got a document template or a document with the styles you
 want to work with, *novelibre* can use them for export.
-To do this, simply select the text document or the text document template
+For this, simply select the text document or the text document template
 in the `export options <export_menu.html#select-document-template>`__.
 
 .. tip::
