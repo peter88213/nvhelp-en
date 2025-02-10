@@ -279,14 +279,11 @@ simply apply a template that suits your needs and tastes. Perhaps you have
 to design your favorite template first, but your knowledge of this technique
 will pay off when it comes to designing print pages for self-publishing.
 
-In order to minimize circumstances, I recommend my `Style switcher extension
-<https://peter88213.github.io/StyleSwitcher/>`__, that allows you to customize
-your manuscript with a single mouse click.
+So if you have got a document template or a document with the styles you
+want to work with, *novelibre* can use them for export.
+To do this, simply select the text document or the text document template
+in the `export options <export_menu.html#select-document-template>`__.
 
-.. note::
-   Loading a template or changing the default font and page size has no 
-   impact on reimporting the document with *novelibre*.
-   
 .. tip::
    If you just want to change the font without applying templates, 
    you can achieve this by having LibreOffice replace it automatically. 
@@ -307,4 +304,14 @@ your manuscript with a single mouse click.
    This is particularly convenient with a macro that comes with the
    `novelibre-tools <https://github.com/peter88213/novelibre-tools/>`__
    extension.
+   
+.. tip::
+   For switching between different document templates in *Writer*, 
+   I recommend my `Style switcher extension
+   <https://peter88213.github.io/StyleSwitcher/>`__, that allows you to customize
+   your manuscript with a single mouse click.
+   
+   Loading a template or changing the default font and page size has no 
+   impact on reimporting the document with *novelibre*.
+   
    

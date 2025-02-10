@@ -210,3 +210,23 @@ This checkbox controls the behavior on opening documents for editing.
 
 - If unticked, *novelibre* won't lock the project when launching
   *Writer* or *Calc*.
+
+
+Select document template
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can have *novelibre* apply your own styles so that the exported text
+documents better suit your taste and habits.
+
+If you click on this button, a file select dialog will open.
+You can select either an *.ott* document template or an *.odt* document.
+*novelibre* will adopt the selected document's styles
+and use them for ODT document export.
+
+
+Restore default styles
+~~~~~~~~~~~~~~~~~~~~~~
+
+If you click on this button, *novelibre* will discard the styles loaded
+with **Select document template** and revert to its built-in default styles.
+
