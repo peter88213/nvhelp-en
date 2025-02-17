@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>scap_novx &mdash; novelibre User guide 5.14.1 documentation</title>
+  <title>scap_novx &mdash; novelibre User guide 5.15.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=1870564b"></script>
+      <script src="../_static/documentation_options.js?v=6e79ba15"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
@@ -73,8 +73,10 @@
 <li class="toctree-l3"><a class="reference internal" href="#mode-of-operation">Mode of operation</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#conversion-rules">Conversion rules</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#how-to-mark-notes-for-export">How to mark notes for export</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#import-styles-optional">Import styles (optional)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#import-styles">Import styles</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#mark-sections">Mark sections</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#mark-plot-lines">Mark plot lines</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#mark-plot-points">Mark plot points</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#mark-notes">Mark notes</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#mark-tags">Mark tags</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#mark-locations">Mark locations</a></li>
@@ -184,6 +186,9 @@ They can be imported into any <em>novelibre</em> project.</p>
 (from top left to bottom right).</p></li>
 <li><p>Notes with a “cloud” border without shadow are converted to section
 and character notes.</p></li>
+<li><p>Bordered notes with brown text are converted to plot lines.
+You can prefix the title with a short name separated by a colon.</p></li>
+<li><p>Notes without a border with brown text are converted to plot points.</p></li>
 <li><p>Notes with a square border are converted to tags.</p></li>
 <li><p>Notes with red text are converted to major characters.</p></li>
 <li><p>Notes with purple text are converted to minor characters.</p></li>
@@ -197,12 +202,17 @@ connecting the corresponding notes.</p></li>
 pointing from the character to the section.
 If a section is pointed to by several characters, or by no character,
 the viewpoint is random.</p></li>
+<li><p>Assign sections to plot lines using connections either to the plot line
+or to one of its plot points.</p></li>
+<li><p>Connect the first plot point to the plot line, then connect the
+following plot points as a chain in sequencial order.</p></li>
+<li><p>Assign plot points to a section using a connection.</p></li>
 </ul>
 </section>
 <section id="how-to-mark-notes-for-export">
 <h2>How to mark notes for export<a class="headerlink" href="#how-to-mark-notes-for-export" title="Link to this heading"></a></h2>
-<section id="import-styles-optional">
-<h3>Import styles (optional)<a class="headerlink" href="#import-styles-optional" title="Link to this heading"></a></h3>
+<section id="import-styles">
+<h3>Import styles<a class="headerlink" href="#import-styles" title="Link to this heading"></a></h3>
 <p>The scap_novx distribution comes with a sample Scapple project
 <em>styles.scap</em> including all required styles.</p>
 <p>You find this a sample project in the <em>novelibre</em> installation
@@ -211,47 +221,48 @@ directory under</p>
 <p>You can either use this diagram as a template,
 or import the styles into your own Scapple diagram.</p>
 <img alt="Screenshot" src="../_images/import_styles.png" />
-<p>In the file picker dialog, select <code class="docutils literal notranslate"><span class="pre">&lt;unzipped</span> <span class="pre">scap_novx</span> <span class="pre">release</span>
-<span class="pre">folder&gt;\sample\styles.scap</span></code>. Then you can apply the styles
-via context menu.</p>
-<img alt="Screenshot" src="../_images/apply_styles.png" />
+<p>In the file picker dialog, select
+<code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\scap_novx\sample\styles.scap</span></code>.
+Then you can apply the styles via context menu.</p>
+<img alt="Screenshot" src="../_images/apply_styles_via_context_menu.png" />
+<p>Optionally, you can apply the styles via the Inspector.</p>
+<img alt="Screenshot" src="../_images/apply_styles_via_inspector.png" />
 </section>
 <section id="mark-sections">
 <h3>Mark sections<a class="headerlink" href="#mark-sections" title="Link to this heading"></a></h3>
-<p>Either apply the “Section” style, if any, via context menu,
-or tick “Shadow” in the Inspector to mark the note as section.</p>
-<img alt="Screenshot" src="../_images/mark_section.png" />
+<p>Apply the <strong>Section</strong> style via context menu or the Inspector.</p>
+</section>
+<section id="mark-plot-lines">
+<h3>Mark plot lines<a class="headerlink" href="#mark-plot-lines" title="Link to this heading"></a></h3>
+<p>Apply the <strong>Plot line</strong> style via context menu or the Inspector.</p>
+</section>
+<section id="mark-plot-points">
+<h3>Mark plot points<a class="headerlink" href="#mark-plot-points" title="Link to this heading"></a></h3>
+<p>Apply the <strong>Plot point</strong> style via context menu or the Inspector.</p>
 </section>
 <section id="mark-notes">
 <h3>Mark notes<a class="headerlink" href="#mark-notes" title="Link to this heading"></a></h3>
-<p>Either apply the “Note” style, if any, via context menu,
-or make the note’s border style “Cloud” in the Inspector.</p>
+<p>Apply the <strong>Note</strong> style via context menu or the Inspector.</p>
 </section>
 <section id="mark-tags">
 <h3>Mark tags<a class="headerlink" href="#mark-tags" title="Link to this heading"></a></h3>
-<p>Either apply the “Tag” style, if any, via context menu,
-or make the note’s border style “Square” in the Inspector.</p>
+<p>Apply the <strong>Tag</strong> style via context menu or the Inspector.</p>
 </section>
 <section id="mark-locations">
 <h3>Mark locations<a class="headerlink" href="#mark-locations" title="Link to this heading"></a></h3>
-<p>Either apply the “Location” style, if any, via context menu,
-or tick the big blue field above the text color swatch in the Inspector.</p>
-<img alt="Screenshot" src="../_images/mark_location.png" />
+<p>Apply the <strong>Location</strong> style via context menu or the Inspector.</p>
 </section>
 <section id="mark-major-characters">
 <h3>Mark major characters<a class="headerlink" href="#mark-major-characters" title="Link to this heading"></a></h3>
-<p>Either apply the “MajorCharacter” style, if any, via context menu,
-or tick the big red field above the text color swatch in the Inspector.</p>
+<p>Apply the <strong>MajorCharacter</strong> style via context menu or the Inspector.</p>
 </section>
 <section id="mark-minor-characters">
 <h3>Mark minor characters<a class="headerlink" href="#mark-minor-characters" title="Link to this heading"></a></h3>
-<p>Either apply the “MinorCharacter” style, if any, via context menu,
-or tick the big purple field above the text color swatch in the Inspector.</p>
+<p>Apply the <strong>MinorCharacter</strong> style via context menu or the Inspector.</p>
 </section>
 <section id="mark-items">
 <h3>Mark items<a class="headerlink" href="#mark-items" title="Link to this heading"></a></h3>
-<p>Either apply the “Item” style, if any, via context menu,
-or tick the big green field above the text color swatch in the Inspector.</p>
+<p>Apply the <strong>Item</strong> style, via context menu or the Inspector.</p>
 </section>
 </section>
 <section id="custom-configuration">
@@ -311,11 +322,19 @@ refer to the code line immediately above.</p></li>
 
 <span class="c1"># RGB text color that marks the minor characters in Scapple.</span>
 
+<span class="na">plot_line_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0.6 0.2 0.0</span>
+
+<span class="c1"># RGB text color that marks the plot lines and plot points in Scapple.</span>
+
 <span class="k">[OPTIONS]</span>
 
 <span class="na">export_sections</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Yes</span>
 
 <span class="c1"># Yes: create sections from Scapple notes.</span>
+
+<span class="na">export_plot_lines</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Yes</span>
+
+<span class="c1"># Yes: create plot lines and plot points from Scapple notes.</span>
 
 <span class="na">export_characters</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Yes</span>
 
@@ -323,7 +342,7 @@ refer to the code line immediately above.</p></li>
 
 <span class="na">export_locations</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Yes</span>
 
-<span class="c1"># Yes: create locations from Scapple notes.</span>
+<span class="c1"># Yes: create location from Scapple notes.</span>
 
 <span class="na">export_items</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Yes</span>
 

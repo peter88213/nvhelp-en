@@ -79,6 +79,9 @@ Conversion rules
   (from top left to bottom right).
 - Notes with a "cloud" border without shadow are converted to section
   and character notes.
+- Bordered notes with brown text are converted to plot lines.
+  You can prefix the title with a short name separated by a colon.
+- Notes without a border with brown text are converted to plot points.
 - Notes with a square border are converted to tags.
 - Notes with red text are converted to major characters.
 - Notes with purple text are converted to minor characters.
@@ -92,13 +95,18 @@ Conversion rules
   pointing from the character to the section.
   If a section is pointed to by several characters, or by no character,
   the viewpoint is random.
+- Assign sections to plot lines using connections either to the plot line
+  or to one of its plot points.
+- Connect the first plot point to the plot line, then connect the
+  following plot points as a chain in sequencial order.
+- Assign plot points to a section using a connection.
 
 
 How to mark notes for export
 ----------------------------
 
-Import styles (optional)
-~~~~~~~~~~~~~~~~~~~~~~~~
+Import styles
+~~~~~~~~~~~~~
 
 The scap_novx distribution comes with a sample Scapple project
 *styles.scap* including all required styles.
@@ -114,67 +122,71 @@ or import the styles into your own Scapple diagram.
 .. image:: _images/import_styles.png
    :alt: Screenshot
    
-In the file picker dialog, select ``<unzipped scap_novx release
-folder>\sample\styles.scap``. Then you can apply the styles
-via context menu.
+In the file picker dialog, select
+``c:\Users\<user name>\.novx\scap_novx\sample\styles.scap``.
+Then you can apply the styles via context menu.
 
-.. image:: _images/apply_styles.png
+.. image:: _images/apply_styles_via_context_menu.png
+   :alt: Screenshot
+
+Optionally, you can apply the styles via the Inspector.
+
+.. image:: _images/apply_styles_via_inspector.png
    :alt: Screenshot
    
    
 Mark sections
 ~~~~~~~~~~~~~
 
-Either apply the "Section" style, if any, via context menu,
-or tick "Shadow" in the Inspector to mark the note as section.
+Apply the **Section** style via context menu or the Inspector.
 
-.. image:: _images/mark_section.png
-   :alt: Screenshot
-      
+
+Mark plot lines
+~~~~~~~~~~~~~~~
+
+Apply the **Plot line** style via context menu or the Inspector.
+
+
+Mark plot points
+~~~~~~~~~~~~~~~~
+
+Apply the **Plot point** style via context menu or the Inspector.
+
 
 Mark notes
 ~~~~~~~~~~
 
-Either apply the "Note" style, if any, via context menu,
-or make the note's border style "Cloud" in the Inspector.
+Apply the **Note** style via context menu or the Inspector.
 
 
 Mark tags
 ~~~~~~~~~
 
-Either apply the "Tag" style, if any, via context menu,
-or make the note's border style "Square" in the Inspector.
+Apply the **Tag** style via context menu or the Inspector.
 
 
 Mark locations
 ~~~~~~~~~~~~~~
 
-Either apply the "Location" style, if any, via context menu,
-or tick the big blue field above the text color swatch in the Inspector.
+Apply the **Location** style via context menu or the Inspector.
 
-.. image:: _images/mark_location.png
-   :alt: Screenshot
-   
-   
+
 Mark major characters
 ~~~~~~~~~~~~~~~~~~~~~
 
-Either apply the "MajorCharacter" style, if any, via context menu,
-or tick the big red field above the text color swatch in the Inspector.
+Apply the **MajorCharacter** style via context menu or the Inspector.
 
 
 Mark minor characters
 ~~~~~~~~~~~~~~~~~~~~~
 
-Either apply the "MinorCharacter" style, if any, via context menu,
-or tick the big purple field above the text color swatch in the Inspector.
+Apply the **MinorCharacter** style via context menu or the Inspector.
 
 
 Mark items
 ~~~~~~~~~~
 
-Either apply the "Item" style, if any, via context menu,
-or tick the big green field above the text color swatch in the Inspector.
+Apply the **Item** style, via context menu or the Inspector.
 
 
 Custom configuration
@@ -247,22 +259,30 @@ This is the configuration file explained:
 
    # RGB text color that marks the minor characters in Scapple.
 
+   plot_line_color = 0.6 0.2 0.0
+   
+   # RGB text color that marks the plot lines and plot points in Scapple.
+
    [OPTIONS]
 
    export_sections = Yes
-
+   
    # Yes: create sections from Scapple notes.
-
+   
+   export_plot_lines = Yes
+   
+   # Yes: create plot lines and plot points from Scapple notes.
+   
    export_characters = Yes
-
+   
    # Yes: create characters from Scapple notes.
-
+   
    export_locations = Yes
-
-   # Yes: create locations from Scapple notes.
-
+   
+   # Yes: create location from Scapple notes.
+   
    export_items = Yes
-
+   
    # Yes: create items from Scapple notes.
 
 
