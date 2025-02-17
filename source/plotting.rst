@@ -54,6 +54,15 @@ the sections are far away from each other.
 .. image:: _images/causality01.png
    :alt: Example
 
+.. tip::
+   The `scap_novx <https://github.com/peter88213/scap_novx>`__ 
+   utility can create a new *novelibre* project from a plot outline 
+   with plot lines and plot points created using the 
+   `Scapple <https://www.literatureandlatte.com/scapple/overview>`__ 
+   mind mapper. 
+
+   .. image:: _images/scapple_plot_lines.png
+      :alt: Example
 
 Plot grid
 ---------
