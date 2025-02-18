@@ -100,6 +100,7 @@ Conversion rules
 - Connect the first plot point to the plot line, then connect the
   following plot points as a chain in sequencial order.
 - Assign plot points to a section using a connection.
+- Plain notes are converted to descriptions of the elements they are connected to.
 
 
 How to mark notes for export
