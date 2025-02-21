@@ -77,12 +77,9 @@ Conversion rules
 - Notes with a shadow are converted to sections.
 - Sections are ordered by their position in the Scapple diagram
   (from top left to bottom right).
-- Notes with a "cloud" border without shadow are converted to section
-  and character notes.
 - Bordered notes with brown text are converted to plot lines.
   You can prefix the title with a short name separated by a colon.
 - Notes without a border with brown text are converted to plot points.
-- Notes with a square border are converted to tags.
 - Notes with red text are converted to major characters.
 - Notes with purple text are converted to minor characters.
 - Notes with blue text are converted to locations.
@@ -98,8 +95,10 @@ Conversion rules
 - Assign sections to plot lines using connections either to the plot line
   or to one of its plot points.
 - Connect the first plot point to the plot line, then connect the
-  following plot points as a chain in sequencial order.
+  following plot points as a chain in sequential order.
 - Assign plot points to a section using a connection.
+- Notes with a "cloud" border and without a shadow are converted to element notes.
+- Notes with a square border and without a shadow are converted to tags.
 - Plain notes are converted to descriptions of the elements they are connected to.
 
 
