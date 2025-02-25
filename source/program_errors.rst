@@ -16,8 +16,8 @@ What to do in case of error?
 
 1. Save your data
 
-   If a program error occurs that does not lead to a hard termination, a warning window
-   should open recommending that the program session be terminated.
+   If a program error occurs that does not lead to a hard termination,
+   a warning window reporting an unexpected error should open.
    In this case, you can try to save changes.
 
 2. Update the application and all plugins
