@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nv_updater &mdash; novelibre User guide 5.16.0 documentation</title>
+  <title>nv_updater &mdash; novelibre User guide 5.16.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=5933fe3b"></script>
+      <script src="../_static/documentation_options.js?v=3dfc2e7f"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
@@ -74,7 +74,10 @@
 <li class="toctree-l2"><a class="reference internal" href="../nv_timeline/index.html">nv_timeline</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_tlview/index.html">nv_tlview</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">nv_updater</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#start-the-update-checker">Start the update checker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#start-the-update-checker">Start the update checker</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#buttons-below-the-module-list">Buttons below the module list</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_zim/index.html">nv_zim</a></li>
@@ -119,33 +122,39 @@
 You can open it with <strong>Help &gt; Update checker Online help</strong>.</p>
 <p>The plugin adds a <strong>Check for updates</strong> entry to the <em>novelibre</em> <strong>Tools</strong> menu,
 and an <strong>Update checker Online help</strong> entry to the <strong>Help</strong> menu.</p>
-<img alt="novelibre Screenshot" src="../_images/screen014.png" />
 <section id="start-the-update-checker">
 <h2>Start the update checker<a class="headerlink" href="#start-the-update-checker" title="Link to this heading"></a></h2>
 <p>Open the update checker from the main menu: <strong>Tools &gt; Check for updates</strong>.</p>
-<p>If an update is found, a message pops up.</p>
-<img alt="novelibre Screenshot" src="../_images/screen022.png" />
-<p>You can choose:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p><strong>Yes</strong> starts your web browser with the update URL.</p></li>
-<li><p><strong>No</strong> skips this update.</p></li>
-<li><p><strong>Cancel</strong> cancels the update check.</p></li>
-</ul>
-</div></blockquote>
+<p>A list pops up, showing installed software modules and their version information.
+Outdated list entries are colored red.</p>
+<img alt="novelibre Screenshot" src="../_images/screen02.png" />
+<section id="buttons-below-the-module-list">
+<h3>Buttons below the module list<a class="headerlink" href="#buttons-below-the-module-list" title="Link to this heading"></a></h3>
+<dl>
+<dt>Update (or double-click on a list entry)</dt><dd><p>starts your web browser with the download URL of the selected software module,
+if the installed version doesn’t match the latest version.
+After giving this command, the list entry is colored green.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>The <em>nv_updater</em> plugin only initiates the download process via the
-system web browser. If a download directory is preset, all zip files
+system web browser. If a download directory is preset, the installation files
 with the downloaded releases will end up there. You then perform the
 actual installation manually as usual.</p>
 </div>
-<p>If no update is found, a message pops up at the end.</p>
-<img alt="novelibre Screenshot" src="../_images/screen03.png" />
+</dd>
+<dt>Home page</dt><dd><p>starts your web browser with the home page of the selected software module.
+There you can see e.g. the changelog.</p>
+</dd>
+<dt>Online help (or F1)</dt><dd><p>starts your web browser with this page of the user guide.</p>
+</dd>
+<dt>Close</dt><dd><p>Closes the update manager window and stops pending version checks.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>To take effect, update installations require a <em>novelibre</em> restart.</p>
 </div>
+</dd>
+</dl>
+</section>
 </section>
 </section>
 
