@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Preparations &mdash; novelibre User guide 5.34.3 documentation</title>
+  <title>Preparations &mdash; novelibre User guide 5.35.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -14,14 +14,14 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=f07e8e0e"></script>
+      <script src="_static/documentation_options.js?v=4fe8c2d8"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="The Desktop" href="desktop.html" />
+    <link rel="next" title="Installation under Windows" href="setup_windows.html" />
     <link rel="prev" title="Introduction" href="introduction.html" /> 
 </head>
 
@@ -49,11 +49,9 @@
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Preparations</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#summary">Summary</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#setting-up-novelibre">Setting up novelibre</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#installing-the-application">Installing the application</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#making-novelibre-accessible-on-the-desktop">Making novelibre accessible on the Desktop</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#associating-novx-files-with-novelibre">Associating .novx files with novelibre</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#updating-the-application-or-a-plugin">Updating the application or a plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-and-setting-up-novelibre">Installing and setting up novelibre</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="setup_windows.html">Installation under Windows</a></li>
+<li class="toctree-l3"><a class="reference internal" href="setup_linux.html">Installation under Linux</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#setting-up-writer">Setting up Writer</a><ul>
@@ -115,165 +113,14 @@
 I also give some tips on setting up LibreOffice and OpenOffice
 to optimize the interaction with <em>novelibre</em>.</p>
 </section>
-<section id="setting-up-novelibre">
-<h2>Setting up novelibre<a class="headerlink" href="#setting-up-novelibre" title="Link to this heading"></a></h2>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Before you can install <em>novelibre</em> on <strong>Linux</strong>, you must ensure that
-the prerequisites mentioned on the project home page are met.
-In particular, support for <em>tkinter</em> must be installed on your system.
-For Ubuntu, the package is called <strong>python3-tk</strong> for example,
-for Fedora it may be <strong>python3-tkinter</strong>.
-Installing the <strong>idle3</strong> package is optional but recommended.</p>
-</div>
-<p>The actual installation of <em>novelibre</em> is simple and straightforward.
-The installation program automatically creates an installation directory,
-copies everything necessary into it, and generates a start file named
-<strong>run.pyw</strong> adapted for the respective computer, which must be called
-in order to execute <em>novelibre</em>.</p>
-<p>The necessary manual work consists of linking this start file to the
-desktop and, if desired, assigning a program icon to the link.
-I will also show you how to set it up under Windows so that the <em>novelibre</em>
-project files have their own program icon and that the program application
-is started when you double-click on them.</p>
-<p>Unfortunately, I cannot automate this with my simple means without causing
-problems with the security mechanisms of the operating system.</p>
-<section id="installing-the-application">
-<h3>Installing the application<a class="headerlink" href="#installing-the-application" title="Link to this heading"></a></h3>
-<dl>
-<dt>Step 1</dt><dd><ul>
-<li><p>Either launch the downloaded <strong>novelibre_vx.x.x.pyz</strong>
-file by double-clicking (Windows/Linux desktop),</p>
-<img alt="Example (Windows Explorer)" src="_images/preparations11.png" />
-</li>
-<li><p>or execute</p>
-<p><code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">novelibre_vx.x.x.pyz</span></code> (Windows), resp.</p>
-<p><code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">novelibre_vx.x.x.pyz</span></code> (Linux) on the command line.</p>
-<img alt="Example (Windows command line)" src="_images/preparations12.png" />
-</li>
+<section id="installing-and-setting-up-novelibre">
+<h2>Installing and setting up novelibre<a class="headerlink" href="#installing-and-setting-up-novelibre" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="setup_windows.html">Installation under Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="setup_linux.html">Installation under Linux</a></li>
 </ul>
-<p><em>“x.x.x”</em> means the version number.</p>
-<p>In both cases, a success message should appear.</p>
-<img alt="Example (Windows)" src="_images/preparations13.png" />
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Many web browsers recognize the download as an executable file
-and offer to open it immedately.
-This allows you to start the installation conveniently.</p>
-<img alt="Beispiel (Chrome browser)" src="_images/preparations14.png" />
-<p>However, depending on your security settings, your browser may
-initially  refuse  to download the executable file.
-In this case, your confirmation or an additional action is required.
-If this is not possible, you have the option of downloading
-the zip file.</p>
 </div>
-</dd>
-</dl>
-</section>
-<section id="making-novelibre-accessible-on-the-desktop">
-<h3>Making novelibre accessible on the Desktop<a class="headerlink" href="#making-novelibre-accessible-on-the-desktop" title="Link to this heading"></a></h3>
-<div class="admonition-note-for-linux-users admonition">
-<p class="admonition-title">Note for Linux users</p>
-<p>The following steps describe the Windows procedure.</p>
-<p>As a <strong>Linux</strong> user, you might want to set up
-a program launcher on your specific desktop.
-This is a matter of calling <strong>python3</strong>
-with <strong>/home/your-username/.novx/run.pyw</strong> and an optionally specified
-file as parameters.
-You get a desktop icon to click on and to open your <em>.novx</em> project file
-via drag-and-drop.</p>
-<p>With the XFCE desktop, for example, my launcher command is:</p>
-<p><code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">/home/peter/.novx/run.pyw</span> <span class="pre">%f</span></code></p>
-<blockquote>
-<div><img alt="Xubuntu screenshot" src="_images/preparations15.png" />
-</div></blockquote>
-<p>You might have to copy the <em>novelibre</em> icons to a dedicated image
-directory where your program launcher gets the icons from.
-You also may want to set <em>novelibre</em> as standard application for
-files with the <em>.novx</em> extension, and assign them the <em>novelibre</em>
-logo as file icon.
-With the XFCE desktop, none of this was too difficult for me.
-In doubt, refer to your desktop documentation.</p>
-<p>It’s a good idea to register the <em>novx</em> extension
-in the mimetypes as <strong>text/xml</strong>, so it can be opened
-with your web browser for display, using the
-<a class="reference external" href="file_menu.html#copy-style-sheet">novx.css style sheet</a>.</p>
-</div>
-<dl>
-<dt>Step 2</dt><dd><p>Open the installation folder.</p>
-<img alt="novelibre screenshot" src="_images/preparations05.png" />
-</dd>
-<dt>Step 3</dt><dd><p>Drag and drop <strong>run.pyw</strong> to the desktop while holding
-down the <code class="docutils literal notranslate"><span class="pre">Alt</span></code> key. This creates a shortcut to launch
-<em>novelibre</em> from the Windows desktop. Now you can also
-drag and drop <em>.novx</em> project files to this shortcut.</p>
-<img alt="novelibre screenshot" src="_images/preparations06.png" />
-</dd>
-<dt>Step 4</dt><dd><p>Optionally, you can replace the “Python” icon with the
-<em>novelibre</em> logo you may find in the installation’s
-<em>icons</em> subdirectory.</p>
-<p>To do this, right-click on the desktop shortcut and
-open the <strong>Properties</strong> dialog. Select the <strong>Shortcut</strong>
-Tab and click on the <strong>Change icon</strong> button (1). In the
-icon selection dialog, click on the <strong>Browse…</strong> button
-(2). This opens a file selection dialog. Move to
-<code class="docutils literal notranslate"><span class="pre">&lt;home&gt;\.novx\icons</span></code> and double-click on the “N” logo
-(3).</p>
-<img alt="novelibre screenshot" src="_images/preparations07.png" />
-</dd>
-<dt>Step 5</dt><dd><p>To rename the shortcut to <em>novelibre</em>, right-click on
-the desktop shortcut and open the <strong>Properties</strong>
-dialog. In the first tab, replace “Shortcut to run.pyw”
-with “novelibre”.</p>
-<img alt="novelibre screenshot" src="_images/preparations08.png" />
-</dd>
-</dl>
-</section>
-<section id="associating-novx-files-with-novelibre">
-<h3>Associating .novx files with novelibre<a class="headerlink" href="#associating-novx-files-with-novelibre" title="Link to this heading"></a></h3>
-<dl>
-<dt>Step 6</dt><dd><p>Optionally, you can associate the <strong>.novx</strong> file extension
-with the <em>novelibre</em> application. Then the project files
-are displayed with the <em>novelibre</em> icon in the Explorer,
-and you can open them with <em>novelibre</em> by double-click.
-Further, you can display <em>.novx</em> files with a web browser,
-using the <a class="reference external" href="file_menu.html#copy-style-sheet">novx.css style sheet</a>.</p>
-<p>Double-click on the <strong>add_novelibre.reg</strong> script. Windows will
-display a warning and ask you for confirmation. If in doubt,
-you can inspect the <em>add_novelibre.reg</em> file with a text editor
-or ask an expert you trust.</p>
-<img alt="novelibre screenshot" src="_images/preparations09.png" />
-<div class="admonition hint">
-<p class="admonition-title">Hint</p>
-<p>You can undo this by executing the <strong>remove_novelibre.reg</strong>
-script. This removes all the <em>novelibre</em>-specific entries
-from the Windows registry while keeping the application.</p>
-<p>To uninstall the application and all its tools, plugins,
-and configuration data, just delete the <code class="docutils literal notranslate"><span class="pre">&lt;home&gt;\.novx</span></code>
-folder after executing the <strong>remove_novelibre.reg</strong> script.</p>
-</div>
-</dd>
-</dl>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Executing the program under Windows by double-clicking on the
-<em>.novx</em> file  works under the hood by calling the currently
-installed version of the Python interpreter.</p>
-<p>If you update Python at a later date, you must then re-install
-<em>novelibre</em> afterwards, and execute <strong>add_novelibre.reg</strong> again.
-Otherwise, Windows will not be able to find the new Python
-version and will fail when trying to open <em>.novx</em> files on
-double-clicking.</p>
-<p>Please keep that in mind, even if it’s pretty unlikely that
-<em>novelibre</em> will need a Python update in the near future.</p>
-</div>
-</section>
-<section id="updating-the-application-or-a-plugin">
-<h3>Updating the application or a plugin<a class="headerlink" href="#updating-the-application-or-a-plugin" title="Link to this heading"></a></h3>
-<p>Just execute the first step as described above.
-If there is any further action required, the setup script will
-give you a message.</p>
-</section>
 </section>
 <hr class="docutils" />
 <section id="setting-up-writer">
@@ -357,7 +204,7 @@ Then enter the fonts of your choice.</p>
 for spreadsheets.
 If you use <em>LibreOffice</em> on Linux, you might want to replace <em>Calibri</em>
 with <em>Carlito</em> to ensure optimal rendering of the exported tables.</p>
-<img alt="LibreOffice screenshot" src="_images/preparations10.png" />
+<img alt="LibreOffice screenshot" src="_images/preparations04.png" />
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -385,7 +232,7 @@ impact on reimporting the document with <em>novelibre</em>.</p>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="desktop.html" class="btn btn-neutral float-right" title="The Desktop" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="setup_windows.html" class="btn btn-neutral float-right" title="Installation under Windows" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
