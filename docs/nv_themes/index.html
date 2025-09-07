@@ -71,6 +71,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../nv_statistics/index.html">nv_statistics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">nv_themes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#install-additional-themes">Install additional themes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#start-the-dialog">Start the dialog</a></li>
 </ul>
 </li>
@@ -116,14 +117,44 @@
 <p><strong>User guide</strong></p>
 <p>This page refers to the latest <a class="reference external" href="https://github.com/peter88213/nv_themes/">nv_themes</a> release.</p>
 <p>The plugin adds a <strong>Change theme</strong> entry to the <em>novelibre</em> <strong>View</strong> menu.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>If you just want a dark mode for <em>novelibre</em>, do install the
+<a class="reference external" href="https://github.com/peter88213/nv_dark/">nv_dark</a> plugin instead of <em>nv_themes</em>.
+Changing the theme is not enough to get a dark mode.
+You also need a modified color palette so that the colored text stands out
+against the dark background. <em>nv_dark</em> comes with such a color palette.</p>
+</div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Actually, this plugin is more intended for Linux, where the default theme looks pretty stale, and there are plenty of desktops, each with a different look.</p>
-<p>On Windows, <em>novelibre</em> uses a lot of native widgets by default, you can hardly do better with custom themes.</p>
+<p>Actually, this plugin is more intended for Linux, where the default theme looks
+pretty stale, and there are plenty of desktops, each with a different look.</p>
+<p>On Windows, <em>novelibre</em> uses a lot of native widgets by default.
+You can hardly do better with custom themes.</p>
 </div>
+<section id="install-additional-themes">
+<h2>Install additional themes<a class="headerlink" href="#install-additional-themes" title="Link to this heading"></a></h2>
+<p>By default, you can choose from a few themes that are not particularly attractive.
+To take full advantage of this plugin, you need the <strong>ttkthemes</strong> package,
+which is recommended on the plugin’s homepage.
+If you are familiar with Python, you can install it using <em>pip</em>,
+as described by the provider.
+On Linux, it may be more convenient to use the distribution’s package manager.</p>
+<p>Here is an example with <em>Synaptic</em> on Linux Mint:</p>
+<img alt="Linux Mint screenshot" src="../_images/nv_themes01.png" />
+</section>
 <section id="start-the-dialog">
 <h2>Start the dialog<a class="headerlink" href="#start-the-dialog" title="Link to this heading"></a></h2>
-<p>Start the theme changer from the main menu: <strong>View &gt; Change theme</strong>.</p>
+<p>Start the theme changer from the main menu: <strong>View &gt; Change theme</strong>.
+You can select the new theme from a drop-down list.</p>
+<img alt="Windows screenshot" src="../_images/nv_themes02.png" />
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>When you select a theme, the display changes immediately.
+However, this is only a non-binding preview.
+Not all display elements may have their final color.
+Better restart <em>novelibre</em> after you have changed the theme.</p>
+</div>
 </section>
 </section>
 
