@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Export menu &mdash; novelibre User guide 5.37.0 documentation</title>
+  <title>Export menu &mdash; novelibre User guide 5.38.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=6a64baec"></script>
+      <script src="_static/documentation_options.js?v=8007ee7a"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
@@ -140,16 +140,16 @@ File name suffix is <code class="docutils literal notranslate"><span class="pre"
 sections marked “unused” are not exported.</p></li>
 <li><p>Section titles are invisible, but appear in the <em>Navigator</em>.</p></li>
 <li><p>Chapters and sections can neither be rearranged nor deleted.</p></li>
-<li><p>With <em>Writer</em>, you can split sections by
-inserting headings or a section divider:</p>
+<li><p>With <em>Writer</em>, you can split sections by inserting headings:</p>
 <ul class="simple">
-<li><p><em>Heading 1</em> → New part title. Optionally, you can add a
-description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
-<li><p><em>Heading 2</em> → New chapter title. Optionally, you can add a
-description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">###</span></code> → Section divider. Optionally, you can append the section
-title to the section divider. You can also add a description,
-separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
+<li><p><em>Heading 1</em> → New part title.
+Optionally, you can add a description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
+<li><p><em>Heading 2</em> → New chapter title.
+Optionally, you can add a description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
+<li><p><em>Heading 3</em> → New section title.
+Optionally, you can add a description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
+<li><p><em>Heading 4</em> → New appended section title.
+Optionally, you can add a description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
 </ul>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
@@ -191,14 +191,29 @@ back to <em>novelibre</em> format.</p></li>
 <li><p>When editing the document, you can split sections by inserting
 headings or a section divider:</p>
 <ul class="simple">
-<li><p><em>Heading 1</em> → New part title. Optionally, you can add a
-description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
-<li><p><em>Heading 2</em> → New chapter title. Optionally, you can add a
-description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">###</span></code> → Section divider. Optionally, you can append the section
-title to the section divider. You can also add a description,
-separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
+<li><p><em>Heading 1</em> → New part title.
+Optionally, you can add a description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
+<li><p><em>Heading 2</em> → New chapter title.
+Optionally, you can add a description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
+<li><p><em>Heading 3</em> → New section title.
+Optionally, you can add a description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
+<li><p><em>Heading 4</em> → New appended section title.
+Optionally, you can add a description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
 </ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you use a word processor whose heading styles cannot be properly converted
+back to <em>.ODT</em> format for reimport, use <em>Markdown</em> heading markers instead:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">#</span></code> begins a first-level heading.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">##</span></code> begins a second-level heading.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">###</span></code> begins a third-level heading.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">####</span></code> begins a fourth-level heading.</p></li>
+</ul>
+<p>However, don’t combine such markup with heading styles.
+Put a space between the marker and the title.
+Additional blank lines are not necessary.</p>
+</div>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>Documents with split sections are automatically
