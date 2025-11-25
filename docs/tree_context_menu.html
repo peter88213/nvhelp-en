@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tree view context menu &mdash; novelibre User guide 5.39.2 documentation</title>
+  <title>Tree view context menu &mdash; novelibre User guide 5.43.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=5b5e72e8"></script>
+      <script src="_static/documentation_options.js?v=bebffc95"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
@@ -76,6 +76,18 @@
 <li class="toctree-l2"><a class="reference internal" href="tools_menu.html">Tools menu</a></li>
 <li class="toctree-l2"><a class="reference internal" href="help_menu.html">Help menu</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Tree view context menu</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#common-context-menu-entries-for-the-tree-view">Common context menu entries for the tree view</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#expand-all">Expand all</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#collapse-all">Collapse all</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#chapter-level">Chapter level</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#common-context-menu-entries-for-clipboard-operations">Common context menu entries for clipboard operations</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#cut">Cut</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#copy">Copy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#paste">Paste</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#book-context-menu-entries">Book context menu entries</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#add-section">Add Section</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#add-chapter">Add Chapter</a></li>
@@ -88,11 +100,6 @@
 <li class="toctree-l4"><a class="reference internal" href="#set-status">Set Status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#set-viewpoint">Set Viewpoint…</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#join-with-previous">Join with previous</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#chapter-level">Chapter level</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#expand">Expand</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#collapse">Collapse</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#expand-all">Expand all</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#collapse-all">Collapse all</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#characters-locations-items-context-menu-entries">Characters/Locations/Items context menu entries</a><ul>
@@ -162,6 +169,49 @@ menu opens that belongs to the type of the selected element.</p>
 <p class="admonition-title">Hint</p>
 <p>Greyed-out entries are not available, e.g. due to “project lock”.</p>
 </div>
+<section id="common-context-menu-entries-for-the-tree-view">
+<h2>Common context menu entries for the tree view<a class="headerlink" href="#common-context-menu-entries-for-the-tree-view" title="Link to this heading"></a></h2>
+<section id="expand-all">
+<h3>Expand all<a class="headerlink" href="#expand-all" title="Link to this heading"></a></h3>
+<p>Shows the whole tree.</p>
+</section>
+<section id="collapse-all">
+<h3>Collapse all<a class="headerlink" href="#collapse-all" title="Link to this heading"></a></h3>
+<p>Hides all tree elements except the main categories.</p>
+</section>
+<section id="chapter-level">
+<h3>Chapter level<a class="headerlink" href="#chapter-level" title="Link to this heading"></a></h3>
+<p>Hides the sections by collapsing the tree, so that only parts and
+chapters are visible.</p>
+</section>
+</section>
+<section id="common-context-menu-entries-for-clipboard-operations">
+<h2>Common context menu entries for clipboard operations<a class="headerlink" href="#common-context-menu-entries-for-clipboard-operations" title="Link to this heading"></a></h2>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If the selected element has “children”, these will also be copied and pasted.</p>
+</div>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Relationships are not included when copying to the clipboard.
+This also applies to the section viewpoint and for plot lines/plot points.</p>
+</div>
+<section id="cut">
+<h3>Cut<a class="headerlink" href="#cut" title="Link to this heading"></a></h3>
+<p>Move the selected element from the tree to the clipboard.
+Same as <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">X</span></code>.</p>
+</section>
+<section id="copy">
+<h3>Copy<a class="headerlink" href="#copy" title="Link to this heading"></a></h3>
+<p>Copy the selected element to the clipboard.
+Same as <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">C</span></code>.</p>
+</section>
+<section id="paste">
+<h3>Paste<a class="headerlink" href="#paste" title="Link to this heading"></a></h3>
+<p>Paste the element stored in the clipboard to the tree.
+Same as <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">V</span></code>.</p>
+</section>
+</section>
 <section id="book-context-menu-entries">
 <h2>Book context menu entries<a class="headerlink" href="#book-context-menu-entries" title="Link to this heading"></a></h2>
 <section id="add-section">
@@ -305,27 +355,6 @@ if any.</p></li>
 <p class="admonition-title">Caution</p>
 <p>Be aware, there is no “Undo” feature.</p>
 </div>
-</section>
-<section id="chapter-level">
-<h3>Chapter level<a class="headerlink" href="#chapter-level" title="Link to this heading"></a></h3>
-<p>Hides the sections by collapsing the tree, so that only parts and
-chapters are visible.</p>
-</section>
-<section id="expand">
-<h3>Expand<a class="headerlink" href="#expand" title="Link to this heading"></a></h3>
-<p>Shows a whole branch by expanding the selected tree element.</p>
-</section>
-<section id="collapse">
-<h3>Collapse<a class="headerlink" href="#collapse" title="Link to this heading"></a></h3>
-<p>Hides the child elements of the selected tree element.</p>
-</section>
-<section id="expand-all">
-<h3>Expand all<a class="headerlink" href="#expand-all" title="Link to this heading"></a></h3>
-<p>Shows the whole tree.</p>
-</section>
-<section id="collapse-all">
-<h3>Collapse all<a class="headerlink" href="#collapse-all" title="Link to this heading"></a></h3>
-<p>Hides all tree elements except the main categories.</p>
 </section>
 </section>
 <section id="characters-locations-items-context-menu-entries">
