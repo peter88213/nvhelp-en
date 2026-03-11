@@ -88,9 +88,9 @@
 <li class="toctree-l5"><a class="reference internal" href="#apply-changes-and-save-the-project">Apply changes and save the project</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#move-the-cursor-and-select-text">Move the cursor and select text</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#modify-text">Modify text</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#copy-cut-paste-text">Copy/cut/paste text</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#format-text">Format text</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#undo-redo">Undo/Redo</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#format-text">Format text</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#copy-cut-paste-text">Copy/cut/paste text</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#word-count">Word count</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#end-the-distraction-free-writing-mode">End the distraction-free writing mode</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#interrupt-the-distraction-free-writing-mode-not-recommended">Interrupt the distraction-free writing mode (not recommended)</a></li>
@@ -295,24 +295,6 @@ and right of the cursor.</p></li>
 front of the cursor without moving the cursor.</p></li>
 </ul>
 </section>
-<section id="copy-cut-paste-text">
-<h2>Copy/cut/paste text<a class="headerlink" href="#copy-cut-paste-text" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">C</span></code> copies the selection, to the clipboard.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">X</span></code> copies the selection to the clipboard and deletes the
-selection.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">V</span></code> inserts the contents of the clipboard at the position
-of the cursor.</p></li>
-</ul>
-</section>
-<section id="format-text">
-<h2>Format text<a class="headerlink" href="#format-text" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">I</span></code> formats the selected text “Emphasis”.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">B</span></code> formats the selected text “Strong emphasis”.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">M</span></code> removes “Emphasis” and “Strong emphasis” formatting from the selection.</p></li>
-</ul>
-</section>
 <section id="undo-redo">
 <h2>Undo/Redo<a class="headerlink" href="#undo-redo" title="Link to this heading"></a></h2>
 <ul class="simple">
@@ -322,8 +304,26 @@ of the cursor.</p></li>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Only insert and delete operations are recorded as editing steps.
-Text formatting (see above) cannot be undone using this mechanism.</p>
+Text formatting (see below) cannot be undone using this mechanism.</p>
 </div>
+</section>
+<section id="format-text">
+<h2>Format text<a class="headerlink" href="#format-text" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">I</span></code> formats the selected text “Emphasis”.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">B</span></code> formats the selected text “Strong emphasis”.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">M</span></code> removes “Emphasis” and “Strong emphasis” formatting from the selection.</p></li>
+</ul>
+</section>
+<section id="copy-cut-paste-text">
+<h2>Copy/cut/paste text<a class="headerlink" href="#copy-cut-paste-text" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">C</span></code> copies the selection, to the clipboard.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">X</span></code> copies the selection to the clipboard and deletes the
+selection.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">V</span></code> inserts the contents of the clipboard at the position
+of the cursor.</p></li>
+</ul>
 </section>
 <hr class="docutils" />
 <section id="word-count">
