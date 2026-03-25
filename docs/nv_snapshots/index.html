@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nv_snapshots &mdash; novelibre User guide Version 5.53.6 documentation</title>
+  <title>nv_snapshots &mdash; novelibre User guide Version 5.54.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=282f2adf"></script>
+      <script src="../_static/documentation_options.js?v=d5ac7940"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
@@ -163,7 +163,7 @@ the <strong>File &gt; Snapshot</strong> menu command.</p>
 The snapshot manager displays the snapshots of the currently
 open project in list form.
 You can select individual snapshots and export documents from them.
-LibreOffice/OpenOffice has a document comparison function that allows you
+OpenOffice/LibreOffice has a document comparison function that allows you
 to find and edit the differences between the snapshot and the current project.
 You can also easily revert to any snapshot.</p>
 </section>
@@ -172,17 +172,18 @@ You can also easily revert to any snapshot.</p>
 <p>If you do not want to return to a previous state of your project,
 but want to undo individual changes since a snapshot was created,
 you can do this conveniently using the document comparison function
-of LibreOffice/OpenOffice.</p>
+of OpenOffice/LibreOffice.</p>
 <ol class="arabic simple">
 <li><p>Select the desired snapshot in the snapshot manager and export a document
 that you want to compare (e.g. the manuscript).</p></li>
 <li><p>Export a document of the same kind from the current project and open it.</p></li>
-<li><p>Select <strong>Edit - Track Changes - Compare Document…</strong> (LibreOffice), or
-<strong>Edit &gt; Compare Document</strong> (OpenOffice).</p></li>
+<li><p>Select <strong>Edit &gt; Compare Document…</strong> (OpenOffice), or
+<strong>File - Compare Document…</strong> (newer versions of LibreOffice), or
+<strong>Edit - Track Changes - Compare Document…</strong> (older versions of LibreOffice).</p></li>
 <li><p>A file selection dialog opens.
 Select the “snapshot document” and click <strong>Insert</strong>.</p></li>
 </ol>
-<p>LibreOffice/OpenOffice combines both documents into the current document.
+<p>OpenOffice/LibreOffice combines both documents into the current document.
 All text passages that occur in the current project but not in the snapshot
 are identified as having been inserted,
 and all text passages that got deleted since the snapshot has been created

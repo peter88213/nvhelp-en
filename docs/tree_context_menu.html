@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tree view context menu &mdash; novelibre User guide Version 5.53.6 documentation</title>
+  <title>Tree view context menu &mdash; novelibre User guide Version 5.54.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=282f2adf"></script>
+      <script src="_static/documentation_options.js?v=d5ac7940"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
@@ -93,14 +93,16 @@
 <li class="toctree-l4"><a class="reference internal" href="#add-chapter">Add Chapter</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#add-part">Add Part</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#insert-stage">Insert Stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#insert-chapter">Insert Chapter</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#clone">Clone</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#join-with-previous">Join with previous</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#remove-this-chapter-keep-sections">Remove this chapter, keep sections</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#change-level">Change Level</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#export-this-chapter">Export this chapter</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#delete">Delete</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#set-type">Set Type</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#set-status">Set Status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#set-viewpoint">Set Viewpoint…</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#join-with-previous">Join with previous</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#characters-locations-items-context-menu-entries">Characters/Locations/Items context menu entries</a><ul>
@@ -270,6 +272,13 @@ right pane.</p></li>
 <li><p>The new stage is on the second level by default.</p></li>
 </ul>
 </section>
+<section id="insert-chapter">
+<h3>Insert Chapter<a class="headerlink" href="#insert-chapter" title="Link to this heading"></a></h3>
+<p>Creates a chapter after the selected section’s chapter
+and moves the sections after the selected section into the new chapter.</p>
+<p>You will be asked for confirmation before.
+Be aware, there is no “Undo” feature.</p>
+</section>
 <section id="clone">
 <h3>Clone<a class="headerlink" href="#clone" title="Link to this heading"></a></h3>
 <p>Creates a copy of the selected section.</p>
@@ -279,6 +288,38 @@ right pane.</p></li>
 <li><p>The cloned section has all the properties and assignments of the original,
 except for plot point assignments.</p></li>
 </ul>
+</section>
+<section id="join-with-previous">
+<h3>Join with previous<a class="headerlink" href="#join-with-previous" title="Link to this heading"></a></h3>
+<p>Joins two sections, if within the same chapter, of the same type, and
+with the same viewpoint.</p>
+<ul class="simple">
+<li><p>New title = title of the prevoius section &amp; title of the selected
+section</p></li>
+<li><p>The section contents are concatenated, separated by a paragraph
+separator.</p></li>
+<li><p>Descriptions are concatenated, separated by a paragraph separator.</p></li>
+<li><p>Goals are concatenated, separated by a paragraph separator.</p></li>
+<li><p>Conflicts are concatenated, separated by a paragraph separator.</p></li>
+<li><p>Outcomes are concatenated, separated by a paragraph separator.</p></li>
+<li><p>Notes are concatenated, separated by a paragraph separator.</p></li>
+<li><p>Character lists are merged.</p></li>
+<li><p>Location lists are merged.</p></li>
+<li><p>Item lists are merged.</p></li>
+<li><p>Plot line assignments are merged.</p></li>
+<li><p>Plot point associations are moved to the joined section,
+if any.</p></li>
+<li><p>Section durations are added.</p></li>
+</ul>
+<p>You will be asked for confirmation before.
+Be aware, there is no “Undo” feature.</p>
+</section>
+<section id="remove-this-chapter-keep-sections">
+<h3>Remove this chapter, keep sections<a class="headerlink" href="#remove-this-chapter-keep-sections" title="Link to this heading"></a></h3>
+<p>Moves the selected chapter’s sections to the previous chapter,
+then deletes the selected chapter.</p>
+<p>You will be asked for confirmation before.
+Be aware, there is no “Undo” feature.</p>
 </section>
 <section id="change-level">
 <h3>Change Level<a class="headerlink" href="#change-level" title="Link to this heading"></a></h3>
@@ -341,33 +382,6 @@ this will clear the viewpoint association.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <p>Select a parent node to set the viewpoint for multiple sections.</p>
-</div>
-</section>
-<section id="join-with-previous">
-<h3>Join with previous<a class="headerlink" href="#join-with-previous" title="Link to this heading"></a></h3>
-<p>Joins two sections, if within the same chapter, of the same type, and
-with the same viewpoint.</p>
-<ul class="simple">
-<li><p>New title = title of the prevoius section &amp; title of the selected
-section</p></li>
-<li><p>The section contents are concatenated, separated by a paragraph
-separator.</p></li>
-<li><p>Descriptions are concatenated, separated by a paragraph separator.</p></li>
-<li><p>Goals are concatenated, separated by a paragraph separator.</p></li>
-<li><p>Conflicts are concatenated, separated by a paragraph separator.</p></li>
-<li><p>Outcomes are concatenated, separated by a paragraph separator.</p></li>
-<li><p>Notes are concatenated, separated by a paragraph separator.</p></li>
-<li><p>Character lists are merged.</p></li>
-<li><p>Location lists are merged.</p></li>
-<li><p>Item lists are merged.</p></li>
-<li><p>Plot line assignments are merged.</p></li>
-<li><p>Plot point associations are moved to the joined section,
-if any.</p></li>
-<li><p>Section durations are added.</p></li>
-</ul>
-<div class="admonition caution">
-<p class="admonition-title">Caution</p>
-<p>Be aware, there is no “Undo” feature.</p>
 </div>
 </section>
 </section>
