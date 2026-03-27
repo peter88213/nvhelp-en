@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nv_themes &mdash; novelibre User guide Version 5.54.1 documentation</title>
+  <title>nv_epub &mdash; novelibre User guide Version 5.54.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -21,8 +21,8 @@
     <link rel="author" title="About these documents" href="../about.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="nv_timeline" href="../nv_timeline/index.html" />
-    <link rel="prev" title="nv_templates" href="../nv_templates/index.html" /> 
+    <link rel="next" title="nv_matrix" href="../nv_matrix/index.html" />
+    <link rel="prev" title="nv_editor" href="../nv_editor/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -65,16 +65,18 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../plugins.html">Plugins</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../nv_collection/index.html">nv_collection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_editor/index.html">nv_editor</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_epub</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#export-an-e-book">Export an e-book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-provide-a-cover-image-optional">How to provide a cover image (optional)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-provide-a-custom-css-stylesheet-optional">How to provide a custom css stylesheet (optional)</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_progress/index.html">nv_progress</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_snapshots/index.html">nv_snapshots</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_statistics/index.html">nv_statistics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_themes</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#install-additional-themes">Install additional themes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#start-the-dialog">Start the dialog</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_themes/index.html">nv_themes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_timeline/index.html">nv_timeline</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_tlview/index.html">nv_tlview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_updater/index.html">nv_updater</a></li>
@@ -102,7 +104,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../plugins.html">Plugins</a></li>
-      <li class="breadcrumb-item active">nv_themes</li>
+      <li class="breadcrumb-item active">nv_epub</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -111,51 +113,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-de/nv_themes/">Deutsch</a></p>
+  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-de/nv_epub/">Deutsch</a></p>
 <hr class="docutils" />
-<section id="nv-themes">
-<h1>nv_themes<a class="headerlink" href="#nv-themes" title="Link to this heading"></a></h1>
+<section id="nv-epub">
+<h1>nv_epub<a class="headerlink" href="#nv-epub" title="Link to this heading"></a></h1>
 <p><strong>User guide</strong></p>
-<p>This page refers to the latest <a class="reference external" href="https://github.com/peter88213/nv_themes/">nv_themes</a> release.</p>
-<p>The plugin adds a <strong>Change theme</strong> entry to the <em>novelibre</em> <strong>View</strong> menu.</p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>If you just want a dark mode for <em>novelibre</em>, do install the
-<a class="reference external" href="https://github.com/peter88213/nv_dark/">nv_dark</a> plugin instead of <em>nv_themes</em>.
-Changing the theme is not enough to get a dark mode.
-You also need a modified color palette so that the colored text stands out
-against the dark background. <em>nv_dark</em> comes with such a color palette.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Actually, this plugin is more intended for Linux, where the default theme looks
-pretty stale, and there are plenty of desktops, each with a different look.</p>
-<p>On Windows, <em>novelibre</em> uses a lot of native widgets by default.
-You can hardly do better with custom themes.</p>
-</div>
-<section id="install-additional-themes">
-<h2>Install additional themes<a class="headerlink" href="#install-additional-themes" title="Link to this heading"></a></h2>
-<p>By default, you can choose from a few themes that are not particularly attractive.
-To take full advantage of this plugin, you need the <strong>ttkthemes</strong> package,
-which is recommended on the plugin’s homepage.
-If you are familiar with Python, you can install it using <em>pip</em>,
-as described by the provider.
-On Linux, it may be more convenient to use the distribution’s package manager.</p>
-<p>Here is an example with <em>Synaptic</em> on Linux Mint:</p>
-<img alt="Linux Mint screenshot" src="../_images/nv_themes01.png" />
+<p>This page refers to the latest
+<a class="reference external" href="https://github.com/peter88213/nv_epub/">nv_epub</a> release. You can
+open it with <strong>Help &gt; EPUB export plugin Online help</strong>.</p>
+<hr class="docutils" />
+<section id="export-an-e-book">
+<h2>Export an e-book<a class="headerlink" href="#export-an-e-book" title="Link to this heading"></a></h2>
+<p><strong>Export &gt; EPUB e-book</strong> creates an <em>.epub</em> file in the project
+directory. The filenames of the generated e-book follows this pattern:
+<code class="docutils literal notranslate"><span class="pre">&lt;Title&gt;</span> <span class="pre">-</span> <span class="pre">&lt;Author&gt;.epub</span></code></p>
 </section>
-<section id="start-the-dialog">
-<h2>Start the dialog<a class="headerlink" href="#start-the-dialog" title="Link to this heading"></a></h2>
-<p>Start the theme changer from the main menu: <strong>View &gt; Change theme</strong>.
-You can select the new theme from a drop-down list.</p>
-<img alt="Windows screenshot" src="../_images/nv_themes02.png" />
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>When you select a theme, the display changes immediately.
-However, this is only a non-binding preview.
-Not all display elements may have their final color.
-Better restart <em>novelibre</em> after you have changed the theme.</p>
-</div>
+<hr class="docutils" />
+<section id="how-to-provide-a-cover-image-optional">
+<h2>How to provide a cover image (optional)<a class="headerlink" href="#how-to-provide-a-cover-image-optional" title="Link to this heading"></a></h2>
+<p>By default, the first page, which includes the title and author, is used
+as the cover image. However, if you have a suitable cover image in JPEG
+format, you can save it in the project directory with the filename
+<code class="docutils literal notranslate"><span class="pre">cover.jpg</span></code>. <em>nv_epub</em> will then incorporate it.</p>
+</section>
+<hr class="docutils" />
+<section id="how-to-provide-a-custom-css-stylesheet-optional">
+<h2>How to provide a custom css stylesheet (optional)<a class="headerlink" href="#how-to-provide-a-custom-css-stylesheet-optional" title="Link to this heading"></a></h2>
+<p><em>nv_epub</em> generates a stylesheet containing all the necessary style
+classes. If you don’t like the default stylesheet, you can provide your
+own. Save it in the project directory with the filename <code class="docutils literal notranslate"><span class="pre">nv_epub.css</span></code>.</p>
+<p><a class="reference external" href="https://github.com/peter88213/nv_epub/blob/main/docs/xhtml_css.md">XHTML elements used with the EPUB created by nv_epub</a></p>
 </section>
 </section>
 
@@ -163,8 +150,8 @@ Better restart <em>novelibre</em> after you have changed the theme.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../nv_templates/index.html" class="btn btn-neutral float-left" title="nv_templates" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../nv_timeline/index.html" class="btn btn-neutral float-right" title="nv_timeline" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../nv_editor/index.html" class="btn btn-neutral float-left" title="nv_editor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../nv_matrix/index.html" class="btn btn-neutral float-right" title="nv_matrix" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
