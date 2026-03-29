@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nv_editor &mdash; novelibre User guide Version 5.54.1 documentation</title>
+  <title>nv_editor &mdash; novelibre User guide Version 5.54.2 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -14,14 +14,14 @@
     <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=b163a904"></script>
+      <script src="../_static/documentation_options.js?v=1c33d9c8"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="author" title="About these documents" href="../about.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="nv_matrix" href="../nv_matrix/index.html" />
+    <link rel="next" title="nv_epub" href="../nv_epub/index.html" />
     <link rel="prev" title="nv_collection" href="../nv_collection/index.html" /> 
 </head>
 
@@ -72,11 +72,11 @@
 <li class="toctree-l3"><a class="reference internal" href="#undo-redo">Undo/Redo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#split-a-section">Split a section</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#create-a-section">Create a section</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#word-count">Word count</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#apply-changes">Apply changes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#close-the-editor-window">Close the editor window</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_epub/index.html">nv_epub</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_progress/index.html">nv_progress</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_snapshots/index.html">nv_snapshots</a></li>
@@ -130,7 +130,9 @@ You can open it with <strong>Help &gt; Editor plugin Online help</strong>.</p>
 The editor provides access to the internal markup, which is similar to HTML.</p>
 <section id="launch-the-section-editor">
 <h2>Launch the section editor<a class="headerlink" href="#launch-the-section-editor" title="Link to this heading"></a></h2>
-<p>Open a section editor window via the <strong>Section &gt; Edit</strong> menu entry when a section is selected, or via the <strong>Edit</strong> entry in the section context menu.</p>
+<p>Open a section editor window via the <strong>Section &gt; Edit</strong> menu entry
+or <code class="docutils literal notranslate"><span class="pre">F4</span></code> when a section is selected,
+or via the <strong>Edit</strong> entry in the section context menu.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul class="simple">
@@ -153,8 +155,8 @@ the foreground.</p></li>
 <section id="copy-paste-text">
 <h2>Copy/Paste text<a class="headerlink" href="#copy-paste-text" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">C</span></code> copies the selected text to the clipboard.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">X</span></code> cuts the selected text and moves it to the clipboard.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">C</span></code> copies the selected text to the clipboard.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">V</span></code> pastes the clipboard text content to the cursor position.</p></li>
 </ul>
 </section>
@@ -183,7 +185,7 @@ cursor, like so:</p>
 </section>
 <section id="split-a-section">
 <h2>Split a section<a class="headerlink" href="#split-a-section" title="Link to this heading"></a></h2>
-<p>With <strong>File &gt; Split at cursor position</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">S</span></code>,
+<p>With <strong>File &gt; Split at cursor position</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">L</span></code>,
 you can split the section at the cursor position.</p>
 <ul class="simple">
 <li><p>All the text from the cursor position is cut and pasted into a newly
@@ -201,31 +203,13 @@ edited section.</p></li>
 </section>
 <section id="create-a-section">
 <h2>Create a section<a class="headerlink" href="#create-a-section" title="Link to this heading"></a></h2>
-<p>With <strong>File &gt; Create section</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">N</span></code>,
+<p>With <strong>File &gt; Create section</strong> or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">N</span></code>,
 you can create a section.</p>
 <ul class="simple">
 <li><p>The new section is placed after the currently edited section.</p></li>
 <li><p>The new section is of the same type as the currently edited section.</p></li>
 <li><p>The editor loads the newly created section.</p></li>
 </ul>
-</section>
-<section id="word-count">
-<h2>Word count<a class="headerlink" href="#word-count" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The section word count is displayed at the status bar at the bottom
-of the window.</p></li>
-<li><p>By default, word count is updated manually, either by pressing the
-<code class="docutils literal notranslate"><span class="pre">F5</span></code> key, or via the <strong>Word count &gt; Update</strong> menu entry.</p></li>
-<li><p>The word count can be updated “live”, i.e. just while entering text.
-This is enabled or disabled via the <strong>Word count &gt; Live update</strong> menu
-checkbox.</p></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Live updating the word count is resource intensive and may slow down
-the program when editing big sections. This is why it’s disabled by
-default.</p>
-</div>
 </section>
 <section id="apply-changes">
 <h2>Apply changes<a class="headerlink" href="#apply-changes" title="Link to this heading"></a></h2>
@@ -261,7 +245,7 @@ or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></cod
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="../nv_collection/index.html" class="btn btn-neutral float-left" title="nv_collection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../nv_matrix/index.html" class="btn btn-neutral float-right" title="nv_matrix" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../nv_epub/index.html" class="btn btn-neutral float-right" title="nv_epub" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
