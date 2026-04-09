@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chapter menu &mdash; novelibre User guide Version 5.54.2 documentation</title>
+  <title>Chapter menu &mdash; novelibre User guide Version 5.55.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=1c33d9c8"></script>
+      <script src="_static/documentation_options.js?v=c76a455a"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
@@ -22,7 +22,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Section menu" href="section_menu.html" />
-    <link rel="prev" title="Part menu" href="part_menu.html" /> 
+    <link rel="prev" title="View menu" href="view_menu.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -63,15 +63,19 @@
 <li class="toctree-l1 current"><a class="reference internal" href="command_reference.html">Command reference</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="file_menu.html">File menu</a></li>
 <li class="toctree-l2"><a class="reference internal" href="view_menu.html">View menu</a></li>
-<li class="toctree-l2"><a class="reference internal" href="part_menu.html">Part menu</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Chapter menu</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#add">Add</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-chapter">Add chapter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-part">Add part</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#add-multiple-chapters">Add multiple chapters…</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#set-type">Set Type</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#change-level">Change Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#assign-color">Assign color…</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reset-color">Reset color</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#move-selected-chapters-to-new-project">Move selected chapters to new project</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#export-chapter-descriptions-for-editing">Export chapter descriptions for editing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#export-part-descriptions-for-editing">Export part descriptions for editing</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#export-chapter-table">Export chapter table</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#export-part-table">Export part table</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="section_menu.html">Section menu</a></li>
@@ -122,10 +126,10 @@
   <section id="chapter-menu">
 <h1>Chapter menu<a class="headerlink" href="#chapter-menu" title="Link to this heading"></a></h1>
 <p><strong>Chapter operation</strong></p>
-<section id="add">
-<h2>Add<a class="headerlink" href="#add" title="Link to this heading"></a></h2>
+<section id="add-chapter">
+<h2>Add chapter<a class="headerlink" href="#add-chapter" title="Link to this heading"></a></h2>
 <p><strong>Add a new chapter</strong></p>
-<p>With <strong>Chapter &gt; Add</strong>,
+<p>With <strong>Chapter &gt; Add chapter</strong>,
 you can add a <a class="reference external" href="basic_concepts.html#chapters">chapter</a> to the tree.</p>
 <ul class="simple">
 <li><p>The new chapter is placed at the next free position after the selection, if
@@ -139,6 +143,20 @@ possible.</p></li>
 <p>To automatically name the new chapter and, if necessary,
 place it above the “Trash Bin,” subsequently press <code class="docutils literal notranslate"><span class="pre">F5</span></code>.</p>
 </div>
+</section>
+<section id="add-part">
+<h2>Add part<a class="headerlink" href="#add-part" title="Link to this heading"></a></h2>
+<p><strong>Add a new part</strong></p>
+<p>With <strong>Chapter &gt; Add part</strong>,
+you can add a <a class="reference external" href="basic_concepts.html#parts">part</a> to the tree.</p>
+<ul class="simple">
+<li><p>The new part is placed at the next free position on the
+chapter level after the selection, if possible.</p></li>
+<li><p>Otherwise, the new part is placed at the last position
+on the chapter level.</p></li>
+<li><p>The new part has an auto-generated title.
+You can change it in the right pane.</p></li>
+</ul>
 </section>
 <section id="add-multiple-chapters">
 <h2>Add multiple chapters…<a class="headerlink" href="#add-multiple-chapters" title="Link to this heading"></a></h2>
@@ -181,6 +199,20 @@ you can turn chapters into parts and vice versa.</p>
 <li><p><strong>2nd Level</strong> converts the selected parts into chapters.</p></li>
 </ul>
 </section>
+<section id="assign-color">
+<h2>Assign color…<a class="headerlink" href="#assign-color" title="Link to this heading"></a></h2>
+<p><strong>Assign a color to all selected chapters and parts</strong></p>
+<p>With <strong>Chapter &gt; Assign color…</strong>
+you can assign a color to all chapters and parts in a single or multiple selection.
+A color picker dialog opens.
+If you cancel the color choosing process, the color of the selected chapters and parts remain unchanged.</p>
+</section>
+<section id="reset-color">
+<h2>Reset color<a class="headerlink" href="#reset-color" title="Link to this heading"></a></h2>
+<p><strong>Reset the colors of all selected chapters and parts</strong></p>
+<p>With <strong>Chapter &gt; Reset color</strong>
+you can clear the color assignments for all chapters and parts in a single or multiple selection.</p>
+</section>
 <hr class="docutils" />
 <section id="move-selected-chapters-to-new-project">
 <h2>Move selected chapters to new project<a class="headerlink" href="#move-selected-chapters-to-new-project" title="Link to this heading"></a></h2>
@@ -218,6 +250,31 @@ discarded after the <em>novelibre</em> project is updated.</p>
 </li>
 </ul>
 </section>
+<section id="export-part-descriptions-for-editing">
+<h2>Export part descriptions for editing<a class="headerlink" href="#export-part-descriptions-for-editing" title="Link to this heading"></a></h2>
+<p><strong>Export an ODT document that can be imported again after editing</strong></p>
+<p>With <strong>Chapter &gt; Export part descriptions for editing</strong>,
+you can create a text document that contains
+a <strong>very brief synopsis</strong> with part headings and part descriptions.
+File name suffix is <code class="docutils literal notranslate"><span class="pre">_parts_tmp</span></code>.</p>
+<ul>
+<li><p>Only “normal” parts are exported.
+Parts marked “Unused” are not exported.</p></li>
+<li><p>Parts can neither be rearranged nor deleted.</p></li>
+<li><p>With <em>Writer</em>, you can create parts and chapters by inserting headings
+within the description area:</p>
+<ul class="simple">
+<li><p><em>Heading 1</em> → New part title.</p></li>
+<li><p><em>Heading 2</em> → New chapter title.</p></li>
+</ul>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Documents with new parts or chapters are automatically
+discarded after the <em>novelibre</em> project is updated.</p>
+</div>
+</li>
+</ul>
+</section>
 <section id="export-chapter-table">
 <h2>Export chapter table<a class="headerlink" href="#export-chapter-table" title="Link to this heading"></a></h2>
 <p><strong>Export an ODS document that can be imported again after editing</strong></p>
@@ -234,13 +291,28 @@ must not be changed as they contain the structural information
 for the import.</p>
 </div>
 </section>
+<section id="export-part-table">
+<h2>Export part table<a class="headerlink" href="#export-part-table" title="Link to this heading"></a></h2>
+<p><strong>Export an ODS document that can be imported again after editing</strong></p>
+<p>With <strong>Chapter &gt; Export part table</strong>,
+you can create a spreadsheet that contains a row per part.
+File name suffix is <code class="docutils literal notranslate"><span class="pre">_partlist_tmp</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can reorder, hide or delete columns and rows
+without affecting the reimport.
+Only the first column and the first row, which are hidden by default,
+must not be changed as they contain the structural information
+for the import.</p>
+</div>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="part_menu.html" class="btn btn-neutral float-left" title="Part menu" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="view_menu.html" class="btn btn-neutral float-left" title="View menu" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="section_menu.html" class="btn btn-neutral float-right" title="Section menu" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
