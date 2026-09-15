@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nv_progress &mdash; novelibre User guide Version 5.63.4 documentation</title>
+  <title>nv_color_palette &mdash; novelibre User guide Version 5.63.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -21,8 +21,8 @@
     <link rel="author" title="About these documents" href="../about.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="nv_snapshots" href="../nv_snapshots/index.html" />
-    <link rel="prev" title="nv_matrix" href="../nv_matrix/index.html" /> 
+    <link rel="next" title="nv_editor" href="../nv_editor/index.html" />
+    <link rel="prev" title="nv_collection" href="../nv_collection/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -64,15 +64,18 @@
 <li class="toctree-l1"><a class="reference internal" href="../properties.html">Properties reference</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../plugins.html">Plugins</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../nv_collection/index.html">nv_collection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../nv_color_palette/index.html">nv_color_palette</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_color_palette</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#predefined-palette">Predefined palette</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#custom-palette">Custom palette</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setting-user-defined-colors">Setting user-defined colors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#applying-the-selected-color">Applying the selected color</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#canceling-the-color-selection">Canceling the color selection</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_editor/index.html">nv_editor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_epub/index.html">nv_epub</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_progress</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#launch-the-program">Launch the program</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#exit">Exit</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_progress/index.html">nv_progress</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_snapshots/index.html">nv_snapshots</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_statistics/index.html">nv_statistics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
@@ -104,7 +107,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../plugins.html">Plugins</a></li>
-      <li class="breadcrumb-item active">nv_progress</li>
+      <li class="breadcrumb-item active">nv_color_palette</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -113,30 +116,62 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-de/nv_progress/">Deutsch</a></p>
+  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-de/nv_color_palette/">Deutsch</a></p>
 <hr class="docutils" />
-<section id="nv-progress">
-<h1>nv_progress<a class="headerlink" href="#nv-progress" title="Link to this heading"></a></h1>
+<section id="nv-color-palette">
+<h1>nv_color_palette<a class="headerlink" href="#nv-color-palette" title="Link to this heading"></a></h1>
 <p><strong>User guide</strong></p>
-<p>This page refers to the latest <a class="reference external" href="https://github.com/peter88213/nv_progress/">nv_progress</a> release.
-You can open it with <strong>Help &gt; Progress viewer plugin help</strong>.</p>
-<hr class="docutils" />
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>When <em>novelibre</em> opens a project, the plugin makes sure
-the logging of the <a class="reference external" href="../book_view.html#writing-progress">writing progress</a> is activated.</p>
-</div>
-<section id="launch-the-program">
-<h2>Launch the program<a class="headerlink" href="#launch-the-program" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Open the progress log viewer from the main menu: <strong>Tools &gt; Daily progress log</strong>.</p></li>
-<li><p>While the <em>nv_progress</em> window is open, the actual word count is automatically updated.</p></li>
-</ul>
+<p>This page refers to the latest
+<a class="reference external" href="https://github.com/peter88213/nv_color_palette/">nv_color_palette</a>
+release. You can open it with <strong>Help &gt; Color palette plugin help</strong> or
+<code class="docutils literal notranslate"><span class="pre">F1</span></code> when the palette dialog is active.</p>
+<section id="predefined-palette">
+<h2>Predefined palette<a class="headerlink" href="#predefined-palette" title="Link to this heading"></a></h2>
+<p>You can choose a predefined color palette using the dropdown list at the
+upper left of the top pane. The predefined palettes are derived from the
+color palettes that come with the LibreOffice distribution. Clicking on
+a color field will select the color.</p>
 </section>
-<section id="exit">
-<h2>Exit<a class="headerlink" href="#exit" title="Link to this heading"></a></h2>
+<section id="custom-palette">
+<h2>Custom palette<a class="headerlink" href="#custom-palette" title="Link to this heading"></a></h2>
+<p>Below the predefined palette pane, there is the custom palette area. The
+colors of the custom palette are stored in the plugin’s configuration
+for reuse across different sessions and projects. Clicking on a color
+field will select the color.</p>
+<p>You can add the selected color via clicking on the <strong>Add selected
+color</strong> button. If the selected color is included in the custom palette,
+this button is labeled <strong>Remove selected color</strong> instead. Then cklicking
+on this button will remove the selected color from the custom palette.</p>
+</section>
+<section id="setting-user-defined-colors">
+<h2>Setting user-defined colors<a class="headerlink" href="#setting-user-defined-colors" title="Link to this heading"></a></h2>
+<p>If you need a color that is not included in any palette, you can select
+it either by specifying a hex value, or by calling up the system color
+chooser.</p>
+<dl>
+<dt>Entering hexadecimal color values</dt><dd><p>The hexadecimal value of the selected color is displayed in an entry
+field and can be changed.
+The color value begins with a hash symbol, followed by two hexadecimal
+digits each for red, green, and blue. For example, the value for red
+is <code class="docutils literal notranslate"><span class="pre">#ff0000</span></code>.</p>
+<p>Press the <code class="docutils literal notranslate"><span class="pre">Enter</span></code> key to finish entering your input. Invalid input
+will not be accepted.</p>
+</dd>
+</dl>
+</section>
+<section id="applying-the-selected-color">
+<h2>Applying the selected color<a class="headerlink" href="#applying-the-selected-color" title="Link to this heading"></a></h2>
+<p>Click on the <strong>Apply</strong> button. This will assign the selected color to
+the element selected in the <em>novelibre</em> project tree, and close the
+dialog.</p>
+</section>
+<section id="canceling-the-color-selection">
+<h2>Canceling the color selection<a class="headerlink" href="#canceling-the-color-selection" title="Link to this heading"></a></h2>
+<p>To close the dialog without applying the selected color, either</p>
 <ul class="simple">
-<li><p>Close the window.</p></li>
+<li><p>click on the <strong>Cancel</strong> button, or</p></li>
+<li><p>close the window via the upper right button, or</p></li>
+<li><p>press <code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">F4</span></code> (Windows) or <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code>-<code class="docutils literal notranslate"><span class="pre">Q</span></code>.</p></li>
 </ul>
 </section>
 </section>
@@ -145,8 +180,8 @@ the logging of the <a class="reference external" href="../book_view.html#writing
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../nv_matrix/index.html" class="btn btn-neutral float-left" title="nv_matrix" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../nv_snapshots/index.html" class="btn btn-neutral float-right" title="nv_snapshots" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../nv_collection/index.html" class="btn btn-neutral float-left" title="nv_collection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../nv_editor/index.html" class="btn btn-neutral float-right" title="nv_editor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
