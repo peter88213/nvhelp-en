@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nv_themes &mdash; novelibre User guide 5.63.5 documentation</title>
+  <title>nv_themes &mdash; novelibre User guide 5.67.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
 
@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=b3af134d"></script>
+      <script src="../_static/documentation_options.js?v=d4367430"></script>
       <script src="../_static/doctools.js?v=fd6eb6e6"></script>
       <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/js/theme.js"></script>
@@ -120,29 +120,24 @@
 <p><strong>User guide</strong></p>
 <p>This page refers to the latest <a class="reference external" href="https://github.com/peter88213/nv_themes/">nv_themes</a> release.</p>
 <hr class="docutils" />
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>If you just want a dark mode for <em>novelibre</em>, do install the
-<a class="reference external" href="https://github.com/peter88213/nv_dark/">nv_dark</a> plugin instead of <em>nv_themes</em>.
-Changing the theme is not enough to get a dark mode.
-You also need a modified color palette so that the colored text stands out
-against the dark background. <em>nv_dark</em> comes with such a color palette.</p>
-</div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Actually, this plugin is more intended for Linux, where the default theme looks
 pretty stale, and there are plenty of desktops, each with a different look.</p>
 <p>On Windows, <em>novelibre</em> uses a lot of native widgets by default.
-You can hardly do better with custom themes.</p>
+You can hardly do better with custom themes.
+However, the <em>black</em> design theme offers a nice dark mode,
+if that’s what you prefer.</p>
 </div>
 <section id="install-additional-themes">
 <h2>Install additional themes<a class="headerlink" href="#install-additional-themes" title="Link to this heading"></a></h2>
 <p>By default, you can choose from a few themes that are not particularly attractive.
 To take full advantage of this plugin, you need the <strong>ttkthemes</strong> package,
-which is recommended on the plugin’s homepage.
-If you are familiar with Python, you can install it using <em>pip</em>,
-as described by the provider.
-On Linux, it may be more convenient to use the distribution’s package manager.</p>
+which is recommended on the plugin’s homepage.</p>
+<p>If you are familiar with Python, you can install it using <em>pip</em>:
+In your Python terminal, type</p>
+<p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">ttkthemes</span></code>.</p>
+<p>On Linux, it may be more convenient to use the distribution’s package manager.</p>
 <p>Here is an example with <em>Synaptic</em> on Linux Mint:</p>
 <img alt="Linux Mint screenshot" src="../_images/nv_themes01.png" />
 </section>
@@ -157,6 +152,9 @@ You can select the new theme from a drop-down list.</p>
 However, this is only a non-binding preview.
 Not all display elements may have their final color.
 Better restart <em>novelibre</em> after you have changed the theme.</p>
+<p>When switching between a dark and a bright mode theme,
+you may be prompted to restart <em>novelibre</em>
+in order to apply an adapted color palette.</p>
 </div>
 </section>
 </section>
